@@ -229,7 +229,7 @@ Digital Twin technology has been seen as a rapid adoption technology
 in Industry 4.0.  The application of Digital Twin technology in the
 networking field is meant to develop various rich network
 applications and realize efficient and cost effective data driven
-network management and accelerate network innovation.
+network management, and accelerate network innovation.
 
 This document presents an overview of the concepts of Digital Twin
 Network, provides the basic definitions and a reference architecture,
@@ -282,7 +282,6 @@ the real network.  In addition, service impact analysis tasks can
 also be facilitated.
 
 # Terminology
-{::boilerplate bcp14-tagged}
 
 ## Acronyms & Abbreviations
 
@@ -302,12 +301,14 @@ PLM:  Product Lifecycle Management
 
 This document makes use of the following terms:
 
-Digital Twin:  a virtual instance of a physical system (twin) that is
+Digital Twin:
+: a virtual instance of a physical system (twin) that is
   continually updated with the latter's performance, maintenance,
   and health status data throughout the physical system's life
   cycle.
 
-Digital twin network:  a digital twin that is used in the context of
+Digital twin network:
+:  a digital twin that is used in the context of
   networking.  This is also called, digital twin for networks.  See
   more in {{def}}.
 
@@ -346,7 +347,7 @@ represented.  This behavior is unlike a 'digital model' or 'digital
 shadow', which are usually synchronized manually, lacking of control
 data, and might not have a full cycle of data integrated.
 
-At present (2022), there is no unified definition of digital twin
+At present (2024), there is no unified definition of digital twin
 framework.  The industry, scientific research institutions, and
 standards developing organizations are trying to define a general or
 domain-specific framework of digital twin.  {{Natis-Gartner2017}}
@@ -413,18 +414,19 @@ network.
 ## Definition of Digital Twin Network  {#def}
 
 So far, there is no standard definition of "digital twin network"
-within the networking industry.  This document defines "digital twin
-network" as a virtual representation of the real network.  Such
-virtual representation of the network is meant to be used to analyze,
-diagnose, emulate, and then control the real network based on data,
-models, and interfaces.  To that aim, a real-time and interactive
+within the networking industry.  This document defines **"digital twin
+network" as a virtual representation of the real network**.  Such
+representation of the network is used to analyze,
+diagnose, emulate, and control the real network based upon data,
+models, and interfaces. To that aim, a real-time and interactive
 mapping is required between the real network and its virtual twin
-network.
+network. Whether a Digital Twin supports all or a subset of the functions above (i.e., analyze,
+diagnose, emulate, and control) is deployment specific.
 
-Referring the characteristics of digital twin in other industries and
+Referring to the characteristics of digital twin in other industries and
 the characteristics of the networking itself, the digital twin
-network should involve four key elements: data, mapping, models and
-interfaces as shown in Figure 1.
+network should involve at least four key elements: data, mapping, models and
+interfaces as shown in {{kelem}}.
 
 ~~~~
            +-------------+                 +--------------+
@@ -446,31 +448,31 @@ interfaces as shown in Figure 1.
 ~~~~
 {: #kelem title="Key Elements of Digital Twin Network" artwork-align="center"}
 
-  Data:  A digital twin network should maintain historical data and/or
+  Data:
+  :  A digital twin network should maintain historical data and/or
   real time data (configuration data, operational state data,
   topology data, trace data, metric data, process data, etc.) about
   its real-world twin (i.e. real network) that are required by the
   models to represent and understand the states and behaviors of the
   real-world twin.
-
-  The data is characterized as the single source of "truth" and
+  : The data is characterized as the single source of "truth" and
   populated in the data repository, which provides timely and
   accurate data service support for building various models.
 
-  Models:  Techniques that involve collecting data from one or more
+  Models:
+  :  Techniques that involve collecting data from one or more
   sources in the real-world twin and developing a comprehensive
-  representation of the data (e.g., system, entity, process) using
+  representation of the data (e.g., system, entity, or process) using
   specific models.  These models are used as emulation and diagnosis
   basis to provide dynamics and elements on how the live real
   network operates and generates reasoning data utilized for
   decision-making.
-
-  Various models such as service models, data models, dataset
+  : Various models such as service models, data models, dataset
   models, or knowledge graph can be used to represent the real
   network assets and, then, instantiated to serve various network
   applications.
 
-  Interfaces:  Standardized interfaces can ensure the interoperability
+  Interfaces:  Standardized interfaces ensure the interoperability
   of digital twin network.  There are two major types of interfaces:
 
   *  The interface between the digital twin network platform and the
@@ -479,12 +481,13 @@ interfaces as shown in Figure 1.
   *  The interface between digital twin network platform and
      applications.
 
-  The former provides real-time data collection and control on the
+  : The former provides real-time data collection and control on the
   real network.  The latter helps in delivering application requests
   to the digital twin network platform and exposing the various
   platform capabilities to applications.
 
-  Mapping:  Used to identify the digital twin and the underlying
+  Mapping:
+  : Used to identify the digital twin and the underlying
   entities and establish a real-time interactive relation between
   the real network and the twin network or between two twin
   networks.  The mapping can be:
@@ -495,7 +498,7 @@ interfaces as shown in Figure 1.
   *  One to many (coupling, horizontal): Synchronize among virtual
      twin networks with occasional data exchange.
 
-  Such mappings provide a good visibility of actual status, making
+  : Such mappings provide a good visibility of actual status, making
   the digital twin suitable to analyze and understand what is going
   on in the real network.  It also allows using the digital twin to
   optimize the performance and maintenance of the real network.
@@ -514,7 +517,7 @@ e.g., provide:
 *  reproducibility: i.e., the ability to replay successions of
   events, possibly under controlled variations.
 
-Note: Real-time interaction is not always mandatory for all twins.
+> Note: Real-time interaction is not always mandatory for all twins.
 When testing some configuration changes or trying some innovative
 techniques, the digital twins can behave as a simulation platform
 without the need of real time telemetry data.  And even in this
@@ -671,7 +674,8 @@ in the deployment of end to end service which spans across multiple
 administrative domains.  So, the construction of a digital twin
 network system needs to consider the following major challenges:
 
-  Large scale challenge:  A digital twin of large-scale networks will
+  Large scale challenge:
+  :  A digital twin of large-scale networks will
      significantly increase the complexity of data acquisition and
      storage, the design and implementation of relevant models.  The
      requirements of software and hardware of the digital twin network
@@ -684,7 +688,8 @@ network system needs to consider the following major challenges:
      tools on data collection and data compression methods must be
      used.
 
-  Interoperability:  Due to the inconsistency of technical
+  Interoperability:
+  :  Due to the inconsistency of technical
      implementations and the heterogeneity of vendor adopted
      technologies, it is difficult to establish a unified digital twin
      network system with a common technology in a network domain.
@@ -694,7 +699,8 @@ network system needs to consider the following major challenges:
      standardized and unified interfaces to connect all network twins
      via ensuring necessary compatibility.
 
-  Data modeling difficulties:  Based on large-scale network data, data
+  Data modeling difficulties:
+  :  Based on large-scale network data, data
   modeling should not only focus on ensuring the accuracy of model
   functions, but also has to consider the flexibility and
   scalability to compose and extend as required to support large
@@ -708,7 +714,8 @@ network system needs to consider the following major challenges:
   case, network modeling using mathematical abstraction or
   leveraging the AI algorithms will be more suitable solutions.
 
-  Real-time requirements:  Network services normally have real-time
+  Real-time requirements:
+  :  Network services normally have real-time
      requirements, the processing of model simulation and verification
      through a digital twin network will introduce the service latency.
      Meanwhile, the real-time requirements will further impose
@@ -727,7 +734,8 @@ network system needs to consider the following major challenges:
      the corresponding computing resources and suitable solutions as
      needed to complete the task processing in the twin.
 
-  Security risks:  A digital twin network has to synchronize all or
+  Security risks:
+  :  A digital twin network has to synchronize all or
      subset of the data related to involved real networks in real time,
      which inevitably augments the attack surface, with a higher risk
      of information leakage, in particular.  On one hand, it is
@@ -738,8 +746,8 @@ network system needs to consider the following major challenges:
      twin network, leveraging innovative modeling technologies such as
      federal learning.
 
-In brief, to address the above listed challenges, it is important to
-firstly propose a unified architecture of digital twin network, which
+To address the above listed challenges, it is important to
+agree on a unified architecture of digital twin network, which
 defines the main functional components and interfaces ({{arch}}).
 Then, relying upon such an architecture, it is required to continue
 researching on the key enabling technologies including data
@@ -861,7 +869,7 @@ Digital Twin Layer, and Real Network Layer.
      twin, including topology management, model management and
      security management.
 
-  Notes: 'Data collection' and 'change control' are regarded as
+> Notes: 'Data collection' and 'change control' are regarded as
   southbound interfaces between virtual and real network.  From
   implementation perspective, they can optionally form a sub-layer
   or sub-system to provide common functionalities of data collection
@@ -897,7 +905,7 @@ models for a specific network application, the required data can be
 efficiently obtained from the data repository.
 
 Diverse existing tools and methods (e.g., SNMP, NETCONF {{?RFC6241}},
-IPFIX {{?RFC7011}}, telemetry {{?RFC9232}}) can be used to collect
+IPFIX {{?RFC7011}}, and telemetry {{?RFC9232}}) can be used to collect
 different type of network data.  YANG data models and associated
 mechanisms defined in {{!RFC8639}}{{!RFC8641}} enable subscriber-specific
 subscriptions to a publisher's event streams.  Such mechanisms can be
@@ -1005,7 +1013,7 @@ middleware.
 ## Interfaces
 
 Based on the reference architecture, there are three types of
-interfaces on building a digital twin network system.
+interfaces on building a digital twin network system:
 
 1)  Network-facing interfaces are twin interfaces between the real
    network and its twin entity.  They are responsible for
@@ -1023,11 +1031,11 @@ interfaces on building a digital twin network system.
    subsystems: Data Repository, Service Mapping Models, and Digital
    Twin Network Management.  These interfaces should be of high-
    speed, high-efficiency and high-concurrency.  The candidate
-   interfaces or protocols can be XMPP (defined in {{!RFC7622}}), and
-   HTTP/3.0 (defined in {{!RFC9114}}).
+   interfaces or protocols can be XMPP {{?RFC7622}} or
+   HTTP/3.0 {{?RFC9114}}.
 
-All interfaces are recommended to be open and standardized so as to
-help avoid either hardware or software vendor lock, and achieve
+All these interfaces are recommended to be open and standardized interfaces so as to
+avoid either hardware or software vendor lock, and achieve
 interoperability.  Besides the interfaces list above, some new
 interfaces or protocols can be created to better serve digital twin
 network system.
@@ -1042,11 +1050,11 @@ through the construction of digital threads for optimization,
 prediction, and guidance.  Then, the implementation results are
 analyzed to see if they meet expectations, and any actions are fed
 back to form a closed loop.  Twinning management involves various
-network components (e.g. controller, orchestrator, security
-management, etc.) from end to end, including but not limited to the
-following main technologies.
+network components (e.g., controller, orchestrator) and domains (security, for example)
+from end to end, including, but not limited to, the
+following main technologies:
 
-*  Orchestration of twin model: Manage and organize multiple twin
+*  Orchestration of twins: Manage and organize multiple twin
   model instances, including the creation, deletion, storage,
   version control, and deployment of model instances, and arrange
   required modeling resources as needed to maximize resource
@@ -1073,11 +1081,9 @@ following main technologies.
   system operation, reducing the energy expenditure of network
   operation, and achieving the goal of green network.
 
-# Interaction with IBN
+# Interaction with Intent-Based Networking (IBN)
 
-Implementing Intent-Based Networking (IBN) is an innovative
-technology for life-cycle network management.  Future networks will
-be possibly Intent-based, which means that users can input their
+Intent-based, means that users can input their
 abstract 'intent' to the network, instead of detailed policies or
 configurations on the network devices.  {{?RFC9315}} clarifies the
 concept of "Intent" and provides an overview of IBN functionalities.
@@ -1167,7 +1173,7 @@ delivery.
 With the development of enterprise digitization, the number of
 enterprise Internet of Objects (IoT) devices, virtualized Cloud
 software inventory component (e.g., virtual firewall), and network
-hardware inventory (e.g., switches, routers) also increases.  The
+hardware inventory (e.g., switches or routers) also increases.  The
 endpoints connected to an enterprise network lack coherent modelling
 and lifecycle management because different services are modelled,
 collected, processed, and stored separately.  The same category of
@@ -1256,4 +1262,5 @@ This document has no requests to IANA.
 # Acknowledgments
 {:numbered="false"}
 
-TODO acknowledge.
+Thanks to Christopher Janz, Daniel King, Albrecht Schwarz, Toerless Eckert,
+and Alexander Clemm for the comments and discussions on the mailing list.
