@@ -105,12 +105,11 @@ Table of Contents
      9.5.  Network Inventory Management
    10. Research Perspectives: A Summary
    11. Security Considerations
-   12. Acknowledgements
-   13. IANA Considerations
-   14. Open issues
-   15. References
-     15.1.  Normative References
-     15.2.  Informative References
+   12. IANA Considerations
+   13. Open issues
+   14. References
+     14.1.  Normative References
+     14.2.  Informative References
    Acknowledgments
    Authors' Addresses
 
@@ -1094,33 +1093,19 @@ Table of Contents
    Strict control and security mechanisms must be provided and enabled
    to prevent data leaks.
 
-12.  Acknowledgements
-
-   Many thanks to the NMRG participants for their comments and reviews.
-   Thanks to Daniel King, Quifang Ma, Laurent Ciavaglia, Jérôme
-   François, Jordi Paillissé, Luis Miguel Contreras Murillo, Alexander
-   Clemm, Qiao Xiang, Ramin Sadre, Pedro Martinez-Julia, Wei Wang,
-   Zongpeng Du, and Peng Liu.
-
-   Diego Lopez and Antonio Pastor were partly supported by the European
-   Commission under Horizon 2020 grant agreement no. 833685 (SPIDER),
-   and grant agreement no. 871808 (INSPIRE-5Gplus).
-
-13.  IANA Considerations
+12.  IANA Considerations
 
    This document has no requests to IANA.
 
-14.  Open issues
+13.  Open issues
 
-   *  In section of 'Sample Application Scenarios', to dig deeper into
-      one or two use cases.
+   Refer to: https://github.com/cheneyzhoucheng/network-digital-twin/
+   issues (https://github.com/cheneyzhoucheng/network-digital-twin/
+   issues).
 
-   *  The terms of ‘digital twin network’ and ‘network digital twin’
-      should be clarified.
+14.  References
 
-15.  References
-
-15.1.  Normative References
+14.1.  Normative References
 
    [RFC8345]  Clemm, A., Medved, J., Varga, R., Bahadur, N.,
               Ananthakrishnan, H., and X. Liu, "A YANG Data Model for
@@ -1146,7 +1131,7 @@ Table of Contents
               DOI 10.17487/RFC8944, November 2020,
               <https://www.rfc-editor.org/rfc/rfc8944>.
 
-15.2.  Informative References
+14.2.  Informative References
 
    [Dai2020]  IEEE Transactions on Industrial Informatics, "Deep
               Reinforcement Learning for Stochastic Computation
@@ -1322,9 +1307,15 @@ Table of Contents
 
 Acknowledgments
 
-   Thanks to Christopher Janz, Daniel King, Albrecht Schwarz, Toerless
-   Eckert, and Alexander Clemm for the comments and discussions on the
-   mailing list.
+   Many thanks to the NMRG participants for their comments and reviews.
+   Thanks to Daniel King, Quifang Ma, Laurent Ciavaglia, Jérôme
+   François, Jordi Paillissé, Luis Miguel Contreras Murillo, Alexander
+   Clemm, Qiao Xiang, Ramin Sadre, Pedro Martinez-Julia, Wei Wang,
+   Zongpeng Du, Peng Liu, Christopher Janz, and Albrecht Schwarz.
+
+   Diego Lopez and Antonio Pastor were partly supported by the European
+   Commission under Horizon 2020 grant agreement no. 833685 (SPIDER),
+   and grant agreement no. 871808 (INSPIRE-5Gplus).
 
 Authors' Addresses
 
