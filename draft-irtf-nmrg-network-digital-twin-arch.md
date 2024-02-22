@@ -1232,35 +1232,26 @@ may increase the risk of sensitive data and information leakage.
 Strict control and security mechanisms must be provided and enabled
 to prevent data leaks.
 
-
-# Acknowledgements
-
-Many thanks to the NMRG participants for their comments and reviews.
-Thanks to Daniel King, Quifang Ma, Laurent Ciavaglia, Jérôme
-François, Jordi Paillissé, Luis Miguel Contreras Murillo, Alexander
-Clemm, Qiao Xiang, Ramin Sadre, Pedro Martinez-Julia, Wei Wang,
-Zongpeng Du, and Peng Liu.
-
-Diego Lopez and Antonio Pastor were partly supported by the European
-Commission under Horizon 2020 grant agreement no. 833685 (SPIDER),
-and grant agreement no. 871808 (INSPIRE-5Gplus).
-
 # IANA Considerations
 
 This document has no requests to IANA.
 
 # Open issues
 
-*  In section of 'Sample Application Scenarios', to dig deeper into
-  one or two use cases.
-
-*  The terms of ‘digital twin network’ and ‘network digital twin’
-  should be clarified.
+Refer to:
+<https://github.com/cheneyzhoucheng/network-digital-twin/issues>.
 
 --- back
 
 # Acknowledgments
 {:numbered="false"}
 
-Thanks to Christopher Janz, Daniel King, Albrecht Schwarz, Toerless Eckert,
-and Alexander Clemm for the comments and discussions on the mailing list.
+Many thanks to the NMRG participants for their comments and reviews.
+Thanks to Daniel King, Quifang Ma, Laurent Ciavaglia, Jérôme
+François, Jordi Paillissé, Luis Miguel Contreras Murillo, Alexander
+Clemm, Qiao Xiang, Ramin Sadre, Pedro Martinez-Julia, Wei Wang,
+Zongpeng Du, Peng Liu, Christopher Janz, and Albrecht Schwarz.
+
+Diego Lopez and Antonio Pastor were partly supported by the European
+Commission under Horizon 2020 grant agreement no. 833685 (SPIDER),
+and grant agreement no. 871808 (INSPIRE-5Gplus).
