@@ -475,10 +475,10 @@ interfaces as shown in {{kelem}}.
   Interfaces:  Standardized interfaces ensure the interoperability
   of network digital twin.  There are two major types of interfaces:
 
-  *  The interface between the network digital twin platform and the
+    *  The interface between the network digital twin platform and the
      real network infrastructure.
 
-  *  The interface between network digital twin platform and
+    *  The interface between network digital twin platform and
      applications.
 
   : The former provides real-time data collection and control on the
@@ -492,10 +492,10 @@ interfaces as shown in {{kelem}}.
   the real network and the twin network or between two twin
   networks.  The mapping can be:
 
-  *  One to one (pairing, vertical): Synchronize between a real
+    *  One to one (pairing, vertical): Synchronize between a real
      network and its virtual twin network with continuous flows.
 
-  *  One to many (coupling, horizontal): Synchronize among virtual
+    *  One to many (coupling, horizontal): Synchronize among virtual
      twin networks with occasional data exchange.
 
   : Such mappings provide a good visibility of actual status, making
@@ -550,16 +550,17 @@ for interactive interfaces to the real network.  Compared with those
 classical approaches, key benefits of network digital twin can be
 summarized as follows:
 
-1)  Using real-time data to establish high fidelity twins, the
+{: counter="bar" style="format (%c)"}
+* Using real-time data to establish high fidelity twins, the
    effectiveness of network simulation is higher; then the
    simulation cost will be relatively low.
 
-2)  The impact and risk on running networks is low when automatically
+*  The impact and risk on running networks is low when automatically
    applying configuration/policy changes after the full analysis and
    required verifications (e.g., service impact analysis) within the
    twin network.
 
-3)  The faults of the real network can be automatically captured by
+*  The faults of the real network can be automatically captured by
    analyzing real-time data, then the correction strategy can be
    distributed to the real network elements after conducting
    adequate analysis within the twins to complete the closed-loop
@@ -722,8 +723,8 @@ network system needs to consider the following major challenges:
      performance requirements on the system software and hardware.
      However, given the nature of distributed systems and propagation
      delays, it is challenge to keep network digital twins in sync or
-     auto-sync between real network and network digital twin.  Changes
-     to the digital object automatically drive changes in the real
+     auto-sync between real network and network digital twin.
+   : Changes to the digital object automatically drive changes in the real
      object can be even challenging.  To address these requirements,
      the function and process of the data model need to be based on
      automated processing mechanism under various network application
@@ -1015,18 +1016,19 @@ middleware.
 Based on the reference architecture, there are three types of
 interfaces on building a network digital twin system:
 
-1)  Network-facing interfaces are twin interfaces between the real
+{: counter="bar" style="format (%c)"}
+* Network-facing interfaces are twin interfaces between the real
    network and its twin entity.  They are responsible for
    information exchange between real network and network digital
    twin.  The candidate interfaces can be SNMP, NETCONF, etc.
 
-2)  Application-facing interfaces are Application-facing interfaces
+* Application-facing interfaces are Application-facing interfaces
    between the network digital twin and applications.  They are
    responsible for information exchange between network digital twin
    and network applications.  The lightweight and extensible
    {{RESTFul}} interface can be the candidate northbound interface.
 
-3)  Internal interfaces are within network digital twin layer.  They
+*  Internal interfaces are within network digital twin layer.  They
    are responsible for information exchange between the three
    subsystems: Data Repository, Service Mapping Models, and Digital
    Twin Network Management.  These interfaces should be of high-
