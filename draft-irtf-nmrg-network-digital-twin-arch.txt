@@ -699,31 +699,31 @@ Table of Contents
          the agility and programmability of network services.  The data
          models include two major types: basic and functional models.
 
-      *  Basic models refer to the network element model(s) and network
-         topology model(s) of the network digital twin based on the
-         basic configuration, environment information, operational
-         state, link topology and other information of the network
-         element(s), to complete the real-time accurate characterization
-         of the real network.
+         -  Basic models refer to the network element model(s) and
+            network topology model(s) of the network digital twin based
+            on the basic configuration, environment information,
+            operational state, link topology and other information of
+            the network element(s), to complete the real-time accurate
+            characterization of the real network.
 
-      *  Functional models refer to various data models used for network
-         analysis, emulation, diagnosis, prediction, assurance, etc.
-         The functional models can be constructed and expanded by
-         multiple dimensions: by network type, there can be models
-         serving for a single or multiple network domains; by function
-         type, it can be divided into state monitoring, traffic
-         analysis, security exercise, fault diagnosis, quality assurance
-         and other models; by network lifecycle management, it can be
-         divided into planning, construction, maintenance, optimization
-         and operation.  Functional models can also be divided into
-         general models and special-purpose models.  Specifically,
-         multiple dimensions can be combined to create a data model for
-         more specific application scenarios.
-
-       New applications might need new functional models that do
-       not exist yet.  If a new model is needed, ‘Service Mapping
-       Models’ subsystem will be triggered to help creating new
-       models based on data retrieved from ‘Data Repository’.
+         -  Functional models refer to various data models used for
+            network analysis, emulation, diagnosis, prediction,
+            assurance, etc.  The functional models can be constructed
+            and expanded by multiple dimensions: by network type, there
+            can be models serving for a single or multiple network
+            domains; by function type, it can be divided into state
+            monitoring, traffic analysis, security exercise, fault
+            diagnosis, quality assurance and other models; by network
+            lifecycle management, it can be divided into planning,
+            construction, maintenance, optimization and operation.
+            Functional models can also be divided into general models
+            and special-purpose models.  Specifically, multiple
+            dimensions can be combined to create a data model for more
+            specific application scenarios.  New applications might need
+            new functional models that do not exist yet.  If a new model
+            is needed, ‘Service Mapping Models’ subsystem will be
+            triggered to help creating new models based on data
+            retrieved from ‘Data Repository’.
 
    *  Network Digital Twin Management fulfils the management function of
       network digital twin, records the life-cycle transactions of the
