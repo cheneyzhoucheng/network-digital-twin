@@ -907,7 +907,7 @@ efficiently obtained from the data repository.
 Diverse existing tools and methods (e.g., SNMP, NETCONF {{?RFC6241}},
 IPFIX {{?RFC7011}}, and telemetry {{?RFC9232}}) can be used to collect
 different type of network data.  YANG data models and associated
-mechanisms defined in {{!RFC8639}}{{!RFC8641}} enable subscriber-specific
+mechanisms defined in {{?RFC8639}}{{?RFC8641}} enable subscriber-specific
 subscriptions to a publisher's event streams.  Such mechanisms can be
 used by subscriber applications to request for a continuous and
 customized stream of updates from a YANG datastore.  Moreover, some
@@ -1000,9 +1000,9 @@ valuable information hidden in the network.
 
 Network Visibility can use algorithms such as hierarchical layout,
 heuristic layout or force oriented layout (or a combination of
-several algorithms) for topology layout.  And the related topology
-data can be acquired using solutions provided in {{!RFC8345}},
-{{!RFC8346}}, {{!RFC8944}}, etc.  Meanwhile, network digital twin system
+several algorithms) for topology layout.  The related topology
+data can be acquired using solutions provided in {{?RFC8345}},
+{{?RFC8346}}, {{?RFC8944}}, etc.  Meanwhile, network digital twin system
 can select different interaction methods or combinations of
 interaction methods to realize the visual dynamic interaction mapping
 of virtual and real networks.  The data query technology, such as
