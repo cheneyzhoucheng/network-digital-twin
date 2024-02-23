@@ -107,9 +107,7 @@ Table of Contents
    11. Security Considerations
    12. IANA Considerations
    13. Open issues
-   14. References
-     14.1.  Normative References
-     14.2.  Informative References
+   14. Informative References
    Acknowledgments
    Authors' Addresses
 
@@ -863,15 +861,14 @@ Table of Contents
 
    Network Visibility can use algorithms such as hierarchical layout,
    heuristic layout or force oriented layout (or a combination of
-   several algorithms) for topology layout.  And the related topology
-   data can be acquired using solutions provided in [RFC8345],
-   [RFC8346], [RFC8944], etc.  Meanwhile, network digital twin system
-   can select different interaction methods or combinations of
-   interaction methods to realize the visual dynamic interaction mapping
-   of virtual and real networks.  The data query technology, such as
-   SPARQL, can be used to express queries across diverse data sources,
-   whether the data is stored natively as RDF or viewed as RDF via
-   middleware.
+   several algorithms) for topology layout.  The related topology data
+   can be acquired using solutions provided in [RFC8345], [RFC8346],
+   [RFC8944], etc.  Meanwhile, network digital twin system can select
+   different interaction methods or combinations of interaction methods
+   to realize the visual dynamic interaction mapping of virtual and real
+   networks.  The data query technology, such as SPARQL, can be used to
+   express queries across diverse data sources, whether the data is
+   stored natively as RDF or viewed as RDF via middleware.
 
 7.4.  Interfaces
 
@@ -1105,35 +1102,7 @@ Table of Contents
    issues (https://github.com/cheneyzhoucheng/network-digital-twin/
    issues).
 
-14.  References
-
-14.1.  Normative References
-
-   [RFC8345]  Clemm, A., Medved, J., Varga, R., Bahadur, N.,
-              Ananthakrishnan, H., and X. Liu, "A YANG Data Model for
-              Network Topologies", RFC 8345, DOI 10.17487/RFC8345, March
-              2018, <https://www.rfc-editor.org/rfc/rfc8345>.
-
-   [RFC8346]  Clemm, A., Medved, J., Varga, R., Liu, X.,
-              Ananthakrishnan, H., and N. Bahadur, "A YANG Data Model
-              for Layer 3 Topologies", RFC 8346, DOI 10.17487/RFC8346,
-              March 2018, <https://www.rfc-editor.org/rfc/rfc8346>.
-
-   [RFC8639]  Voit, E., Clemm, A., Gonzalez Prieto, A., Nilsen-Nygaard,
-              E., and A. Tripathy, "Subscription to YANG Notifications",
-              RFC 8639, DOI 10.17487/RFC8639, September 2019,
-              <https://www.rfc-editor.org/rfc/rfc8639>.
-
-   [RFC8641]  Clemm, A. and E. Voit, "Subscription to YANG Notifications
-              for Datastore Updates", RFC 8641, DOI 10.17487/RFC8641,
-              September 2019, <https://www.rfc-editor.org/rfc/rfc8641>.
-
-   [RFC8944]  Dong, J., Wei, X., Wu, Q., Boucadair, M., and A. Liu, "A
-              YANG Data Model for Layer 2 Network Topologies", RFC 8944,
-              DOI 10.17487/RFC8944, November 2020,
-              <https://www.rfc-editor.org/rfc/rfc8944>.
-
-14.2.  Informative References
+14.  Informative References
 
    [Dai2020]  IEEE Transactions on Industrial Informatics, "Deep
               Reinforcement Learning for Stochastic Computation
@@ -1272,6 +1241,30 @@ Table of Contents
               Protocol (XMPP): Address Format", RFC 7622,
               DOI 10.17487/RFC7622, September 2015,
               <https://www.rfc-editor.org/rfc/rfc7622>.
+
+   [RFC8345]  Clemm, A., Medved, J., Varga, R., Bahadur, N.,
+              Ananthakrishnan, H., and X. Liu, "A YANG Data Model for
+              Network Topologies", RFC 8345, DOI 10.17487/RFC8345, March
+              2018, <https://www.rfc-editor.org/rfc/rfc8345>.
+
+   [RFC8346]  Clemm, A., Medved, J., Varga, R., Liu, X.,
+              Ananthakrishnan, H., and N. Bahadur, "A YANG Data Model
+              for Layer 3 Topologies", RFC 8346, DOI 10.17487/RFC8346,
+              March 2018, <https://www.rfc-editor.org/rfc/rfc8346>.
+
+   [RFC8639]  Voit, E., Clemm, A., Gonzalez Prieto, A., Nilsen-Nygaard,
+              E., and A. Tripathy, "Subscription to YANG Notifications",
+              RFC 8639, DOI 10.17487/RFC8639, September 2019,
+              <https://www.rfc-editor.org/rfc/rfc8639>.
+
+   [RFC8641]  Clemm, A. and E. Voit, "Subscription to YANG Notifications
+              for Datastore Updates", RFC 8641, DOI 10.17487/RFC8641,
+              September 2019, <https://www.rfc-editor.org/rfc/rfc8641>.
+
+   [RFC8944]  Dong, J., Wei, X., Wu, Q., Boucadair, M., and A. Liu, "A
+              YANG Data Model for Layer 2 Network Topologies", RFC 8944,
+              DOI 10.17487/RFC8944, November 2020,
+              <https://www.rfc-editor.org/rfc/rfc8944>.
 
    [RFC9114]  Bishop, M., Ed., "HTTP/3", RFC 9114, DOI 10.17487/RFC9114,
               June 2022, <https://www.rfc-editor.org/rfc/rfc9114>.
