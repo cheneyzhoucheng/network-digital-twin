@@ -835,14 +835,14 @@ Digital Twin Layer, and Real Network Layer.
      the agility and programmability of network services.  The data
      models include two major types: basic and functional models.
 
-       -  Basic models refer to the network element model(s) and
+         -  Basic models refer to the network element model(s) and
         network topology model(s) of the network digital twin based
         on the basic configuration, environment information,
         operational state, link topology and other information of
         the network element(s), to complete the real-time accurate
         characterization of the real network.
 
-        -  Functional models refer to various data models used for
+          -  Functional models refer to various data models used for
         network analysis, emulation, diagnosis, prediction,
         assurance, etc.  The functional models can be constructed
         and expanded by multiple dimensions: by network type, there
@@ -856,7 +856,6 @@ Digital Twin Layer, and Real Network Layer.
         and special-purpose models.  Specifically, multiple
         dimensions can be combined to create a data model for more
         specific application scenarios.
-
           New applications might need new functional models that do
           not exist yet.  If a new model is needed, ‘Service Mapping
           Models’ subsystem will be triggered to help creating new
