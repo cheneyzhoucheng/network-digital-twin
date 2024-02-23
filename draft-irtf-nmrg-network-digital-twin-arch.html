@@ -1578,16 +1578,15 @@ interfaces as shown in <a href="#kelem" class="auto internal xref">Figure 1</a>.
 </dl>
 <p id="section-3.3-5">Interfaces:  Standardized interfaces ensure the interoperability
   of network digital twin.  There are two major types of interfaces:<a href="#section-3.3-5" class="pilcrow">¶</a></p>
-<ul class="normal">
-<li class="normal" id="section-3.3-6.1">
-            <p id="section-3.3-6.1.1">The interface between the network digital twin platform and the
-real network infrastructure.<a href="#section-3.3-6.1.1" class="pilcrow">¶</a></p>
-</li>
-          <li class="normal" id="section-3.3-6.2">
-            <p id="section-3.3-6.2.1">The interface between network digital twin platform and
-applications.<a href="#section-3.3-6.2.1" class="pilcrow">¶</a></p>
-</li>
-        </ul>
+<div class="alignLeft art-text artwork" id="section-3.3-6">
+<pre>
+*  The interface between the network digital twin platform and the
+ real network infrastructure.
+
+*  The interface between network digital twin platform and
+ applications.
+</pre><a href="#section-3.3-6" class="pilcrow">¶</a>
+</div>
 <p id="section-3.3-7">: The former provides real-time data collection and control on the
   real network.  The latter helps in delivering application requests
   to the network digital twin platform and exposing the various
@@ -1599,43 +1598,47 @@ applications.<a href="#section-3.3-6.2.1" class="pilcrow">¶</a></p>
   entities and establish a real-time interactive relation between
   the real network and the twin network or between two twin
   networks.  The mapping can be:<a href="#section-3.3-8.2.1" class="pilcrow">¶</a></p>
+<ul class="normal">
+<li class="normal" id="section-3.3-8.2.2.1">
+                <p id="section-3.3-8.2.2.1.1">One to one (pairing, vertical): Synchronize between a real
+ network and its virtual twin network with continuous flows.<a href="#section-3.3-8.2.2.1.1" class="pilcrow">¶</a></p>
+</li>
+              <li class="normal" id="section-3.3-8.2.2.2">
+                <p id="section-3.3-8.2.2.2.1">One to many (coupling, horizontal): Synchronize among virtual
+ twin networks with occasional data exchange.<a href="#section-3.3-8.2.2.2.1" class="pilcrow">¶</a></p>
+</li>
+            </ul>
+</dd>
+          <dd class="break"></dd>
+<dt id="section-3.3-8.3"></dt>
+          <dd style="margin-left: 1.5em" id="section-3.3-8.4">
+            <p id="section-3.3-8.4.1">Such mappings provide a good visibility of actual status, making
+  the digital twin suitable to analyze and understand what is going
+  on in the real network.  It also allows using the digital twin to
+  optimize the performance and maintenance of the real network.<a href="#section-3.3-8.4.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
 </dl>
-<ul class="normal">
-<li class="normal" id="section-3.3-9.1">
-            <p id="section-3.3-9.1.1">One to one (pairing, vertical): Synchronize between a real
-network and its virtual twin network with continuous flows.<a href="#section-3.3-9.1.1" class="pilcrow">¶</a></p>
-</li>
-          <li class="normal" id="section-3.3-9.2">
-            <p id="section-3.3-9.2.1">One to many (coupling, horizontal): Synchronize among virtual
-twin networks with occasional data exchange.<a href="#section-3.3-9.2.1" class="pilcrow">¶</a></p>
-</li>
-        </ul>
-<p id="section-3.3-10">: Such mappings provide a good visibility of actual status, making
-  the digital twin suitable to analyze and understand what is going
-  on in the real network.  It also allows using the digital twin to
-  optimize the performance and maintenance of the real network.<a href="#section-3.3-10" class="pilcrow">¶</a></p>
-<p id="section-3.3-11">The network digital twin constructed based on the four core
+<p id="section-3.3-9">The network digital twin constructed based on the four core
 technology elements can analyze, diagnose, emulate, and control the
 real network in its whole life cycle with the help of optimization
 algorithms, management methods, and expert knowledge.  One of the
 objectives of such control is to master the network digital twin
 environment and its elements to derive the required system behavior,
-e.g., provide:<a href="#section-3.3-11" class="pilcrow">¶</a></p>
+e.g., provide:<a href="#section-3.3-9" class="pilcrow">¶</a></p>
 <ul class="normal">
-<li class="normal" id="section-3.3-12.1">
-            <p id="section-3.3-12.1.1">repeatability: that is the capacity to replicate network
-  conditions on-demand.<a href="#section-3.3-12.1.1" class="pilcrow">¶</a></p>
+<li class="normal" id="section-3.3-10.1">
+            <p id="section-3.3-10.1.1">repeatability: that is the capacity to replicate network
+  conditions on-demand.<a href="#section-3.3-10.1.1" class="pilcrow">¶</a></p>
 </li>
-          <li class="normal" id="section-3.3-12.2">
-            <p id="section-3.3-12.2.1">reproducibility: i.e., the ability to replay successions of
-  events, possibly under controlled variations.<a href="#section-3.3-12.2.1" class="pilcrow">¶</a></p>
+          <li class="normal" id="section-3.3-10.2">
+            <p id="section-3.3-10.2.1">reproducibility: i.e., the ability to replay successions of
+  events, possibly under controlled variations.<a href="#section-3.3-10.2.1" class="pilcrow">¶</a></p>
 </li>
         </ul>
 <ul class="normal ulEmpty">
-<li class="normal ulEmpty" id="section-3.3-13.1">
-            <p id="section-3.3-13.1.1">Note: Real-time interaction is not always mandatory for all twins.
+<li class="normal ulEmpty" id="section-3.3-11.1">
+            <p id="section-3.3-11.1.1">Note: Real-time interaction is not always mandatory for all twins.
 When testing some configuration changes or trying some innovative
 techniques, the digital twins can behave as a simulation platform
 without the need of real time telemetry data.  And even in this
@@ -1644,7 +1647,7 @@ the validated changes can be tested in real network whenever required
 by the testers.  In most other cases (e.g., network optimization,
 network fault recovery), real-time interaction between virtual and
 real network is mandatory.  This way, network digital twin can help
-achieve the goal of autonomous network or self-driven network.<a href="#section-3.3-13.1.1" class="pilcrow">¶</a></p>
+achieve the goal of autonomous network or self-driven network.<a href="#section-3.3-11.1.1" class="pilcrow">¶</a></p>
 </li>
         </ul>
 </section>
@@ -1674,19 +1677,33 @@ a variant of network digital twin but with low fidelity and lacking
 for interactive interfaces to the real network.  Compared with those
 classical approaches, key benefits of network digital twin can be
 summarized as follows:<a href="#section-4-2" class="pilcrow">¶</a></p>
-<p id="section-4-3">1)  Using real-time data to establish high fidelity twins, the
-   effectiveness of network simulation is higher; then the
-   simulation cost will be relatively low.<a href="#section-4-3" class="pilcrow">¶</a></p>
-<p id="section-4-4">2)  The impact and risk on running networks is low when automatically
-   applying configuration/policy changes after the full analysis and
-   required verifications (e.g., service impact analysis) within the
-   twin network.<a href="#section-4-4" class="pilcrow">¶</a></p>
-<p id="section-4-5">3)  The faults of the real network can be automatically captured by
-   analyzing real-time data, then the correction strategy can be
-   distributed to the real network elements after conducting
-   adequate analysis within the twins to complete the closed-loop
-   automatic fault repair.<a href="#section-4-5" class="pilcrow">¶</a></p>
-<p id="section-4-6">The following subsections further elaborate such benefits in details.<a href="#section-4-6" class="pilcrow">¶</a></p>
+<span class="break"></span><dl class="olPercent" id="section-4-3">
+<dt>(a)</dt>
+<dd id="section-4-3.1">
+          <p id="section-4-3.1.1">Using real-time data to establish high fidelity twins, the
+ effectiveness of network simulation is higher; then the
+ simulation cost will be relatively low.<a href="#section-4-3.1.1" class="pilcrow">¶</a></p>
+</dd>
+        <dd class="break"></dd>
+<dt>(b)</dt>
+<dd id="section-4-3.2">
+          <p id="section-4-3.2.1">The impact and risk on running networks is low when automatically
+applying configuration/policy changes after the full analysis and
+required verifications (e.g., service impact analysis) within the
+twin network.<a href="#section-4-3.2.1" class="pilcrow">¶</a></p>
+</dd>
+        <dd class="break"></dd>
+<dt>(c)</dt>
+<dd id="section-4-3.3">
+          <p id="section-4-3.3.1">The faults of the real network can be automatically captured by
+analyzing real-time data, then the correction strategy can be
+distributed to the real network elements after conducting
+adequate analysis within the twins to complete the closed-loop
+automatic fault repair.<a href="#section-4-3.3.1" class="pilcrow">¶</a></p>
+</dd>
+      <dd class="break"></dd>
+</dl>
+<p id="section-4-4">The following subsections further elaborate such benefits in details.<a href="#section-4-4" class="pilcrow">¶</a></p>
 <div id="optimized-network-total-cost-of-operation">
 <section id="section-4.1">
         <h3 id="name-optimized-network-total-cos">
@@ -1876,8 +1893,12 @@ Meanwhile, the real-time requirements will further impose
 performance requirements on the system software and hardware.
 However, given the nature of distributed systems and propagation
 delays, it is challenge to keep network digital twins in sync or
-auto-sync between real network and network digital twin.  Changes
-to the digital object automatically drive changes in the real
+auto-sync between real network and network digital twin.<a href="#section-5-4.8.1" class="pilcrow">¶</a></p>
+</dd>
+        <dd class="break"></dd>
+<dt id="section-5-4.9"></dt>
+        <dd style="margin-left: 1.5em" id="section-5-4.10">
+          <p id="section-5-4.10.1">Changes to the digital object automatically drive changes in the real
 object can be even challenging.  To address these requirements,
 the function and process of the data model need to be based on
 automated processing mechanism under various network application
@@ -1886,12 +1907,12 @@ process to reduce the time cost for tasks in network twin as much
 as possible; on the other hand, it is recommended to define the
 real-time requirements of different applications, and then match
 the corresponding computing resources and suitable solutions as
-needed to complete the task processing in the twin.<a href="#section-5-4.8.1" class="pilcrow">¶</a></p>
+needed to complete the task processing in the twin.<a href="#section-5-4.10.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-5-4.9">Security risks:</dt>
-        <dd style="margin-left: 1.5em" id="section-5-4.10">
-          <p id="section-5-4.10.1">A network digital twin has to synchronize all or
+<dt id="section-5-4.11">Security risks:</dt>
+        <dd style="margin-left: 1.5em" id="section-5-4.12">
+          <p id="section-5-4.12.1">A network digital twin has to synchronize all or
 subset of the data related to involved real networks in real time,
 which inevitably augments the attack surface, with a higher risk
 of information leakage, in particular.  On one hand, it is
@@ -1900,7 +1921,7 @@ data protection methods, as well as innovative technologies such
 as block chain.  On the other hand, the system design can limit
 the data (especially raw data) requirement on building digital
 twin network, leveraging innovative modeling technologies such as
-federal learning.<a href="#section-5-4.10.1" class="pilcrow">¶</a></p>
+federal learning.<a href="#section-5-4.12.1" class="pilcrow">¶</a></p>
 </dd>
       <dd class="break"></dd>
 </dl>
@@ -2209,27 +2230,41 @@ middleware.<a href="#section-7.3-2" class="pilcrow">¶</a></p>
         </h3>
 <p id="section-7.4-1">Based on the reference architecture, there are three types of
 interfaces on building a network digital twin system:<a href="#section-7.4-1" class="pilcrow">¶</a></p>
-<p id="section-7.4-2">1)  Network-facing interfaces are twin interfaces between the real
-   network and its twin entity.  They are responsible for
-   information exchange between real network and network digital
-   twin.  The candidate interfaces can be SNMP, NETCONF, etc.<a href="#section-7.4-2" class="pilcrow">¶</a></p>
-<p id="section-7.4-3">2)  Application-facing interfaces are Application-facing interfaces
-   between the network digital twin and applications.  They are
-   responsible for information exchange between network digital twin
-   and network applications.  The lightweight and extensible
-   <span>[<a href="#RESTFul" class="cite xref">RESTFul</a>]</span> interface can be the candidate northbound interface.<a href="#section-7.4-3" class="pilcrow">¶</a></p>
-<p id="section-7.4-4">3)  Internal interfaces are within network digital twin layer.  They
-   are responsible for information exchange between the three
-   subsystems: Data Repository, Service Mapping Models, and Digital
-   Twin Network Management.  These interfaces should be of high-
-   speed, high-efficiency and high-concurrency.  The candidate
-   interfaces or protocols can be XMPP <span>[<a href="#RFC7622" class="cite xref">RFC7622</a>]</span> or
-   HTTP/3.0 <span>[<a href="#RFC9114" class="cite xref">RFC9114</a>]</span>.<a href="#section-7.4-4" class="pilcrow">¶</a></p>
-<p id="section-7.4-5">All these interfaces are recommended to be open and standardized interfaces so as to
+<span class="break"></span><dl class="olPercent" id="section-7.4-2">
+<dt>(d)</dt>
+<dd id="section-7.4-2.1">
+            <p id="section-7.4-2.1.1">Network-facing interfaces are twin interfaces between the real
+ network and its twin entity.  They are responsible for
+ information exchange between real network and network digital
+ twin.  The candidate interfaces can be SNMP, NETCONF, etc.<a href="#section-7.4-2.1.1" class="pilcrow">¶</a></p>
+</dd>
+          <dd class="break"></dd>
+<dt>(e)</dt>
+<dd id="section-7.4-2.2">
+            <p id="section-7.4-2.2.1">Application-facing interfaces are Application-facing interfaces
+ between the network digital twin and applications.  They are
+ responsible for information exchange between network digital twin
+ and network applications.  The lightweight and extensible
+ <span>[<a href="#RESTFul" class="cite xref">RESTFul</a>]</span> interface can be the candidate northbound interface.<a href="#section-7.4-2.2.1" class="pilcrow">¶</a></p>
+</dd>
+          <dd class="break"></dd>
+<dt>(f)</dt>
+<dd id="section-7.4-2.3">
+            <p id="section-7.4-2.3.1">Internal interfaces are within network digital twin layer.  They
+are responsible for information exchange between the three
+subsystems: Data Repository, Service Mapping Models, and Digital
+Twin Network Management.  These interfaces should be of high-
+speed, high-efficiency and high-concurrency.  The candidate
+interfaces or protocols can be XMPP <span>[<a href="#RFC7622" class="cite xref">RFC7622</a>]</span> or
+HTTP/3.0 <span>[<a href="#RFC9114" class="cite xref">RFC9114</a>]</span>.<a href="#section-7.4-2.3.1" class="pilcrow">¶</a></p>
+</dd>
+        <dd class="break"></dd>
+</dl>
+<p id="section-7.4-3">All these interfaces are recommended to be open and standardized interfaces so as to
 avoid either hardware or software vendor lock, and achieve
 interoperability.  Besides the interfaces list above, some new
 interfaces or protocols can be created to better serve digital twin
-network system.<a href="#section-7.4-5" class="pilcrow">¶</a></p>
+network system.<a href="#section-7.4-3" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="twinning-management">
