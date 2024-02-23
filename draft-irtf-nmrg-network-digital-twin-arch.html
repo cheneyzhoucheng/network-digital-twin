@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta content="Common,Latin" name="scripts">
 <meta content="initial-scale=1.0" name="viewport">
-<title>Digital Twin Network: Concepts and Reference Architecture</title>
+<title>Network Digital Twin: Concepts and Reference Architecture</title>
 <meta content="Cheng Zhou" name="author">
 <meta content="Hongwei Yang" name="author">
 <meta content="Xiaodong Duan" name="author">
@@ -1041,7 +1041,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <table class="ears">
 <thead><tr>
 <td class="left">Internet-Draft</td>
-<td class="center">Digital Twin Network Concept</td>
+<td class="center">Network Digital Twin Concept</td>
 <td class="right">February 2024</td>
 </tr></thead>
 <tfoot><tr>
@@ -1102,7 +1102,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 </dd>
 </dl>
 </div>
-<h1 id="title">Digital Twin Network: Concepts and Reference Architecture</h1>
+<h1 id="title">Network Digital Twin: Concepts and Reference Architecture</h1>
 <section id="section-abstract">
       <h2 id="abstract"><a href="#abstract" class="selfRef">Abstract</a></h2>
 <p id="section-abstract-1">Digital Twin technology has been seen as a rapid adoption technology
@@ -1186,7 +1186,7 @@ key challenges of such technology.<a href="#section-abstract-2" class="pilcrow">
             </ul>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3">
-            <p id="section-toc.1-1.3.1"><a href="#section-3" class="auto internal xref">3</a>.  <a href="#name-introduction-and-concepts-o" class="internal xref">Introduction and Concepts of Digital Twin Network</a></p>
+            <p id="section-toc.1-1.3.1"><a href="#section-3" class="auto internal xref">3</a>.  <a href="#name-introduction-and-concepts-o" class="internal xref">Introduction and Concepts of Network Digital Twin</a></p>
 <ul class="compact toc ulBare ulEmpty">
 <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.1">
                 <p id="section-toc.1-1.3.2.1.1"><a href="#section-3.1" class="auto internal xref">3.1</a>.  <a href="#name-background-of-digital-twin" class="internal xref">Background of Digital Twin</a></p>
@@ -1195,12 +1195,12 @@ key challenges of such technology.<a href="#section-abstract-2" class="pilcrow">
                 <p id="section-toc.1-1.3.2.2.1"><a href="#section-3.2" class="auto internal xref">3.2</a>.  <a href="#name-digital-twin-for-networks" class="internal xref">Digital Twin for Networks</a></p>
 </li>
               <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.3">
-                <p id="section-toc.1-1.3.2.3.1"><a href="#section-3.3" class="auto internal xref">3.3</a>.  <a href="#name-definition-of-digital-twin-" class="internal xref">Definition of Digital Twin Network</a></p>
+                <p id="section-toc.1-1.3.2.3.1"><a href="#section-3.3" class="auto internal xref">3.3</a>.  <a href="#name-definition-of-network-digit" class="internal xref">Definition of Network Digital Twin</a></p>
 </li>
             </ul>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.4">
-            <p id="section-toc.1-1.4.1"><a href="#section-4" class="auto internal xref">4</a>.  <a href="#name-benefits-of-digital-twin-ne" class="internal xref">Benefits of Digital Twin Network</a></p>
+            <p id="section-toc.1-1.4.1"><a href="#section-4" class="auto internal xref">4</a>.  <a href="#name-benefits-of-network-digital" class="internal xref">Benefits of Network Digital Twin</a></p>
 <ul class="compact toc ulBare ulEmpty">
 <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.4.2.1">
                 <p id="section-toc.1-1.4.2.1.1"><a href="#section-4.1" class="auto internal xref">4.1</a>.  <a href="#name-optimized-network-total-cos" class="internal xref">Optimized Network Total Cost of Operation</a></p>
@@ -1220,13 +1220,13 @@ key challenges of such technology.<a href="#section-abstract-2" class="pilcrow">
             </ul>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.5">
-            <p id="section-toc.1-1.5.1"><a href="#section-5" class="auto internal xref">5</a>.  <a href="#name-challenges-to-build-digital" class="internal xref">Challenges to Build Digital Twin Network</a></p>
+            <p id="section-toc.1-1.5.1"><a href="#section-5" class="auto internal xref">5</a>.  <a href="#name-challenges-to-build-network" class="internal xref">Challenges to Build Network Digital Twin</a></p>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.6">
-            <p id="section-toc.1-1.6.1"><a href="#section-6" class="auto internal xref">6</a>.  <a href="#name-a-reference-architecture-of" class="internal xref">A Reference Architecture of Digital Twin Network</a></p>
+            <p id="section-toc.1-1.6.1"><a href="#section-6" class="auto internal xref">6</a>.  <a href="#name-a-reference-architecture-of" class="internal xref">A Reference Architecture of Network Digital Twin</a></p>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.7">
-            <p id="section-toc.1-1.7.1"><a href="#section-7" class="auto internal xref">7</a>.  <a href="#name-enabling-technologies-to-bu" class="internal xref">Enabling Technologies to Build Digital Twin Network</a></p>
+            <p id="section-toc.1-1.7.1"><a href="#section-7" class="auto internal xref">7</a>.  <a href="#name-enabling-technologies-to-bu" class="internal xref">Enabling Technologies to Build Network Digital Twin</a></p>
 <ul class="compact toc ulBare ulEmpty">
 <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.7.2.1">
                 <p id="section-toc.1-1.7.2.1.1"><a href="#section-7.1" class="auto internal xref">7.1</a>.  <a href="#name-data-collection-and-data-se" class="internal xref">Data Collection and Data Services</a></p>
@@ -1329,13 +1329,13 @@ digital twin for networks is an expansion platform of network
 simulation.  The main difference compared to traditional network
 management systems is the interactive virtual-real mapping and data
 driven approach to build closed-loop network automation.  Therefore,
-a digital twin network platform is more than an emulation platform or
+a network digital twin platform is more than an emulation platform or
 network simulator.<a href="#section-1-3" class="pilcrow">¶</a></p>
 <p id="section-1-4">Through the real-time data interaction between the real network and
-its twin network(s), the digital twin network platform might help the
+its twin network(s), the network digital twin platform might help the
 network designers to achieve more simplification, automatic,
 resilient, and full life-cycle operation and maintenance.  More
-specifically, the digital twin network can, thus, be used to develop
+specifically, the network digital twin can, thus, be used to develop
 various rich network applications and assess specific behaviors
 (including network transformation) before actual implementation in
 the real network, tweak the network for better optimized behavior,
@@ -1377,7 +1377,7 @@ and health status data throughout the physical system's life
 cycle.<a href="#section-2.2-2.2.1" class="pilcrow">¶</a></p>
 </dd>
           <dd class="break"></dd>
-<dt id="section-2.2-2.3">Digital twin network:</dt>
+<dt id="section-2.2-2.3">Network digital twin:</dt>
           <dd style="margin-left: 1.5em" id="section-2.2-2.4">
             <p id="section-2.2-2.4.1">a digital twin that is used in the context of
   networking.  This is also called, digital twin for networks.  See
@@ -1392,7 +1392,7 @@ cycle.<a href="#section-2.2-2.2.1" class="pilcrow">¶</a></p>
 <div id="concept">
 <section id="section-3">
       <h2 id="name-introduction-and-concepts-o">
-<a href="#section-3" class="section-number selfRef">3. </a><a href="#name-introduction-and-concepts-o" class="section-name selfRef">Introduction and Concepts of Digital Twin Network</a>
+<a href="#section-3" class="section-number selfRef">3. </a><a href="#name-introduction-and-concepts-o" class="section-name selfRef">Introduction and Concepts of Network Digital Twin</a>
       </h2>
 <div id="background-of-digital-twin">
 <section id="section-3.1">
@@ -1452,7 +1452,7 @@ various 'digital twin' applications.  At the same time, in the face
 of increasing business types, scale and complexity, a network itself
 also needs to use digital twin technology to seek enhanced and
 optimized solutions compared to relying solely on the real network.
-The motivation for digital twin network can somehow be traced back to
+The motivation for network digital twin can somehow be traced back to
 some earlier concepts, such as "shadow MIB", inductive modeling
 techniques, parallel systems, etc.  Since 2017, the application of
 digital twin technology in the field of communication networks has
@@ -1485,7 +1485,7 @@ scenarios (such as network optimization), where network digital twin
 is just used as a network simulation tool to solve the problem of
 network operation and maintenance.  Combined with the characteristics
 of digital twin technology and its application in other industries,
-this document believes that digital twin network can be regarded as
+this document believes that network digital twin can be regarded as
 an indispensable part of the overall network system and provides a
 general architecture involving the whole life cycle of real network
 in the future, serving the application of network innovative
@@ -1496,10 +1496,10 @@ network.<a href="#section-3.2-3" class="pilcrow">¶</a></p>
 </div>
 <div id="def">
 <section id="section-3.3">
-        <h3 id="name-definition-of-digital-twin-">
-<a href="#section-3.3" class="section-number selfRef">3.3. </a><a href="#name-definition-of-digital-twin-" class="section-name selfRef">Definition of Digital Twin Network</a>
+        <h3 id="name-definition-of-network-digit">
+<a href="#section-3.3" class="section-number selfRef">3.3. </a><a href="#name-definition-of-network-digit" class="section-name selfRef">Definition of Network Digital Twin</a>
         </h3>
-<p id="section-3.3-1">So far, there is no standard definition of "digital twin network"
+<p id="section-3.3-1">So far, there is no standard definition of "network digital twin"
 within the networking industry.  This document defines <strong>"digital twin
 network" as a virtual representation of the real network</strong>.  Such
 representation of the network is used to analyze,
@@ -1512,7 +1512,7 @@ diagnose, emulate, and control) is deployment specific.<a href="#section-3.3-1" 
 the characteristics of the networking itself, the digital twin
 network should involve at least four key elements: data, mapping, models and
 interfaces as shown in <a href="#kelem" class="auto internal xref">Figure 1</a>.<a href="#section-3.3-2" class="pilcrow">¶</a></p>
-<span id="name-key-elements-of-digital-twi"></span><div id="kelem">
+<span id="name-key-elements-of-network-dig"></span><div id="kelem">
 <figure id="figure-1">
           <div class="alignCenter art-text artwork" id="section-3.3-3.1">
 <pre>
@@ -1525,7 +1525,7 @@ interfaces as shown in <a href="#kelem" class="auto internal xref">Figure 1</a>.
                     |    Analyze, Diagnose     |
                     |                          |
                     | +----------------------+ |
-                    | | Digital Twin Network | |
+                    | | Network Digital Twin | |
                     | +----------------------+ |
         +------------+                        +------------+
         |            |   Emulate, Control     |            |
@@ -1535,13 +1535,13 @@ interfaces as shown in <a href="#kelem" class="auto internal xref">Figure 1</a>.
 </pre>
 </div>
 <figcaption><a href="#figure-1" class="selfRef">Figure 1</a>:
-<a href="#name-key-elements-of-digital-twi" class="selfRef">Key Elements of Digital Twin Network</a>
+<a href="#name-key-elements-of-network-dig" class="selfRef">Key Elements of Network Digital Twin</a>
           </figcaption></figure>
 </div>
 <span class="break"></span><dl class="dlParallel" id="section-3.3-4">
           <dt id="section-3.3-4.1">Data:</dt>
           <dd style="margin-left: 1.5em" id="section-3.3-4.2">
-            <p id="section-3.3-4.2.1">A digital twin network should maintain historical data and/or
+            <p id="section-3.3-4.2.1">A network digital twin should maintain historical data and/or
   real time data (configuration data, operational state data,
   topology data, trace data, metric data, process data, etc.) about
   its real-world twin (i.e. real network) that are required by the
@@ -1577,20 +1577,20 @@ interfaces as shown in <a href="#kelem" class="auto internal xref">Figure 1</a>.
         <dd class="break"></dd>
 </dl>
 <p id="section-3.3-5">Interfaces:  Standardized interfaces ensure the interoperability
-  of digital twin network.  There are two major types of interfaces:<a href="#section-3.3-5" class="pilcrow">¶</a></p>
+  of network digital twin.  There are two major types of interfaces:<a href="#section-3.3-5" class="pilcrow">¶</a></p>
 <ul class="normal">
 <li class="normal" id="section-3.3-6.1">
-            <p id="section-3.3-6.1.1">The interface between the digital twin network platform and the
+            <p id="section-3.3-6.1.1">The interface between the network digital twin platform and the
 real network infrastructure.<a href="#section-3.3-6.1.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="section-3.3-6.2">
-            <p id="section-3.3-6.2.1">The interface between digital twin network platform and
+            <p id="section-3.3-6.2.1">The interface between network digital twin platform and
 applications.<a href="#section-3.3-6.2.1" class="pilcrow">¶</a></p>
 </li>
         </ul>
 <p id="section-3.3-7">: The former provides real-time data collection and control on the
   real network.  The latter helps in delivering application requests
-  to the digital twin network platform and exposing the various
+  to the network digital twin platform and exposing the various
   platform capabilities to applications.<a href="#section-3.3-7" class="pilcrow">¶</a></p>
 <span class="break"></span><dl class="dlParallel" id="section-3.3-8">
           <dt id="section-3.3-8.1">Mapping:</dt>
@@ -1616,11 +1616,11 @@ twin networks with occasional data exchange.<a href="#section-3.3-9.2.1" class="
   the digital twin suitable to analyze and understand what is going
   on in the real network.  It also allows using the digital twin to
   optimize the performance and maintenance of the real network.<a href="#section-3.3-10" class="pilcrow">¶</a></p>
-<p id="section-3.3-11">The digital twin network constructed based on the four core
+<p id="section-3.3-11">The network digital twin constructed based on the four core
 technology elements can analyze, diagnose, emulate, and control the
 real network in its whole life cycle with the help of optimization
 algorithms, management methods, and expert knowledge.  One of the
-objectives of such control is to master the digital twin network
+objectives of such control is to master the network digital twin
 environment and its elements to derive the required system behavior,
 e.g., provide:<a href="#section-3.3-11" class="pilcrow">¶</a></p>
 <ul class="normal">
@@ -1643,7 +1643,7 @@ scenario, it is better to have interactive mapping capability so that
 the validated changes can be tested in real network whenever required
 by the testers.  In most other cases (e.g., network optimization,
 network fault recovery), real-time interaction between virtual and
-real network is mandatory.  This way, digital twin network can help
+real network is mandatory.  This way, network digital twin can help
 achieve the goal of autonomous network or self-driven network.<a href="#section-3.3-13.1.1" class="pilcrow">¶</a></p>
 </li>
         </ul>
@@ -1651,12 +1651,12 @@ achieve the goal of autonomous network or self-driven network.<a href="#section-
 </div>
 </section>
 </div>
-<div id="benefits-of-digital-twin-network">
+<div id="benefits-of-network-digital-twin">
 <section id="section-4">
-      <h2 id="name-benefits-of-digital-twin-ne">
-<a href="#section-4" class="section-number selfRef">4. </a><a href="#name-benefits-of-digital-twin-ne" class="section-name selfRef">Benefits of Digital Twin Network</a>
+      <h2 id="name-benefits-of-network-digital">
+<a href="#section-4" class="section-number selfRef">4. </a><a href="#name-benefits-of-network-digital" class="section-name selfRef">Benefits of Network Digital Twin</a>
       </h2>
-<p id="section-4-1">Digital twin network can help enabling closed-loop network management
+<p id="section-4-1">Network digital twin can help enabling closed-loop network management
 across the entire lifecycle, from deployment and emulation, to
 visualized assessment, physical deployment, and continuous
 verification.  By doing so, network operators and end-users to some
@@ -1665,14 +1665,14 @@ global, systemic, and consistent view of the network.  Also, network
 operators and/or enterprise user can safely exercise the enforcement
 of network planning policies, deployment procedures, etc., without
 jeopardizing the daily operation of the real network.<a href="#section-4-1" class="pilcrow">¶</a></p>
-<p id="section-4-2">The main difference between digital twin network and simulation
+<p id="section-4-2">The main difference between network digital twin and simulation
 platform is the use of interactive virtual-real mapping to build
 closed-loop network automation.  Simulation platforms are the
-predecessor of the digital twin network, one example of such a
+predecessor of the network digital twin, one example of such a
 simulation platform is network simulator <span>[<a href="#NS-3" class="cite xref">NS-3</a>]</span>, which can be seen as
-a variant of digital twin network but with low fidelity and lacking
+a variant of network digital twin but with low fidelity and lacking
 for interactive interfaces to the real network.  Compared with those
-classical approaches, key benefits of digital twin network can be
+classical approaches, key benefits of network digital twin can be
 summarized as follows:<a href="#section-4-2" class="pilcrow">¶</a></p>
 <p id="section-4-3">1)  Using real-time data to establish high fidelity twins, the
    effectiveness of network simulation is higher; then the
@@ -1698,7 +1698,7 @@ to be tested on the real network at the cost of jeopardizing its
 daily operation and possibly degrading the quality of the services
 supported by the network.  Such assessment greatly increases network
 operator's Operational Expenditure (OPEX) budgets too.<a href="#section-4.1-1" class="pilcrow">¶</a></p>
-<p id="section-4.1-2">With a digital twin network platform, network operators can safely
+<p id="section-4.1-2">With a network digital twin platform, network operators can safely
 emulate candidate optimization solutions before deploying them on the
 real network.  In addition, operator's OPEX on the real network
 deployment will be greatly decreased accordingly at the cost of the
@@ -1713,7 +1713,7 @@ complexity of the assessment and the resources involved.<a href="#section-4.1-2"
 <p id="section-4.2-1">Traditional network operation and management mainly focus on
 deploying and managing running services, but hardly support
 predictive maintenance techniques.<a href="#section-4.2-1" class="pilcrow">¶</a></p>
-<p id="section-4.2-2">Digital twin network can combine data acquisition, big data
+<p id="section-4.2-2">Network digital twin can combine data acquisition, big data
 processing, and AI modeling to assess the status of the network, but
 also to predict future trends, and better organize predictive
 maintenance.  The ability to reproduce network behaviors under
@@ -1729,7 +1729,7 @@ various evolution options as often as required.<a href="#section-4.2-2" class="p
 <p id="section-4.3-1">Testing a new feature in an operational network is not only complex,
 but also extremely risky.  Service impact analysis is required to be
 adequately achieved prior to effective activation of a new feature.<a href="#section-4.3-1" class="pilcrow">¶</a></p>
-<p id="section-4.3-2">Digital twin network can greatly help assessing innovative network
+<p id="section-4.3-2">Network digital twin can greatly help assessing innovative network
 capabilities without jeopardizing the daily operation of the real
 network.  In addition, it helps researchers to explore network
 innovation (e.g., new network protocols, network AI/ML applications)
@@ -1737,7 +1737,7 @@ efficiently, and network operators to deploy new technologies quickly
 with lower risks.  Take AI/ ML application as example, it is a
 conflict between the continuous high reliability requirement (i.e.,
 99.999%) and the slow learning speed or phase-in learning steps of
-AI/ML algorithms.  With digital twin network, AI/ML can complete the
+AI/ML algorithms.  With network digital twin, AI/ML can complete the
 learning and training with the sufficient data before deploying the
 model in the real network.  This would encourage more network AI
 innovations in future networks.<a href="#section-4.3-2" class="pilcrow">¶</a></p>
@@ -1760,7 +1760,7 @@ ports and protocol) to techniques requiring some degree of payload
 inspection, all of them considered suitable to be associated to an
 individual person, and hence requiring strong protection and/or data
 anonymization mechanisms.<a href="#section-4.4-1" class="pilcrow">¶</a></p>
-<p id="section-4.4-2">With strong modeling capability provided by the digital twin network,
+<p id="section-4.4-2">With strong modeling capability provided by the network digital twin,
 very limited real data (if at all) will be needed to achieve similar
 or even higher level of data-driven intelligent analysis.  This way,
 a lower demand of sensitive data will permit to satisfy privacy
@@ -1774,7 +1774,7 @@ for data-driven operation.<a href="#section-4.4-2" class="pilcrow">¶</a></p>
 <a href="#section-4.5" class="section-number selfRef">4.5. </a><a href="#name-customized-network-operatio" class="section-name selfRef">Customized Network Operation Training</a>
         </h3>
 <p id="section-4.5-1">Network architectures can be complex, and their operation requires
-expert personnel.  Digital twin network offers an opportunity to
+expert personnel.  Network digital twin offers an opportunity to
 train staff for customized networks and specific user needs.  Two
 salient examples are the application of new network architectures and
 protocols or the use of "cyber-ranges" to train security experts in
@@ -1783,10 +1783,10 @@ threat detection and mitigation.<a href="#section-4.5-1" class="pilcrow">¶</a><
 </div>
 </section>
 </div>
-<div id="challenges-to-build-digital-twin-network">
+<div id="challenges-to-build-network-digital-twin">
 <section id="section-5">
-      <h2 id="name-challenges-to-build-digital">
-<a href="#section-5" class="section-number selfRef">5. </a><a href="#name-challenges-to-build-digital" class="section-name selfRef">Challenges to Build Digital Twin Network</a>
+      <h2 id="name-challenges-to-build-network">
+<a href="#section-5" class="section-number selfRef">5. </a><a href="#name-challenges-to-build-network" class="section-name selfRef">Challenges to Build Network Digital Twin</a>
       </h2>
 <p id="section-5-1">According to <span>[<a href="#Hu2021" class="cite xref">Hu2021</a>]</span>, the main challenges in building and
 maintaining digital twins can be summarized as the following five
@@ -1826,7 +1826,7 @@ network system needs to consider the following major challenges:<a href="#sectio
           <p id="section-5-4.2.1">A digital twin of large-scale networks will
 significantly increase the complexity of data acquisition and
 storage, the design and implementation of relevant models.  The
-requirements of software and hardware of the digital twin network
+requirements of software and hardware of the network digital twin
 system will be even more constraining.  Therefore, efficient and
 low cost tools in various fields should be required.  Take data as
 an example, massive network data can help achieve more accurate
@@ -1844,7 +1844,7 @@ implementations and the heterogeneity of vendor adopted
 technologies, it is difficult to establish a unified digital twin
 network system with a common technology in a network domain.
 Therefore, it is needed firstly to propose a unified architecture
-of digital twin network, in which all components and
+of network digital twin, in which all components and
 functionalities are clear to all stakeholders; then define
 standardized and unified interfaces to connect all network twins
 via ensuring necessary compatibility.<a href="#section-5-4.4.1" class="pilcrow">¶</a></p>
@@ -1871,12 +1871,12 @@ via ensuring necessary compatibility.<a href="#section-5-4.4.1" class="pilcrow">
         <dd style="margin-left: 1.5em" id="section-5-4.8">
           <p id="section-5-4.8.1">Network services normally have real-time
 requirements, the processing of model simulation and verification
-through a digital twin network will introduce the service latency.
+through a network digital twin will introduce the service latency.
 Meanwhile, the real-time requirements will further impose
 performance requirements on the system software and hardware.
 However, given the nature of distributed systems and propagation
 delays, it is challenge to keep network digital twins in sync or
-auto-sync between real network and digital twin network.  Changes
+auto-sync between real network and network digital twin.  Changes
 to the digital object automatically drive changes in the real
 object can be even challenging.  To address these requirements,
 the function and process of the data model need to be based on
@@ -1891,7 +1891,7 @@ needed to complete the task processing in the twin.<a href="#section-5-4.8.1" cl
         <dd class="break"></dd>
 <dt id="section-5-4.9">Security risks:</dt>
         <dd style="margin-left: 1.5em" id="section-5-4.10">
-          <p id="section-5-4.10.1">A digital twin network has to synchronize all or
+          <p id="section-5-4.10.1">A network digital twin has to synchronize all or
 subset of the data related to involved real networks in real time,
 which inevitably augments the attack surface, with a higher risk
 of information leakage, in particular.  On one hand, it is
@@ -1905,7 +1905,7 @@ federal learning.<a href="#section-5-4.10.1" class="pilcrow">¶</a></p>
       <dd class="break"></dd>
 </dl>
 <p id="section-5-5">To address the above listed challenges, it is important to
-agree on a unified architecture of digital twin network, which
+agree on a unified architecture of network digital twin, which
 defines the main functional components and interfaces (<a href="#arch" class="auto internal xref">Section 6</a>).
 Then, relying upon such an architecture, it is required to continue
 researching on the key enabling technologies including data
@@ -1916,14 +1916,14 @@ and security assurance.<a href="#section-5-5" class="pilcrow">¶</a></p>
 <div id="arch">
 <section id="section-6">
       <h2 id="name-a-reference-architecture-of">
-<a href="#section-6" class="section-number selfRef">6. </a><a href="#name-a-reference-architecture-of" class="section-name selfRef">A Reference Architecture of Digital Twin Network</a>
+<a href="#section-6" class="section-number selfRef">6. </a><a href="#name-a-reference-architecture-of" class="section-name selfRef">A Reference Architecture of Network Digital Twin</a>
       </h2>
-<p id="section-6-1">Based on the definition of the key digital twin network technology
-elements introduced in <a href="#def" class="auto internal xref">Section 3.3</a>, a digital twin network
-architecture is depicted in Figure 2.  This digital twin network
+<p id="section-6-1">Based on the definition of the key network digital twin technology
+elements introduced in <a href="#def" class="auto internal xref">Section 3.3</a>, a network digital twin
+architecture is depicted in Figure 2.  This network digital twin
 architecture is broken down into three layers: Application Layer,
 Digital Twin Layer, and Real Network Layer.<a href="#section-6-1" class="pilcrow">¶</a></p>
-<span id="name-reference-architecture-of-d"></span><div id="arc">
+<span id="name-reference-architecture-of-n"></span><div id="arc">
 <figure id="figure-2">
         <div class="alignCenter art-text artwork" id="section-6-2.1">
 <pre>
@@ -1935,7 +1935,7 @@ Digital Twin Layer, and Real Network Layer.<a href="#section-6-1" class="pilcrow
                     |Capability Exposure| Intent Input
                     |                   |
       +-------------+-------------------v-----------------------+
-      |                        Instance of Digital Twin Network |
+      |                        Instance of Network Digital Twin |
       |  +--------+   +------------------------+   +--------+   |
       |  |        |   | Service Mapping Models |   |        |   |
       |  |        |   |  +------------------+  |   |        |   |
@@ -1956,7 +1956,7 @@ Digital Twin Layer, and Real Network Layer.<a href="#section-6-1" class="pilcrow
 </pre>
 </div>
 <figcaption><a href="#figure-2" class="selfRef">Figure 2</a>:
-<a href="#name-reference-architecture-of-d" class="selfRef">Reference Architecture of Digital Twin Network</a>
+<a href="#name-reference-architecture-of-n" class="selfRef">Reference Architecture of Network Digital Twin</a>
         </figcaption></figure>
 </div>
 <p id="section-6-3">Real Network:  All or subset of network elements in the real network
@@ -1980,7 +1980,7 @@ Digital Twin Layer, and Real Network Layer.<a href="#section-6-1" class="pilcrow
 </div>
 <p id="section-6-5">Digital Twin Layer:  This layer includes three key subsystems: Data
      Repository subsystem, Service Mapping Models subsystem, and
-     Digital Twin Network Management subsystem.  These key subsystems
+     Network Digital Twin  Management subsystem.  These key subsystems
      can be placed in one single network administrative domain and
      provide the service to the application (e.g.,SDN controller) in
      other network administrative domain, or lied in every network
@@ -1988,7 +1988,7 @@ Digital Twin Layer, and Real Network Layer.<a href="#section-6-1" class="pilcrow
      services to the application in the upper layer.<a href="#section-6-5" class="pilcrow">¶</a></p>
 <div class="alignLeft art-text artwork" id="section-6-6">
 <pre>
- One or multiple digital twin network instances can be built and
+ One or multiple network digital twin instances can be built and
  maintained:
 </pre><a href="#section-6-6" class="pilcrow">¶</a>
 </div>
@@ -2040,8 +2040,8 @@ models based on data retrieved from ‘Data Repository’.<a href="#section-6-7.
           </ul>
 </li>
         <li class="normal" id="section-6-7.3">
-          <p id="section-6-7.3.1">Digital Twin Network Management fulfils the management function
-of digital twin network, records the life-cycle transactions of
+          <p id="section-6-7.3.1">Network Digital Twin Management fulfils the management function
+of network digital twin, records the life-cycle transactions of
 the twin entity, monitors the performance and resource
 consumption of the twin entity or even of individual models,
 visualizes and controls various elements of the network digital
@@ -2062,18 +2062,18 @@ security management.<a href="#section-6-7.3.1" class="pilcrow">¶</a></p>
       </ul>
 <p id="section-6-9">Application Layer:  Various applications (e.g., Operations,
      Administration, and Maintenance (OAM)) can effectively run over a
-     digital twin network platform to implement either conventional or
+     network digital twin platform to implement either conventional or
      innovative network operations, with low cost and less service
      impact on real networks.  Network applications make requests that
-     need to be addressed by the digital twin network.  Such requests
+     need to be addressed by the network digital twin.  Such requests
      are exchanged through a northbound interface, so they are applied
      by service emulation at the appropriate twin instance(s).<a href="#section-6-9" class="pilcrow">¶</a></p>
 </section>
 </div>
-<div id="enabling-technologies-to-build-digital-twin-network">
+<div id="enabling-technologies-to-build-network-digital-twin">
 <section id="section-7">
       <h2 id="name-enabling-technologies-to-bu">
-<a href="#section-7" class="section-number selfRef">7. </a><a href="#name-enabling-technologies-to-bu" class="section-name selfRef">Enabling Technologies to Build Digital Twin Network</a>
+<a href="#section-7" class="section-number selfRef">7. </a><a href="#name-enabling-technologies-to-bu" class="section-name selfRef">Enabling Technologies to Build Network Digital Twin</a>
       </h2>
 <p id="section-7-1">This section briefly describes several key enabling technologies to
 build digital twin work system, based on the challenges and the
@@ -2086,10 +2086,10 @@ separately.<a href="#section-7-1" class="pilcrow">¶</a></p>
 <a href="#section-7.1" class="section-number selfRef">7.1. </a><a href="#name-data-collection-and-data-se" class="section-name selfRef">Data Collection and Data Services</a>
         </h3>
 <p id="section-7.1-1">Data collection technology is the foundation of building data
-repository for digital twin network.  Target driven mode should be
+repository for network digital twin.  Target driven mode should be
 adopted for data collection from heterogeneous data sources.  The
 type, frequency and method of data collection shall meet the
-application of digital twin network.  Whenever building network
+application of network digital twin.  Whenever building network
 models for a specific network application, the required data can be
 efficiently obtained from the data repository.<a href="#section-7.1-1" class="pilcrow">¶</a></p>
 <p id="section-7.1-2">Diverse existing tools and methods (e.g., SNMP, NETCONF <span>[<a href="#RFC6241" class="cite xref">RFC6241</a>]</span>,
@@ -2182,7 +2182,7 @@ layer.<a href="#section-7.2-4" class="pilcrow">¶</a></p>
         <h3 id="name-network-visualization">
 <a href="#section-7.3" class="section-number selfRef">7.3. </a><a href="#name-network-visualization" class="section-name selfRef">Network Visualization</a>
         </h3>
-<p id="section-7.3-1">It is the internal requirement of the digital twin network system to
+<p id="section-7.3-1">It is the internal requirement of the network digital twin system to
 use network visibility technology to visually present the data and
 model in the network twin with high fidelity and intuitively reflect
 the interactive mapping between the real network entity and the
@@ -2193,7 +2193,7 @@ valuable information hidden in the network.<a href="#section-7.3-1" class="pilcr
 heuristic layout or force oriented layout (or a combination of
 several algorithms) for topology layout.  And the related topology
 data can be acquired using solutions provided in <span>[<a href="#RFC8345" class="cite xref">RFC8345</a>]</span>,
-<span>[<a href="#RFC8346" class="cite xref">RFC8346</a>]</span>, <span>[<a href="#RFC8944" class="cite xref">RFC8944</a>]</span>, etc.  Meanwhile, digital twin network system
+<span>[<a href="#RFC8346" class="cite xref">RFC8346</a>]</span>, <span>[<a href="#RFC8944" class="cite xref">RFC8944</a>]</span>, etc.  Meanwhile, network digital twin system
 can select different interaction methods or combinations of
 interaction methods to realize the visual dynamic interaction mapping
 of virtual and real networks.  The data query technology, such as
@@ -2208,7 +2208,7 @@ middleware.<a href="#section-7.3-2" class="pilcrow">¶</a></p>
 <a href="#section-7.4" class="section-number selfRef">7.4. </a><a href="#name-interfaces" class="section-name selfRef">Interfaces</a>
         </h3>
 <p id="section-7.4-1">Based on the reference architecture, there are three types of
-interfaces on building a digital twin network system:<a href="#section-7.4-1" class="pilcrow">¶</a></p>
+interfaces on building a network digital twin system:<a href="#section-7.4-1" class="pilcrow">¶</a></p>
 <p id="section-7.4-2">1)  Network-facing interfaces are twin interfaces between the real
    network and its twin entity.  They are responsible for
    information exchange between real network and network digital
@@ -2238,7 +2238,7 @@ network system.<a href="#section-7.4-5" class="pilcrow">¶</a></p>
 <a href="#section-7.5" class="section-number selfRef">7.5. </a><a href="#name-twinning-management" class="section-name selfRef">Twinning Management</a>
         </h3>
 <p id="section-7.5-1">Twinning management is the key to the efficient deployment and
-potential value of digital twin network systems in production
+potential value of network digital twin systems in production
 networks.  Twinning management technology inputs all information and
 data from each step of network business into the constructed model
 through the construction of digital threads for optimization,
@@ -2297,10 +2297,10 @@ concept of "Intent" and provides an overview of IBN functionalities.
 The key characteristic of an IBN system is that user intent can be
 assured automatically via continuously adjusting the policies and
 validating the real-time situation.<a href="#section-8-1" class="pilcrow">¶</a></p>
-<p id="section-8-2">IBN can be envisaged in a digital twin network context to show how
-digital twin network improves the efficiency of deploying network
+<p id="section-8-2">IBN can be envisaged in a network digital twin context to show how
+network digital twin improves the efficiency of deploying network
 innovation.  To lower the impact on real networks, several rounds of
-adjustment and validation can be emulated on the digital twin network
+adjustment and validation can be emulated on the network digital twin
 platform instead of directly on real network.  Therefore, the digital
 twin network can be an important enabler platform to implement IBN
 systems and fooster their deployment.<a href="#section-8-2" class="pilcrow">¶</a></p>
@@ -2311,7 +2311,7 @@ systems and fooster their deployment.<a href="#section-8-2" class="pilcrow">¶</
       <h2 id="name-sample-application-scenario">
 <a href="#section-9" class="section-number selfRef">9. </a><a href="#name-sample-application-scenario" class="section-name selfRef">Sample Application Scenarios</a>
       </h2>
-<p id="section-9-1">Digital twin network can be applied to solve different problems in
+<p id="section-9-1">Network digital twin can be applied to solve different problems in
 network management and operation.<a href="#section-9-1" class="pilcrow">¶</a></p>
 <div id="human-training">
 <section id="section-9.1">
@@ -2327,11 +2327,11 @@ procedures, such as predictive control or closed-loop management,
 reduce the faults and response time, but still there is the need of a
 human-in-the-loop for multiples actions.  These processes are not
 intuitive and require training to learn how to respond.<a href="#section-9.1-1" class="pilcrow">¶</a></p>
-<p id="section-9.1-2">The use of digital twin network for this purpose in different network
+<p id="section-9.1-2">The use of network digital twin for this purpose in different network
 management activities will improve the operators performance.  One
 common example is cybersecurity incident handling, where "cyber-
 range" exercises are executed periodically to train security
-practitioners.  Digital twin network will offer realistic
+practitioners.  Network digital twin will offer realistic
 environments, fitted to the real production networks.<a href="#section-9.1-2" class="pilcrow">¶</a></p>
 </section>
 </div>
@@ -2347,10 +2347,10 @@ environment (the ML developer lab), where they are used to train the
 selected model, while later, when the model is deployed in
 production, re-train or adjust to the production environment context.
 This demands a specific adaption period.<a href="#section-9.2-1" class="pilcrow">¶</a></p>
-<p id="section-9.2-2">Digital twin network simplifies the complete ML lifecycle development
+<p id="section-9.2-2">Network digital twin simplifies the complete ML lifecycle development
 by providing a realistic environment, including network topologies,
 to generate the data required in a well-aligned context.  Dataset
-generated belongs to the digital twin network and not to the
+generated belongs to the network digital twin and not to the
 production network, allowing information access by third parties,
 without impacting data privacy.<a href="#section-9.2-2" class="pilcrow">¶</a></p>
 </section>
@@ -2366,9 +2366,9 @@ validated updates, what conflicts with the goal of the certification
 requirements applied by network service providers.  A solution for
 addressing these certification requirements is to verify the specific
 impacts of updates on service assurance and Service Level Agreements
-(SLAs) using a digital twin network environment replicating the
+(SLAs) using a network digital twin environment replicating the
 network particularities, as a previous step to production release.<a href="#section-9.3-1" class="pilcrow">¶</a></p>
-<p id="section-9.3-2">Digital twin network control functional block supports such dynamic
+<p id="section-9.3-2">Network digital twin control functional block supports such dynamic
 mechanisms required by DevOps procedures.<a href="#section-9.3-2" class="pilcrow">¶</a></p>
 </section>
 </div>
@@ -2382,7 +2382,7 @@ complexity.  The behavior of new protocol stacks, API parameters, and
 interactions among complex software components are examples that
 imply higher risk to errors or vulnerabilities in software and
 configuration.<a href="#section-9.4-1" class="pilcrow">¶</a></p>
-<p id="section-9.4-2">Digital twin network allows to apply fuzzing testing techniques on a
+<p id="section-9.4-2">Network digital twin allows to apply fuzzing testing techniques on a
 twin network environment, with interactions and conditions similar to
 the production network, permitting to identify and solve
 vulnerabilities, bugs and zero-days attacks before production
@@ -2405,7 +2405,7 @@ network devices (including network endpoints) may be repeatedly
 discovered, processed, and stored.  Therefore, the inventory is
 difficult to manage when they are tracked in different places without
 formal synchronization procedures.<a href="#section-9.5-1" class="pilcrow">¶</a></p>
-<p id="section-9.5-2">Digital twin network management can be used as a means to ensure
+<p id="section-9.5-2">Network digital twin management can be used as a means to ensure
 consistent representation and reporting of inventory component types.
 In doing so, the enforcement of security policies and assessment will
 be further simplified.  Such an approach will ease implementing a
@@ -2427,10 +2427,10 @@ scenarios.<a href="#section-9.5-3" class="pilcrow">¶</a></p>
       <h2 id="name-research-perspectives-a-sum">
 <a href="#section-10" class="section-number selfRef">10. </a><a href="#name-research-perspectives-a-sum" class="section-name selfRef">Research Perspectives: A Summary</a>
       </h2>
-<p id="section-10-1">Research on digital twin network has just started.  This document
-presents an overview of the digital twin network concepts and
+<p id="section-10-1">Research on network digital twin has just started.  This document
+presents an overview of the network digital twin concepts and
 reference architecture.  Looking forward, further elaboration on
-digital twin network scenarios, requirements, architecture, and key
+network digital twin scenarios, requirements, architecture, and key
 enabling technologies should be investigated by the industry, so as
 to accelerate the implementation and deployment of digital twin
 network.<a href="#section-10-1" class="pilcrow">¶</a></p>
@@ -2444,7 +2444,7 @@ network.<a href="#section-10-1" class="pilcrow">¶</a></p>
 <p id="section-11-1">This document describes concepts and definitions of digital twin
 network.  As such, the following security considerations remain high
 level, i.e., in the form of principles, guidelines or requirements.<a href="#section-11-1" class="pilcrow">¶</a></p>
-<p id="section-11-2">Security considerations of the digital twin network include:<a href="#section-11-2" class="pilcrow">¶</a></p>
+<p id="section-11-2">Security considerations of the network digital twin include:<a href="#section-11-2" class="pilcrow">¶</a></p>
 <ul class="normal">
 <li class="normal" id="section-11-3.1">
           <p id="section-11-3.1.1">Secure the digital twin system itself.<a href="#section-11-3.1.1" class="pilcrow">¶</a></p>
@@ -2453,7 +2453,7 @@ level, i.e., in the form of principles, guidelines or requirements.<a href="#sec
           <p id="section-11-3.2.1">Data privacy protection.<a href="#section-11-3.2.1" class="pilcrow">¶</a></p>
 </li>
       </ul>
-<p id="section-11-4">Securing the digital twin network system aims at making the digital
+<p id="section-11-4">Securing the network digital twin system aims at making the digital
 twin system operationally secure by implementing security mechanisms
 and applying security best practices.  In the context of digital twin
 network, such mechanisms and practices may consist in data
