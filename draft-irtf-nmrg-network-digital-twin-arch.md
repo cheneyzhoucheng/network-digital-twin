@@ -472,7 +472,8 @@ interfaces as shown in {{kelem}}.
   network assets and, then, instantiated to serve various network
   applications.
 
-  Interfaces:  Standardized interfaces ensure the interoperability
+  Interfaces:
+  :  Standardized interfaces ensure the interoperability
   of network digital twin.  There are two major types of interfaces:
 
     *  The interface between the network digital twin platform and the
@@ -793,24 +794,24 @@ Digital Twin Layer, and Real Network Layer.
 ~~~~
 {: #arc title="Reference Architecture of Network Digital Twin" artwork-align="center"}
 
-  Real Network:  All or subset of network elements in the real network
+  Real Network:
+  :  All or subset of network elements in the real network
      exchange network data and control messages with a network digital
      twin instance, through twin-real control interfaces.  The real
      network can be a mobile access network, a transport network, a
      mobile core, a backbone, etc.  The real network can also be a data
      center network, a campus enterprise network, an industrial
      Internet of Things, etc.
-
-     The real network can span across a single network administrative
+   : The real network can span across a single network administrative
      domain or multiple network administrative domains.  And, the real
      network can include both physical entities and some virtual
      entities (e.g. vSwitches, NFVs, etc.), which together carry
      traffic and provide actual network services.
-
-     This document focuses on the IETF related real network such as IP
+   : This document focuses on the IETF related real network such as IP
      bearer network and data center network.
 
-  Digital Twin Layer:  This layer includes three key subsystems: Data
+  Digital Twin Layer:
+  :  This layer includes three key subsystems: Data
      Repository subsystem, Service Mapping Models subsystem, and
      Network Digital Twin  Management subsystem.  These key subsystems
      can be placed in one single network administrative domain and
@@ -818,11 +819,10 @@ Digital Twin Layer, and Real Network Layer.
      other network administrative domain, or lied in every network
      administrative domain and coordinate between each other to provide
      services to the application in the upper layer.
-
-     One or multiple network digital twin instances can be built and
+   : One or multiple network digital twin instances can be built and
      maintained:
 
-  *  Data Repository subsystem is responsible for collecting and
+     *  Data Repository subsystem is responsible for collecting and
      storing various network data for building various models by
      collecting and updating the real-time operational data of
      various network elements through the twin southbound interface,
@@ -830,19 +830,19 @@ Digital Twin Layer, and Real Network Layer.
      conflict handling, batch service) and unified interfaces to
      Service Mapping Models subsystem.
 
-  *  Service Mapping Models complete data modeling, provide data
+     *  Service Mapping Models complete data modeling, provide data
      model instances for various network applications, and maximizes
      the agility and programmability of network services.  The data
      models include two major types: basic and functional models.
 
-     -  Basic models refer to the network element model(s) and
+       -  Basic models refer to the network element model(s) and
         network topology model(s) of the network digital twin based
         on the basic configuration, environment information,
         operational state, link topology and other information of
         the network element(s), to complete the real-time accurate
         characterization of the real network.
 
-     -  Functional models refer to various data models used for
+        -  Functional models refer to various data models used for
         network analysis, emulation, diagnosis, prediction,
         assurance, etc.  The functional models can be constructed
         and expanded by multiple dimensions: by network type, there
@@ -857,12 +857,12 @@ Digital Twin Layer, and Real Network Layer.
         dimensions can be combined to create a data model for more
         specific application scenarios.
 
-        New applications might need new functional models that do
-        not exist yet.  If a new model is needed, ‘Service Mapping
-        Models’ subsystem will be triggered to help creating new
-        models based on data retrieved from ‘Data Repository’.
+          New applications might need new functional models that do
+          not exist yet.  If a new model is needed, ‘Service Mapping
+          Models’ subsystem will be triggered to help creating new
+          models based on data retrieved from ‘Data Repository’.
 
-  *  Network Digital Twin Management fulfils the management function
+   *  Network Digital Twin Management fulfils the management function
      of network digital twin, records the life-cycle transactions of
      the twin entity, monitors the performance and resource
      consumption of the twin entity or even of individual models,
