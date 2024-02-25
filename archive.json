@@ -1,0 +1,196 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2024-02-25T01:17:25.850514+00:00",
+  "repo": "cheneyzhoucheng/network-digital-twin",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [
+    {
+      "number": 2,
+      "id": "I_kwDOLV8yHc6AGmHD",
+      "title": "need to close the term thing (see list issues in the draft)",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/issues/2",
+      "state": "CLOSED",
+      "author": "boucadair",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "*  The terms of \u2018digital twin network\u2019 and \u2018network digital twin\u2019\r\n  should be clarified.",
+      "createdAt": "2024-02-22T14:33:30Z",
+      "updatedAt": "2024-02-23T13:21:01Z",
+      "closedAt": "2024-02-23T13:21:00Z",
+      "comments": [
+        {
+          "author": "billwuqin",
+          "authorAssociation": "COLLABORATOR",
+          "body": "It was discussed in recently nmrg interim meeting, it was agreed to change digital twin network into network digital twin.",
+          "createdAt": "2024-02-23T09:34:55Z",
+          "updatedAt": "2024-02-23T09:34:55Z"
+        },
+        {
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Thanks Qin. See the PR to fix that.",
+          "createdAt": "2024-02-23T10:00:50Z",
+          "updatedAt": "2024-02-23T10:00:50Z"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "id": "I_kwDOLV8yHc6AGoiW",
+      "title": "Sample Application Scenarios",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/issues/3",
+      "state": "OPEN",
+      "author": "boucadair",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "*  In section of 'Sample Application Scenarios', to dig deeper into\r\n  one or two use cases.\r\n\r\nis this one still pending?",
+      "createdAt": "2024-02-22T14:36:59Z",
+      "updatedAt": "2024-02-22T14:36:59Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDOLV8yHc5np5wG",
+      "title": "clarify that not all functions may be supported + various other edits",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/1",
+      "state": "MERGED",
+      "author": "boucadair",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-02-22T14:30:40Z",
+      "updatedAt": "2024-02-23T10:05:59Z",
+      "baseRepository": "cheneyzhoucheng/network-digital-twin",
+      "baseRefName": "main",
+      "baseRefOid": "7ef0b861048dc6fb025ea785d5e806c2bdeeb388",
+      "headRepository": "cheneyzhoucheng/network-digital-twin",
+      "headRefName": "boucadair-patch-1",
+      "headRefOid": "e2c12cdf3327308cc9320011646a794029a395eb",
+      "closedAt": "2024-02-23T09:32:01Z",
+      "mergedAt": "2024-02-23T09:32:01Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "4e680c0653bed36f7b6d9c53b405a6fa0ddb8bee"
+      },
+      "comments": [
+        {
+          "author": "billwuqin",
+          "authorAssociation": "COLLABORATOR",
+          "body": "The proposed changes make sense to me. For the next step, we need to incorporate more comments recieved from NMRG interim organized by chairs.",
+          "createdAt": "2024-02-23T09:31:55Z",
+          "updatedAt": "2024-02-23T09:31:55Z"
+        },
+        {
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "body": "> The proposed changes make sense to me. For the next step, we need to incorporate more comments recieved from NMRG interim organized by chairs.\r\n\r\nCan you please record these comments as issues so that we are all in sync, and then discuss them? Thanks, @billwuqin ",
+          "createdAt": "2024-02-23T10:05:58Z",
+          "updatedAt": "2024-02-23T10:05:58Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 4,
+      "id": "PR_kwDOLV8yHc5nvNod",
+      "title": "close the term thing",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/4",
+      "state": "MERGED",
+      "author": "boucadair",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-02-23T10:00:17Z",
+      "updatedAt": "2024-02-23T13:21:43Z",
+      "baseRepository": "cheneyzhoucheng/network-digital-twin",
+      "baseRefName": "main",
+      "baseRefOid": "4e680c0653bed36f7b6d9c53b405a6fa0ddb8bee",
+      "headRepository": "cheneyzhoucheng/network-digital-twin",
+      "headRefName": "boucadair-patch-2",
+      "headRefOid": "ba4538fcd88e5027be672de3ec325cf7004e1c35",
+      "closedAt": "2024-02-23T13:21:00Z",
+      "mergedAt": "2024-02-23T13:21:00Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "4f01aea1303372f4473b2b4d0af979435d72cf72"
+      },
+      "comments": [
+        {
+          "author": "billwuqin",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Agree to incorporate these changes to fix terminology issue.",
+          "createdAt": "2024-02-23T13:20:57Z",
+          "updatedAt": "2024-02-23T13:20:57Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOLV8yHc5xIslm",
+          "commit": {
+            "abbreviatedOid": "ba4538f"
+          },
+          "author": "billwuqin",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "Agree with these changes",
+          "createdAt": "2024-02-23T13:21:43Z",
+          "updatedAt": "2024-02-23T13:21:43Z",
+          "comments": []
+        }
+      ]
+    }
+  ]
+}
