@@ -5,7 +5,7 @@
 Network Management                                               C. Zhou
 Internet-Draft                                                   H. Yang
 Intended status: Informational                                   X. Duan
-Expires: 26 August 2024                                     China Mobile
+Expires: 1 September 2024                                   China Mobile
                                                                 D. Lopez
                                                                A. Pastor
                                                           Telefonica I+D
@@ -14,7 +14,7 @@ Expires: 26 August 2024                                     China Mobile
                                                             M. Boucadair
                                                             C. Jacquenet
                                                                   Orange
-                                                        23 February 2024
+                                                        29 February 2024
 
 
        Network Digital Twin: Concepts and Reference Architecture
@@ -59,7 +59,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 26 August 2024.
+   This Internet-Draft will expire on 1 September 2024.
 
 Copyright Notice
 
@@ -173,14 +173,19 @@ Table of Contents
 
    This document makes use of the following terms:
 
-   Digital Twin:  a virtual instance of a physical system (twin) that is
-      continually updated with the latter's performance, maintenance,
-      and health status data throughout the physical system's life
-      cycle.
+   Digital Twin: a Digital counterpart of a physical system (twin) that
+   capture its attributes, behavior and interactions and is continually
+   updated with the latter's performance, maintenance,and health status
+   data throughout the physical system's life cycle.
 
-   Network digital twin:  a digital twin that is used in the context of
-      networking.  This is also called, digital twin for networks.  See
-      more in Section 3.3.
+   Network digital twin: a digital representation that is used in the
+   context of Networking and whose physical counterpart is telecom
+   network or enterprise network.  This is also called, digital twin for
+   networks.  See more in Section 3.3.
+
+   Physical network: Object, system, process, software or environment
+   that the digital twin is designed to replicate and represent
+   virtually.
 
 3.  Introduction and Concepts of Network Digital Twin
 
