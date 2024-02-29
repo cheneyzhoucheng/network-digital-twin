@@ -313,10 +313,10 @@ Networking and whose physical counterpart is telecom network
 or enterprise network.  This is also called, digital twin for
 networks. See more in {{def}}.
 
-Physical network: 
-Object, system, process, software or environment
-that the digital twin is designed to replicate and represent 
-virtually. 
+Physical network:
+Object, system, process, software or environment that the
+digital twin is designed to replicate and represent
+virtually.
 
 # Introduction and Concepts of Network Digital Twin  {#concept}
 
