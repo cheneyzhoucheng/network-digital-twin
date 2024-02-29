@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-02-27T01:12:20.745531+00:00",
+  "timestamp": "2024-02-29T01:12:30.207728+00:00",
   "repo": "cheneyzhoucheng/network-digital-twin",
   "labels": [
     {
@@ -94,6 +94,54 @@
       "body": "*  In section of 'Sample Application Scenarios', to dig deeper into\r\n  one or two use cases.\r\n\r\nis this one still pending?",
       "createdAt": "2024-02-22T14:36:59Z",
       "updatedAt": "2024-02-22T14:36:59Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 5,
+      "id": "I_kwDOLV8yHc6AroEg",
+      "title": "NDT definition update",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/issues/5",
+      "state": "OPEN",
+      "author": "billwuqin",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-02-28T13:00:45Z",
+      "updatedAt": "2024-02-28T13:00:45Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 6,
+      "id": "I_kwDOLV8yHc6ArohN",
+      "title": "NDT scope ",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/issues/6",
+      "state": "OPEN",
+      "author": "billwuqin",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-02-28T13:01:39Z",
+      "updatedAt": "2024-02-28T13:01:39Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 7,
+      "id": "I_kwDOLV8yHc6ArpO2",
+      "title": "NDT characteristic vs NDT elements",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/issues/7",
+      "state": "OPEN",
+      "author": "billwuqin",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-02-28T13:03:08Z",
+      "updatedAt": "2024-02-28T13:03:08Z",
       "closedAt": null,
       "comments": []
     }
