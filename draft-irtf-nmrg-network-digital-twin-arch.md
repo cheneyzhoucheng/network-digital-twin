@@ -302,15 +302,21 @@ PLM:  Product Lifecycle Management
 This document makes use of the following terms:
 
 Digital Twin:
-: a virtual instance of a physical system (twin) that is
-  continually updated with the latter's performance, maintenance,
-  and health status data throughout the physical system's life
-  cycle.
+a Digital counterpart of a physical system (twin) that capture
+its attributes, behavior and interactions and is continually
+updated with the latter's performance, maintenance,and health
+status data throughout the physical system's life cycle.
 
 Network digital twin:
-:  a digital twin that is used in the context of
-  networking.  This is also called, digital twin for networks.  See
-  more in {{def}}.
+a digital representation  that is used in the context of
+Networking and whose physical counterpart is telecom network
+or enterprise network.  This is also called, digital twin for
+networks. See more in {{def}}.
+
+Physical network: 
+Object, system, process, software or environment
+that the digital twin is designed to replicate and represent 
+virtually. 
 
 # Introduction and Concepts of Network Digital Twin  {#concept}
 
