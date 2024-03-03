@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-02-29T01:12:30.207728+00:00",
+  "timestamp": "2024-03-03T01:16:35.755898+00:00",
   "repo": "cheneyzhoucheng/network-digital-twin",
   "labels": [
     {
@@ -93,9 +93,17 @@
       "labels": [],
       "body": "*  In section of 'Sample Application Scenarios', to dig deeper into\r\n  one or two use cases.\r\n\r\nis this one still pending?",
       "createdAt": "2024-02-22T14:36:59Z",
-      "updatedAt": "2024-02-22T14:36:59Z",
+      "updatedAt": "2024-02-29T05:08:31Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "billwuqin",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Do we have intent translation, sadbox use case? How NDT elements are related to use cases? These issues are raised in recent interim meeting.",
+          "createdAt": "2024-02-29T05:08:29Z",
+          "updatedAt": "2024-02-29T05:08:29Z"
+        }
+      ]
     },
     {
       "number": 5,
@@ -142,6 +150,54 @@
       "body": "",
       "createdAt": "2024-02-28T13:03:08Z",
       "updatedAt": "2024-02-28T13:03:08Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 8,
+      "id": "I_kwDOLV8yHc6A6PyC",
+      "title": "Clarification on real time interaction",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/issues/8",
+      "state": "OPEN",
+      "author": "cheneyzhoucheng",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-03-01T07:09:03Z",
+      "updatedAt": "2024-03-01T07:09:04Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 9,
+      "id": "I_kwDOLV8yHc6A6UYK",
+      "title": "Clarification on Bi-directional interaction",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/issues/9",
+      "state": "OPEN",
+      "author": "cheneyzhoucheng",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "- It is not possible or necessary to 'synchronize' all twin states or flows to physical entity.\u00a0\r\n- Bi-directional interaction means that: data/states/flows reported or collected from physical to twin, and configure changes or 'necessary' data sent from twin to physical.\u00a0",
+      "createdAt": "2024-03-01T07:17:26Z",
+      "updatedAt": "2024-03-01T07:17:27Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 10,
+      "id": "I_kwDOLV8yHc6A6Vqm",
+      "title": "Architecture update on Figure 2",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/issues/10",
+      "state": "OPEN",
+      "author": "cheneyzhoucheng",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "- Inner closed-loop: iterative simulation and verification in twin layer. Outer closed-loop validation and optimization.\r\n- Orchestration for models and resources can be included in NDT mgmt module \r\n- etc.",
+      "createdAt": "2024-03-01T07:19:26Z",
+      "updatedAt": "2024-03-01T07:19:26Z",
       "closedAt": null,
       "comments": []
     }
