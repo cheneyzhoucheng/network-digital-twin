@@ -311,19 +311,19 @@ PLM:  Product Lifecycle Management
 This document makes use of the following terms:
 
 Digital Twin:
-Digital counterpart of a physical system (twin) that capture
-its attributes, behavior and interactions and is continually
-updated with the latter's performance, maintenance,and health
+: Digital counterpart of a physical system (twin) that captures
+its attributes, behavior, and interactions and is (continually)
+updated with the latter's performance, maintenance, and health
 status data throughout the physical system's life cycle.
 
 Network digital twin:
-a digital representation that is used in the context of
-Networking and whose physical counterpart is telecom network
+: A digital representation that is used in the context of
+Networking and whose physical counterpart is a data network
 or enterprise network.  This is also called, digital twin for
 networks. See more in {{def}}.
 
 Physical network:
-Object, system, process, software or environment that the
+: Object, system, process, software, or environment that the
 digital twin is designed to replicate and represent
 virtually.
 
@@ -885,16 +885,16 @@ Digital Twin Layer, and Real Network Layer.
      security management.
 
 > Notes: 'Data collection' and 'change control' are regarded as
-  southbound interfaces between virtual and real network.  From
-  implementation perspective, they can optionally form a sub-layer
-  or sub-system to provide common functionalities of data collection
-  and change control, enabled by a specific infrastructure
-  supporting bi-directional flows and facilitating data aggregation,action
-  translation, pre-processing and ontologies. It is not possible or necessary
-  to 'synchronize' all twin states or flows from twin entity to physical entity
+  network-facing interfaces between virtual and real network.  From
+  implementation perspective, they may form a sub-layer
+  or sub-system to provide common data collection
+  and change control functions, enabled by a specific infrastructure
+  supporting bi-directional flows and facilitating data aggregation, action
+  translation, pre-processing, and ontologies. It might not be possible or necessary
+  to 'synchronize' all twin state or flows from twin entity to physical entity
   or network management system. Bi-directional interaction means that:
-  data/states/flows reported or collected from physical or the network management
-  system to twin, and configure changes or 'necessary' data sent from twin to
+  data, state, or flows are reported or collected from the physical network or the network management
+  system to a twin instance, and configure changes or 'necessary' data sent from a twin instance to
   physical.
 
   Application Layer:  Various applications (e.g., Operations,
