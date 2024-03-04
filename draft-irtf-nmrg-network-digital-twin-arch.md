@@ -426,17 +426,17 @@ technologies such as network planning, construction, maintenance and
 optimization, improving the automation and intelligence level of the
 network.
 
-## Definition of Network Digital Twin  {#def}
+## Characteristics of Network Digital Twin  {#def}
 
-So far, there is no standard definition of "network digital twin"
-within the networking industry.  This document defines **"digital twin
-network" as a virtual representation of the real network**.  Such
-representation of the network is used to analyze,
-diagnose, emulate, and control the real network based upon data,
-models, and interfaces. To that aim, a real-time and interactive
-mapping is required between the real network and its virtual twin
-network. Whether a Digital Twin supports all or a subset of the functions above (i.e., analyze,
-diagnose, emulate, and control) is deployment specific.
+So far, there is no standard definition for characteristic of "network
+digital twin" within the networking industry.  This document introduces
+four key elements (i.e.,data, models, mapping,and interfaces) to
+characterize the network digital twin. These four elements can be
+integrated with the network mangement system to analyze,diagnose, emulate,
+and control the real network. To that aim, a real-time and interactive
+mapping is required between the real network and its virtual twin network.
+Whether a Digital Twin supports all or a subset of the functions above
+(i.e., analyze, diagnose, emulate, and control) is deployment specific.
 
 Referring to the characteristics of digital twin in other industries and
 the characteristics of the networking itself, the digital twin
