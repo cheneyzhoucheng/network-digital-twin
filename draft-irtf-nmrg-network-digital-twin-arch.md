@@ -265,7 +265,7 @@ technologies to networks and creating a virtual image of real
 network facilities (called herein, emulation). Basically, the digital
 twin for networks is an expansion platform of network emulation and
 can be seen as a tool for scenario planning, impact analysis,
-and change management. The main difference compared to traditional
+and change management. The main difference compared to conventional
 network simulation is the interactive virtual-real mapping and data
 driven approach to build closed-loop network automation.  By
 integrating network digital twin into the network management, it
