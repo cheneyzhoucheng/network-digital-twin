@@ -263,7 +263,7 @@ See more in {{concept}}.
 A digital twin for networks can be built by applying Digital Twin
 technologies to networks and creating a virtual image of real
 network facilities (called herein, emulation). Basically, the digital
-twin for networks is an expansion platform of network simulation and
+twin for networks is an expansion platform of network emulation and
 can be seen as a powerful tool for scenario planning, impact analysis,
 and change management. The main difference compared to traditional
 network simulation is the interactive virtual-real mapping and data
