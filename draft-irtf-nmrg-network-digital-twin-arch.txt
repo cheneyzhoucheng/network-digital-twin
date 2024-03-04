@@ -78,36 +78,36 @@ Table of Contents
    2.  Terminology
      2.1.  Acronyms & Abbreviations
      2.2.  Definitions
-   3.  Introduction and Concepts of Network Digital Twin
+   3.  Introduction of Concepts
      3.1.  Background of Digital Twin
      3.2.  Digital Twin for Networks
-     3.3.  Characteristics of Network Digital Twin
-   4.  Benefits of Network Digital Twin
-     4.1.  Optimized Network Total Cost of Operation
-     4.2.  Optimized Decision Making
-     4.3.  Safer Assessment of Innovative Network Capabilities
-     4.4.  Privacy and Regulatory Compliance
-     4.5.  Customized Network Operation Training
-   5.  Challenges to Build Network Digital Twin
-   6.  A Reference Architecture of Network Digital Twin
-   7.  Enabling Technologies to Build Network Digital Twin
-     7.1.  Data Collection and Data Services
-     7.2.  Network Modeling
-     7.3.  Network Visualization
-     7.4.  Interfaces
-     7.5.  Twinning Management
-   8.  Interaction with Intent-Based Networking (IBN)
-   9.  Sample Application Scenarios
-     9.1.  Human Training
-     9.2.  Machine Learning Training
-     9.3.  DevOps-Oriented Certification
-     9.4.  Network Fuzzing
-     9.5.  Network Inventory Management
-   10. Research Perspectives: A Summary
-   11. Security Considerations
-   12. IANA Considerations
-   13. Open issues
-   14. Informative References
+   4.  Characteristics of Network Digital Twin
+   5.  Benefits of Network Digital Twin
+     5.1.  Optimized Network Total Cost of Operation
+     5.2.  Optimized Decision Making
+     5.3.  Safer Assessment of Innovative Network Capabilities
+     5.4.  Privacy and Regulatory Compliance
+     5.5.  Customized Network Operation Training
+   6.  Challenges to Build Network Digital Twin
+   7.  A Reference Architecture of Network Digital Twin
+   8.  Enabling Technologies to Build Network Digital Twin
+     8.1.  Data Collection and Data Services
+     8.2.  Network Modeling
+     8.3.  Network Visualization
+     8.4.  Interfaces
+     8.5.  Twinning Management
+   9.  Interaction with Intent-Based Networking (IBN)
+   10. Sample Application Scenarios
+     10.1.  Human Training
+     10.2.  Machine Learning Training
+     10.3.  DevOps-Oriented Certification
+     10.4.  Network Fuzzing
+     10.5.  Network Inventory Management
+   11. Research Perspectives: A Summary
+   12. Security Considerations
+   13. IANA Considerations
+   14. Open issues
+   15. Informative References
    Acknowledgments
    Authors' Addresses
 
@@ -192,13 +192,13 @@ Table of Contents
    Network digital twin:  A digital representation that is used in the
       context of Networking and whose physical counterpart is a data
       network or enterprise network.  This is also called, digital twin
-      for networks.  See more in Section 3.3.
+      for networks.  See more in Section 4.
 
    Physical network:  Object, system, process, software, or environment
       that the digital twin is designed to replicate and represent
       virtually.
 
-3.  Introduction and Concepts of Network Digital Twin
+3.  Introduction of Concepts
 
 3.1.  Background of Digital Twin
 
@@ -297,7 +297,7 @@ Table of Contents
    optimization, improving the automation and intelligence level of the
    network.
 
-3.3.  Characteristics of Network Digital Twin
+4.  Characteristics of Network Digital Twin
 
    So far, there is no standard definition for characteristic of
    "network digital twin" within the networking industry.  This document
@@ -414,7 +414,7 @@ Table of Contents
       digital twin can help achieve the goal of autonomous network or
       self-driven network.
 
-4.  Benefits of Network Digital Twin
+5.  Benefits of Network Digital Twin
 
    Network digital twin can help enabling closed-loop network management
    across the entire lifecycle, from deployment and emulation, to
@@ -453,7 +453,7 @@ Table of Contents
 
    The following subsections further elaborate such benefits in details.
 
-4.1.  Optimized Network Total Cost of Operation
+5.1.  Optimized Network Total Cost of Operation
 
    Large scale networks are complex to operate.  Since there is no
    effective platform for simulation, network optimization designs have
@@ -468,7 +468,7 @@ Table of Contents
    deployment will be greatly decreased accordingly at the cost of the
    complexity of the assessment and the resources involved.
 
-4.2.  Optimized Decision Making
+5.2.  Optimized Decision Making
 
    Traditional network operation and management mainly focus on
    deploying and managing running services, but hardly support
@@ -481,7 +481,7 @@ Table of Contents
    various conditions facilitates the corresponding assessment of the
    various evolution options as often as required.
 
-4.3.  Safer Assessment of Innovative Network Capabilities
+5.3.  Safer Assessment of Innovative Network Capabilities
 
    Testing a new feature in an operational network is not only complex,
    but also extremely risky.  Service impact analysis is required to be
@@ -500,7 +500,7 @@ Table of Contents
    model in the real network.  This would encourage more network AI
    innovations in future networks.
 
-4.4.  Privacy and Regulatory Compliance
+5.4.  Privacy and Regulatory Compliance
 
    The requirements on data confidentiality and privacy on network
    providers increase the complexity of network management, as decisions
@@ -522,7 +522,7 @@ Table of Contents
    requirements and simplify the use of privacy-preserving techniques
    for data-driven operation.
 
-4.5.  Customized Network Operation Training
+5.5.  Customized Network Operation Training
 
    Network architectures can be complex, and their operation requires
    expert personnel.  Network digital twin offers an opportunity to
@@ -531,7 +531,7 @@ Table of Contents
    protocols or the use of "cyber-ranges" to train security experts in
    threat detection and mitigation.
 
-5.  Challenges to Build Network Digital Twin
+6.  Challenges to Build Network Digital Twin
 
    According to [Hu2021], the main challenges in building and
    maintaining digital twins can be summarized as the following five
@@ -630,18 +630,18 @@ Table of Contents
 
    To address the above listed challenges, it is important to agree on a
    unified architecture of network digital twin, which defines the main
-   functional components and interfaces (Section 6).  Then, relying upon
+   functional components and interfaces (Section 7).  Then, relying upon
    such an architecture, it is required to continue researching on the
    key enabling technologies including data acquisition, data storage,
    data modeling, interface standardization, and security assurance.
 
-6.  A Reference Architecture of Network Digital Twin
+7.  A Reference Architecture of Network Digital Twin
 
    Based on the definition of the key network digital twin technology
-   elements introduced in Section 3.3, a network digital twin
-   architecture is depicted in Figure 2.  This network digital twin
-   architecture is broken down into three layers: Application Layer,
-   Digital Twin Layer, and Real Network Layer.
+   elements introduced in Section 4, a network digital twin architecture
+   is depicted in Figure 2.  This network digital twin architecture is
+   broken down into three layers: Application Layer, Digital Twin Layer,
+   and Real Network Layer.
 
            +---------------------------------------------------------+
            |   +-------+   +-------+          +-------+              |
@@ -770,7 +770,7 @@ Table of Contents
    through a northbound interface, so they are applied by service
    emulation at the appropriate twin instance(s).
 
-7.  Enabling Technologies to Build Network Digital Twin
+8.  Enabling Technologies to Build Network Digital Twin
 
    This section briefly describes several key enabling technologies to
    build digital twin work system, based on the challenges and the
@@ -778,7 +778,7 @@ Table of Contents
    enabling technology is worth of deep researching respectively and
    separately.
 
-7.1.  Data Collection and Data Services
+8.1.  Data Collection and Data Services
 
    Data collection technology is the foundation of building data
    repository for network digital twin.  Target driven mode should be
@@ -814,7 +814,7 @@ Table of Contents
    technologies regarding data services including fast search, batch-
    data handling, conflict avoidance, data access interfaces, etc.
 
-7.2.  Network Modeling
+8.2.  Network Modeling
 
    The basic network element models and topology models help generate
    virtual twin of the network according to the network element
@@ -872,7 +872,7 @@ Table of Contents
    model reasoning based on data and control in network digital twin
    layer.
 
-7.3.  Network Visualization
+8.3.  Network Visualization
 
    It is the internal requirement of the network digital twin system to
    use network visibility technology to visually present the data and
@@ -893,7 +893,7 @@ Table of Contents
    express queries across diverse data sources, whether the data is
    stored natively as RDF or viewed as RDF via middleware.
 
-7.4.  Interfaces
+8.4.  Interfaces
 
    Based on the reference architecture, there are three types of
    interfaces on building a network digital twin system:
@@ -923,7 +923,7 @@ Table of Contents
    some new interfaces or protocols can be created to better serve
    digital twin network system.
 
-7.5.  Twinning Management
+8.5.  Twinning Management
 
    Twinning management is the key to the efficient deployment and
    potential value of network digital twin systems in production
@@ -964,7 +964,7 @@ Table of Contents
       system operation, reducing the energy expenditure of network
       operation, and achieving the goal of green network.
 
-8.  Interaction with Intent-Based Networking (IBN)
+9.  Interaction with Intent-Based Networking (IBN)
 
    Intent-based, means that users can input their abstract 'intent' to
    the network, instead of detailed policies or configurations on the
@@ -982,12 +982,12 @@ Table of Contents
    twin network can be an important enabler platform to implement IBN
    systems and fooster their deployment.
 
-9.  Sample Application Scenarios
+10.  Sample Application Scenarios
 
    Network digital twin can be applied to solve different problems in
    network management and operation.
 
-9.1.  Human Training
+10.1.  Human Training
 
    The usual approach to network OAM with procedures applied by humans
    is open to errors in all these procedures, with impact in network
@@ -1006,7 +1006,7 @@ Table of Contents
    practitioners.  Network digital twin will offer realistic
    environments, fitted to the real production networks.
 
-9.2.  Machine Learning Training
+10.2.  Machine Learning Training
 
    Machine Learning requires data and their context to be available in
    order to apply it.  A common approach in the network management
@@ -1023,7 +1023,7 @@ Table of Contents
    production network, allowing information access by third parties,
    without impacting data privacy.
 
-9.3.  DevOps-Oriented Certification
+10.3.  DevOps-Oriented Certification
 
    The potential application of CI/CD models network management
    operations increases the risk associated to deployment of non-
@@ -1037,7 +1037,7 @@ Table of Contents
    Network digital twin control functional block supports such dynamic
    mechanisms required by DevOps procedures.
 
-9.4.  Network Fuzzing
+10.4.  Network Fuzzing
 
    Network management dependency on programmability increases systems
    complexity.  The behavior of new protocol stacks, API parameters, and
@@ -1051,7 +1051,7 @@ Table of Contents
    vulnerabilities, bugs and zero-days attacks before production
    delivery.
 
-9.5.  Network Inventory Management
+10.5.  Network Inventory Management
 
    With the development of enterprise digitization, the number of
    enterprise Internet of Objects (IoT) devices, virtualized Cloud
@@ -1080,7 +1080,7 @@ Table of Contents
    End of Life (EoL), dependency, and hardware dependency "what-if"
    scenarios.
 
-10.  Research Perspectives: A Summary
+11.  Research Perspectives: A Summary
 
    Research on network digital twin has just started.  This document
    presents an overview of the network digital twin concepts and
@@ -1090,7 +1090,7 @@ Table of Contents
    to accelerate the implementation and deployment of digital twin
    network.
 
-11.  Security Considerations
+12.  Security Considerations
 
    This document describes concepts and definitions of digital twin
    network.  As such, the following security considerations remain high
@@ -1115,17 +1115,17 @@ Table of Contents
    Strict control and security mechanisms must be provided and enabled
    to prevent data leaks.
 
-12.  IANA Considerations
+13.  IANA Considerations
 
    This document has no requests to IANA.
 
-13.  Open issues
+14.  Open issues
 
    Refer to: https://github.com/cheneyzhoucheng/network-digital-twin/
    issues (https://github.com/cheneyzhoucheng/network-digital-twin/
    issues).
 
-14.  Informative References
+15.  Informative References
 
    [Dai2020]  IEEE Transactions on Industrial Informatics, "Deep
               Reinforcement Learning for Stochastic Computation
