@@ -274,7 +274,7 @@ strategies in a risk-free environment, ensuring that only the most
 effective changes might be implemented in the real network (i.e., subject to adequate validation and control checks). Digital twin
 for networks also play a crucial role in root cause analysis,
 providing a sandbox for assessing hypotheses and validating the outcomes
-of data-driven insights without impacting end users. Therefore,digital
+of data-driven insights without impacting end users, when adequate isolation guards are in place. Therefore, digital
 twin for networks is more than an simulation platform or network
 simulator.
 
