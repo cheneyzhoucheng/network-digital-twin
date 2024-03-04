@@ -430,7 +430,7 @@ network.
 
 So far, there is no standard definition for characteristic of "network
 digital twin" within the networking industry.  This document introduces
-four key elements (i.e.,data, models, mapping,and interfaces) to
+four key elements (i.e., data, models, mapping, and interfaces) to
 characterize the network digital twin. These four elements can be
 integrated with the network mangement system to analyze,diagnose, emulate,
 and control the real network. To that aim, a real-time and interactive
