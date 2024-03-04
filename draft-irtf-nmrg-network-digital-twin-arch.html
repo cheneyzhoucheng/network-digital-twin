@@ -1369,20 +1369,31 @@ also be facilitated.<a href="#section-1-4" class="pilcrow">¶</a></p>
 <a href="#section-2.2" class="section-number selfRef">2.2. </a><a href="#name-definitions" class="section-name selfRef">Definitions</a>
         </h3>
 <p id="section-2.2-1">This document makes use of the following terms:<a href="#section-2.2-1" class="pilcrow">¶</a></p>
-<p id="section-2.2-2">Digital Twin:
-Digital counterpart of a physical system (twin) that capture
-its attributes, behavior and interactions and is continually
-updated with the latter's performance, maintenance,and health
-status data throughout the physical system's life cycle.<a href="#section-2.2-2" class="pilcrow">¶</a></p>
-<p id="section-2.2-3">Network digital twin:
-a digital representation that is used in the context of
-Networking and whose physical counterpart is telecom network
+<span class="break"></span><dl class="dlParallel" id="section-2.2-2">
+          <dt id="section-2.2-2.1">Digital Twin:</dt>
+          <dd style="margin-left: 1.5em" id="section-2.2-2.2">
+            <p id="section-2.2-2.2.1">Digital counterpart of a physical system (twin) that captures
+its attributes, behavior, and interactions and is (continually)
+updated with the latter's performance, maintenance, and health
+status data throughout the physical system's life cycle.<a href="#section-2.2-2.2.1" class="pilcrow">¶</a></p>
+</dd>
+          <dd class="break"></dd>
+<dt id="section-2.2-2.3">Network digital twin:</dt>
+          <dd style="margin-left: 1.5em" id="section-2.2-2.4">
+            <p id="section-2.2-2.4.1">A digital representation that is used in the context of
+Networking and whose physical counterpart is a data network
 or enterprise network.  This is also called, digital twin for
-networks. See more in <a href="#def" class="auto internal xref">Section 3.3</a>.<a href="#section-2.2-3" class="pilcrow">¶</a></p>
-<p id="section-2.2-4">Physical network:
-Object, system, process, software or environment that the
+networks. See more in <a href="#def" class="auto internal xref">Section 3.3</a>.<a href="#section-2.2-2.4.1" class="pilcrow">¶</a></p>
+</dd>
+          <dd class="break"></dd>
+<dt id="section-2.2-2.5">Physical network:</dt>
+          <dd style="margin-left: 1.5em" id="section-2.2-2.6">
+            <p id="section-2.2-2.6.1">Object, system, process, software, or environment that the
 digital twin is designed to replicate and represent
-virtually.<a href="#section-2.2-4" class="pilcrow">¶</a></p>
+virtually.<a href="#section-2.2-2.6.1" class="pilcrow">¶</a></p>
+</dd>
+        <dd class="break"></dd>
+</dl>
 </section>
 </div>
 </section>
@@ -2089,16 +2100,16 @@ specific application scenarios.
 <ul class="normal ulEmpty">
 <li class="normal ulEmpty" id="section-6-5.1">
           <p id="section-6-5.1.1">Notes: 'Data collection' and 'change control' are regarded as
-  southbound interfaces between virtual and real network.  From
-  implementation perspective, they can optionally form a sub-layer
-  or sub-system to provide common functionalities of data collection
-  and change control, enabled by a specific infrastructure
-  supporting bi-directional flows and facilitating data aggregation,action
-  translation, pre-processing and ontologies. It is not possible or necessary
-  to 'synchronize' all twin states or flows from twin entity to physical entity
+  network-facing interfaces between virtual and real network.  From
+  implementation perspective, they may form a sub-layer
+  or sub-system to provide common data collection
+  and change control functions, enabled by a specific infrastructure
+  supporting bi-directional flows and facilitating data aggregation, action
+  translation, pre-processing, and ontologies. It might not be possible or necessary
+  to 'synchronize' all twin state or flows from twin entity to physical entity
   or network management system. Bi-directional interaction means that:
-  data/states/flows reported or collected from physical or the network management
-  system to twin, and configure changes or 'necessary' data sent from twin to
+  data, state, or flows are reported or collected from the physical network or the network management
+  system to a twin instance, and configure changes or 'necessary' data sent from a twin instance to
   physical.<a href="#section-6-5.1.1" class="pilcrow">¶</a></p>
 </li>
       </ul>
