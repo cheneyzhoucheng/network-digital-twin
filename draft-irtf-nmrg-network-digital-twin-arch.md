@@ -327,7 +327,7 @@ Object, system, process, software or environment that the
 digital twin is designed to replicate and represent
 virtually.
 
-# Introduction and Concepts of Network Digital Twin  {#concept}
+# Introduction of Concepts  {#concept}
 
 ## Background of Digital Twin
 
@@ -426,7 +426,7 @@ technologies such as network planning, construction, maintenance and
 optimization, improving the automation and intelligence level of the
 network.
 
-## Characteristics of Network Digital Twin  {#def}
+# Characteristics of Network Digital Twin  {#def}
 
 So far, there is no standard definition for characteristic of "network
 digital twin" within the networking industry.  This document introduces
