@@ -24,14 +24,14 @@ Network, provides the basic definitions and a reference architecture,
 lists a set of application scenarios, and discusses the benefits and
 key challenges of such technology. 
     " name="description">
-<meta content="xml2rfc 3.19.4" name="generator">
+<meta content="xml2rfc 3.20.0" name="generator">
 <meta content="network digital twin" name="keyword">
 <meta content="model" name="keyword">
 <meta content="data driven management" name="keyword">
 <meta content="draft-irtf-nmrg-network-digital-twin-arch-latest" name="ietf.draft">
 <!-- Generator version information:
-  xml2rfc 3.19.4
-    Python 3.11.6
+  xml2rfc 3.20.0
+    Python 3.11.8
     ConfigArgParse 1.7
     google-i18n-address 3.1.0
     intervaltree 3.1.0
@@ -1042,11 +1042,11 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <thead><tr>
 <td class="left">Internet-Draft</td>
 <td class="center">Network Digital Twin Concept</td>
-<td class="right">February 2024</td>
+<td class="right">March 2024</td>
 </tr></thead>
 <tfoot><tr>
 <td class="left">Zhou, et al.</td>
-<td class="center">Expires 1 September 2024</td>
+<td class="center">Expires 5 September 2024</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1059,12 +1059,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <dd class="internet-draft">draft-irtf-nmrg-network-digital-twin-arch-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2024-02-29" class="published">29 February 2024</time>
+<time datetime="2024-03-04" class="published">4 March 2024</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2024-09-01">1 September 2024</time></dd>
+<dd class="expires"><time datetime="2024-09-05">5 September 2024</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1145,7 +1145,7 @@ key challenges of such technology.<a href="#section-abstract-2" class="pilcrow">
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 1 September 2024.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 5 September 2024.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1361,12 +1361,12 @@ also be facilitated.<a href="#section-1-4" class="pilcrow">¶</a></p>
         </h3>
 <p id="section-2.2-1">This document makes use of the following terms:<a href="#section-2.2-1" class="pilcrow">¶</a></p>
 <p id="section-2.2-2">Digital Twin:
-a Digital counterpart of a physical system (twin) that capture
+Digital counterpart of a physical system (twin) that capture
 its attributes, behavior and interactions and is continually
 updated with the latter's performance, maintenance,and health
 status data throughout the physical system's life cycle.<a href="#section-2.2-2" class="pilcrow">¶</a></p>
 <p id="section-2.2-3">Network digital twin:
-a digital representation  that is used in the context of
+a digital representation that is used in the context of
 Networking and whose physical counterpart is telecom network
 or enterprise network.  This is also called, digital twin for
 networks. See more in <a href="#def" class="auto internal xref">Section 3.3</a>.<a href="#section-2.2-3" class="pilcrow">¶</a></p>
@@ -2084,8 +2084,13 @@ specific application scenarios.
   implementation perspective, they can optionally form a sub-layer
   or sub-system to provide common functionalities of data collection
   and change control, enabled by a specific infrastructure
-  supporting bi-directional flows and facilitating data aggregation,
-  action translation, pre-processing and ontologies.<a href="#section-6-5.1.1" class="pilcrow">¶</a></p>
+  supporting bi-directional flows and facilitating data aggregation,action
+  translation, pre-processing and ontologies. It is not possible or necessary
+  to 'synchronize' all twin states or flows from twin entity to physical entity
+  or network management system. Bi-directional interaction means that:
+  data/states/flows reported or collected from physical or the network management
+  system to twin, and configure changes or 'necessary' data sent from twin to
+  physical.<a href="#section-6-5.1.1" class="pilcrow">¶</a></p>
 </li>
       </ul>
 <p id="section-6-6">Application Layer:  Various applications (e.g., Operations,
