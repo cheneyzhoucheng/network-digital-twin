@@ -532,7 +532,9 @@ e.g., provide:
 
 *  reproducibility: i.e., the ability to replay successions of
   events, possibly under controlled variations.
-and "the mirroring pace and scope" should be controlled for a given twin instance.
+
+and "the mirroring pace and scope" should be controlled for a given
+twin instance.
 
 > Note: Realtime interaction is not always mandatory for all twins.
 For example, when assessing some configuration changes or emulating some innovative
