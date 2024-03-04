@@ -257,17 +257,26 @@ in the digital world.  It has the characteristics of virtual-reality
 interrelation and real-time interaction, iterative operation and
 process optimization, full life-cycle and comprehensive data-driven
 network infrastructure.  Currently, digital twin has been widely
-acknowledged in academic publications.  See more in {{concept}}.
+acknowledged in academic publications and adopted in Industry 4.0.
+See more in {{concept}}.
 
-A digital twin for networks platform can be built by applying Digital
-Twin technologies to networks and creating a virtual image of real
-network facilities (called herein, emulation).  Basically, the
-digital twin for networks is an expansion platform of network
-simulation.  The main difference compared to traditional network
-management systems is the interactive virtual-real mapping and data
-driven approach to build closed-loop network automation.  Therefore,
-a network digital twin platform is more than an emulation platform or
-network simulator.
+A digital twin for networks can be built by applying Digital Twin
+technologies to networks and creating a virtual image of real
+network facilities (called herein, emulation). Basically, the digital
+twin for networks is an expansion platform of network simulation and
+can be seen as a powerful tool for scenario planning, impact analysis,
+and change management. The main difference compared to traditional
+network simulation is the interactive virtual-real mapping and data
+driven approach to build closed-loop network automation.  By
+integrating network digital twin into the network management, it
+allows network maintenance engineers to test and model optimisation
+strategies in a risk-free environment, ensuring that only the most
+effective changes are implemented in the real network. Digital twin
+for networks also play a crucial role in root cause analysis,
+providing a sandbox for testing hypotheses and validating the outcomes
+of data-driven insights without impacting end users. Therefore,digital
+twin for networks is more than an simulation platform or network
+simulator.
 
 Through the real-time data interaction between the real network and
 its twin network(s), the network digital twin platform might help the
