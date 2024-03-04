@@ -271,7 +271,7 @@ driven approach to build closed-loop network automation.  By
 integrating network digital twin into the network management, it
 allows network maintenance engineers to assess, model, and tweak optimization
 strategies in a risk-free environment, ensuring that only the most
-effective changes are implemented in the real network. Digital twin
+effective changes might be implemented in the real network (i.e., subject to adequate validation and control checks). Digital twin
 for networks also play a crucial role in root cause analysis,
 providing a sandbox for testing hypotheses and validating the outcomes
 of data-driven insights without impacting end users. Therefore,digital
