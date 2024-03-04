@@ -302,13 +302,13 @@ PLM:  Product Lifecycle Management
 This document makes use of the following terms:
 
 Digital Twin:
-a Digital counterpart of a physical system (twin) that capture
+Digital counterpart of a physical system (twin) that capture
 its attributes, behavior and interactions and is continually
 updated with the latter's performance, maintenance,and health
 status data throughout the physical system's life cycle.
 
 Network digital twin:
-a digital representation  that is used in the context of
+a digital representation that is used in the context of
 Networking and whose physical counterpart is telecom network
 or enterprise network.  This is also called, digital twin for
 networks. See more in {{def}}.
@@ -880,8 +880,13 @@ Digital Twin Layer, and Real Network Layer.
   implementation perspective, they can optionally form a sub-layer
   or sub-system to provide common functionalities of data collection
   and change control, enabled by a specific infrastructure
-  supporting bi-directional flows and facilitating data aggregation,
-  action translation, pre-processing and ontologies.
+  supporting bi-directional flows and facilitating data aggregation,action
+  translation, pre-processing and ontologies. It is not possible or necessary
+  to 'synchronize' all twin states or flows from twin entity to physical entity
+  or network management system. Bi-directional interaction means that:
+  data/states/flows reported or collected from physical or the network management
+  system to twin, and configure changes or 'necessary' data sent from twin to
+  physical.
 
   Application Layer:  Various applications (e.g., Operations,
      Administration, and Maintenance (OAM)) can effectively run over a
