@@ -532,14 +532,18 @@ e.g., provide:
 
 *  reproducibility: i.e., the ability to replay successions of
   events, possibly under controlled variations.
+and "the mirroring pace and scope" should be controlled for a given twin instance.
 
 > Note: Realtime interaction is not always mandatory for all twins.
 For example, when assessing some configuration changes or emulating some innovative
 techniques, the digital twins can behave as an isolated simulation platform
-without the need of realtime telemetry data. It might be useful to have interactive mapping capability so that
-the validated changes can be evaluated under real network conditions whenever required
-by the testers.  Whether realtime interaction between virtual and
-real network is mandatory is a configurable parameter. Adequate validation guards have to be enforced at both twin and physical network. Enabling realtime interaction in network digital twin is a catalyst to achieve autonomous networks or self-driven network.
+without the need of realtime telemetry data. It might be useful to have interactive
+mapping capability so that the validated changes can be evaluated under real network
+conditions whenever required by the testers.  Whether realtime interaction between
+virtual and real network is mandatory is a configurable parameter. Adequate validation
+guards have to be enforced at both twin and physical network. Enabling realtime
+interaction in network digital twin is a catalyst to achieve autonomous networks or
+self-driven network.
 
 # Benefits of Network Digital Twin
 
