@@ -273,7 +273,7 @@ allows network maintenance engineers to assess, model, and tweak optimization
 strategies in a risk-free environment, ensuring that only the most
 effective changes might be implemented in the real network (i.e., subject to adequate validation and control checks). Digital twin
 for networks also play a crucial role in root cause analysis,
-providing a sandbox for testing hypotheses and validating the outcomes
+providing a sandbox for assessing hypotheses and validating the outcomes
 of data-driven insights without impacting end users. Therefore,digital
 twin for networks is more than an simulation platform or network
 simulator.
