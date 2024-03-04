@@ -269,7 +269,7 @@ and change management. The main difference compared to conventional
 network simulation is the interactive virtual-real mapping and data
 driven approach to build closed-loop network automation.  By
 integrating network digital twin into the network management, it
-allows network maintenance engineers to test and model optimisation
+allows network maintenance engineers to assess, model, and tweak optimization
 strategies in a risk-free environment, ensuring that only the most
 effective changes are implemented in the real network. Digital twin
 for networks also play a crucial role in root cause analysis,
