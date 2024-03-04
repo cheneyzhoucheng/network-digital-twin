@@ -881,7 +881,12 @@ Digital Twin Layer, and Real Network Layer.
   or sub-system to provide common functionalities of data collection
   and change control, enabled by a specific infrastructure
   supporting bi-directional flows and facilitating data aggregation,
-  action translation, pre-processing and ontologies.
+  action translation, pre-processing and ontologies. It is not possible
+  or necessary to 'synchronize' all twin states or flows from twin entity
+  to physical entity or network management system. Bi-directional
+  interaction means that: data/states/flows reported or collected from
+  physical or the network management system to twin, and configure
+  changes or 'necessary' data sent from twin to physical.  
 
   Application Layer:  Various applications (e.g., Operations,
      Administration, and Maintenance (OAM)) can effectively run over a
