@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-03-03T01:16:35.755898+00:00",
+  "timestamp": "2024-03-05T01:12:33.073555+00:00",
   "repo": "cheneyzhoucheng/network-digital-twin",
   "labels": [
     {
@@ -117,9 +117,17 @@
       "labels": [],
       "body": "",
       "createdAt": "2024-02-28T13:00:45Z",
-      "updatedAt": "2024-02-28T13:00:45Z",
+      "updatedAt": "2024-03-04T03:53:59Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "billwuqin",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Fixed in https://github.com/cheneyzhoucheng/network-digital-twin/commit/c649a164ef46ab3a31c5fa1239e9e9efc3ffaaf2",
+          "createdAt": "2024-03-04T03:53:58Z",
+          "updatedAt": "2024-03-04T03:53:58Z"
+        }
+      ]
     },
     {
       "number": 6,
@@ -133,9 +141,38 @@
       "labels": [],
       "body": "",
       "createdAt": "2024-02-28T13:01:39Z",
-      "updatedAt": "2024-02-28T13:01:39Z",
+      "updatedAt": "2024-03-04T10:59:37Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "billwuqin",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Can we see digial twin as a tool\r\n\"\r\ndigital twins are a powerful tool for scenario planning, impact analysis, and change management. This powerful combination allows network maintenance engineer or network designer to test and model optimisation strategies in a risk-free environment, ensuring that only the most effective changes are implemented in the real network. Digital twins also play a crucial role in root cause analysis, providing a sandbox for testing hypotheses and validating the outcomes of data-driven insights without impacting end users. \r\n\"",
+          "createdAt": "2024-03-04T03:59:49Z",
+          "updatedAt": "2024-03-04T07:57:12Z"
+        },
+        {
+          "author": "billwuqin",
+          "authorAssociation": "COLLABORATOR",
+          "body": "My suggested the scope for Network digital twin concept as follows:\r\n1. Introduction\r\n2. Terminology\r\n3. Introduction of Concept\r\n4. Characteristics of Network Digital Twin\r\n5. Network Digital Twin: Functionality\r\n6. Lifecycle\r\n7. IANA Consideration\r\n8. Security Consideration\r\n9. Informative References\r\nWe can consider to separate how network digital twin can be integrated into the management sytem as a second document.",
+          "createdAt": "2024-03-04T08:59:21Z",
+          "updatedAt": "2024-03-04T08:59:21Z"
+        },
+        {
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I don't get the comment. Is there a concern to separate the reference arch vs. concept? ",
+          "createdAt": "2024-03-04T10:37:54Z",
+          "updatedAt": "2024-03-04T10:37:54Z"
+        },
+        {
+          "author": "billwuqin",
+          "authorAssociation": "COLLABORATOR",
+          "body": "yes, the comment is from Interim meeting,  Chris debate we are working on controller architecture, he think model architecture can be used in other SDOs, it was incidated by nmrg chairs, this draft could be split into two documents,  to achieve this, a new design team should be setup to faciliate discussing this work.\r\nSee his slides proposed in the interim and previous IETF:\r\nhttps://datatracker.ietf.org/doc/slides-interim-2024-nmrg-01-sessa-proposed-modifications-to-dtn-concept-and-architecture-draft/",
+          "createdAt": "2024-03-04T10:59:37Z",
+          "updatedAt": "2024-03-04T10:59:37Z"
+        }
+      ]
     },
     {
       "number": 7,
@@ -149,9 +186,31 @@
       "labels": [],
       "body": "",
       "createdAt": "2024-02-28T13:03:08Z",
-      "updatedAt": "2024-02-28T13:03:08Z",
+      "updatedAt": "2024-03-04T11:06:44Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "billwuqin",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Data, Model, Mapping, Interface are four NDT characterisitcs or four phase of NDT lifecycle management?\r\nwhere do we position emulation?",
+          "createdAt": "2024-03-04T06:15:16Z",
+          "updatedAt": "2024-03-04T06:15:16Z"
+        },
+        {
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "body": "> Data, Model, Mapping, Interface are four NDT characterisitcs or four phase of NDT lifecycle management?\r\n\r\nThese are not phases.\r\n\r\n> where do we position emulation?\r\n\r\nemulate/control/diag/etc. are core functions of the twin engine.",
+          "createdAt": "2024-03-04T10:36:57Z",
+          "updatedAt": "2024-03-04T10:36:57Z"
+        },
+        {
+          "author": "billwuqin",
+          "authorAssociation": "COLLABORATOR",
+          "body": "This is something Chris argue about in the interim.  the question is do we develop new network management platform with digital twin integrated, or do we develop network digital twin component?",
+          "createdAt": "2024-03-04T11:01:45Z",
+          "updatedAt": "2024-03-04T11:06:44Z"
+        }
+      ]
     },
     {
       "number": 8,
@@ -165,9 +224,17 @@
       "labels": [],
       "body": "",
       "createdAt": "2024-03-01T07:09:03Z",
-      "updatedAt": "2024-03-01T07:09:04Z",
+      "updatedAt": "2024-03-04T03:58:03Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "billwuqin",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Already clarified in section 3.3, quote text as follows:\r\n\"\r\nNote: Real-time interaction is not always mandatory for all twins. When testing some configuration changes or trying some innovative techniques, the digital twins can behave as a simulation platform without the need of real time telemetry data. And even in this scenario, it is better to have interactive mapping capability so that the validated changes can be tested in real network whenever required by the testers. In most other cases (e.g., network optimization, network fault recovery), real-time interaction between virtual and real network is mandatory. This way, network digital twin can help achieve the goal of autonomous network or self-driven network.\r\n\"",
+          "createdAt": "2024-03-04T03:58:02Z",
+          "updatedAt": "2024-03-04T03:58:02Z"
+        }
+      ]
     },
     {
       "number": 9,
@@ -181,9 +248,31 @@
       "labels": [],
       "body": "- It is not possible or necessary to 'synchronize' all twin states or flows to physical entity.\u00a0\r\n- Bi-directional interaction means that: data/states/flows reported or collected from physical to twin, and configure changes or 'necessary' data sent from twin to physical.\u00a0",
       "createdAt": "2024-03-01T07:17:26Z",
-      "updatedAt": "2024-03-01T07:17:27Z",
+      "updatedAt": "2024-03-04T09:57:46Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "billwuqin",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Clarified in https://github.com/cheneyzhoucheng/network-digital-twin/commit/efab85d6d080deab03c15417978f1e0a7c55e6dc",
+          "createdAt": "2024-03-04T03:55:22Z",
+          "updatedAt": "2024-03-04T03:55:22Z"
+        },
+        {
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "body": "> * It is not possible or necessary to 'synchronize' all twin states or flows to physical entity.\r\n\r\n@billwuqin, I suggest we add an explicit sentence to indicate that \"the mirroring pace and scope\" should be controlled for a given twin instance. \r\n\r\n",
+          "createdAt": "2024-03-04T09:38:50Z",
+          "updatedAt": "2024-03-04T09:38:50Z"
+        },
+        {
+          "author": "billwuqin",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Good comment, we haven't explored  mirroring pace and scope.  I think mirroring pace and scope needs to be further expanded. ",
+          "createdAt": "2024-03-04T09:57:44Z",
+          "updatedAt": "2024-03-04T09:57:44Z"
+        }
+      ]
     },
     {
       "number": 10,
@@ -197,9 +286,17 @@
       "labels": [],
       "body": "- Inner closed-loop: iterative simulation and verification in twin layer. Outer closed-loop validation and optimization.\r\n- Orchestration for models and resources can be included in NDT mgmt module \r\n- etc.",
       "createdAt": "2024-03-01T07:19:26Z",
-      "updatedAt": "2024-03-01T07:19:26Z",
+      "updatedAt": "2024-03-04T03:56:55Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "billwuqin",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Related to scope of NDT. We need to decide how to separate network digital twin as a tool from network managemet sytem or orchestrator",
+          "createdAt": "2024-03-04T03:56:53Z",
+          "updatedAt": "2024-03-04T03:56:53Z"
+        }
+      ]
     }
   ],
   "pulls": [
@@ -295,6 +392,383 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 11,
+      "id": "PR_kwDOLV8yHc5oiQnY",
+      "title": "Clarification on Bi-directional interaction and update Definition of NDT",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/11",
+      "state": "MERGED",
+      "author": "billwuqin",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-03-04T03:02:18Z",
+      "updatedAt": "2024-03-04T03:13:07Z",
+      "baseRepository": "cheneyzhoucheng/network-digital-twin",
+      "baseRefName": "main",
+      "baseRefOid": "25b95acd4dd91d8a0eea2ca78692a86422d3edbc",
+      "headRepository": "billwuqin/network-digital-twin",
+      "headRefName": "main",
+      "headRefOid": "3f0f49211098ba8c6e1c6324d7c0384cfb56a580",
+      "closedAt": "2024-03-04T03:13:07Z",
+      "mergedAt": "2024-03-04T03:13:07Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "f062605cf171f7ef924b5c7a364d179b191c3738"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOLV8yHc5yCs8-",
+          "commit": {
+            "abbreviatedOid": "3f0f492"
+          },
+          "author": "cheneyzhoucheng",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-03-04T03:12:50Z",
+          "updatedAt": "2024-03-04T03:12:50Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "id": "PR_kwDOLV8yHc5ojxKb",
+      "title": "Clarify the relationship between network digital twin and the network management",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/12",
+      "state": "MERGED",
+      "author": "billwuqin",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "See Network digital twin as a tool",
+      "createdAt": "2024-03-04T08:36:09Z",
+      "updatedAt": "2024-03-04T09:41:25Z",
+      "baseRepository": "cheneyzhoucheng/network-digital-twin",
+      "baseRefName": "main",
+      "baseRefOid": "f062605cf171f7ef924b5c7a364d179b191c3738",
+      "headRepository": "billwuqin/network-digital-twin",
+      "headRefName": "main",
+      "headRefOid": "3053a8a57ea727e9ff25010bc3cff8b58a3e2a6e",
+      "closedAt": "2024-03-04T09:15:15Z",
+      "mergedAt": "2024-03-04T09:15:15Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "94873f16c3d38ced4138547a1ae39f4448d8a165"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOLV8yHc5yEVR1",
+          "commit": {
+            "abbreviatedOid": "39a1ca7"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "",
+          "createdAt": "2024-03-04T08:56:25Z",
+          "updatedAt": "2024-03-04T09:00:06Z",
+          "comments": [
+            {
+              "originalPosition": 21,
+              "body": "```suggestion\r\ntwin for networks is an expansion platform of network emulation and\r\n```",
+              "createdAt": "2024-03-04T08:56:25Z",
+              "updatedAt": "2024-03-04T09:00:07Z"
+            },
+            {
+              "originalPosition": 22,
+              "body": "```suggestion\r\ncan be seen as a tool for scenario planning, impact analysis,\r\n```",
+              "createdAt": "2024-03-04T08:56:35Z",
+              "updatedAt": "2024-03-04T09:00:07Z"
+            },
+            {
+              "originalPosition": 23,
+              "body": "```suggestion\r\nand change management. The main difference compared to conventional\r\n```",
+              "createdAt": "2024-03-04T08:56:48Z",
+              "updatedAt": "2024-03-04T09:00:07Z"
+            },
+            {
+              "originalPosition": 27,
+              "body": "```suggestion\r\nallows network maintenance engineers to assess, model, and tweak optimization\r\n```",
+              "createdAt": "2024-03-04T08:57:37Z",
+              "updatedAt": "2024-03-04T09:00:07Z"
+            },
+            {
+              "originalPosition": 29,
+              "body": "```suggestion\r\neffective changes might be implemented in the real network (i.e., subject to adequate validation and control checks). Digital twin\r\n```",
+              "createdAt": "2024-03-04T08:58:17Z",
+              "updatedAt": "2024-03-04T09:00:07Z"
+            },
+            {
+              "originalPosition": 31,
+              "body": "```suggestion\r\nproviding a sandbox for assessing hypotheses and validating the outcomes\r\n```",
+              "createdAt": "2024-03-04T08:58:34Z",
+              "updatedAt": "2024-03-04T09:00:07Z"
+            },
+            {
+              "originalPosition": 32,
+              "body": "```suggestion\r\nof data-driven insights without impacting end users, when adequate isolation guards are in place. Therefore, digital\r\n```",
+              "createdAt": "2024-03-04T08:59:08Z",
+              "updatedAt": "2024-03-04T09:00:07Z"
+            },
+            {
+              "originalPosition": 57,
+              "body": "```suggestion\r\nfour key elements (i.e., data, models, mapping, and interfaces) to\r\n```",
+              "createdAt": "2024-03-04T08:59:29Z",
+              "updatedAt": "2024-03-04T09:00:07Z"
+            },
+            {
+              "originalPosition": 59,
+              "body": "```suggestion\r\nintegrated into a network management system to analyze, diagnose, emulate,\r\n```",
+              "createdAt": "2024-03-04T08:59:54Z",
+              "updatedAt": "2024-03-04T09:00:07Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOLV8yHc5yExZz",
+          "commit": {
+            "abbreviatedOid": "3053a8a"
+          },
+          "author": "cheneyzhoucheng",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": " Agree to the changes, as well as Med's update",
+          "createdAt": "2024-03-04T09:41:25Z",
+          "updatedAt": "2024-03-04T09:41:25Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "id": "PR_kwDOLV8yHc5okIED",
+      "title": "Update Section 3",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/13",
+      "state": "MERGED",
+      "author": "billwuqin",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "1. Change title of Section 3\r\n2. Move section 3.3 out of section 3 and create it as a separate section.",
+      "createdAt": "2024-03-04T09:25:23Z",
+      "updatedAt": "2024-03-04T09:37:29Z",
+      "baseRepository": "cheneyzhoucheng/network-digital-twin",
+      "baseRefName": "main",
+      "baseRefOid": "94873f16c3d38ced4138547a1ae39f4448d8a165",
+      "headRepository": "billwuqin/network-digital-twin",
+      "headRefName": "main",
+      "headRefOid": "709609187cce0eaf7d9a97b12368610f0a0c4cdb",
+      "closedAt": "2024-03-04T09:37:29Z",
+      "mergedAt": "2024-03-04T09:37:29Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "9d1a4942ce9f754a29b1520673cb54a6b940b129"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOLV8yHc5yEtMO",
+          "commit": {
+            "abbreviatedOid": "7096091"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-03-04T09:33:52Z",
+          "updatedAt": "2024-03-04T09:33:52Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOLV8yHc5yEvO3",
+          "commit": {
+            "abbreviatedOid": "7096091"
+          },
+          "author": "cheneyzhoucheng",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-03-04T09:37:19Z",
+          "updatedAt": "2024-03-04T09:37:19Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "id": "PR_kwDOLV8yHc5okLXR",
+      "title": "few edits on the new bidir text from Qin",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/14",
+      "state": "MERGED",
+      "author": "boucadair",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-03-04T09:32:48Z",
+      "updatedAt": "2024-03-04T09:36:53Z",
+      "baseRepository": "cheneyzhoucheng/network-digital-twin",
+      "baseRefName": "main",
+      "baseRefOid": "94873f16c3d38ced4138547a1ae39f4448d8a165",
+      "headRepository": "cheneyzhoucheng/network-digital-twin",
+      "headRefName": "boucadair-patch-3",
+      "headRefOid": "0c3e7217c1ce14c1700250fd9bc0853996fa254c",
+      "closedAt": "2024-03-04T09:36:52Z",
+      "mergedAt": "2024-03-04T09:36:52Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "3b92abbe5fe547a28039a0e29eef803cf94b1380"
+      },
+      "comments": [
+        {
+          "author": "billwuqin",
+          "authorAssociation": "COLLABORATOR",
+          "body": "The proposed edit looks good, thanks.",
+          "createdAt": "2024-03-04T09:36:50Z",
+          "updatedAt": "2024-03-04T09:36:50Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOLV8yHc5yEuwd",
+          "commit": {
+            "abbreviatedOid": "0c3e721"
+          },
+          "author": "billwuqin",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-03-04T09:36:25Z",
+          "updatedAt": "2024-03-04T09:36:25Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "id": "PR_kwDOLV8yHc5okRMR",
+      "title": "tweak the realtime interaction",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/15",
+      "state": "MERGED",
+      "author": "boucadair",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "we can't mandate when this will be mandatory :-)",
+      "createdAt": "2024-03-04T09:46:09Z",
+      "updatedAt": "2024-03-04T10:00:31Z",
+      "baseRepository": "cheneyzhoucheng/network-digital-twin",
+      "baseRefName": "main",
+      "baseRefOid": "9d1a4942ce9f754a29b1520673cb54a6b940b129",
+      "headRepository": "cheneyzhoucheng/network-digital-twin",
+      "headRefName": "boucadair-patch-4",
+      "headRefOid": "bfe3e9408c8dc3fe83c39516808b32b5e2f4d133",
+      "closedAt": "2024-03-04T10:00:31Z",
+      "mergedAt": "2024-03-04T10:00:31Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "dba1817564346089734a7045f1cf146ee3ac5ad6"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOLV8yHc5yE7Qa",
+          "commit": {
+            "abbreviatedOid": "bfe3e94"
+          },
+          "author": "billwuqin",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-03-04T10:00:04Z",
+          "updatedAt": "2024-03-04T10:00:04Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "id": "PR_kwDOLV8yHc5okZsS",
+      "title": "Fix long length line and add explicit text related to mirror pace and scope",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/16",
+      "state": "MERGED",
+      "author": "billwuqin",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-03-04T10:05:23Z",
+      "updatedAt": "2024-03-04T10:35:56Z",
+      "baseRepository": "cheneyzhoucheng/network-digital-twin",
+      "baseRefName": "main",
+      "baseRefOid": "dba1817564346089734a7045f1cf146ee3ac5ad6",
+      "headRepository": "billwuqin/network-digital-twin",
+      "headRefName": "main",
+      "headRefOid": "2f405272bdad30304841b36c4d28f2db1f98e81d",
+      "closedAt": "2024-03-04T10:35:55Z",
+      "mergedAt": "2024-03-04T10:35:55Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "e3574a6fe6f2a3408e1b5de4ffc6bd08382599fb"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOLV8yHc5yFIXW",
+          "commit": {
+            "abbreviatedOid": "2f40527"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-03-04T10:25:30Z",
+          "updatedAt": "2024-03-04T10:25:30Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "id": "PR_kwDOLV8yHc5oksOS",
+      "title": "Fix line break issue.",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/17",
+      "state": "MERGED",
+      "author": "billwuqin",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-03-04T10:47:04Z",
+      "updatedAt": "2024-03-04T10:48:33Z",
+      "baseRepository": "cheneyzhoucheng/network-digital-twin",
+      "baseRefName": "main",
+      "baseRefOid": "e3574a6fe6f2a3408e1b5de4ffc6bd08382599fb",
+      "headRepository": "billwuqin/network-digital-twin",
+      "headRefName": "main",
+      "headRefOid": "27f6123d2b27b6e029a3cc9e080bbc043e31e37a",
+      "closedAt": "2024-03-04T10:48:33Z",
+      "mergedAt": "2024-03-04T10:48:33Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "2d11eec51be8231d5920eb073c3fcf432a9c85cb"
+      },
+      "comments": [
+        {
+          "author": "billwuqin",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Editorial change, no need expert review.",
+          "createdAt": "2024-03-04T10:48:31Z",
+          "updatedAt": "2024-03-04T10:48:31Z"
+        }
+      ],
+      "reviews": []
     }
   ]
 }
