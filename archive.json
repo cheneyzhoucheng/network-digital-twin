@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-03-17T01:17:48.642759+00:00",
+  "timestamp": "2024-03-19T01:13:53.542360+00:00",
   "repo": "cheneyzhoucheng/network-digital-twin",
   "labels": [
     {
@@ -110,15 +110,15 @@
       "id": "I_kwDOLV8yHc6AroEg",
       "title": "NDT definition update",
       "url": "https://github.com/cheneyzhoucheng/network-digital-twin/issues/5",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "billwuqin",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2024-02-28T13:00:45Z",
-      "updatedAt": "2024-03-04T03:53:59Z",
-      "closedAt": null,
+      "updatedAt": "2024-03-18T09:25:26Z",
+      "closedAt": "2024-03-18T09:25:26Z",
       "comments": [
         {
           "author": "billwuqin",
@@ -217,15 +217,15 @@
       "id": "I_kwDOLV8yHc6A6PyC",
       "title": "Clarification on real time interaction",
       "url": "https://github.com/cheneyzhoucheng/network-digital-twin/issues/8",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "cheneyzhoucheng",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2024-03-01T07:09:03Z",
-      "updatedAt": "2024-03-04T03:58:03Z",
-      "closedAt": null,
+      "updatedAt": "2024-03-18T09:26:22Z",
+      "closedAt": "2024-03-18T09:26:22Z",
       "comments": [
         {
           "author": "billwuqin",
