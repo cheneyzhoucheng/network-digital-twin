@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-04-04T01:15:23.742010+00:00",
+  "timestamp": "2024-04-07T01:20:32.143722+00:00",
   "repo": "cheneyzhoucheng/network-digital-twin",
   "labels": [
     {
@@ -286,7 +286,7 @@
       "labels": [],
       "body": "- Inner closed-loop: iterative simulation and verification in twin layer. Outer closed-loop validation and optimization.\r\n- Orchestration for models and resources can be included in NDT mgmt module \r\n- etc.",
       "createdAt": "2024-03-01T07:19:26Z",
-      "updatedAt": "2024-03-04T03:56:55Z",
+      "updatedAt": "2024-04-05T12:28:06Z",
       "closedAt": null,
       "comments": [
         {
@@ -295,6 +295,27 @@
           "body": "Related to scope of NDT. We need to decide how to separate network digital twin as a tool from network managemet sytem or orchestrator",
           "createdAt": "2024-03-04T03:56:53Z",
           "updatedAt": "2024-03-04T03:56:53Z"
+        },
+        {
+          "author": "cfjanz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Sorry for jumping in late. As you know, my \"criticisms\" were that the NDT was too closely identified functionally as a controller, and that the presentation of architecture left major gaps between the modeling function and the remainder (e.g., inner and outer closed loops were not discussed or depicted). That said, I think the presentation and discussion at Brisbane show we do in fact have a pretty close conceptual view. You proposed there to reorient the draft toward \"concept only\" and in fact Colin advised that IRTF should not get into architecture; I think that's a little over the top but in any case.",
+          "createdAt": "2024-04-05T12:23:08Z",
+          "updatedAt": "2024-04-05T12:23:08Z"
+        },
+        {
+          "author": "cfjanz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I think it is possible to split the difference, by describing architecture on a high level, conceptual basis. Describe a core function based on data and modeling; then describe the composition of closed loops using that core function plus others; then describe how those closed loops can be used in automation architectures (some of which might be controllers, some might be limited to planning and management, etc.) In this description, I think it is easiest to call the \"core function\" the NDT (full stop), but you can call it the NDT core functions if you still prefer some ambiguity. Once that's done, it is easy to consider use cases.",
+          "createdAt": "2024-04-05T12:27:29Z",
+          "updatedAt": "2024-04-05T12:27:29Z"
+        },
+        {
+          "author": "cfjanz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "If you like this idea we can discuss a matching outline and what content would need change or addition.",
+          "createdAt": "2024-04-05T12:28:04Z",
+          "updatedAt": "2024-04-05T12:28:04Z"
         }
       ]
     }
