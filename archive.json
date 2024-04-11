@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-04-09T01:15:07.122024+00:00",
+  "timestamp": "2024-04-11T01:15:54.006759+00:00",
   "repo": "cheneyzhoucheng/network-digital-twin",
   "labels": [
     {
@@ -186,7 +186,7 @@
       "labels": [],
       "body": "",
       "createdAt": "2024-02-28T13:03:08Z",
-      "updatedAt": "2024-03-04T11:06:44Z",
+      "updatedAt": "2024-04-09T16:59:33Z",
       "closedAt": null,
       "comments": [
         {
@@ -209,6 +209,13 @@
           "body": "This is something Chris argue about in the interim.  the question is do we develop new network management platform with digital twin integrated, or do we develop network digital twin component?",
           "createdAt": "2024-03-04T11:01:45Z",
           "updatedAt": "2024-03-04T11:06:44Z"
+        },
+        {
+          "author": "cfjanz",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I don't understand how it makes sense to call a range of functions as broad as emulation, diagnosis, control, \"etc.\" as a \"core functions\" of an engine. It's tantamount to saying an NDT does anything and everything. Doesn't it make more sense to talk about NDT core functions that are closer to emulation/modeling based on network data, and then show how those core functions can be composed with other functions, to construct progressively more complex engines that serve different applications? ",
+          "createdAt": "2024-04-09T16:59:32Z",
+          "updatedAt": "2024-04-09T16:59:32Z"
         }
       ]
     },
