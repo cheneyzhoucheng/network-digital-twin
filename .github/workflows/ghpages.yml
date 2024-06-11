@@ -13,7 +13,6 @@ on:
     - CONTRIBUTING.md
     - LICENSE.md
     - .gitignore
-    - /github/workspace/./.git
 
 jobs:
   build:
