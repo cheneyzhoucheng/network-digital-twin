@@ -645,7 +645,7 @@ Table of Contents
    The role and and utility of NDTs may be represented architecturally
    by following similar principles, e.g., [ETSI-GS-ZSM-015].  As
    described in Section 4, an NDT may be represented as encompassing
-   models, data, mapping and interfaces; these components then work
+   models, data, mapping, and interfaces; these components then work
    together and in composition with appropriate other functions or
    services to deliver overall functional architectures matching
    specific use cases.
