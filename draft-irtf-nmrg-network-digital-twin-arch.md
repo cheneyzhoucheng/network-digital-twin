@@ -1073,7 +1073,7 @@ not limited to, the following main technologies:
   applications interacting within the digtial twin network system.
   Conflict detection and resolution techniques may use various mechanisms,
   such as rule-based policies, role-based access control, or dynamic conflict
-  resolution algorithms (e.g. {Pradeep2022}} and {{Zheng2022}}).
+  resolution algorithms (e.g., {Pradeep2022}} and {{Zheng2022}}).
 
 *  Energy-Efficient Twinning: Focus on energy efficiency in digital twin
   network system. It includes monitoring and optimizing the energy
