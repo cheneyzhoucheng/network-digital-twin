@@ -226,73 +226,59 @@ informative:
 --- abstract
 
 Digital Twin technology has been seen as a rapid adoption technology
-in Industry 4.0.  The application of Digital Twin technology in the
-networking field is meant to develop various rich network
-applications and realize efficient and cost effective data driven
-network management, and accelerate network innovation.
+in Industry 4.0. The application of Digital Twin technology in the
+networking field is meant to develop various rich network applications,
+realize efficient and cost-effective data-driven network management,
+and accelerate network innovation.
 
-This document presents an overview of the concepts of Digital Twin
-Network, provides the basic definitions and a reference architecture,
-lists a set of application scenarios, and discusses the benefits and
-key challenges of such technology.
-
+This document presents an overview of the concepts of Digital Twin Network,
+provides the basic definitions and a reference architecture, lists a set of
+application scenarios, and discusses such technology's benefits and key
+challenges.
 
 --- middle
 
 # Introduction
 
-The fast growth of network scale and the increased demand placed on
-these networks require them to accommodate and adapt dynamically to
-customer needs, implying a significant challenge to network
-operators.  Indeed, network operation and maintenance are becoming
-more complex due to higher complexity of the managed networks and the
-sophisticated services they are delivering.  As such, providing
-innovations on network technologies, management and operation will be
-more and more challenging due to the high risk of interfering with
-existing services and the higher trial costs if no reliable emulation
-platforms are available.
+The fast growth of network scale and the increased demand on these networks
+require them to accommodate and adapt dynamically to customer needs, implying
+a significant challenge to network operators. Indeed, network operation and
+maintenance are becoming more complex due to the higher complexity of the
+managed networks and the sophisticated services they deliver. As such,
+providing innovations on network technologies, management, and operation will
+be more and more challenging due to the high risk of interfering with existing
+services and the higher trial costs if no reliable emulation platforms are
+available.
 
-A Digital Twin is the real-time representation of a physical entity
-in the digital world.  It has the characteristics of virtual-reality
-interrelation and real-time interaction, iterative operation and
-process optimization, full life-cycle and comprehensive data-driven
-network infrastructure.  Currently, digital twin has been widely
-acknowledged in academic publications and adopted in Industry 4.0.
-See more in {{concept}}.
+A Digital Twin is the real-time representation of a physical entity in the
+digital world. It has the characteristics of virtual-reality interrelation
+and real-time interaction, iterative operation and process optimization,
+full life-cycle and comprehensive data-driven network infrastructure.
+Digital twin has been widely acknowledged in academic publications and
+adopted in Industry 4.0. See more details in {{concept}}.
 
-A digital twin for networks can be built by applying Digital Twin
-technologies to networks and creating a virtual image of real
-network facilities (called herein, emulation). Basically, the digital
-twin for networks is an expansion platform of network emulation and
-can be seen as a tool for scenario planning, impact analysis,
-and change management. The main difference compared to conventional
-network simulation is the interactive virtual-real mapping and data
-driven approach to build closed-loop network automation.  By
-integrating network digital twin into the network management, it
-allows network maintenance engineers to assess, model, and tweak optimization
-strategies in a risk-free environment, ensuring that only the most
-effective changes might be implemented in the real network (i.e., subject to adequate validation and control checks). Digital twin
-for networks also play a crucial role in root cause analysis,
-providing a sandbox for assessing hypotheses and validating the outcomes
-of data-driven insights without impacting end users, when adequate isolation guards are in place. Therefore, digital
-twin for networks is more than an simulation platform or network
-simulator.
+A digital twin for networks can be built by applying Digital Twin technologies
+to networks and creating a virtual image of real network facilities (called herein,
+emulation). Basically, the digital twin for networks is an expansion platform of
+network emulation and can be seen as a tool for scenario planning, impact analysis,
+and change management. Compared to conventional network simulation, the main
+difference is the interactive virtual-real mapping and data-driven approach to build
+closed-loop network automation. Integrating network digital twin into the network
+management allows network maintenance engineers to assess, model, and tweak optimization
+strategies in a risk-free environment, ensuring that only the most effective changes
+might be implemented in the real network (i.e., subject to adequate validation and
+control checks). Digital twin for networks provide crucial data for network failure
+root cause analysis, and a sandbox for assessing hypotheses and validating the outcomes
+of data-driven insights without impacting end-users.
 
-Through the real-time data interaction between the real network and
-its twin network(s), the network digital twin platform might help the
-network designers to achieve more simplification, automatic,
-resilient, and full life-cycle operation and maintenance.  More
-specifically, the network digital twin can, thus, be used to develop
-various rich network applications and assess specific behaviors
-(including network transformation) before actual implementation in
-the real network, tweak the network for better optimized behavior,
-run 'what-if' scenarios that cannot be tested and evaluated easily in
-the real network.  In addition, service impact analysis tasks can
-also be facilitated.
+Through the real-time data interaction between the real network and its twin network(s),
+the Network Digital Twin (NDT) platform will provide the data for NDT-based applications
+and network designers to achieve greater simplification, automation, resilience testing
+(“what if scenarios”), and full life-cycle operation and infrastructure maintenance.
 
 # Terminology
 
-## Acronyms & Abbreviations
+## Acronyms and Abbreviations
 
 IBN:  Intent-Based Networking
 
@@ -314,13 +300,13 @@ its attributes, behavior, and interactions and is (continually)
 updated with the latter's performance, maintenance, and health
 status data throughout the physical system's life cycle.
 
-Network digital twin:
+Network Digital Twin:
 : A digital representation that is used in the context of
 Networking and whose physical counterpart is a data network
-or enterprise network.  This is also called, digital twin for
-networks. See more in {{def}}.
+(e.g., provider network or enterprise network).  This is also
+called, digital twin for networks. See more in {{def}}.
 
-Physical network:
+Physical Network:
 : Object, system, process, software, or environment that the
 digital twin is designed to replicate and represent
 virtually.
@@ -335,7 +321,7 @@ space vehicles on Earth was built to mirror the condition of the
 equipment during the mission {{Rosen2015}}.
 
 In 2003, Digital Twin was attributed to John Vickers by Michael
-Grieves in his product lifecycle management (PLM) course as "virtual
+Grieves in his Product Lifecycle Management (PLM) course as "virtual
 digital representation equivalent to physical products"
 {{Grieves2014}}.  Digital twin can be defined as a virtual instance of
 a physical system (twin) that is continually updated with the
