@@ -1,6 +1,6 @@
-# Digital Twin Network: Concepts and Reference Architecture
+# Network Digital Twin: Concepts and Reference Architecture
 
-This is the working area for the individual Internet-Draft, "Digital Twin Network: Concepts and Reference Architecture".
+This is the working area for the IRTF NMRG Internet-Draft, "Network Digital Twin: Concepts and Reference Architecture".
 
 * [Editor's Copy](https://cheneyzhoucheng.github.io/network-digital-twin/#go.draft-irtf-nmrg-network-digital-twin-arch.html)
 * [Datatracker Page](https://datatracker.ietf.org/doc/draft-irtf-nmrg-network-digital-twin-arch)
