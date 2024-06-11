@@ -404,7 +404,7 @@ of digital twin technology and its application in other industries,
 this document believes that network digital twin can be regarded as
 an indispensable part of the overall network system and provides a
 general architecture involving the whole life cycle of a "real"
-(typically physical) network in the future, serving the application
+(typically, physical) network in the future, serving the application
 of network innovative technologies such as network planning, construction,
 maintenance and optimization, improving the automation and intelligence
 level of the network.
