@@ -967,7 +967,7 @@ network administrative domains. The real network can include both physical entit
 and some virtual entities (VNFs, for example), which together carry traffic
 and provide actual network services.
 
-This document focuses on the IETF related real networks such as IP bearer and data
+: This document focuses on the IETF related real networks such as IP bearer and data
 centre networks.
 
 Digital Twin Layer: This layer includes three key subsystems: Data Repository subsystem,
