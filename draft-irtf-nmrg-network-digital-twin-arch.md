@@ -307,8 +307,8 @@ status data throughout the physical system's life cycle.
 
 Network Digital Twin:
 : A digital representation that is used in the context of
-Networking and whose physical counterpart is a data network
-or enterprise network.  This is also called, digital twin for
+Networking and whose physical counterpart is a data network (e.g.,
+provider network or enterprise network).  This is also called, digital twin for
 networks. See more in {{def}}.
 
 Physical Network:
