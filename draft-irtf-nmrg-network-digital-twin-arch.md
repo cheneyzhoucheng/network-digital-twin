@@ -471,7 +471,7 @@ that consumes the information to analyze, diagnose, or control.
   how the real network operates and generating reasoning data that may be
   utilized in operational decision-making.
 
-  Various types of models including service models, data models, dataset models,
+  : Various types of models including service models, data models, dataset models,
   transfer matrices, knowledge graphs etc.can be used to represent the real network
   assets and their behaviours, and composed to emulate network changes and behaviours,
   serving the analysis needs of various use case-based network applications.
