@@ -547,7 +547,7 @@ The main difference between network digital twin and simulation platforms
 is the use of interactive virtual-real mapping to support integration of
 model (e.g., emulation) based analysis in real network operations environments,
 up to and including closed loops for network operations automation. Simulation
-platforms are the predecessor of the network digital twin, one example of such
+platforms can be considered as a predecessor of the network digital twin, one example of such
 a simulation platform is network simulator {{NS-3}}, which can be seen as
 a variant of network digital twin but with low fidelity and lacking
 for interactive interfaces to the real network.  Compared with those
