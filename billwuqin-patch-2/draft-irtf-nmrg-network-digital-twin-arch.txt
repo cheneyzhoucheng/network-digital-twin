@@ -557,18 +557,22 @@ Table of Contents
    construction of a digital twin network system needs to consider the
    following major challenges:
 
-   Large-scale challenge: :A digital twin of large-scale networks will
-   significantly increase the complexity of data acquisition and storage
-   and the design and implementation of relevant models.
+   Large-scale challenge:
 
-   The requirements of the software and hardware of the network digital
-   twin system will be even more constrained.  Therefore, efficient and
-   low cost tools in various fields should be required.  Take data as an
-   example, massive network data can help achieve more accurate models.
-   However, the cost of virtual-real communication and data storage
-   becomes extremely expensive, especially in the multi- domain data-
-   driven network management case, therefore efficient tools on data
-   collection and data compression methods must be used.
+   :A digital twin of large-scale networks will significantly
+
+   increase the complexity of data acquisition and storage and the
+   design and
+
+   implementation of relevant models.  The requirements of the software
+      and hardware of the network digital twin system will be even more
+      constrained.  Therefore, efficient and low cost tools in various
+      fields should be required.  Take data as an example, massive
+      network data can help achieve more accurate models.  However, the
+      cost of virtual-real communication and data storage becomes
+      extremely expensive, especially in the multi- domain data-driven
+      network management case, therefore efficient tools on data
+      collection and data compression methods must be used.
 
    Interoperability: Due to the inconsistency of technical
    implementations and the heterogeneity of vendor-adopted technologies,
