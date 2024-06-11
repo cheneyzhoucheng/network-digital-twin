@@ -490,7 +490,8 @@ that consumes the information to analyze, diagnose, or control.
   in delivering application requests to the network digital twin platform and exposing
   the various platform capabilities to applications.
 
-  Mapping: Used to identify the digital twin and the underlying entities and establish
+  Mapping:
+  : Used to identify the digital twin and the underlying entities and establish
   a real-time interactive relation between the real network and the twin network or
   between two twin networks. The mapping can be:
 
