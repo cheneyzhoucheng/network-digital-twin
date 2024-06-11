@@ -584,18 +584,19 @@ Table of Contents
       standardized and unified interfaces to connect all network twins
       via ensuring necessary compatibility.
 
-   Data modeling difficulties: Based on large-scale network data, data
-   modeling should not only focus on ensuring the accuracy of model
-   functions, but also has to consider the flexibility and scalability
-   to compose and extend as required to support large scale and multi-
-   purpose applications.  Balancing these requirements further increases
-   the complexity of building efficient and hierarchical functional data
-   models.  As an optional solution, straightforwardly clone the real
-   network using virtualized resources is feasible to build the twin
-   network when the network scale is relatively small.  However, it will
-   be of unaffordable resource cost for larger scale networks.  In this
-   case, network modeling using mathematical abstraction or leveraging
-   the AI algorithms will be more suitable solutions.
+   Data modeling difficulties:  Based on large-scale network data, data
+      modeling should not only focus on ensuring the accuracy of model
+      functions, but also has to consider the flexibility and
+      scalability to compose and extend as required to support large
+      scale and multi-purpose applications.  Balancing these
+      requirements further increases the complexity of building
+      efficient and hierarchical functional data models.  As an optional
+      solution, straightforwardly clone the real network using
+      virtualized resources is feasible to build the twin network when
+      the network scale is relatively small.  However, it will be of
+      unaffordable resource cost for larger scale networks.  In this
+      case, network modeling using mathematical abstraction or
+      leveraging the AI algorithms will be more suitable solutions.
 
    Real-time requirements: Network services normally have real-time
    requirements, and the processing of model simulation and verification
