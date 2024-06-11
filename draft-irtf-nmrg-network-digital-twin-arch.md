@@ -718,7 +718,7 @@ performance requirements on the system software and hardware. However, given the
 of distributed systems and propagation delays, keeping network digital twins in sync or
 auto-sync between real network and network digital twin is challenging.
 
-Changes to the digital object automatically drive changes in the real object can be even
+: Changes to the digital object automatically drive changes in the real object can be even
 challenging. To address these requirements, the function and process of the data model
 need to be based on automated processing mechanism under various network application
 scenarios. On the one hand, it is needed to design a simplified process to reduce the
