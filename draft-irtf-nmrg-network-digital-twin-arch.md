@@ -304,8 +304,6 @@ ML:  Machine Learning
 
 OAM:  Operations, Administration, and Maintenance
 
-PLM:  Product Lifecycle Management
-
 ## Definitions
 
 This document makes use of the following terms:
