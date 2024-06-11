@@ -543,7 +543,7 @@ operators and/or enterprise user can safely exercise the enforcement
 of network planning policies, deployment procedures, etc., without
 jeopardizing the daily operation of the real network.
 
-The main difference between network digital twin and simulation platform
+The main difference between network digital twin and simulation platforms
 is the use of interactive virtual-real mapping to support integration of
 model (e.g., emulation) based analysis in real network operations environments,
 up to and including closed loops for network operations automation. Simulation
