@@ -689,7 +689,8 @@ data storage becomes extremely expensive, especially in the multi- domain data-d
 network management case, therefore efficient tools on data collection and data
 compression methods must be used.
 
-Interoperability: Due to the inconsistency of technical implementations and the
+Interoperability:
+: Due to the inconsistency of technical implementations and the
 heterogeneity of vendor-adopted technologies, it is difficult to establish a unified
 digital twin network system with a common technology in a network domain.
 Therefore, it is needed firstly to propose a unified architecture of network digital
