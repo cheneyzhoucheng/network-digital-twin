@@ -954,7 +954,8 @@ composition of the core data/modeling functions, and appropriate other functions
      are exchanged through a northbound interface, so they are applied
      by service emulation at the appropriate twin instance(s).
 
-Real Network: All or subset of network elements in the real network exchange
+Real Network:
+: All or subset of network elements in the real network exchange
 network data and control messages with a network digital twin instance, through
 twin-real control interfaces. The real network can be a mobile access network,
 a transport network, a mobile core, a backbone, etc. The real network can also
