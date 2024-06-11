@@ -420,13 +420,12 @@ To that aim, a real-time and interactive mapping is required between the real
 network and its virtual twin network.  Whether a Digital Twin supports all or
 a subset of the functions above (i.e., analyze, diagnose, emulate, and control)
 is deployment-specific.
- 
+
 Referring to the characteristics of digital twins in other industries and the
 characteristics of networking itself, the digital twin network should involve
 at least five key elements: data, mapping, models, interfaces, and logic, as
 shown in {{kelem}}. This provides the information to the application or entity
-that consumes the information to analyze, diagnose, or control. 
-
+that consumes the information to analyze, diagnose, or control.
 
 ~~~~
                +-------------------------------------------------+
@@ -438,7 +437,7 @@ that consumes the information to analyze, diagnose, or control.
                 |  +-------------+            +--------------+  |
                 |  |             |            |              |  |
                 |  |  Mapping    |------------|  Interface   |  |
-                |  |             |            |              |  | 
+                |  |             |            |              |  |
                 |  +-------------+            +--------------+  |
                 |          |                          |         |
                 |          |                          |         |
@@ -478,7 +477,7 @@ that consumes the information to analyze, diagnose, or control.
 
   Interfaces: Standardized interfaces ensure the interoperability of network digital
   twin with real network operations systems. There are two major types of interfaces:
- 
+
   *	The interface between the network digital twin platform and the real network
     infrastructure, directly or through an associated operations (i.e. planning,
    	control, management) system.
@@ -507,7 +506,7 @@ that consumes the information to analyze, diagnose, or control.
   The network digital twin, constructed based on the four core technology elements, can provide
   crucial emulation-driven information to support analysis, diagnosis, and control of the real
   network, through its whole life cycle, with the help of optimization algorithms, management
-  methods, and expert knowledge. 
+  methods, and expert knowledge.
 
   The network digital twin environment and its elements must be controlled and driven to support
   required  behaviors in use, e.g., to provide:
