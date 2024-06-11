@@ -710,7 +710,8 @@ it will be of unaffordable resource cost for larger scale networks. In this case
 modeling using mathematical abstraction or leveraging the AI algorithms will be more
 suitable solutions.
 
-Real-time requirements: Network services normally have real-time requirements, and the
+Real-time requirements:
+: Network services normally have real-time requirements, and the
 processing of model simulation and verification through a digital network twin will
 introduce service latency. Meanwhile, the real-time requirements will further impose
 performance requirements on the system software and hardware. However, given the nature
