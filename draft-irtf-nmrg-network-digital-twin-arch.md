@@ -1196,7 +1196,7 @@ for all inventory component types connected to an enterprise network. It also
 makes actors on assets more accountable for breaching their compliance promises.
 Special care should be considered to protect the inventory data since it may
 gather privacy-sensitive information.
- 
+
 The network inventory management for twins or various inventory components
 can be used, for example, to exercise the implication of End of Life (EoL),
 dependency, and hardware dependency "what-if" scenarios.
