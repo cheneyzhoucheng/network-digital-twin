@@ -904,10 +904,10 @@ separately.
 ##  Data Collection and Data Services
 
 Data collection technology is the foundation of building data
-repository for network digital twin.  Target driven mode should be
-adopted for data collection from heterogeneous data sources.  The
-type, frequency and method of data collection shall meet the
-application of network digital twin.  Whenever building network
+repository for network digital twin. Target driven mode should be
+adopted for data collection from heterogeneous data sources. The
+type, frequency and data collection method shall meet the requirements
+of the network digital twin application. Whenever building network
 models for a specific network application, the required data can be
 efficiently obtained from the data repository.
 
@@ -931,11 +931,11 @@ subscription {{?I-D.ietf-netconf-adaptive-subscription}}, efficient data
 collection {{?I-D.zcz-nmrg-digitaltwin-data-collection}}, and contextual
 information {{?I-D.claise-opsawg-collected-data-manifest}}.
 
-Data repository works to effectively store large-scale and
-heterogeneous network data, as well provide data and services to
-build various network models.  So, it is also necessary to study
-technologies regarding data services including fast search, batch-
-data handling, conflict avoidance, data access interfaces, etc.
+Data repository works to effectively store large-scale and heterogeneous
+network data and provide data and services to build various network models.
+So, it is also necessary to study technologies regarding data services
+including fast search, batch- data handling, conflict avoidance, data access
+interfaces, etc.
 
 ## Network Modeling
 
@@ -950,70 +950,65 @@ For small scale network, network simulating tools (e.g., {{NS-3}},
 {{Mininet}}, etc.) and emulating tools (e.g., {{EVE-NG}}, {{GNS-3}}) can be
 used to build basic network models.  By using the packet processing
 capability of virtual network element, such tools can quickly verify
-the functions of the control plane and data plane.  However, this
-modeling method also has many limitations, including high resource
-consumption, poor performance analysis ability, and poor scalability.
-For large scale network, mathematical abstraction methods can be used
-to build basic network models efficiently.  Knowledge graph, network
-calculus, and formal verification can be candidate methods.  Some
-relevant researches have emerged in recent years, such as [Hong2021],
-{{G2-SIGCOMM}}, and {{DNA-2022}}.  Going forward, how to improve the
-extensibility and accuracy of the models is still a big challenge.
+the functions of the control plane and data plane. However, this modeling
+method also has many limitations, including high resource consumption, poor
+performance analysis ability, and poor scalability. Mathematical abstraction
+methods can be used for large-scale networks to build basic network models
+efficiently. Knowledge graph, network calculus, and formal verification can
+be candidate methods. Some relevant research has emerged in recent years,
+such as {{Hong2021}}, {{G2-SIGCOMM}}, and {{DNA-2022}}. Moving forward, improving
+the extensibility and accuracy of the models represents a significant challenge.
 
 As an example, the theory of bottleneck structures introduced in
 {{G2-SIGCOMM}}, {{G2-SIGMETRICS}} can be used to construct a mathematical
 model of the network (see also
-{{?I-D.giraltyellamraju-alto-bsg-requirements}} for more info).  A
-bottleneck structure is a computational graph that efficiently
-captures the topology, the routing and flow properties of the
-network.  The graph embeds the latent relationships that exist
-between bottlenecks and the application flows in a distributed
-system, providing an efficient mathematical framework to compute the
-ripple effects of perturbations (e.g., a flow arriving or departing
-from the system, or the dynamic change in capacity of a wireless
-link, among others).  Because these perturbations can be seen as
-mathematical derivatives of the communication system, bottleneck
-structures can be used to compute optimized network configurations,
-providing a natural engineering sandbox for building network models.
-One of the key advantages of bottleneck structures is that they can
-be used to compute (symbolically or numerically) key performance
-indicators of the network (e.g., expected flow throughput, projected
-flow completion time, etc.) without the need to use computationally
-intensive simulators.  This capability can be especially useful when
-building a digital twin or a large-scale network, potentially saving
-orders or magnitude in computational resources in comparison to
-simulation or emulation-based approaches.
+{{?I-D.giraltyellamraju-alto-bsg-requirements}} for more info). A bottleneck
+structure is a computational graph that efficiently captures the topology, the
+routing and flow properties of the network. The graph embeds the latent
+relationships that exist between bottlenecks and the application flows in a
+distributed system, providing an efficient mathematical framework to compute
+the ripple effects of perturbations (e.g., a flow arriving or departing from
+the system, or the dynamic change in the capacity of a wireless link, among
+others). Because these perturbations are mathematical derivatives of the
+communication system, bottleneck structures can be used to compute optimized
+network configurations, providing a natural engineering sandbox for building
+network models. One of the key advantages of bottleneck structures is that
+they can be used to compute (symbolically or numerically) key performance
+indicators of the network (e.g., expected flow throughput, projected flow
+completion time, etc.) without using computationally intensive simulators.
+This capability can be especially useful when building a digital twin or
+a large-scale network, potentially saving orders or magnitude in computational
+resources in comparison to simulation or emulation-based approaches.
 
 The functional model aims to realize the dynamic evolution of network
-performance evaluation and intelligent decision-making.  Data driven
-AI/ML algorithm will play a great role in building complex network
-functional models.  As a research hotspot in recent years, many
-successfully cases have been demonstrated, such as {{RouteNet}},
-{{MimicNet}}, etc.  In the future, in addition to improving the
-generalization ability and interpretability of AI models, we also
-need to focus on how to improve the real-time and interactivity of
-model reasoning based on data and control in network digital twin
-layer.
+performance evaluation and intelligent decision-making. Data-driven
+AI/ML algorithms will play a great role in building complex network
+functional models. As a research hotspot in recent years, many successful
+cases have been demonstrated, such as {{RouteNet}}, {{MimicNet}}, etc.
+In the future, in addition to improving the generalization ability and
+interpretability of AI models, we also need to focus on how to improve
+the real-time and interactivity of model reasoning based on data and
+control in network digital twin layer.
 
 ## Network Visualization
 
 It is the internal requirement of the network digital twin system to
-use network visibility technology to visually present the data and
-model in the network twin with high fidelity and intuitively reflect
-the interactive mapping between the real network entity and the
-network twin.  Network Visibility technology can help users
-understand the internal structure of the network, and also help mine
-valuable information hidden in the network.
+use network visibility technology to visually present the data and model
+in the network twin with high fidelity and intuitively reflect the
+interactive mapping between the real network entity and the network twin.
+Network visibility technology can help users understand the internal
+structure of the network and mine valuable information hidden in the
+network.
 
 Network Visibility can use algorithms such as hierarchical layout,
-heuristic layout or force oriented layout (or a combination of
+heuristic layout or force-oriented layout (or a combination of
 several algorithms) for topology layout.  The related topology
 data can be acquired using solutions provided in {{?RFC8345}},
 {{?RFC8346}}, {{?RFC8944}}, etc.  Meanwhile, network digital twin system
 can select different interaction methods or combinations of
 interaction methods to realize the visual dynamic interaction mapping
 of virtual and real networks.  The data query technology, such as
-SPARQL, can be used to express queries across diverse data sources,
+SPARQL, can express queries across diverse data sources,
 whether the data is stored natively as RDF or viewed as RDF via
 middleware.
 
@@ -1042,25 +1037,23 @@ interfaces on building a network digital twin system:
    interfaces or protocols can be XMPP {{?RFC7622}} or
    HTTP/3.0 {{?RFC9114}}.
 
-All these interfaces are recommended to be open and standardized interfaces so as to
-avoid either hardware or software vendor lock, and achieve
-interoperability.  Besides the interfaces list above, some new
-interfaces or protocols can be created to better serve digital twin
-network system.
+All these interfaces are recommended to be open and standardized so
+as to avoid either hardware or software vendor lock and achieve
+interoperability. Besides the interfaces listed above, some new interfaces
+or protocols can be created to better serve digital twin network system.
 
 ## Twinning Management
 
 Twinning management is the key to the efficient deployment and
-potential value of network digital twin systems in production
-networks.  Twinning management technology inputs all information and
-data from each step of network business into the constructed model
-through the construction of digital threads for optimization,
-prediction, and guidance.  Then, the implementation results are
-analyzed to see if they meet expectations, and any actions are fed
-back to form a closed loop.  Twinning management involves various
-network components (e.g., controller, orchestrator) and domains (security, for example)
-from end to end, including, but not limited to, the
-following main technologies:
+potential value of network digital twin systems in production networks.
+Twinning management technology inputs all information and data from each
+step of the network business into the constructed model by constructing
+digital threads for optimization, prediction, and guidance. Then, the
+implementation results are analyzed to see if they meet expectations,
+and any actions are fed back to form a closed loop. Twinning management
+involves various network components (e.g., controller, orchestrator)
+and domains (security, for example) from end to end, including, but
+not limited to, the following main technologies:
 
 *  Orchestration of twins: Manage and organize multiple twin
   model instances, including the creation, deletion, storage,
@@ -1075,19 +1068,18 @@ following main technologies:
   permission control to promote cooperation and information sharing
   among all parties.
 
-*  Conflict Detection and Resolution: Identify and address conflicts
+*  Conflict Detection and Resolution: Identify and address conflicts,
   including user intents, access control policies, or multiple
-  applications interacting within the digtial twin netowrk system.
-  Conflict detection and resolution techniques may use various
-  mechanisms, such as rule-based policies, role-based access
-  control, or dynamic conflict resolution algorithms (e.g.
-  {{Pradeep2022}} and {{Zheng2022}}).
+  applications interacting within the digtial twin network system.
+  Conflict detection and resolution techniques may use various mechanisms,
+  such as rule-based policies, role-based access control, or dynamic conflict
+  resolution algorithms (e.g. {Pradeep2022}} and {{Zheng2022}}).
 
-*  Energy-Efficient Twinning: Focus on energy efficiency in digital
-  twin network system.  It includes monitoring and optimizing the
-  energy consumption of both network equipment and digital twin
-  system operation, reducing the energy expenditure of network
-  operation, and achieving the goal of green network.
+*  Energy-Efficient Twinning: Focus on energy efficiency in digital twin
+  network system. It includes monitoring and optimizing the energy
+  consumption of both network equipment and digital twin system operation,
+  reducing the energy expenditure of network operation, and achieving the
+  goal of a green (energy efficient) network.
 
 # Interaction with Intent-Based Networking (IBN)
 
