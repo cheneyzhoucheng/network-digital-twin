@@ -975,7 +975,7 @@ network configurations, providing a natural engineering sandbox for building
 network models. One of the key advantages of bottleneck structures is that
 they can be used to compute (symbolically or numerically) key performance
 indicators of the network (e.g., expected flow throughput, projected flow
-completion time, etc.) without using computationally intensive simulators.
+completion time) without using computationally intensive simulators.
 This capability can be especially useful when building a digital twin or
 a large-scale network, potentially saving orders or magnitude in computational
 resources in comparison to simulation or emulation-based approaches.
