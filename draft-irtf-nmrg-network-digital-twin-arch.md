@@ -698,7 +698,8 @@ twin, in which all components and functionalities are clear to all stakeholders;
 define standardized and unified interfaces to connect all network twins via ensuring
 necessary compatibility.
 
-Data modeling difficulties: Based on large-scale network data, data modeling should
+Data modeling difficulties:
+: Based on large-scale network data, data modeling should
 not only focus on ensuring the accuracy of model functions, but also has to consider
 the flexibility and scalability to compose and extend as required to support large
 scale and multi-purpose applications.  Balancing these requirements further increases
