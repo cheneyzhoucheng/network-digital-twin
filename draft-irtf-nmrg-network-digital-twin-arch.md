@@ -678,8 +678,8 @@ needs to consider the following major challenges:
 
 Large-scale challenge: A digital twin of large-scale networks will significantly
 increase the complexity of data acquisition and storage and the design and
-implementation of relevant models. 
- 
+implementation of relevant models.
+
 The requirements of the software and hardware of the network digital twin system
 will be even more constrained. Therefore, efficient and low cost tools in various
 fields should be required. Take data as an example, massive network data can help
