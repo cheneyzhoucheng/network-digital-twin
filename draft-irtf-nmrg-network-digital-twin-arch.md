@@ -519,7 +519,7 @@ that consumes the information to analyze, diagnose, or control.
 
   and "the mirroring pace and scope" should be controlled for a given twin usage.
 
-  Note: Real-time interaction is not always mandatory for all NDT use cases. For example, when
+ > Note: Real-time interaction is not always mandatory for all NDT use cases. For example, when
   assessing some configuration changes or emulating some innovative techniques, the digital twin
   can behave as an isolated simulation platform without the need of real-time telemetry data. It
   might be useful to have interactive mapping capability so that the validated changes can be evaluated
