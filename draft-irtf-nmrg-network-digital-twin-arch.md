@@ -222,7 +222,17 @@ informative:
   Zheng2022:
     title: "Intent Based Networking management with conflict detection and policy resolution in an enterprise network, Computer Networks, Volume 219"
     date: December 2022
+    
+  ETSI-GS-ZSM-002:
+    title: "Zero-touch network and Service Management (ZSM); Reference Architecture"
+    target: https://www.etsi.org/deliver/etsi_gs/ZSM/001_099/002/01.01.01_60/gs_ZSM002v010101p.pdf
+    date: August 2019
 
+  ETSI-GS-ZSM-015:
+    title: "Zero-touch network and Service Management (ZSM); Network Digital Twin"
+    target: https://www.etsi.org/deliver/etsi_gr/ZSM/001_099/015/01.01.01_60/gr_ZSM015v010101p.pdf
+    date: February 2024
+ 
 --- abstract
 
 Digital Twin technology has been seen as a rapid adoption technology
@@ -762,7 +772,7 @@ and security assurance.
 
 Considerable industry work and research has focused on
 automation-supporting network systems. As an example,
-{{ETSI GS ZSM 002}} describes a framework architecture for network
+{{ETSI-GS-ZSM-002}} describes a framework architecture for network
 automation. It uses so-called management services as a fundamental
 conceptual unit of currency, and describes the enablement of automation
 use cases through flexible composition and extension of such management
@@ -771,7 +781,7 @@ of appropriate data, analytics, intelligence/decision and orchestration/control
 services.
 
 The role and and utility of NDTs may be represented architecturally by
-following similar principles, e.g. {{ETSI GS ZSM 015}}. As described in section 4,
+following similar principles, e.g. {{ETSI-GS-ZSM-015}}. As described in section 4,
 an NDT may be represented as encompassing models, data, mapping and interfaces;
 these components then work together and in composition with appropriate other
 functions or services to deliver overall functional architectures matching specific
