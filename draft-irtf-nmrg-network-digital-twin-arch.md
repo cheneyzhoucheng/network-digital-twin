@@ -529,7 +529,8 @@ that consumes the information to analyze, diagnose, or control.
   be enforced at both twin and physical network. Enabling real-time interaction in network digital twin
   is a catalyst to achieving autonomous networks or self-driven network.
 
-  Logic: Network digital twins facilitate optimal resource allocation and configuration, enhancing
+  Logic:
+  : Network digital twin facilitates optimal resource allocation and configuration, enhancing
   efficiency and performance. They enable comprehensive troubleshooting maintenance and control by
   diagnosing issues in the digital twin. Moreover, network digital twins play a crucial role in planning
   and deployment, allowing for the simulation of new designs and configurations to anticipate their effects
