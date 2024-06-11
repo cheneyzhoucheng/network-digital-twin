@@ -1075,7 +1075,8 @@ not limited to, the following main technologies:
   such as rule-based policies, role-based access control, or dynamic conflict
   resolution algorithms (e.g., {Pradeep2022}} and {{Zheng2022}}).
 
-*  Energy-Efficient Twinning: Focus on energy efficiency in digital twin
+*  Energy-Efficient Twinning:
+: Focus on energy efficiency in digital twin
   network system. It includes monitoring and optimizing the energy
   consumption of both network equipment and digital twin system operation,
   reducing the energy expenditure of network operation, and achieving the
