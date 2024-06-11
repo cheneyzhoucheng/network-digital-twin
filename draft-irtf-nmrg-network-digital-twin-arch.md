@@ -281,19 +281,23 @@ and full life-cycle operation and infrastructure maintenance.
 
 # Terminology
 
-## Acronyms & Abbreviations
+## Acronyms and Abbreviations
 
-AI: Artificial Intelligence
+AI:
+: Artificial Intelligence
 
-CI/CD: Continuous Integration/Continuous Delivery
+CI/CD:
+: Continuous Integration/Continuous Delivery
 
-IBN: Intent-Based Networking
+IBN:
+: Intent-Based Networking
 
-ML: Machine Learning
+ML:
+: Machine Learning
 
-OAM: Operations, Administration, and Maintenance
+OAM:
+: Operations, Administration, and Maintenance
 
-PLM: Product Lifecycle Management
 
 ## Definitions
 
@@ -309,7 +313,7 @@ Network Digital Twin:
 : A digital representation that is used in the context of
 Networking and whose physical counterpart is a data network (e.g.,
 provider network or enterprise network).  This is also called, digital twin for
-networks. See more in {{def}}.
+networks. See more details in {{def}}.
 
 Physical Network:
 : Object, system, process, software, or environment that the
@@ -326,7 +330,7 @@ space vehicles on Earth was built to mirror the condition of the
 equipment during the mission {{Rosen2015}}.
 
 In 2003, Digital Twin was attributed to John Vickers by Michael
-Grieves in his product lifecycle management (PLM) course as "virtual
+Grieves in his Product Lifecycle Management (PLM) course as "virtual
 digital representation equivalent to physical products"
 {{Grieves2014}}.  Digital twin can be defined as a virtual instance of
 a physical system (twin) that is continually updated with the
