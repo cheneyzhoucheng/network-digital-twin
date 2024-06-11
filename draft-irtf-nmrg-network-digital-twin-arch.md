@@ -681,7 +681,7 @@ Large-scale challenge:
 increase the complexity of data acquisition and storage and the design and
 implementation of relevant models.
 
-The requirements of the software and hardware of the network digital twin system
+: The requirements of the software and hardware of the network digital twin system
 will be even more constrained. Therefore, efficient and low cost tools in various
 fields should be required. Take data as an example, massive network data can help
 achieve more accurate models. However, the cost of virtual-real communication and
