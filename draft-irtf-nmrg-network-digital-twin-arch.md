@@ -465,7 +465,8 @@ that consumes the information to analyze, diagnose, or control.
   populated in the data repository, which provides timely and
   accurate data service support for building various models.
 
-  Models: Models provide a basis for  emulatingchanges in the configuration,
+  Models: 
+  : Models provide a basis for  emulating changes in the configuration,
   state or use of network elements and resources, providing information on
   how the real network operates and generating reasoning data that may be
   utilized in operational decision-making.
