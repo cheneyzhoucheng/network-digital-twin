@@ -486,7 +486,7 @@ that consumes the information to analyze, diagnose, or control.
   *	The interface between network digital twin platform and operations applications
     that consume the information provided by the NDT.
 
-  The former provides real-time data collection from the real network. The latter helps
+  : The former provides real-time data collection from the real network. The latter helps
   in delivering application requests to the network digital twin platform and exposing
   the various platform capabilities to applications.
 
