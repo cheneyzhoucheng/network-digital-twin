@@ -727,7 +727,8 @@ recommended to define the real-time requirements of different applications, and 
 match the corresponding computing resources and suitable solutions as needed to complete
 the task processing in the twin.
 
-Security risks: A network digital twin has to synchronize all or subset of the data
+Security risks:
+: A network digital twin has to synchronize all or subset of the data
 related to involved real networks in real time, which inevitably augments the attack
 surface, with a higher risk of information leakage, in particular. On one hand, it
 is mandatory to design more secure data mechanism leveraging legacy data protection
