@@ -574,14 +574,15 @@ Table of Contents
       network management case, therefore efficient tools on data
       collection and data compression methods must be used.
 
-   Interoperability: Due to the inconsistency of technical
-   implementations and the heterogeneity of vendor-adopted technologies,
-   it is difficult to establish a unified digital twin network system
-   with a common technology in a network domain.  Therefore, it is
-   needed firstly to propose a unified architecture of network digital
-   twin, in which all components and functionalities are clear to all
-   stakeholders; then define standardized and unified interfaces to
-   connect all network twins via ensuring necessary compatibility.
+   Interoperability:  Due to the inconsistency of technical
+      implementations and the heterogeneity of vendor-adopted
+      technologies, it is difficult to establish a unified digital twin
+      network system with a common technology in a network domain.
+      Therefore, it is needed firstly to propose a unified architecture
+      of network digital twin, in which all components and
+      functionalities are clear to all stakeholders; then define
+      standardized and unified interfaces to connect all network twins
+      via ensuring necessary compatibility.
 
    Data modeling difficulties: Based on large-scale network data, data
    modeling should not only focus on ensuring the accuracy of model
