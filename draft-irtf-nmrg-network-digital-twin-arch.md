@@ -1093,7 +1093,7 @@ following main technologies:
 
 Intent-based, means that users can input their abstract 'intent'
 to the network, instead of detailed policies or configurations on
-the network devices. {{RFC9315}} clarifies the concept of "Intent"
+the network devices. {{?RFC9315}} clarifies the concept of "Intent"
 and provides an overview of IBN functionalities. The key characteristic
 of an IBN system is that user intent can be assured automatically via
 continuously adjust policies and validate real-time situations.
