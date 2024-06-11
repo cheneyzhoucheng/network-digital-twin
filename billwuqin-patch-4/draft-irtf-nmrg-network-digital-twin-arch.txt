@@ -863,10 +863,10 @@ Table of Contents
    functional models.  As a research hotspot in recent years, many
    successful cases have been demonstrated, such as [RouteNet],
    [MimicNet], etc.  In the future, in addition to improving the
-   generalization ability and interpretability of AI models, we also
-   need to focus on how to improve the real-time and interactivity of
-   model reasoning based on data and control in network digital twin
-   layer.
+   generalization ability and interpretability of AI models, there is
+   also a need to focus on how to improve the real-time and
+   interactivity of model reasoning based on data and control in network
+   digital twin layer.
 
 8.3.  Network Visualization
 
