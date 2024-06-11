@@ -760,39 +760,90 @@ and security assurance.
 
 # A Reference Architecture of Network Digital Twin  {#arch}
 
-Based on the definition of the key network digital twin technology
-elements introduced in {{def}}, a network digital twin
-architecture is depicted in Figure 2.  This network digital twin
-architecture is broken down into three layers: Application Layer,
-Digital Twin Layer, and Real Network Layer.
+Considerable industry work and research has focused on
+automation-supporting network systems. As an example,
+{{ETSI GS ZSM 002}} describes a framework architecture for network
+automation. It uses so-called management services as a fundamental
+conceptual unit of currency, and describes the enablement of automation
+use cases through flexible composition and extension of such management
+services. For example, a closed loop might be represented as a composition
+of appropriate data, analytics, intelligence/decision and orchestration/control
+services.
+
+The role and and utility of NDTs may be represented architecturally by
+following similar principles, e.g. {{ETSI GS ZSM 015}}. As described in section 4,
+an NDT may be represented as encompassing models, data, mapping and interfaces;
+these components then work together and in composition with appropriate other
+functions or services to deliver overall functional architectures matching specific
+use cases.
+
+For example, see Figure 2. The NDT (or, NDT core or layer) is represented as
+encompassing data and models, along with capability to manage them together to
+useful purpose. The overall system architecture shows an intent-capable controller
+mediating between intent-generating network service demand sources and the physical
+network. The NDT plays an important role in this controller. An “outer” closed loop
+detects gaps between service parameters set by intents and actual service characteristics,
+finds solutions to close those gaps, and drives those solutions on to the network. Finding
+solutions makes use of an “inner loop” that includes an NDT: effectively, prospective solutions
+are postulated, their impacts on services are evaluated by the NDT acting as a “sandbox” in
+virtual space, and the process is repeated until a satisfactory solution is found. At that
+point, the known-good solution is passed to the outer loop for actuation.
+
+Many automation use cases may be thought of as following a similar pattern: a solution
+corresponding to some kind of optimization problem is found through iteration in virtual
+space using an NDT; the solution is then placed at the disposal of other, active components
+of the operations system. However, all use cases involving NDTs can be represented as some
+composition of the core data/modeling functions, and appropriate other functions/services. 
 
 ~~~~
-      +---------------------------------------------------------+
-      |   +-------+   +-------+          +-------+              |
-      |   | App 1 |   | App 2 |   ...    | App n |   Application|
-      |   +-------+   +-------+          +-------+              |
-      +-------------^-------------------+-----------------------+
-                    |Capability Exposure| Intent Input
-                    |                   |
-      +-------------+-------------------v-----------------------+
-      |                        Instance of Network Digital Twin |
-      |  +--------+   +------------------------+   +--------+   |
-      |  |        |   | Service Mapping Models |   |        |   |
-      |  |        |   |  +------------------+  |   |        |   |
-      |  | Data   +--->  |Functional Models |  +---> Digital|   |
-      |  | Repo-  |   |  +-----+-----^------+  |   | Twin   |   |
-      |  | sitory |   |        |     |         |   | Network|   |
-      |  |        |   |  +-----v-----+------+  |   |  Mgmt  |   |
-      |  |        <---+  |  Basic Models    |  <---+        |   |
-      |  |        |   |  +------------------+  |   |        |   |
-      |  +--------+   +------------------------+   +--------+   |
-      +--------^----------------------------+-------------------+
-               |                            |
-               | data collection            | control
-      +--------+----------------------------v-------------------+
-      |                      Real Network                       |
-      |                                                         |
-      +---------------------------------------------------------+
+  +--------------------------------------------------------------+
+  |                                                              |
+  |                 Service Demand Generators                    |
+  |                                                              |
+  +-----------+-------------------------------------------^------+
+              |                                           |
+          Service Intents                         Intents Report
+              |                                           |
+              V                                           |
+  +-------------------------------------------------------+------+
+  |                                                              |
+  |  +-------------+                                             |
+  |  |             |                      Network Controller     |
+  |  |   Intent    |                                             |
+  |  | Translation |                                             |
+  |  |             |                                             |
+  |  +---+---------+                                             |
+  |      |                                                       |
+  |      |                                      Outer Loop       |
+  |      |      +----------------------------------------------+ |
+  |      |      |                                              | |
+  |      |      |   +---------------------------------------+  | |
+  |      |      |   |               Inner Loop              |  | |
+  |      |      |   | +------------------------------------||  | |
+  |      |      |   | |   +----------------------------+   ||  | |
+  |      |      |   | |   |           NDT              |   ||  | |
+  |      V      V   | |   |+------+ +-------+  +------+|   ||  | |
+  |+------------+-+ | +-> || Data | | Models|  | NDT  |+---+|  | |
+  ||              | |     ||      | |       |  | Mgmt ||    |  | |
+  || Service Data | |     |+------+ +-------+  +------+|    |  | |
+  ||   vs. Intents| |     |                            |    |  | |
+  ||              | |     +----------------------------+    |  | |
+  |+--------------+ +---------------------------------------+  | |
+  |                            |        +----------------+     | |
+  |                            |        |                |     | |
+  |                            |        |  Orchestration |     | |
+  |                            +----->  |     Control    +-----+ |
+  |                                     +----------------+       |
+  |                                                              |
+  +-----------^-------------------------------------+------------+
+              |                                     |            |
+              |Data Collection               Control|
+              |                                     |
+  +-----------+-------------------------------------V------------+
+  |                                                              |
+  |                   Physical Netework                          |
+  |                                                              |
+  +--------------------------------------------------------------+
 ~~~~
 {: #arc title="Reference Architecture of Network Digital Twin" artwork-align="center"}
 
@@ -892,6 +943,81 @@ Digital Twin Layer, and Real Network Layer.
      need to be addressed by the network digital twin.  Such requests
      are exchanged through a northbound interface, so they are applied
      by service emulation at the appropriate twin instance(s).
+
+Real Network: All or subset of network elements in the real network exchange
+network data and control messages with a network digital twin instance, through
+twin-real control interfaces. The real network can be a mobile access network,
+a transport network, a mobile core, a backbone, etc. The real network can also
+be a data center network, a campus enterprise network, an industrial Internet of
+Things, etc.
+
+The real network can span across a single network administrative domain or multiple
+network administrative domains. The real network can include both physical entities
+and some virtual entities (e.g. vSwitches, NFVs, etc.), which together carry traffic
+and provide actual network services.
+
+This document focuses on the IETF related real networks such as IP bearer and data
+centre networks.
+
+Digital Twin Layer: This layer includes three key subsystems: Data Repository subsystem,
+Service Mapping Models subsystem, and Network Digital Twin Management subsystem. These
+key subsystems can be placed in one network administrative domain and provide the service
+to the application (e.g.,SDN controller) in other administrative domains, or deployed in
+every network administrative domain and coordinated between each other, to provide services
+to the application in the upper layer.
+
+One or multiple network digital twin instances can be built and maintained:
+
+*	Data Repository subsystem is responsible for collecting and storing various network data
+  for building various models by collecting and updating the real-time operational data of
+  various network elements through the twin southbound interface, and providing data services
+  (e.g., fast retrieval, concurrent conflict handling, batch service) and unified interfaces
+  to Service Mapping Models subsystem.
+
+*	Service Mapping Models complete data modeling, provide data model instances for various
+  network applications, and maximizes the agility and programmability of network services.
+  The data models include two major types: basic and functional models.
+
+ 	-	Basic models refer to the network element model(s) and network topology model(s) of the
+    network, which is digital twin-based.
+
+   	on the basic configuration, environment information, operational state, link topology,
+ 	  and other information of the network element(s) to complete the accurate real-time
+ 	  characterization of the real network.
+
+  -	Functional models refer to various data models used for network analysis, emulation,
+    diagnosis, prediction, assurance, etc. The functional models can be constructed and
+   	expanded by multiple dimensions: by network type, there can be models serving a single
+   	or multiple network domains; by function type, it can be divided into state monitoring,
+   	traffic analysis, security exercise, fault diagnosis, quality assurance and other models;
+   	by network lifecycle management, it can be divided into planning, construction, maintenance,
+   	optimization and operation.
+    Functional models can also be divided into general models and special-purpose models. Specifically,
+   	multiple dimensions can be combined to create a data model for more specific application scenarios.
+   	New applications might need new functional models that do not exist yet. If a new model is needed,
+   	‘Service Mapping Models’ subsystem will be triggered to help creating new models based on data
+   	retrieved from ‘Data Repository’.
+
+* Network Digital Twin Management fulfils the management function of network digital twin, records
+  the life-cycle transactions of the twin entity, monitors the performance and resource consumption
+  of the twin entity or even of individual models, visualizes and controls various elements of the
+  network digital twin, including topology management, model management and security management.
+
+Notes: 'Data collection' and 'change control' are regarded as network-facing interfaces between virtual
+and real network. From implementation perspective, they may form a sub-layer or sub- system to provide
+common data collection and change control functions, enabled by a specific infrastructure supporting
+bi- directional flows and facilitating data aggregation, action translation, pre-processing, and ontologies.
+It might not be possible or necessary to 'synchronize' all twin states or flows from twin entities to
+physical entities or network management systems. Bi-directional interaction means that: data, state, or
+flows are reported or collected from the physical network or the network management system to a twin
+instance, and configure changes or 'necessary' data sent from a twin instance to physical.
+
+Application Layer: Various applications (e.g., Operations, Administration, and Maintenance (OAM))
+can effectively run over a network digital twin platform to implement either conventional or innovative
+network operations, with low cost and less service impact on real networks. Network applications make
+requests that need to be addressed by the network digital twin. Such requests are exchanged through
+a northbound interface, so they are applied by service emulation at the appropriate twin instance(s).
+
 
 # Enabling Technologies to Build Network Digital Twin
 
