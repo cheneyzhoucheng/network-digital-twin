@@ -344,16 +344,17 @@ Table of Contents
       populated in the data repository, which provides timely and
       accurate data service support for building various models.
 
-   Models: Models provide a basis for emulatingchanges in the
-   configuration, state or use of network elements and resources,
-   providing information on how the real network operates and generating
-   reasoning data that may be utilized in operational decision-making.
+   Models:  Models provide a basis for emulating changes in the
+      configuration, state or use of network elements and resources,
+      providing information on how the real network operates and
+      generating reasoning data that may be utilized in operational
+      decision-making.
 
-   Various types of models including service models, data models,
-   dataset models, transfer matrices, knowledge graphs etc.can be used
-   to represent the real network assets and their behaviours, and
-   composed to emulate network changes and behaviours, serving the
-   analysis needs of various use case-based network applications.
+      Various types of models including service models, data models,
+      dataset models, transfer matrices, knowledge graphs etc.can be
+      used to represent the real network assets and their behaviours,
+      and composed to emulate network changes and behaviours, serving
+      the analysis needs of various use case-based network applications.
 
    Interfaces: Standardized interfaces ensure the interoperability of
    network digital twin with real network operations systems.  There are
@@ -363,18 +364,18 @@ Table of Contents
       real network infrastructure, directly or through an associated
       operations (i.e. planning, control, management) system.
 
-   *  The interface between network digital twin platform and operations
-      applications that consume the information provided by the NDT.
+*   The interface between network digital twin platform and operations applications
+that consume the information provided by the NDT.
 
-   The former provides real-time data collection from the real network.
-   The latter helps in delivering application requests to the network
-   digital twin platform and exposing the various platform capabilities
-   to applications.
+   : The former provides real-time data collection from the real
+   network.  The latter helps in delivering application requests to the
+   network digital twin platform and exposing the various platform
+   capabilities to applications.
 
-   Mapping: Used to identify the digital twin and the underlying
-   entities and establish a real-time interactive relation between the
-   real network and the twin network or between two twin networks.  The
-   mapping can be:
+   Mapping:  Used to identify the digital twin and the underlying
+      entities and establish a real-time interactive relation between
+      the real network and the twin network or between two twin
+      networks.  The mapping can be:
 
    *  One to one (pairing, vertical): Synchronize between a real network
       and its virtual twin network with continuous flows.
@@ -406,26 +407,26 @@ Table of Contents
    and "the mirroring pace and scope" should be controlled for a given
    twin usage.
 
-   Note: Real-time interaction is not always mandatory for all NDT use
-   cases.  For example, when assessing some configuration changes or
-   emulating some innovative techniques, the digital twin can behave as
-   an isolated simulation platform without the need of real-time
-   telemetry data.  It might be useful to have interactive mapping
-   capability so that the validated changes can be evaluated under real
-   network conditions whenever required by the testers.  Whether real-
-   time interaction between virtual and real network is mandatory is a
-   configurable parameter.  Adequate validation guards have to be
-   enforced at both twin and physical network.  Enabling real-time
-   interaction in network digital twin is a catalyst to achieving
-   autonomous networks or self-driven network.
+      Note: Real-time interaction is not always mandatory for all NDT
+      use cases.  For example, when assessing some configuration changes
+      or emulating some innovative techniques, the digital twin can
+      behave as an isolated simulation platform without the need of
+      real-time telemetry data.  It might be useful to have interactive
+      mapping capability so that the validated changes can be evaluated
+      under real network conditions whenever required by the testers.
+      Whether real-time interaction between virtual and real network is
+      mandatory is a configurable parameter.  Adequate validation guards
+      have to be enforced at both twin and physical network.  Enabling
+      real-time interaction in network digital twin is a catalyst to
+      achieving autonomous networks or self-driven network.
 
-   Logic: Network digital twins facilitate optimal resource allocation
-   and configuration, enhancing efficiency and performance.  They enable
-   comprehensive troubleshooting maintenance and control by diagnosing
-   issues in the digital twin.  Moreover, network digital twins play a
-   crucial role in planning and deployment, allowing for the simulation
-   of new designs and configurations to anticipate their effects before
-   implementation.
+   Logic:  Network digital twin facilitates optimal resource allocation
+      and configuration, enhancing efficiency and performance.  They
+      enable comprehensive troubleshooting maintenance and control by
+      diagnosing issues in the digital twin.  Moreover, network digital
+      twins play a crucial role in planning and deployment, allowing for
+      the simulation of new designs and configurations to anticipate
+      their effects before implementation.
 
 5.  Benefits of Network Digital Twin
 
