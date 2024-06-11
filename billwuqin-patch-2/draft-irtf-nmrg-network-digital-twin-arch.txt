@@ -607,16 +607,16 @@ Table of Contents
       propagation delays, keeping network digital twins in sync or auto-
       sync between real network and network digital twin is challenging.
 
-   Changes to the digital object automatically drive changes in the real
-   object can be even challenging.  To address these requirements, the
-   function and process of the data model need to be based on automated
-   processing mechanism under various network application scenarios.  On
-   the one hand, it is needed to design a simplified process to reduce
-   the time cost for tasks in network twin as much as possible; on the
-   other hand, it is recommended to define the real-time requirements of
-   different applications, and then match the corresponding computing
-   resources and suitable solutions as needed to complete the task
-   processing in the twin.
+      Changes to the digital object automatically drive changes in the
+      real object can be even challenging.  To address these
+      requirements, the function and process of the data model need to
+      be based on automated processing mechanism under various network
+      application scenarios.  On the one hand, it is needed to design a
+      simplified process to reduce the time cost for tasks in network
+      twin as much as possible; on the other hand, it is recommended to
+      define the real-time requirements of different applications, and
+      then match the corresponding computing resources and suitable
+      solutions as needed to complete the task processing in the twin.
 
    Security risks: A network digital twin has to synchronize all or
    subset of the data related to involved real networks in real time,
