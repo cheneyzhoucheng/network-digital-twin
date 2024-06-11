@@ -413,7 +413,7 @@ level of the network.
 
 So far, there is no standard definition for characteristic of "network
 digital twin" within the networking industry. This document introduces five
-key elements (i.e., data, models, mapping, interfaces and logic) to characterize
+key elements (i.e., data, models, mapping, interfaces, and logic) to characterize
 the network digital twin. These five elements can be integrated into a network
 management system to analyze, diagnose, emulate, and control the real network.
 To that aim, a real-time and interactive mapping is required between the real
