@@ -1091,21 +1091,20 @@ following main technologies:
 
 # Interaction with Intent-Based Networking (IBN)
 
-Intent-based, means that users can input their
-abstract 'intent' to the network, instead of detailed policies or
-configurations on the network devices.  {{?RFC9315}} clarifies the
-concept of "Intent" and provides an overview of IBN functionalities.
-The key characteristic of an IBN system is that user intent can be
-assured automatically via continuously adjusting the policies and
-validating the real-time situation.
+Intent-based, means that users can input their abstract 'intent'
+to the network, instead of detailed policies or configurations on
+the network devices. {{RFC9315}} clarifies the concept of "Intent"
+and provides an overview of IBN functionalities. The key characteristic
+of an IBN system is that user intent can be assured automatically via
+continuously adjust policies and validate real-time situations.
 
 IBN can be envisaged in a network digital twin context to show how
 network digital twin improves the efficiency of deploying network
-innovation.  To lower the impact on real networks, several rounds of
-adjustment and validation can be emulated on the network digital twin
-platform instead of directly on real network.  Therefore, the digital
-twin network can be an important enabler platform to implement IBN
-systems and fooster their deployment.
+innovation. Several rounds of adjustment and validation can be emulated
+on the digital twin platform instead of directly impacting real network
+during the testing phase. Therefore, the digital twin network can be an
+important enabler platform for implementing IBN systems and fostering
+their deployment.
 
 # Sample Application Scenarios
 
@@ -1115,13 +1114,13 @@ network management and operation.
 ## Human Training
 
 The usual approach to network OAM with procedures applied by humans
-is open to errors in all these procedures, with impact in network
+is open to errors in all these procedures, whigh impact network
 availability and resilience.  Response procedures and actions for
 most relevant operational requests and incidents are commonly defined
-to reduce errors to a minimum.  The progressive automation of these
+to reduce errors to a minimum. The progressive automation of these
 procedures, such as predictive control or closed-loop management,
-reduce the faults and response time, but still there is the need of a
-human-in-the-loop for multiples actions.  These processes are not
+reduce the faults and response time, but still, there is the need of
+a human-in-the-loop for multiple actions. These processes are not
 intuitive and require training to learn how to respond.
 
 The use of network digital twin for this purpose in different network
@@ -1133,13 +1132,13 @@ environments, fitted to the real production networks.
 
 ## Machine Learning Training
 
-Machine Learning requires data and their context to be available in
-order to apply it.  A common approach in the network management
-environment has been to simulate or import data in a specific
-environment (the ML developer lab), where they are used to train the
-selected model, while later, when the model is deployed in
-production, re-train or adjust to the production environment context.
-This demands a specific adaption period.
+Machine learning requires data and their context to be available in
+order to be applied. A common approach in the network management
+environment has been to simulate or import data in a specific environment
+(the ML developer lab), where they are used to train the selected model,
+while later, when the model is deployed in production, re-train or adjust
+to the production environment context. This demands a specific adaption
+period.
 
 Network digital twin simplifies the complete ML lifecycle development
 by providing a realistic environment, including network topologies,
@@ -1151,13 +1150,14 @@ without impacting data privacy.
 ## DevOps-Oriented Certification
 
 The potential application of CI/CD models network management
-operations increases the risk associated to deployment of non-
-validated updates, what conflicts with the goal of the certification
-requirements applied by network service providers.  A solution for
-addressing these certification requirements is to verify the specific
-impacts of updates on service assurance and Service Level Agreements
-(SLAs) using a network digital twin environment replicating the
-network particularities, as a previous step to production release.
+operations increases the risk associated to the deployment of
+non-validated updates, which conflicts with the goal of the
+certification requirements applied by network service providers.
+A solution for addressing these certification requirements is to
+verify the specific impacts of updates on service assurance and
+Service Level Agreements (SLAs) using a network digital twin
+environment replicating the network particularities as a previous
+step to production release.
 
 Network digital twin control functional block supports such dynamic
 mechanisms required by DevOps procedures.
@@ -1170,56 +1170,52 @@ interactions among complex software components are examples that
 imply higher risk to errors or vulnerabilities in software and
 configuration.
 
-Network digital twin allows to apply fuzzing testing techniques on a
-twin network environment, with interactions and conditions similar to
-the production network, permitting to identify and solve
-vulnerabilities, bugs and zero-days attacks before production
-delivery.
+Network digital twin allows to apply fuzzing testing techniques on
+a twin network environment, with interactions and conditions similar
+to the production network, permitting the identification of
+vulnerabilities, bugs and zero-day attacks before production delivery.
 
 ## Network Inventory Management
 
-With the development of enterprise digitization, the number of
-enterprise Internet of Objects (IoT) devices, virtualized Cloud
-software inventory component (e.g., virtual firewall), and network
-hardware inventory (e.g., switches or routers) also increases.  The
-endpoints connected to an enterprise network lack coherent modelling
-and lifecycle management because different services are modelled,
-collected, processed, and stored separately.  The same category of
-network devices (including network endpoints) may be repeatedly
-discovered, processed, and stored.  Therefore, the inventory is
-difficult to manage when they are tracked in different places without
-formal synchronization procedures.
+With the development of enterprise digitization, the number of enterprise
+Internet of Objects (IoT) devices, virtualized Cloud software inventory
+components (e.g., virtual firewall), and network hardware inventory (e.g.,
+switches or routers) also increases. The endpoints connected to an enterprise
+network lack coherent modelling and lifecycle management because different
+services are modelled, collected, processed, and stored separately. The same
+category of network devices (including network endpoints) may be repeatedly
+discovered, processed, and stored. Therefore, the inventory is difficult to
+manage when tracked in different places without formal synchronization
+procedures.
 
-Network digital twin management can be used as a means to ensure
-consistent representation and reporting of inventory component types.
-In doing so, the enforcement of security policies and assessment will
-be further simplified.  Such an approach will ease implementing a
-unified control strategy for all inventory components types connected
-to an enterprise network.  It also make actors on assets more
-accountable for breaching their compliance promises.  Special care
-should be considered to protect the inventory data since it may be
+Network digital twin management can be used as a means to ensure consistent
+representation and reporting of inventory component types. In doing so, the
+enforcement of security policies and assessments will be further simplified.
+Such an approach will ease the implementation of a unified control strategy
+for all inventory component types connected to an enterprise network. It also
+makes actors on assets more accountable for breaching their compliance promises.
+Special care should be considered to protect the inventory data since it may
 gather privacy-sensitive information.
-
-The network inventory management for twins or various inventory
-components can be used, for example, to exercise the implication of
-End of Life (EoL), dependency, and hardware dependency "what-if"
-scenarios.
+ 
+The network inventory management for twins or various inventory components
+can be used, for example, to exercise the implication of End of Life (EoL),
+dependency, and hardware dependency "what-if" scenarios.
 
 # Research Perspectives: A Summary
 
-Research on network digital twin has just started.  This document
-presents an overview of the network digital twin concepts and
-reference architecture.  Looking forward, further elaboration on
-network digital twin scenarios, requirements, architecture, and key
-enabling technologies should be investigated by the industry, so as
-to accelerate the implementation and deployment of digital twin
-network.
+Research on network digital twin has just started. This document
+presents an overview of the network digital twin concepts and reference
+architecture. As digital twin technology develops, further investigation
+of network digital twin scenarios, requirements, architecture, and key
+enabling technologies should be investigated by the industry to accelerate
+the implementation and deployment of digital twin network.
 
 # Security Considerations
 
 This document describes concepts and definitions of digital twin
-network.  As such, the following security considerations remain high
-level, i.e., in the form of principles, guidelines or requirements.
+network. As such, the following security considerations are abstract
+and lack specific guidance or detail, i.e., in the form of principles,
+guidelines or requirements.
 
 Security considerations of the network digital twin include:
 
@@ -1227,18 +1223,19 @@ Security considerations of the network digital twin include:
 
 *  Data privacy protection.
 
-Securing the network digital twin system aims at making the digital
-twin system operationally secure by implementing security mechanisms
-and applying security best practices.  In the context of digital twin
-network, such mechanisms and practices may consist in data
-verification and model validation, mapping operations between real
-network and digital counterpart network by authenticated and
-authorized users only.
 
-Synchronizing the data between the real network and the twin network
-may increase the risk of sensitive data and information leakage.
-Strict control and security mechanisms must be provided and enabled
-to prevent data leaks.
+A key objective would be to make the digital twin system
+operationally secure by implementing security mechanisms and
+applying industry best practices for security. In the context
+of digital twin network, such mechanisms and practices may
+consist in data verification and model validation, mapping
+operations between real network and digital counterpart
+network by authenticated and authorized users only.
+
+Synchronizing the data between the real and twin networks may
+increase the risk of sensitive data and information leakage.
+Strict control and security mechanisms must be provided and
+enabled to prevent data leaks.
 
 # IANA Considerations
 
