@@ -483,7 +483,7 @@ that consumes the information to analyze, diagnose, or control.
     infrastructure, directly or through an associated operations (i.e. planning,
    	control, management) system.
 
-  *	The interface between network digital twin platform and operations applications
+    *	The interface between network digital twin platform and operations applications
     that consume the information provided by the NDT.
 
   : The former provides real-time data collection from the real network. The latter helps
