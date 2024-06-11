@@ -2167,46 +2167,50 @@ a transport network, a mobile core, a backbone, etc. The real network can also
 be a data center network, a campus enterprise network, an industrial Internet of
 Things, etc.<a href="#section-7-10.2.1" class="pilcrow">¶</a></p>
 </dd>
-      <dd class="break"></dd>
-</dl>
-<p id="section-7-11">The real network can span across a single network administrative domain or multiple
+        <dd class="break"></dd>
+<dt id="section-7-10.3"></dt>
+        <dd style="margin-left: 1.5em" id="section-7-10.4">
+          <p id="section-7-10.4.1">The real network can span across a single network administrative domain or multiple
 network administrative domains. The real network can include both physical entities
 and some virtual entities (e.g. vSwitches, NFVs, etc.), which together carry traffic
-and provide actual network services.<a href="#section-7-11" class="pilcrow">¶</a></p>
-<p id="section-7-12">This document focuses on the IETF related real networks such as IP bearer and data
-centre networks.<a href="#section-7-12" class="pilcrow">¶</a></p>
-<p id="section-7-13">Digital Twin Layer: This layer includes three key subsystems: Data Repository subsystem,
+and provide actual network services.<a href="#section-7-10.4.1" class="pilcrow">¶</a></p>
+</dd>
+      <dd class="break"></dd>
+</dl>
+<p id="section-7-11">This document focuses on the IETF related real networks such as IP bearer and data
+centre networks.<a href="#section-7-11" class="pilcrow">¶</a></p>
+<p id="section-7-12">Digital Twin Layer: This layer includes three key subsystems: Data Repository subsystem,
 Service Mapping Models subsystem, and Network Digital Twin Management subsystem. These
 key subsystems can be placed in one network administrative domain and provide the service
 to the application (e.g.,SDN controller) in other administrative domains, or deployed in
 every network administrative domain and coordinated between each other, to provide services
-to the application in the upper layer.<a href="#section-7-13" class="pilcrow">¶</a></p>
-<p id="section-7-14">One or multiple network digital twin instances can be built and maintained:<a href="#section-7-14" class="pilcrow">¶</a></p>
+to the application in the upper layer.<a href="#section-7-12" class="pilcrow">¶</a></p>
+<p id="section-7-13">One or multiple network digital twin instances can be built and maintained:<a href="#section-7-13" class="pilcrow">¶</a></p>
 <ul class="normal">
-<li class="normal" id="section-7-15.1">
-          <p id="section-7-15.1.1">Data Repository subsystem is responsible for collecting and storing various network data
+<li class="normal" id="section-7-14.1">
+          <p id="section-7-14.1.1">Data Repository subsystem is responsible for collecting and storing various network data
   for building various models by collecting and updating the real-time operational data of
   various network elements through the twin southbound interface, and providing data services
   (e.g., fast retrieval, concurrent conflict handling, batch service) and unified interfaces
-  to Service Mapping Models subsystem.<a href="#section-7-15.1.1" class="pilcrow">¶</a></p>
+  to Service Mapping Models subsystem.<a href="#section-7-14.1.1" class="pilcrow">¶</a></p>
 </li>
-        <li class="normal" id="section-7-15.2">
-          <p id="section-7-15.2.1">Service Mapping Models complete data modeling, provide data model instances for various
+        <li class="normal" id="section-7-14.2">
+          <p id="section-7-14.2.1">Service Mapping Models complete data modeling, provide data model instances for various
   network applications, and maximizes the agility and programmability of network services.
-  The data models include two major types: basic and functional models.<a href="#section-7-15.2.1" class="pilcrow">¶</a></p>
+  The data models include two major types: basic and functional models.<a href="#section-7-14.2.1" class="pilcrow">¶</a></p>
 <ul class="normal">
-<li class="normal" id="section-7-15.2.2.1">
-              <p id="section-7-15.2.2.1.1">Basic models refer to the network element model(s) and network topology model(s) of the
-    network, which is digital twin-based.<a href="#section-7-15.2.2.1.1" class="pilcrow">¶</a></p>
+<li class="normal" id="section-7-14.2.2.1">
+              <p id="section-7-14.2.2.1.1">Basic models refer to the network element model(s) and network topology model(s) of the
+    network, which is digital twin-based.<a href="#section-7-14.2.2.1.1" class="pilcrow">¶</a></p>
 </li>
           </ul>
-<p id="section-7-15.2.3">
+<p id="section-7-14.2.3">
 on the basic configuration, environment information, operational state, link topology,
   and other information of the network element(s) to complete the accurate real-time
-  characterization of the real network.<a href="#section-7-15.2.3" class="pilcrow">¶</a></p>
+  characterization of the real network.<a href="#section-7-14.2.3" class="pilcrow">¶</a></p>
 </li>
-        <li class="normal" id="section-7-15.3">
-          <p id="section-7-15.3.1">Functional models refer to various data models used for network analysis, emulation,
+        <li class="normal" id="section-7-14.3">
+          <p id="section-7-14.3.1">Functional models refer to various data models used for network analysis, emulation,
     diagnosis, prediction, assurance, etc. The functional models can be constructed and
 expanded by multiple dimensions: by network type, there can be models serving a single
 or multiple network domains; by function type, it can be divided into state monitoring,
@@ -2217,28 +2221,28 @@ optimization and operation.
 multiple dimensions can be combined to create a data model for more specific application scenarios.
 New applications might need new functional models that do not exist yet. If a new model is needed,
 ‘Service Mapping Models’ subsystem will be triggered to help creating new models based on data
-retrieved from ‘Data Repository’.<a href="#section-7-15.3.1" class="pilcrow">¶</a></p>
+retrieved from ‘Data Repository’.<a href="#section-7-14.3.1" class="pilcrow">¶</a></p>
 </li>
-        <li class="normal" id="section-7-15.4">
-          <p id="section-7-15.4.1">Network Digital Twin Management fulfils the management function of network digital twin, records
+        <li class="normal" id="section-7-14.4">
+          <p id="section-7-14.4.1">Network Digital Twin Management fulfils the management function of network digital twin, records
 the life-cycle transactions of the twin entity, monitors the performance and resource consumption
 of the twin entity or even of individual models, visualizes and controls various elements of the
-network digital twin, including topology management, model management and security management.<a href="#section-7-15.4.1" class="pilcrow">¶</a></p>
+network digital twin, including topology management, model management and security management.<a href="#section-7-14.4.1" class="pilcrow">¶</a></p>
 </li>
       </ul>
-<p id="section-7-16">Notes: 'Data collection' and 'change control' are regarded as network-facing interfaces between virtual
+<p id="section-7-15">Notes: 'Data collection' and 'change control' are regarded as network-facing interfaces between virtual
 and real network. From implementation perspective, they may form a sub-layer or sub- system to provide
 common data collection and change control functions, enabled by a specific infrastructure supporting
 bi- directional flows and facilitating data aggregation, action translation, pre-processing, and ontologies.
 It might not be possible or necessary to 'synchronize' all twin states or flows from twin entities to
 physical entities or network management systems. Bi-directional interaction means that: data, state, or
 flows are reported or collected from the physical network or the network management system to a twin
-instance, and configure changes or 'necessary' data sent from a twin instance to physical.<a href="#section-7-16" class="pilcrow">¶</a></p>
-<p id="section-7-17">Application Layer: Various applications (e.g., Operations, Administration, and Maintenance (OAM))
+instance, and configure changes or 'necessary' data sent from a twin instance to physical.<a href="#section-7-15" class="pilcrow">¶</a></p>
+<p id="section-7-16">Application Layer: Various applications (e.g., Operations, Administration, and Maintenance (OAM))
 can effectively run over a network digital twin platform to implement either conventional or innovative
 network operations, with low cost and less service impact on real networks. Network applications make
 requests that need to be addressed by the network digital twin. Such requests are exchanged through
-a northbound interface, so they are applied by service emulation at the appropriate twin instance(s).<a href="#section-7-17" class="pilcrow">¶</a></p>
+a northbound interface, so they are applied by service emulation at the appropriate twin instance(s).<a href="#section-7-16" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="enabling-technologies-to-build-network-digital-twin">
