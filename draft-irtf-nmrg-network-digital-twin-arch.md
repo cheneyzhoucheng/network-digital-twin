@@ -962,7 +962,7 @@ a transport network, a mobile core, a backbone, etc. The real network can also
 be a data center network, a campus enterprise network, an industrial Internet of
 Things, etc.
 
-The real network can span across a single network administrative domain or multiple
+: The real network can span across a single network administrative domain or multiple
 network administrative domains. The real network can include both physical entities
 and some virtual entities (e.g. vSwitches, NFVs, etc.), which together carry traffic
 and provide actual network services.
