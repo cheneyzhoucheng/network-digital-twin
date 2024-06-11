@@ -659,7 +659,7 @@ Table of Contents
    “outer” closed loop detects gaps between service parameters set by
    intents and actual service characteristics, finds solutions to close
    those gaps, and drives those solutions on to the network.  Finding
-   solutions makes use of an “inner loop” that includes an NDT:
+   solutions makes use of an "inner loop" that includes an NDT:
    effectively, prospective solutions are postulated, their impacts on
    services are evaluated by the NDT acting as a “sandbox” in virtual
    space, and the process is repeated until a satisfactory solution is
