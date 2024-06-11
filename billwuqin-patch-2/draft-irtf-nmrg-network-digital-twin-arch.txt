@@ -618,15 +618,16 @@ Table of Contents
       then match the corresponding computing resources and suitable
       solutions as needed to complete the task processing in the twin.
 
-   Security risks: A network digital twin has to synchronize all or
-   subset of the data related to involved real networks in real time,
-   which inevitably augments the attack surface, with a higher risk of
-   information leakage, in particular.  On one hand, it is mandatory to
-   design more secure data mechanism leveraging legacy data protection
-   methods and innovative technologies such as block chain.  On the
-   other hand, the system design can limit the data (especially raw
-   data) requirement for building digital twin network, leveraging
-   innovative modeling technologies such as federal learning.
+   Security risks:  A network digital twin has to synchronize all or
+      subset of the data related to involved real networks in real time,
+      which inevitably augments the attack surface, with a higher risk
+      of information leakage, in particular.  On one hand, it is
+      mandatory to design more secure data mechanism leveraging legacy
+      data protection methods and innovative technologies such as block
+      chain.  On the other hand, the system design can limit the data
+      (especially raw data) requirement for building digital twin
+      network, leveraging innovative modeling technologies such as
+      federal learning.
 
    To address the above listed challenges, it is important to agree on a
    unified architecture of network digital twin, which defines the main
