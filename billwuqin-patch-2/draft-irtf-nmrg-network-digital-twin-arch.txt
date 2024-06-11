@@ -598,14 +598,14 @@ Table of Contents
       case, network modeling using mathematical abstraction or
       leveraging the AI algorithms will be more suitable solutions.
 
-   Real-time requirements: Network services normally have real-time
-   requirements, and the processing of model simulation and verification
-   through a digital network twin will introduce service latency.
-   Meanwhile, the real-time requirements will further impose performance
-   requirements on the system software and hardware.  However, given the
-   nature of distributed systems and propagation delays, keeping network
-   digital twins in sync or auto-sync between real network and network
-   digital twin is challenging.
+   Real-time requirements:  Network services normally have real-time
+      requirements, and the processing of model simulation and
+      verification through a digital network twin will introduce service
+      latency.  Meanwhile, the real-time requirements will further
+      impose performance requirements on the system software and
+      hardware.  However, given the nature of distributed systems and
+      propagation delays, keeping network digital twins in sync or auto-
+      sync between real network and network digital twin is challenging.
 
    Changes to the digital object automatically drive changes in the real
    object can be even challenging.  To address these requirements, the
