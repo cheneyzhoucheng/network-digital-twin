@@ -282,7 +282,7 @@ and network designers to achieve greater simplification, automation, resilience 
 
 IBN:  Intent-Based Networking
 
-AI:  Artificial Intelligence
+AI:   Artificial Intelligence
 
 CI/CD:  Continuous Integration/Continuous Delivery
 
