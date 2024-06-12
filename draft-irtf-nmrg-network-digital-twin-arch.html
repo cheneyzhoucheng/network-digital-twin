@@ -15,33 +15,33 @@
 <meta content="Christian Jacquenet" name="author">
 <meta content="
        Digital Twin technology has been seen as a rapid adoption technology
-in Industry 4.0.  The application of Digital Twin technology in the
-networking field is meant to develop various rich network
-applications and realize efficient and cost effective data driven
-network management, and accelerate network innovation. 
-       This document presents an overview of the concepts of Digital Twin
-Network, provides the basic definitions and a reference architecture,
-lists a set of application scenarios, and discusses the benefits and
-key challenges of such technology. 
+in Industry 4.0. The application of Digital Twin technology in the
+networking field is meant to develop various rich network applications,
+realize efficient and cost-effective data-driven network management,
+and accelerate network innovation. 
+       This document presents an overview of the concepts of Digital Twin Network,
+provides the basic definitions and a reference architecture, lists a set of
+application scenarios, and discusses such technology's benefits and key
+challenges. 
     " name="description">
-<meta content="xml2rfc 3.20.0" name="generator">
+<meta content="xml2rfc 3.21.0" name="generator">
 <meta content="network digital twin" name="keyword">
 <meta content="model" name="keyword">
 <meta content="data driven management" name="keyword">
 <meta content="draft-irtf-nmrg-network-digital-twin-arch-latest" name="ietf.draft">
 <!-- Generator version information:
-  xml2rfc 3.20.0
-    Python 3.11.8
+  xml2rfc 3.21.0
+    Python 3.12.3
     ConfigArgParse 1.7
     google-i18n-address 3.1.0
     intervaltree 3.1.0
-    Jinja2 3.1.2
-    lxml 4.9.3
-    platformdirs 4.2.0
+    Jinja2 3.1.4
+    lxml 4.9.4
+    platformdirs 4.2.2
     pycountry 22.3.5
     PyYAML 6.0.1
     requests 2.31.0
-    setuptools 68.2.2
+    setuptools 69.5.1
     six 1.16.0
     wcwidth 0.2.13
 -->
@@ -1042,11 +1042,11 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <thead><tr>
 <td class="left">Internet-Draft</td>
 <td class="center">Network Digital Twin Concept</td>
-<td class="right">March 2024</td>
+<td class="right">June 2024</td>
 </tr></thead>
 <tfoot><tr>
 <td class="left">Zhou, et al.</td>
-<td class="center">Expires 5 September 2024</td>
+<td class="center">Expires 14 December 2024</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1059,12 +1059,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <dd class="internet-draft">draft-irtf-nmrg-network-digital-twin-arch-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2024-03-04" class="published">4 March 2024</time>
+<time datetime="2024-06-12" class="published">12 June 2024</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2024-09-05">5 September 2024</time></dd>
+<dd class="expires"><time datetime="2024-12-14">14 December 2024</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1106,14 +1106,14 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <section id="section-abstract">
       <h2 id="abstract"><a href="#abstract" class="selfRef">Abstract</a></h2>
 <p id="section-abstract-1">Digital Twin technology has been seen as a rapid adoption technology
-in Industry 4.0.  The application of Digital Twin technology in the
-networking field is meant to develop various rich network
-applications and realize efficient and cost effective data driven
-network management, and accelerate network innovation.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
-<p id="section-abstract-2">This document presents an overview of the concepts of Digital Twin
-Network, provides the basic definitions and a reference architecture,
-lists a set of application scenarios, and discusses the benefits and
-key challenges of such technology.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
+in Industry 4.0. The application of Digital Twin technology in the
+networking field is meant to develop various rich network applications,
+realize efficient and cost-effective data-driven network management,
+and accelerate network innovation.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
+<p id="section-abstract-2">This document presents an overview of the concepts of Digital Twin Network,
+provides the basic definitions and a reference architecture, lists a set of
+application scenarios, and discusses such technology's benefits and key
+challenges.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
 </section>
 <section class="note rfcEditorRemove" id="section-note.1">
       <h2 id="name-discussion-venues">
@@ -1145,7 +1145,7 @@ key challenges of such technology.<a href="#section-abstract-2" class="pilcrow">
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 5 September 2024.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 14 December 2024.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1178,7 +1178,7 @@ key challenges of such technology.<a href="#section-abstract-2" class="pilcrow">
             <p id="section-toc.1-1.2.1"><a href="#section-2" class="auto internal xref">2</a>.  <a href="#name-terminology" class="internal xref">Terminology</a></p>
 <ul class="compact toc ulBare ulEmpty">
 <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.2.2.1">
-                <p id="section-toc.1-1.2.2.1.1" class="keepWithNext"><a href="#section-2.1" class="auto internal xref">2.1</a>.  <a href="#name-acronyms-abbreviations" class="internal xref">Acronyms &amp; Abbreviations</a></p>
+                <p id="section-toc.1-1.2.2.1.1" class="keepWithNext"><a href="#section-2.1" class="auto internal xref">2.1</a>.  <a href="#name-acronyms-and-abbreviations" class="internal xref">Acronyms and Abbreviations</a></p>
 </li>
               <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.2.2.2">
                 <p id="section-toc.1-1.2.2.2.1" class="keepWithNext"><a href="#section-2.2" class="auto internal xref">2.2</a>.  <a href="#name-definitions" class="internal xref">Definitions</a></p>
@@ -1298,51 +1298,38 @@ key challenges of such technology.<a href="#section-abstract-2" class="pilcrow">
       <h2 id="name-introduction">
 <a href="#section-1" class="section-number selfRef">1. </a><a href="#name-introduction" class="section-name selfRef">Introduction</a>
       </h2>
-<p id="section-1-1">The fast growth of network scale and the increased demand placed on
-these networks require them to accommodate and adapt dynamically to
-customer needs, implying a significant challenge to network
-operators.  Indeed, network operation and maintenance are becoming
-more complex due to higher complexity of the managed networks and the
-sophisticated services they are delivering.  As such, providing
-innovations on network technologies, management and operation will be
-more and more challenging due to the high risk of interfering with
-existing services and the higher trial costs if no reliable emulation
-platforms are available.<a href="#section-1-1" class="pilcrow">¶</a></p>
-<p id="section-1-2">A Digital Twin is the real-time representation of a physical entity
-in the digital world.  It has the characteristics of virtual-reality
-interrelation and real-time interaction, iterative operation and
-process optimization, full life-cycle and comprehensive data-driven
-network infrastructure.  Currently, digital twin has been widely
-acknowledged in academic publications and adopted in Industry 4.0.
-See more in <a href="#concept" class="auto internal xref">Section 3</a>.<a href="#section-1-2" class="pilcrow">¶</a></p>
-<p id="section-1-3">A digital twin for networks can be built by applying Digital Twin
-technologies to networks and creating a virtual image of real
-network facilities (called herein, emulation). Basically, the digital
-twin for networks is an expansion platform of network emulation and
-can be seen as a tool for scenario planning, impact analysis,
-and change management. The main difference compared to conventional
-network simulation is the interactive virtual-real mapping and data
-driven approach to build closed-loop network automation.  By
-integrating network digital twin into the network management, it
-allows network maintenance engineers to assess, model, and tweak optimization
-strategies in a risk-free environment, ensuring that only the most
-effective changes might be implemented in the real network (i.e., subject to adequate validation and control checks). Digital twin
-for networks also play a crucial role in root cause analysis,
-providing a sandbox for assessing hypotheses and validating the outcomes
-of data-driven insights without impacting end users, when adequate isolation guards are in place. Therefore, digital
-twin for networks is more than an simulation platform or network
-simulator.<a href="#section-1-3" class="pilcrow">¶</a></p>
-<p id="section-1-4">Through the real-time data interaction between the real network and
-its twin network(s), the network digital twin platform might help the
-network designers to achieve more simplification, automatic,
-resilient, and full life-cycle operation and maintenance.  More
-specifically, the network digital twin can, thus, be used to develop
-various rich network applications and assess specific behaviors
-(including network transformation) before actual implementation in
-the real network, tweak the network for better optimized behavior,
-run 'what-if' scenarios that cannot be tested and evaluated easily in
-the real network.  In addition, service impact analysis tasks can
-also be facilitated.<a href="#section-1-4" class="pilcrow">¶</a></p>
+<p id="section-1-1">The fast growth of network scale and the increased demand on these networks
+require them to accommodate and adapt dynamically to customer needs, implying
+a significant challenge to network operators. Indeed, network operation and
+maintenance are becoming more complex due to the higher complexity of the
+managed networks and the sophisticated services they deliver. As such,
+providing innovations on network technologies, management, and operation will
+be more and more challenging due to the high risk of interfering with existing
+services and the higher trial costs if no reliable emulation platforms are
+available.<a href="#section-1-1" class="pilcrow">¶</a></p>
+<p id="section-1-2">A Digital Twin is the real-time representation of a physical entity in the
+digital world. It has the characteristics of virtual-reality interrelation
+and real-time interaction, iterative operation and process optimization,
+full life-cycle and comprehensive data-driven network infrastructure.
+Digital twin has been widely acknowledged in academic publications and
+adopted in Industry 4.0. See more details in <a href="#concept" class="auto internal xref">Section 3</a>.<a href="#section-1-2" class="pilcrow">¶</a></p>
+<p id="section-1-3">A digital twin for networks can be built by applying Digital Twin technologies
+to networks and creating a virtual image of real network facilities (called herein,
+emulation). Basically, the digital twin for networks is an expansion platform of
+network emulation and can be seen as a tool for scenario planning, impact analysis,
+and change management. Compared to conventional network simulation, the main
+difference is the interactive virtual-real mapping and data-driven approach to build
+closed-loop network automation. Integrating network digital twin into the network
+management allows network maintenance engineers to assess, model, and tweak optimization
+strategies in a risk-free environment, ensuring that only the most effective changes
+might be implemented in the real network (i.e., subject to adequate validation and
+control checks). Digital twin for networks provide crucial data for network failure
+root cause analysis, and a sandbox for assessing hypotheses and validating the outcomes
+of data-driven insights without impacting end-users.<a href="#section-1-3" class="pilcrow">¶</a></p>
+<p id="section-1-4">Through the real-time data interaction between the real network and its twin network(s),
+the Network Digital Twin (NDT) platform will provide the data for NDT-based applications
+and network designers to achieve greater simplification, automation, resilience testing
+(“what if scenarios”), and full life-cycle operation and infrastructure maintenance.<a href="#section-1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="terminology">
@@ -1350,17 +1337,16 @@ also be facilitated.<a href="#section-1-4" class="pilcrow">¶</a></p>
       <h2 id="name-terminology">
 <a href="#section-2" class="section-number selfRef">2. </a><a href="#name-terminology" class="section-name selfRef">Terminology</a>
       </h2>
-<div id="acronyms-abbreviations">
+<div id="acronyms-and-abbreviations">
 <section id="section-2.1">
-        <h3 id="name-acronyms-abbreviations">
-<a href="#section-2.1" class="section-number selfRef">2.1. </a><a href="#name-acronyms-abbreviations" class="section-name selfRef">Acronyms &amp; Abbreviations</a>
+        <h3 id="name-acronyms-and-abbreviations">
+<a href="#section-2.1" class="section-number selfRef">2.1. </a><a href="#name-acronyms-and-abbreviations" class="section-name selfRef">Acronyms and Abbreviations</a>
         </h3>
 <p id="section-2.1-1">IBN:  Intent-Based Networking<a href="#section-2.1-1" class="pilcrow">¶</a></p>
-<p id="section-2.1-2">AI  Artificial Intelligence<a href="#section-2.1-2" class="pilcrow">¶</a></p>
+<p id="section-2.1-2">AI:   Artificial Intelligence<a href="#section-2.1-2" class="pilcrow">¶</a></p>
 <p id="section-2.1-3">CI/CD:  Continuous Integration/Continuous Delivery<a href="#section-2.1-3" class="pilcrow">¶</a></p>
 <p id="section-2.1-4">ML:  Machine Learning<a href="#section-2.1-4" class="pilcrow">¶</a></p>
 <p id="section-2.1-5">OAM:  Operations, Administration, and Maintenance<a href="#section-2.1-5" class="pilcrow">¶</a></p>
-<p id="section-2.1-6">PLM:  Product Lifecycle Management<a href="#section-2.1-6" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="definitions">
@@ -1378,15 +1364,15 @@ updated with the latter's performance, maintenance, and health
 status data throughout the physical system's life cycle.<a href="#section-2.2-2.2.1" class="pilcrow">¶</a></p>
 </dd>
           <dd class="break"></dd>
-<dt id="section-2.2-2.3">Network digital twin:</dt>
+<dt id="section-2.2-2.3">Network Digital Twin:</dt>
           <dd style="margin-left: 1.5em" id="section-2.2-2.4">
             <p id="section-2.2-2.4.1">A digital representation that is used in the context of
 Networking and whose physical counterpart is a data network
-or enterprise network.  This is also called, digital twin for
-networks. See more in <a href="#def" class="auto internal xref">Section 4</a>.<a href="#section-2.2-2.4.1" class="pilcrow">¶</a></p>
+(e.g., provider network or enterprise network).  This is also
+called, digital twin for networks. See more in <a href="#def" class="auto internal xref">Section 4</a>.<a href="#section-2.2-2.4.1" class="pilcrow">¶</a></p>
 </dd>
           <dd class="break"></dd>
-<dt id="section-2.2-2.5">Physical network:</dt>
+<dt id="section-2.2-2.5">Physical Network:</dt>
           <dd style="margin-left: 1.5em" id="section-2.2-2.6">
             <p id="section-2.2-2.6.1">Object, system, process, software, or environment that the
 digital twin is designed to replicate and represent
@@ -1413,7 +1399,7 @@ Administration (NASA) Apollo program in the 1970s, where a replica of
 space vehicles on Earth was built to mirror the condition of the
 equipment during the mission <span>[<a href="#Rosen2015" class="cite xref">Rosen2015</a>]</span>.<a href="#section-3.1-1" class="pilcrow">¶</a></p>
 <p id="section-3.1-2">In 2003, Digital Twin was attributed to John Vickers by Michael
-Grieves in his product lifecycle management (PLM) course as "virtual
+Grieves in his Product Lifecycle Management (PLM) course as "virtual
 digital representation equivalent to physical products"
 <span>[<a href="#Grieves2014" class="cite xref">Grieves2014</a>]</span>.  Digital twin can be defined as a virtual instance of
 a physical system (twin) that is continually updated with the
