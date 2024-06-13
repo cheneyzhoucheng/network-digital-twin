@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-06-11T01:22:53.232125+00:00",
+  "timestamp": "2024-06-13T01:22:10.858479+00:00",
   "repo": "cheneyzhoucheng/network-digital-twin",
   "labels": [
     {
@@ -797,6 +797,621 @@
         }
       ],
       "reviews": []
+    },
+    {
+      "number": 18,
+      "id": "PR_kwDOLV8yHc5yEC-U",
+      "title": "Editorial changes to abstract, introduction, terminology based on Chris and Daniel's input",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/18",
+      "state": "MERGED",
+      "author": "billwuqin",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-06-11T06:32:44Z",
+      "updatedAt": "2024-06-11T07:10:51Z",
+      "baseRepository": "cheneyzhoucheng/network-digital-twin",
+      "baseRefName": "main",
+      "baseRefOid": "2d11eec51be8231d5920eb073c3fcf432a9c85cb",
+      "headRepository": "billwuqin/network-digital-twin",
+      "headRefName": "main",
+      "headRefOid": "5fe200321b6e47a9e2dc2609410b512c6cf657dc",
+      "closedAt": "2024-06-11T07:10:51Z",
+      "mergedAt": "2024-06-11T07:10:51Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "70e48c64791dbaa6f16efede18c5d2bd9ac4cff7"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOLV8yHc59vEF8",
+          "commit": {
+            "abbreviatedOid": "5fe2003"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-06-11T06:49:28Z",
+          "updatedAt": "2024-06-11T06:49:28Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "id": "PR_kwDOLV8yHc5yEoCz",
+      "title": "Revert \"Editorial changes to abstract, introduction, terminology based on Chris and Daniel's input\"",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/19",
+      "state": "MERGED",
+      "author": "cheneyzhoucheng",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Reverts cheneyzhoucheng/network-digital-twin#18",
+      "createdAt": "2024-06-11T08:02:45Z",
+      "updatedAt": "2024-06-11T08:38:22Z",
+      "baseRepository": "cheneyzhoucheng/network-digital-twin",
+      "baseRefName": "main",
+      "baseRefOid": "ee7caea375424127b33be559bcf06c18c268b5b7",
+      "headRepository": "cheneyzhoucheng/network-digital-twin",
+      "headRefName": "revert-18-main",
+      "headRefOid": "2cbac3b256931a32c80c700b6250baab7bfe602f",
+      "closedAt": "2024-06-11T08:24:26Z",
+      "mergedAt": "2024-06-11T08:24:26Z",
+      "mergedBy": "cheneyzhoucheng",
+      "mergeCommit": {
+        "oid": "23077f7e326fbf0852eaf884b2bb7d69782e14c0"
+      },
+      "comments": [
+        {
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I see many of the changes reviewed in Qin's PR were lost! Any reason for reverting back these changes ? Thanks.",
+          "createdAt": "2024-06-11T08:33:28Z",
+          "updatedAt": "2024-06-11T08:33:28Z"
+        },
+        {
+          "author": "billwuqin",
+          "authorAssociation": "COLLABORATOR",
+          "body": "It seems there is an fata error to incorporate this change. such error is related to access privilege. Even revert back, the fata error still exists, it is strange.",
+          "createdAt": "2024-06-11T08:38:21Z",
+          "updatedAt": "2024-06-11T08:38:21Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 20,
+      "id": "PR_kwDOLV8yHc5yFBoD",
+      "title": "Qin's Edits",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/20",
+      "state": "CLOSED",
+      "author": "boucadair",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-06-11T08:57:03Z",
+      "updatedAt": "2024-06-11T08:58:06Z",
+      "baseRepository": "cheneyzhoucheng/network-digital-twin",
+      "baseRefName": "main",
+      "baseRefOid": "265c5aa66e5a39a0721dc478b434b554997ac105",
+      "headRepository": "cheneyzhoucheng/network-digital-twin",
+      "headRefName": "Qin's-Edits",
+      "headRefOid": "76d781cd387b6a23d6588d0b8a790fa7ba38b425",
+      "closedAt": "2024-06-11T08:58:06Z",
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 21,
+      "id": "PR_kwDOLV8yHc5yFPSt",
+      "title": "Update README.md to use updated NDT term",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/21",
+      "state": "MERGED",
+      "author": "boucadair",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-06-11T09:18:01Z",
+      "updatedAt": "2024-06-11T09:18:12Z",
+      "baseRepository": "cheneyzhoucheng/network-digital-twin",
+      "baseRefName": "main",
+      "baseRefOid": "265c5aa66e5a39a0721dc478b434b554997ac105",
+      "headRepository": "cheneyzhoucheng/network-digital-twin",
+      "headRefName": "boucadair-patch-5",
+      "headRefOid": "15e294cb52b042a8bc528e748044fa5b26506b8b",
+      "closedAt": "2024-06-11T09:18:12Z",
+      "mergedAt": "2024-06-11T09:18:12Z",
+      "mergedBy": "boucadair",
+      "mergeCommit": {
+        "oid": "54187d9d464b7b06f1e98d8b56ddad4a5bc1e152"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 22,
+      "id": "PR_kwDOLV8yHc5yGVlV",
+      "title": "Update draft-irtf-nmrg-network-digital-twin-arch.md",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/22",
+      "state": "OPEN",
+      "author": "billwuqin",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Update Concept section based on Input from Chris and Daniel.  One  big change is to introduce Logic element as fifth element.",
+      "createdAt": "2024-06-11T11:31:16Z",
+      "updatedAt": "2024-06-12T13:45:37Z",
+      "baseRepository": "cheneyzhoucheng/network-digital-twin",
+      "baseRefName": "main",
+      "baseRefOid": "3cfa7046ab3211558bcfb63111a50ff78b4fb889",
+      "headRepository": "cheneyzhoucheng/network-digital-twin",
+      "headRefName": "billwuqin-patch-1",
+      "headRefOid": "16c8332c084caa4aba8ebbc92d7e9355769112dd",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOLV8yHc59y2HP",
+          "commit": {
+            "abbreviatedOid": "f7cb293"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "",
+          "createdAt": "2024-06-11T13:30:01Z",
+          "updatedAt": "2024-06-11T13:33:45Z",
+          "comments": [
+            {
+              "originalPosition": 35,
+              "body": "```suggestion\r\ngeneral architecture involving the whole life cycle of a \"real\"\r\n```",
+              "createdAt": "2024-06-11T13:30:01Z",
+              "updatedAt": "2024-06-11T13:33:45Z"
+            },
+            {
+              "originalPosition": 36,
+              "body": "```suggestion\r\n(typically, physical) network in the future, serving the application\r\n```",
+              "createdAt": "2024-06-11T13:30:19Z",
+              "updatedAt": "2024-06-11T13:33:45Z"
+            },
+            {
+              "originalPosition": 58,
+              "body": "```suggestion\r\nkey elements (i.e., data, models, mapping, interfaces, and logic) to characterize\r\n```",
+              "createdAt": "2024-06-11T13:30:32Z",
+              "updatedAt": "2024-06-11T13:33:45Z"
+            },
+            {
+              "originalPosition": 198,
+              "body": "```suggestion\r\n  Models: \r\n  : Models provide a basis for  emulating changes in the configuration,\r\n```",
+              "createdAt": "2024-06-11T13:31:48Z",
+              "updatedAt": "2024-06-11T13:33:45Z"
+            },
+            {
+              "originalPosition": 203,
+              "body": "```suggestion\r\n  : Various types of models including service models, data models, dataset models,\r\n```",
+              "createdAt": "2024-06-11T13:31:56Z",
+              "updatedAt": "2024-06-11T13:33:45Z"
+            },
+            {
+              "originalPosition": 208,
+              "body": "```suggestion\r\n  Interfaces:\r\n  : Standardized interfaces ensure the interoperability of network digital\r\n```",
+              "createdAt": "2024-06-11T13:32:12Z",
+              "updatedAt": "2024-06-11T13:33:45Z"
+            },
+            {
+              "originalPosition": 211,
+              "body": "```suggestion\r\n    *\tThe interface between the network digital twin platform and the real network\r\n```",
+              "createdAt": "2024-06-11T13:32:23Z",
+              "updatedAt": "2024-06-11T13:33:45Z"
+            },
+            {
+              "originalPosition": 213,
+              "body": "```suggestion\r\ncontrol, management) system.\r\n```",
+              "createdAt": "2024-06-11T13:32:34Z",
+              "updatedAt": "2024-06-11T13:33:45Z"
+            },
+            {
+              "originalPosition": 215,
+              "body": "```suggestion\r\n    *\tThe interface between network digital twin platform and operations applications\r\n```",
+              "createdAt": "2024-06-11T13:32:41Z",
+              "updatedAt": "2024-06-11T13:33:45Z"
+            },
+            {
+              "originalPosition": 218,
+              "body": "```suggestion\r\n  : The former provides real-time data collection from the real network. The latter helps\r\n```",
+              "createdAt": "2024-06-11T13:32:48Z",
+              "updatedAt": "2024-06-11T13:33:45Z"
+            },
+            {
+              "originalPosition": 222,
+              "body": "```suggestion\r\n  Mapping:\r\n  : Used to identify the digital twin and the underlying entities and establish\r\n```",
+              "createdAt": "2024-06-11T13:32:58Z",
+              "updatedAt": "2024-06-11T13:33:45Z"
+            },
+            {
+              "originalPosition": 251,
+              "body": "```suggestion\r\n > Note: Real-time interaction is not always mandatory for all NDT use cases. For example, when\r\n```",
+              "createdAt": "2024-06-11T13:33:24Z",
+              "updatedAt": "2024-06-11T13:33:45Z"
+            },
+            {
+              "originalPosition": 260,
+              "body": "```suggestion\r\n  Logic:\r\n  : Network digital twin facilitates optimal resource allocation and configuration, enhancing\r\n```",
+              "createdAt": "2024-06-11T13:33:40Z",
+              "updatedAt": "2024-06-11T13:33:46Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOLV8yHc598wYR",
+          "commit": {
+            "abbreviatedOid": "16c8332"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-06-12T13:45:37Z",
+          "updatedAt": "2024-06-12T13:45:37Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "id": "PR_kwDOLV8yHc5yGhRI",
+      "title": "Update draft-irtf-nmrg-network-digital-twin-arch.md",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/23",
+      "state": "OPEN",
+      "author": "billwuqin",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Update Benefit and Challenges section based on input from Chris and Daniel",
+      "createdAt": "2024-06-11T11:57:10Z",
+      "updatedAt": "2024-06-12T13:45:55Z",
+      "baseRepository": "cheneyzhoucheng/network-digital-twin",
+      "baseRefName": "main",
+      "baseRefOid": "3cfa7046ab3211558bcfb63111a50ff78b4fb889",
+      "headRepository": "cheneyzhoucheng/network-digital-twin",
+      "headRefName": "billwuqin-patch-2",
+      "headRefOid": "4204069348d371e5b7356446c11982a567662188",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOLV8yHc59y45G",
+          "commit": {
+            "abbreviatedOid": "dd88248"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "",
+          "createdAt": "2024-06-11T13:34:13Z",
+          "updatedAt": "2024-06-11T13:36:32Z",
+          "comments": [
+            {
+              "originalPosition": 11,
+              "body": "```suggestion\r\nmodel (e.g., emulation) based analysis in real network operations environments,\r\n```",
+              "createdAt": "2024-06-11T13:34:13Z",
+              "updatedAt": "2024-06-11T13:36:32Z"
+            },
+            {
+              "originalPosition": 9,
+              "body": "```suggestion\r\nThe main difference between network digital twin and simulation platforms\r\n```",
+              "createdAt": "2024-06-11T13:34:23Z",
+              "updatedAt": "2024-06-11T13:36:32Z"
+            },
+            {
+              "originalPosition": 13,
+              "body": "```suggestion\r\nplatforms can be considered as a predecessor of the network digital twin, one example of such\r\n```",
+              "createdAt": "2024-06-11T13:34:52Z",
+              "updatedAt": "2024-06-11T13:36:32Z"
+            },
+            {
+              "originalPosition": 167,
+              "body": "```suggestion\r\nLarge-scale challenge:\r\n:A digital twin of large-scale networks will significantly\r\n```",
+              "createdAt": "2024-06-11T13:35:21Z",
+              "updatedAt": "2024-06-11T13:36:32Z"
+            },
+            {
+              "originalPosition": 171,
+              "body": "```suggestion\r\n: The requirements of the software and hardware of the network digital twin system\r\n```",
+              "createdAt": "2024-06-11T13:35:28Z",
+              "updatedAt": "2024-06-11T13:36:32Z"
+            },
+            {
+              "originalPosition": 179,
+              "body": "```suggestion\r\nInteroperability:\r\n: Due to the inconsistency of technical implementations and the\r\n```",
+              "createdAt": "2024-06-11T13:35:37Z",
+              "updatedAt": "2024-06-11T13:36:32Z"
+            },
+            {
+              "originalPosition": 187,
+              "body": "```suggestion\r\nData modeling difficulties:\r\n: Based on large-scale network data, data modeling should\r\n```",
+              "createdAt": "2024-06-11T13:35:46Z",
+              "updatedAt": "2024-06-11T13:36:32Z"
+            },
+            {
+              "originalPosition": 198,
+              "body": "```suggestion\r\nReal-time requirements:\r\n: Network services normally have real-time requirements, and the\r\n```",
+              "createdAt": "2024-06-11T13:35:57Z",
+              "updatedAt": "2024-06-11T13:36:32Z"
+            },
+            {
+              "originalPosition": 205,
+              "body": "```suggestion\r\n: Changes to the digital object automatically drive changes in the real object can be even\r\n```",
+              "createdAt": "2024-06-11T13:36:07Z",
+              "updatedAt": "2024-06-11T13:36:32Z"
+            },
+            {
+              "originalPosition": 214,
+              "body": "```suggestion\r\nSecurity risks:\r\n: A network digital twin has to synchronize all or subset of the data\r\n```",
+              "createdAt": "2024-06-11T13:36:21Z",
+              "updatedAt": "2024-06-11T13:36:32Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOLV8yHc598wlF",
+          "commit": {
+            "abbreviatedOid": "4204069"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-06-12T13:45:55Z",
+          "updatedAt": "2024-06-12T13:45:55Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "id": "PR_kwDOLV8yHc5yG2XM",
+      "title": "Update draft-irtf-nmrg-network-digital-twin-arch.md",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/24",
+      "state": "OPEN",
+      "author": "billwuqin",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Update Referenced Architecture based on Chris's input and comments",
+      "createdAt": "2024-06-11T12:39:28Z",
+      "updatedAt": "2024-06-12T13:46:24Z",
+      "baseRepository": "cheneyzhoucheng/network-digital-twin",
+      "baseRefName": "main",
+      "baseRefOid": "3cfa7046ab3211558bcfb63111a50ff78b4fb889",
+      "headRepository": "cheneyzhoucheng/network-digital-twin",
+      "headRefName": "billwuqin-patch-3",
+      "headRefOid": "962d7501ed8a10c5f8836f8dd919837fbb6ebc84",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOLV8yHc59y6yn",
+          "commit": {
+            "abbreviatedOid": "3d9c026"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "",
+          "createdAt": "2024-06-11T13:37:07Z",
+          "updatedAt": "2024-06-11T13:40:31Z",
+          "comments": [
+            {
+              "originalPosition": 37,
+              "body": "```suggestion\r\nfollowing similar principles, e.g., {{ETSI-GS-ZSM-015}}. As described in Section 4,\r\n```",
+              "createdAt": "2024-06-11T13:37:08Z",
+              "updatedAt": "2024-06-11T13:40:31Z"
+            },
+            {
+              "originalPosition": 38,
+              "body": "```suggestion\r\nan NDT may be represented as encompassing models, data, mapping, and interfaces;\r\n```",
+              "createdAt": "2024-06-11T13:37:42Z",
+              "updatedAt": "2024-06-11T13:40:31Z"
+            },
+            {
+              "originalPosition": 50,
+              "body": "```suggestion\r\nsolutions makes use of an \"inner loop\" that includes an NDT: effectively, prospective solutions\r\n```",
+              "createdAt": "2024-06-11T13:38:38Z",
+              "updatedAt": "2024-06-11T13:40:31Z"
+            },
+            {
+              "originalPosition": 51,
+              "body": "```suggestion\r\nare being proposed, their impacts on services are evaluated by the NDT acting as a \"sandbox\u201d in\r\n```",
+              "createdAt": "2024-06-11T13:38:58Z",
+              "updatedAt": "2024-06-11T13:40:31Z"
+            },
+            {
+              "originalPosition": 143,
+              "body": "```suggestion\r\nReal Network:\r\n: All or subset of network elements in the real network exchange\r\n```",
+              "createdAt": "2024-06-11T13:39:30Z",
+              "updatedAt": "2024-06-11T13:40:31Z"
+            },
+            {
+              "originalPosition": 150,
+              "body": "```suggestion\r\n: The real network can span across a single network administrative domain or multiple\r\n```",
+              "createdAt": "2024-06-11T13:39:37Z",
+              "updatedAt": "2024-06-11T13:40:31Z"
+            },
+            {
+              "originalPosition": 152,
+              "body": "```suggestion\r\nand some virtual entities (VNFs, for example), which together carry traffic\r\n```",
+              "createdAt": "2024-06-11T13:40:09Z",
+              "updatedAt": "2024-06-11T13:40:31Z"
+            },
+            {
+              "originalPosition": 155,
+              "body": "```suggestion\r\n: This document focuses on the IETF related real networks such as IP bearer and data\r\n```",
+              "createdAt": "2024-06-11T13:40:18Z",
+              "updatedAt": "2024-06-11T13:40:31Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOLV8yHc598w5e",
+          "commit": {
+            "abbreviatedOid": "962d750"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-06-12T13:46:24Z",
+          "updatedAt": "2024-06-12T13:46:24Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "id": "PR_kwDOLV8yHc5yHHg1",
+      "title": "Update draft-irtf-nmrg-network-digital-twin-arch.md",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/25",
+      "state": "OPEN",
+      "author": "billwuqin",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Update Enabling Technologies section based on discussion with Chris and Daniel",
+      "createdAt": "2024-06-11T13:12:28Z",
+      "updatedAt": "2024-06-12T13:46:43Z",
+      "baseRepository": "cheneyzhoucheng/network-digital-twin",
+      "baseRefName": "main",
+      "baseRefOid": "3cfa7046ab3211558bcfb63111a50ff78b4fb889",
+      "headRepository": "cheneyzhoucheng/network-digital-twin",
+      "headRefName": "billwuqin-patch-4",
+      "headRefOid": "0720a8fc8f9716720b0913e645749d12571a7856",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOLV8yHc59y9bq",
+          "commit": {
+            "abbreviatedOid": "a42af59"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "",
+          "createdAt": "2024-06-11T13:41:11Z",
+          "updatedAt": "2024-06-11T13:42:53Z",
+          "comments": [
+            {
+              "originalPosition": 90,
+              "body": "```suggestion\r\ncompletion time) without using computationally intensive simulators.\r\n```",
+              "createdAt": "2024-06-11T13:41:11Z",
+              "updatedAt": "2024-06-11T13:42:53Z"
+            },
+            {
+              "originalPosition": 110,
+              "body": "```suggestion\r\ninterpretability of AI models, there is also a need to focus on how to improve\r\n```",
+              "createdAt": "2024-06-11T13:41:45Z",
+              "updatedAt": "2024-06-11T13:42:53Z"
+            },
+            {
+              "originalPosition": 204,
+              "body": "```suggestion\r\n  resolution algorithms (e.g., {Pradeep2022}} and {{Zheng2022}}).\r\n```",
+              "createdAt": "2024-06-11T13:42:29Z",
+              "updatedAt": "2024-06-11T13:42:53Z"
+            },
+            {
+              "originalPosition": 206,
+              "body": "```suggestion\r\n*  Energy-Efficient Twinning:\r\n: Focus on energy efficiency in digital twin\r\n```",
+              "createdAt": "2024-06-11T13:42:47Z",
+              "updatedAt": "2024-06-11T13:42:53Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOLV8yHc598xG6",
+          "commit": {
+            "abbreviatedOid": "0720a8f"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-06-12T13:46:43Z",
+          "updatedAt": "2024-06-12T13:46:43Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "id": "PR_kwDOLV8yHc5yHOPo",
+      "title": "Update draft-irtf-nmrg-network-digital-twin-arch.md",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/26",
+      "state": "MERGED",
+      "author": "billwuqin",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Update Section 9 to Section 12 based on Chris and Daniel's review.",
+      "createdAt": "2024-06-11T13:25:39Z",
+      "updatedAt": "2024-06-12T00:08:12Z",
+      "baseRepository": "cheneyzhoucheng/network-digital-twin",
+      "baseRefName": "main",
+      "baseRefOid": "3cfa7046ab3211558bcfb63111a50ff78b4fb889",
+      "headRepository": "cheneyzhoucheng/network-digital-twin",
+      "headRefName": "billwuqin-patch-5",
+      "headRefOid": "5dda21c9f0e42d6b36235c03afe599a5aea3ec45",
+      "closedAt": "2024-06-12T00:08:12Z",
+      "mergedAt": "2024-06-12T00:08:12Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "44abdf92694fd8cbce4e38db11102fde0a472c78"
+      },
+      "comments": [
+        {
+          "author": "billwuqin",
+          "authorAssociation": "COLLABORATOR",
+          "body": "A few editorial changes",
+          "createdAt": "2024-06-12T00:08:09Z",
+          "updatedAt": "2024-06-12T00:08:09Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOLV8yHc59y_QJ",
+          "commit": {
+            "abbreviatedOid": "5dda21c"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-06-11T13:43:53Z",
+          "updatedAt": "2024-06-11T13:43:53Z",
+          "comments": []
+        }
+      ]
     }
   ]
 }
