@@ -549,11 +549,12 @@ operators and/or enterprise user can safely exercise the enforcement
 of network planning policies, deployment procedures, etc., without
 jeopardizing the daily operation of the real network.
 
-The main difference between network digital twin and simulation
-platform is the use of interactive virtual-real mapping to build
-closed-loop network automation.  Simulation platforms are the
-predecessor of the network digital twin, one example of such a
-simulation platform is network simulator {{NS-3}}, which can be seen as
+The main difference between network digital twin and simulation platforms
+is the use of interactive virtual-real mapping to support integration of
+model (e.g., emulation) based analysis in real network operations environments,
+up to and including closed loops for network operations automation. Simulation
+platforms can be considered as a predecessor of the network digital twin, one example of such
+a simulation platform is network simulator {{NS-3}}, which can be seen as
 a variant of network digital twin but with low fidelity and lacking
 for interactive interfaces to the real network.  Compared with those
 classical approaches, key benefits of network digital twin can be
@@ -599,8 +600,8 @@ deploying and managing running services, but hardly support
 predictive maintenance techniques.
 
 Network digital twin can combine data acquisition, big data
-processing, and AI modeling to assess the status of the network, but
-also to predict future trends, and better organize predictive
+processing, and AI-based modeling to assess the status of the network,
+but also to predict future trends, and better organize predictive
 maintenance.  The ability to reproduce network behaviors under
 various conditions facilitates the corresponding assessment of the
 various evolution options as often as required.
@@ -655,114 +656,97 @@ salient examples are the application of new network architectures and
 protocols or the use of "cyber-ranges" to train security experts in
 threat detection and mitigation.
 
-# Challenges to Build Network Digital Twin
+# Challenges to Build a Network Digital Twin
 
-According to {{Hu2021}}, the main challenges in building and
-maintaining digital twins can be summarized as the following five
-aspects:
+According to {{Hu2021}}, the main challenges in building and maintaining
+digital twins can be summarized as the following five aspects:
 
-*  Data acquisition and processing
+*	Data acquisition and processing;
 
-*  High-fidelity modeling
+*	High-fidelity modeling;
 
-*  Real-time, two-way communication between the virtual and the real
-  twins
+*	Real-time, communication between the virtual and the real twins;
 
-*  Unified development platform and tools
+*	Unified development platform and tools;
 
-*  Environmental coupling technologies
+*	Environmental coupling technologies.
 
-Compared with other industrial fields, digital twin in networking
-field has its unique characteristics.  On one hand, network elements
-and system have higher level of digitalization, which implies that
-data acquisition and virtual-real communication are relatively easy
-to achieve.  On the other hand, there are various different type of
-network elements and typologies in the network field; and the network
-size is characterized by the numbers of nodes and links in it but the
-network size growth pace can not meet the service needs, especially
-in the deployment of end to end service which spans across multiple
-administrative domains.  So, the construction of a digital twin
-network system needs to consider the following major challenges:
+Compared with other industrial fields, digital twin in networking field has
+its unique characteristics. On the one hand, network elements and system have
+higher level of digitalization, which implies that data acquisition and
+virtual-real communication are relatively easy to achieve. On the other hand,
+there are various different types of network elements and topologies in the
+network field; and the network size is characterized by the number of nodes and
+links in it but the network size growth pace can not meet the service needs,
+especially in the deployment of end to end service which spans across multiple
+administrative domains. So, the construction of a digital twin network system
+needs to consider the following major challenges:
 
-  Large scale challenge:
-  :  A digital twin of large-scale networks will
-     significantly increase the complexity of data acquisition and
-     storage, the design and implementation of relevant models.  The
-     requirements of software and hardware of the network digital twin
-     system will be even more constraining.  Therefore, efficient and
-     low cost tools in various fields should be required.  Take data as
-     an example, massive network data can help achieve more accurate
-     models.  However, the cost of virtual-real communication and data
-     storage becomes extremely expensive, especially in the multi-
-     domain data-driven network management case, therefore efficient
-     tools on data collection and data compression methods must be
-     used.
+Large-scale challenge:
+:A digital twin of large-scale networks will significantly
+increase the complexity of data acquisition and storage and the design and
+implementation of relevant models.
 
-  Interoperability:
-  :  Due to the inconsistency of technical
-     implementations and the heterogeneity of vendor adopted
-     technologies, it is difficult to establish a unified digital twin
-     network system with a common technology in a network domain.
-     Therefore, it is needed firstly to propose a unified architecture
-     of network digital twin, in which all components and
-     functionalities are clear to all stakeholders; then define
-     standardized and unified interfaces to connect all network twins
-     via ensuring necessary compatibility.
+: The requirements of the software and hardware of the network digital twin system
+will be even more constrained. Therefore, efficient and low cost tools in various
+fields should be required. Take data as an example, massive network data can help
+achieve more accurate models. However, the cost of virtual-real communication and
+data storage becomes extremely expensive, especially in the multi- domain data-driven
+network management case, therefore efficient tools on data collection and data
+compression methods must be used.
 
-  Data modeling difficulties:
-  :  Based on large-scale network data, data
-  modeling should not only focus on ensuring the accuracy of model
-  functions, but also has to consider the flexibility and
-  scalability to compose and extend as required to support large
-  scale and multi-purpose applications.  Balancing these
-  requirements further increases the complexity of building
-  efficient and hierarchical functional data models.  As an optional
-  solution, straightforwardly clone the real network using
-  virtualized resources is feasible to build the twin network when
-  the network scale is relatively small.  However, it will be of
-  unaffordable resource cost for larger scales network.  In this
-  case, network modeling using mathematical abstraction or
-  leveraging the AI algorithms will be more suitable solutions.
+Interoperability:
+: Due to the inconsistency of technical implementations and the
+heterogeneity of vendor-adopted technologies, it is difficult to establish a unified
+digital twin network system with a common technology in a network domain.
+Therefore, it is needed firstly to propose a unified architecture of network digital
+twin, in which all components and functionalities are clear to all stakeholders; then
+define standardized and unified interfaces to connect all network twins via ensuring
+necessary compatibility.
 
-  Real-time requirements:
-  :  Network services normally have real-time
-     requirements, the processing of model simulation and verification
-     through a network digital twin will introduce the service latency.
-     Meanwhile, the real-time requirements will further impose
-     performance requirements on the system software and hardware.
-     However, given the nature of distributed systems and propagation
-     delays, it is challenge to keep network digital twins in sync or
-     auto-sync between real network and network digital twin.
-   : Changes to the digital object automatically drive changes in the real
-     object can be even challenging.  To address these requirements,
-     the function and process of the data model need to be based on
-     automated processing mechanism under various network application
-     scenarios.  On the one hand, it is needed to design a simplified
-     process to reduce the time cost for tasks in network twin as much
-     as possible; on the other hand, it is recommended to define the
-     real-time requirements of different applications, and then match
-     the corresponding computing resources and suitable solutions as
-     needed to complete the task processing in the twin.
+Data modeling difficulties:
+: Based on large-scale network data, data modeling should
+not only focus on ensuring the accuracy of model functions, but also has to consider
+the flexibility and scalability to compose and extend as required to support large
+scale and multi-purpose applications.  Balancing these requirements further increases
+the complexity of building efficient and hierarchical functional data models. As an
+optional solution, straightforwardly clone the real network using virtualized resources
+is feasible to build the twin network when the network scale is relatively small. However,
+it will be of unaffordable resource cost for larger scale networks. In this case, network
+modeling using mathematical abstraction or leveraging the AI algorithms will be more
+suitable solutions.
 
-  Security risks:
-  :  A network digital twin has to synchronize all or
-     subset of the data related to involved real networks in real time,
-     which inevitably augments the attack surface, with a higher risk
-     of information leakage, in particular.  On one hand, it is
-     mandatory to design more secure data mechanism leveraging legacy
-     data protection methods, as well as innovative technologies such
-     as block chain.  On the other hand, the system design can limit
-     the data (especially raw data) requirement on building digital
-     twin network, leveraging innovative modeling technologies such as
-     federal learning.
+Real-time requirements:
+: Network services normally have real-time requirements, and the
+processing of model simulation and verification through a digital network twin will
+introduce service latency. Meanwhile, the real-time requirements will further impose
+performance requirements on the system software and hardware. However, given the nature
+of distributed systems and propagation delays, keeping network digital twins in sync or
+auto-sync between real network and network digital twin is challenging.
 
-To address the above listed challenges, it is important to
-agree on a unified architecture of network digital twin, which
-defines the main functional components and interfaces ({{arch}}).
-Then, relying upon such an architecture, it is required to continue
-researching on the key enabling technologies including data
-acquisition, data storage, data modeling, interface standardization,
-and security assurance.
+: Changes to the digital object automatically drive changes in the real object can be even
+challenging. To address these requirements, the function and process of the data model
+need to be based on automated processing mechanism under various network application
+scenarios. On the one hand, it is needed to design a simplified process to reduce the
+time cost for tasks in network twin as much as possible; on the other hand, it is
+recommended to define the real-time requirements of different applications, and then
+match the corresponding computing resources and suitable solutions as needed to complete
+the task processing in the twin.
+
+Security risks:
+: A network digital twin has to synchronize all or subset of the data
+related to involved real networks in real time, which inevitably augments the attack
+surface, with a higher risk of information leakage, in particular. On one hand, it
+is mandatory to design more secure data mechanism leveraging legacy data protection
+methods and innovative technologies such as block chain. On the other hand, the system
+design can limit the data (especially raw data) requirement for building digital twin
+network, leveraging innovative modeling technologies such as federal learning.
+
+To address the above listed challenges, it is important to agree on a unified
+architecture of network digital twin, which defines the main functional components
+and interfaces ({{arch}}). Then, relying upon such an architecture, it is required
+to continue researching on the key enabling technologies including data acquisition,
+data storage, data modeling, interface standardization, and security assurance.
 
 # A Reference Architecture of Network Digital Twin  {#arch}
 
