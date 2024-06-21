@@ -90,24 +90,25 @@ Table of Contents
      5.5.  Customized Network Operation Training
    6.  Challenges to Build a Network Digital Twin
    7.  A Reference Architecture of Network Digital Twin
-   8.  Enabling Technologies to Build Network Digital Twin
-     8.1.  Data Collection and Data Services
-     8.2.  Network Modeling
-     8.3.  Network Visualization
-     8.4.  Interfaces
-     8.5.  Twinning Management
-   9.  Interaction with Intent-Based Networking (IBN)
-   10. Sample Application Scenarios
-     10.1.  Human Training
-     10.2.  Machine Learning Training
-     10.3.  DevOps-Oriented Certification
-     10.4.  Network Fuzzing
-     10.5.  Network Inventory Management
-   11. Research Perspectives: A Summary
-   12. Security Considerations
-   13. IANA Considerations
-   14. Open issues
-   15. Informative References
+   8.  A Realization Example
+   9.  Enabling Technologies to Build Network Digital Twin
+     9.1.  Data Collection and Data Services
+     9.2.  Network Modeling
+     9.3.  Network Visualization
+     9.4.  Interfaces
+     9.5.  Twinning Management
+   10. Interaction with Intent-Based Networking (IBN)
+   11. Sample Application Scenarios
+     11.1.  Human Training
+     11.2.  Machine Learning Training
+     11.3.  DevOps-Oriented Certification
+     11.4.  Network Fuzzing
+     11.5.  Network Inventory Management
+   12. Research Perspectives: A Summary
+   13. Security Considerations
+   14. IANA Considerations
+   15. Open issues
+   16. Informative References
    Acknowledgments
    Authors' Addresses
 
@@ -788,7 +789,102 @@ Table of Contents
    through a northbound interface, so they are applied by service
    emulation at the appropriate twin instance(s).
 
-8.  Enabling Technologies to Build Network Digital Twin
+8.  A Realization Example
+
+   Considerable industry work and research has focused on automation-
+   supporting network systems.  As an example, [ETSI-GS-ZSM-002]
+   describes a framework architecture for network automation.  It uses
+   so-called management services as a fundamental conceptual unit of
+   currency, and describes the enablement of automation use cases
+   through flexible composition and extension of such management
+   services.  For example, a closed loop might be represented as a
+   composition of appropriate data, analytics, intelligence/decision and
+   orchestration/control services.
+
+   The role and and utility of NDTs may be represented architecturally
+   by following similar principles, e.g., [ETSI-GS-ZSM-015].  As
+   described in Section 4, an NDT may be represented as encompassing
+   models, data, mapping, and interfaces; these components then work
+   together and in composition with appropriate other functions or
+   services to deliver overall functional architectures matching
+   specific use cases.
+
+   For example, Figure 3.  The NDT (or, NDT core or layer) is
+   represented as encompassing data and models, along with capability to
+   manage them together to useful purpose.  The overall system
+   architecture shows an intent-capable controller mediating between
+   intent-generating network service demand sources and the physical
+   network.  The NDT plays an important role in this controller.  An
+   “outer” closed loop detects gaps between service parameters set by
+   intents and actual service characteristics, finds solutions to close
+   those gaps, and drives those solutions on to the network.  Finding
+   solutions makes use of an "inner loop" that includes an NDT:
+   effectively, prospective solutions are being proposed, their impacts
+   on services are evaluated by the NDT acting as a "sandbox” in virtual
+   space, and the process is repeated until a satisfactory solution is
+   found.  At that point, the known-good solution is passed to the outer
+   loop for actuation.
+
+   Many automation use cases may be thought of as following a similar
+   pattern: a solution corresponding to some kind of optimization
+   problem is found through iteration in virtual space using an NDT; the
+   solution is then placed at the disposal of other, active components
+   of the operations system.  However, all use cases involving NDTs can
+   be represented as some composition of the core data/modeling
+   functions, and appropriate other functions/services.
+
+      +--------------------------------------------------------------+
+      |                                                              |
+      |                 Service Demand Generators                    |
+      |                                                              |
+      +-----------+-------------------------------------------^------+
+                  |                                           |
+              Service Intents                         Intents Report
+                  |                                           |
+                  V                                           |
+      +-------------------------------------------------------+------+
+      |                                                              |
+      |  +-------------+                                             |
+      |  |             |                      Network Controller     |
+      |  |   Intent    |                                             |
+      |  | Translation |                                             |
+      |  |             |                                             |
+      |  +---+---------+                                             |
+      |      |                                                       |
+      |      |                                      Outer Loop       |
+      |      |      +----------------------------------------------+ |
+      |      |      |                                              | |
+      |      |      |   +---------------------------------------+  | |
+      |      |      |   |               Inner Loop              |  | |
+      |      |      |   | +------------------------------------||  | |
+      |      |      |   | |   +----------------------------+   ||  | |
+      |      |      |   | |   |           NDT              |   ||  | |
+      |      V      V   | |   |+------+ +-------+  +------+|   ||  | |
+      |+------------+-+ | +-> || Data | | Models|  | NDT  |+---+|  | |
+      ||              | |     ||      | |       |  | Mgmt ||    |  | |
+      || Service Data | |     |+------+ +-------+  +------+|    |  | |
+      ||   vs. Intents| |     |                            |    |  | |
+      ||              | |     +----------------------------+    |  | |
+      |+--------------+ +---------------------------------------+  | |
+      |                            |        +----------------+     | |
+      |                            |        |                |     | |
+      |                            |        |  Orchestration |     | |
+      |                            +----->  |     Control    +-----+ |
+      |                                     +----------------+       |
+      |                                                              |
+      +-----------^-------------------------------------+------------+
+                  |                                     |            |
+                  |Data Collection               Control|
+                  |                                     |
+      +-----------+-------------------------------------V------------+
+      |                                                              |
+      |                   Physical Netework                          |
+      |                                                              |
+      +--------------------------------------------------------------+
+
+               Figure 3: Example of Detailed NDT Architecure
+
+9.  Enabling Technologies to Build Network Digital Twin
 
    This section briefly describes several key enabling technologies to
    build digital twin work system, based on the challenges and the
@@ -796,7 +892,7 @@ Table of Contents
    enabling technology is worth of deep researching respectively and
    separately.
 
-8.1.  Data Collection and Data Services
+9.1.  Data Collection and Data Services
 
    Data collection technology is the foundation of building data
    repository for network digital twin.  Target driven mode should be
@@ -832,7 +928,7 @@ Table of Contents
    technologies regarding data services including fast search, batch-
    data handling, conflict avoidance, data access interfaces, etc.
 
-8.2.  Network Modeling
+9.2.  Network Modeling
 
    The basic network element models and topology models help generate
    virtual twin of the network according to the network element
@@ -891,7 +987,7 @@ Table of Contents
    interactivity of model reasoning based on data and control in network
    digital twin layer.
 
-8.3.  Network Visualization
+9.3.  Network Visualization
 
    It is the internal requirement of the network digital twin system to
    use network visibility technology to visually present the data and
@@ -912,7 +1008,7 @@ Table of Contents
    queries across diverse data sources, whether the data is stored
    natively as RDF or viewed as RDF via middleware.
 
-8.4.  Interfaces
+9.4.  Interfaces
 
    Based on the reference architecture, there are three types of
    interfaces on building a network digital twin system:
@@ -942,7 +1038,7 @@ Table of Contents
    interfaces or protocols can be created to better serve digital twin
    network system.
 
-8.5.  Twinning Management
+9.5.  Twinning Management
 
    Twinning management is the key to the efficient deployment and
    potential value of network digital twin systems in production
@@ -984,7 +1080,7 @@ Table of Contents
          operation, and achieving the goal of a green (energy efficient)
          network.
 
-9.  Interaction with Intent-Based Networking (IBN)
+10.  Interaction with Intent-Based Networking (IBN)
 
    Intent-based, means that users can input their abstract 'intent' to
    the network, instead of detailed policies or configurations on the
@@ -1001,12 +1097,12 @@ Table of Contents
    network can be an important enabler platform for implementing IBN
    systems and fostering their deployment.
 
-10.  Sample Application Scenarios
+11.  Sample Application Scenarios
 
    Network digital twin can be applied to solve different problems in
    network management and operation.
 
-10.1.  Human Training
+11.1.  Human Training
 
    The usual approach to network OAM with procedures applied by humans
    is open to errors in all these procedures, whigh impact network
@@ -1025,7 +1121,7 @@ Table of Contents
    practitioners.  Network digital twin will offer realistic
    environments, fitted to the real production networks.
 
-10.2.  Machine Learning Training
+11.2.  Machine Learning Training
 
    Machine learning requires data and their context to be available in
    order to be applied.  A common approach in the network management
@@ -1042,7 +1138,7 @@ Table of Contents
    production network, allowing information access by third parties,
    without impacting data privacy.
 
-10.3.  DevOps-Oriented Certification
+11.3.  DevOps-Oriented Certification
 
    The potential application of CI/CD models network management
    operations increases the risk associated to the deployment of non-
@@ -1056,7 +1152,7 @@ Table of Contents
    Network digital twin control functional block supports such dynamic
    mechanisms required by DevOps procedures.
 
-10.4.  Network Fuzzing
+11.4.  Network Fuzzing
 
    Network management dependency on programmability increases systems
    complexity.  The behavior of new protocol stacks, API parameters, and
@@ -1070,7 +1166,7 @@ Table of Contents
    vulnerabilities, bugs and zero-day attacks before production
    delivery.
 
-10.5.  Network Inventory Management
+11.5.  Network Inventory Management
 
    With the development of enterprise digitization, the number of
    enterprise Internet of Objects (IoT) devices, virtualized Cloud
@@ -1099,7 +1195,7 @@ Table of Contents
    End of Life (EoL), dependency, and hardware dependency "what-if"
    scenarios.
 
-11.  Research Perspectives: A Summary
+12.  Research Perspectives: A Summary
 
    Research on network digital twin has just started.  This document
    presents an overview of the network digital twin concepts and
@@ -1109,7 +1205,7 @@ Table of Contents
    the industry to accelerate the implementation and deployment of
    digital twin network.
 
-12.  Security Considerations
+13.  Security Considerations
 
    This document describes concepts and definitions of digital twin
    network.  As such, the following security considerations are abstract
@@ -1135,17 +1231,17 @@ Table of Contents
    control and security mechanisms must be provided and enabled to
    prevent data leaks.
 
-13.  IANA Considerations
+14.  IANA Considerations
 
    This document has no requests to IANA.
 
-14.  Open issues
+15.  Open issues
 
    Refer to: https://github.com/cheneyzhoucheng/network-digital-twin/
    issues (https://github.com/cheneyzhoucheng/network-digital-twin/
    issues).
 
-15.  Informative References
+16.  Informative References
 
    [Dai2020]  IEEE Transactions on Industrial Informatics, "Deep
               Reinforcement Learning for Stochastic Computation
@@ -1170,6 +1266,18 @@ Table of Contents
               Parallel Intelligence - Digital Twin Network Session",
               October 2022, <https://c.trvqd.com/#/television?id=1584825
               225713631235&preview=2>.
+
+   [ETSI-GS-ZSM-002]
+              "Zero-touch network and Service Management (ZSM);
+              Reference Architecture", August 2019,
+              <https://www.etsi.org/deliver/etsi_gs/
+              ZSM/001_099/002/01.01.01_60/gs_ZSM002v010101p.pdf>.
+
+   [ETSI-GS-ZSM-015]
+              "Zero-touch network and Service Management (ZSM); Network
+              Digital Twin", February 2024,
+              <https://www.etsi.org/deliver/etsi_gr/
+              ZSM/001_099/015/01.01.01_60/gr_ZSM015v010101p.pdf>.
 
    [EVE-NG]   "Emulated Virtual Environment Next Generation", n.d.,
               <https://www.eve-ng.net/>.
