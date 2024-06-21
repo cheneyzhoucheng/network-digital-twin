@@ -428,28 +428,28 @@ shown in {{kelem}}. This provides the information to the application or entity
 that consumes the information to analyze, diagnose, or control.
 
 ~~~~
-               +-------------------------------------------------+
-               |                     Logic:                      |
-               |  Analyze, Diagnose, Optimize, Control, Emulate  |
-               |                                                 |
-               +-------------------------------------------------+
-                |          |                          |         |
-                |  +-------------+            +--------------+  |
-                |  |             |            |              |  |
-                |  |  Mapping    |------------|  Interface   |  |
-                |  |             |            |              |  |
-                |  +-------------+            +--------------+  |
-                |          |                          |         |
-                |          |                          |         |
-                |          | +----------------------+ |         |
-                |          | | Network Digital Twin | |         |
-                |          | +----------------------+ |         |
-                |          |                          |         |
-               +------------+                        +-----------+
-               |            |                        |           |
-               |   Models   |                        |   Data    |
-               |            |------------------------|           |
-               +------------+                        +-----------+
++-------------------------------------------------+
+|                     Logic:                      |
+|  Analyze, Diagnose, Optimize, Control, Emulate  |
+|                                                 |
++-------------------------------------------------+
+ |          |                          |         |
+ |  +-------------+            +--------------+  |
+ |  |             |            |              |  |
+ |  |  Mapping    |------------|  Interface   |  |
+ |  |             |            |              |  |
+ |  +-------------+            +--------------+  |
+ |          |                          |         |
+ |          |                          |         |
+ |          | +----------------------+ |         |
+ |          | | Network Digital Twin | |         |
+ |          | +----------------------+ |         |
+ |          |                          |         |
++------------+                        +-----------+
+|            |                        |           |
+|   Models   |                        |   Data    |
+|            |------------------------|           |
++------------+                        +-----------+
 
 ~~~~
 {: #kelem title="Key Elements of Network Digital Twin" artwork-align="center"}
@@ -661,15 +661,15 @@ threat detection and mitigation.
 According to {{Hu2021}}, the main challenges in building and maintaining
 digital twins can be summarized as the following five aspects:
 
-*	Data acquisition and processing;
+*	Data acquisition and processing
 
-*	High-fidelity modeling;
+*	High-fidelity modeling
 
-*	Real-time, communication between the virtual and the real twins;
+*	Real-time, communication between the virtual and the real twins
 
-*	Unified development platform and tools;
+*	Unified development platform and tools
 
-*	Environmental coupling technologies.
+*	Environmental coupling technologies
 
 Compared with other industrial fields, digital twin in networking field has
 its unique characteristics. On the one hand, network elements and system have
@@ -683,10 +683,7 @@ administrative domains. So, the construction of a digital twin network system
 needs to consider the following major challenges:
 
 Large-scale challenge:
-:A digital twin of large-scale networks will significantly
-increase the complexity of data acquisition and storage and the design and
-implementation of relevant models.
-
+: A digital twin of large-scale networks will significantly increase the complexity of data acquisition and storage and the design and implementation of relevant models.
 : The requirements of the software and hardware of the network digital twin system
 will be even more constrained. Therefore, efficient and low cost tools in various
 fields should be required. Take data as an example, massive network data can help
@@ -1063,7 +1060,7 @@ not limited to, the following main technologies:
   applications interacting within the digtial twin network system.
   Conflict detection and resolution techniques may use various mechanisms,
   such as rule-based policies, role-based access control, or dynamic conflict
-  resolution algorithms (e.g., {Pradeep2022}} and {{Zheng2022}}).
+  resolution algorithms (e.g., {{Pradeep2022}} and {{Zheng2022}}).
 
 *  Energy-Efficient Twinning:
 : Focus on energy efficiency in digital twin
