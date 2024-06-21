@@ -479,7 +479,7 @@ that consumes the information to analyze, diagnose, or control.
   Interfaces: Standardized interfaces ensure the interoperability of network digital
   twin with real network operations systems. There are two major types of interfaces:
 
-  *	The interface between the network digital twin platform and the real network
+    *	The interface between the network digital twin platform and the real network
     infrastructure, directly or through an associated operations (i.e. planning,
 control, management) system.
 
