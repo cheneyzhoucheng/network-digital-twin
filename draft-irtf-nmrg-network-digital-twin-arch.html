@@ -1046,7 +1046,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 </tr></thead>
 <tfoot><tr>
 <td class="left">Zhou, et al.</td>
-<td class="center">Expires 14 December 2024</td>
+<td class="center">Expires 23 December 2024</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1059,12 +1059,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <dd class="internet-draft">draft-irtf-nmrg-network-digital-twin-arch-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2024-06-12" class="published">12 June 2024</time>
+<time datetime="2024-06-21" class="published">21 June 2024</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2024-12-14">14 December 2024</time></dd>
+<dd class="expires"><time datetime="2024-12-23">23 December 2024</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1145,7 +1145,7 @@ challenges.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 14 December 2024.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 23 December 2024.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -2127,10 +2127,10 @@ separately.<a href="#section-8-1" class="pilcrow">¶</a></p>
 <a href="#section-8.1" class="section-number selfRef">8.1. </a><a href="#name-data-collection-and-data-se" class="section-name selfRef">Data Collection and Data Services</a>
         </h3>
 <p id="section-8.1-1">Data collection technology is the foundation of building data
-repository for network digital twin.  Target driven mode should be
-adopted for data collection from heterogeneous data sources.  The
-type, frequency and method of data collection shall meet the
-application of network digital twin.  Whenever building network
+repository for network digital twin. Target driven mode should be
+adopted for data collection from heterogeneous data sources. The
+type, frequency and data collection method shall meet the requirements
+of the network digital twin application. Whenever building network
 models for a specific network application, the required data can be
 efficiently obtained from the data repository.<a href="#section-8.1-1" class="pilcrow">¶</a></p>
 <p id="section-8.1-2">Diverse existing tools and methods (e.g., SNMP, NETCONF <span>[<a href="#RFC6241" class="cite xref">RFC6241</a>]</span>,
@@ -2152,11 +2152,11 @@ collection are work-in-progress in IETF/IRTF, e.g., adaptive
 subscription <span>[<a href="#I-D.ietf-netconf-adaptive-subscription" class="cite xref">I-D.ietf-netconf-adaptive-subscription</a>]</span>, efficient data
 collection <span>[<a href="#I-D.zcz-nmrg-digitaltwin-data-collection" class="cite xref">I-D.zcz-nmrg-digitaltwin-data-collection</a>]</span>, and contextual
 information <span>[<a href="#I-D.claise-opsawg-collected-data-manifest" class="cite xref">I-D.claise-opsawg-collected-data-manifest</a>]</span>.<a href="#section-8.1-2" class="pilcrow">¶</a></p>
-<p id="section-8.1-3">Data repository works to effectively store large-scale and
-heterogeneous network data, as well provide data and services to
-build various network models.  So, it is also necessary to study
-technologies regarding data services including fast search, batch-
-data handling, conflict avoidance, data access interfaces, etc.<a href="#section-8.1-3" class="pilcrow">¶</a></p>
+<p id="section-8.1-3">Data repository works to effectively store large-scale and heterogeneous
+network data and provide data and services to build various network models.
+So, it is also necessary to study technologies regarding data services
+including fast search, batch- data handling, conflict avoidance, data access
+interfaces, etc.<a href="#section-8.1-3" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="network-modeling">
@@ -2174,48 +2174,43 @@ optimization strategy can be pre-verified.<a href="#section-8.2-1" class="pilcro
 <span>[<a href="#Mininet" class="cite xref">Mininet</a>]</span>, etc.) and emulating tools (e.g., <span>[<a href="#EVE-NG" class="cite xref">EVE-NG</a>]</span>, <span>[<a href="#GNS-3" class="cite xref">GNS-3</a>]</span>) can be
 used to build basic network models.  By using the packet processing
 capability of virtual network element, such tools can quickly verify
-the functions of the control plane and data plane.  However, this
-modeling method also has many limitations, including high resource
-consumption, poor performance analysis ability, and poor scalability.
-For large scale network, mathematical abstraction methods can be used
-to build basic network models efficiently.  Knowledge graph, network
-calculus, and formal verification can be candidate methods.  Some
-relevant researches have emerged in recent years, such as <span>[<a href="#Hong2021" class="cite xref">Hong2021</a>]</span>,
-<span>[<a href="#G2-SIGCOMM" class="cite xref">G2-SIGCOMM</a>]</span>, and <span>[<a href="#DNA-2022" class="cite xref">DNA-2022</a>]</span>.  Going forward, how to improve the
-extensibility and accuracy of the models is still a big challenge.<a href="#section-8.2-2" class="pilcrow">¶</a></p>
+the functions of the control plane and data plane. However, this modeling
+method also has many limitations, including high resource consumption, poor
+performance analysis ability, and poor scalability. Mathematical abstraction
+methods can be used for large-scale networks to build basic network models
+efficiently. Knowledge graph, network calculus, and formal verification can
+be candidate methods. Some relevant research has emerged in recent years,
+such as <span>[<a href="#Hong2021" class="cite xref">Hong2021</a>]</span>, <span>[<a href="#G2-SIGCOMM" class="cite xref">G2-SIGCOMM</a>]</span>, and <span>[<a href="#DNA-2022" class="cite xref">DNA-2022</a>]</span>. Moving forward, improving
+the extensibility and accuracy of the models represents a significant challenge.<a href="#section-8.2-2" class="pilcrow">¶</a></p>
 <p id="section-8.2-3">As an example, the theory of bottleneck structures introduced in
 <span>[<a href="#G2-SIGCOMM" class="cite xref">G2-SIGCOMM</a>]</span>, <span>[<a href="#G2-SIGMETRICS" class="cite xref">G2-SIGMETRICS</a>]</span> can be used to construct a mathematical
 model of the network (see also
-<span>[<a href="#I-D.giraltyellamraju-alto-bsg-requirements" class="cite xref">I-D.giraltyellamraju-alto-bsg-requirements</a>]</span> for more info).  A
-bottleneck structure is a computational graph that efficiently
-captures the topology, the routing and flow properties of the
-network.  The graph embeds the latent relationships that exist
-between bottlenecks and the application flows in a distributed
-system, providing an efficient mathematical framework to compute the
-ripple effects of perturbations (e.g., a flow arriving or departing
-from the system, or the dynamic change in capacity of a wireless
-link, among others).  Because these perturbations can be seen as
-mathematical derivatives of the communication system, bottleneck
-structures can be used to compute optimized network configurations,
-providing a natural engineering sandbox for building network models.
-One of the key advantages of bottleneck structures is that they can
-be used to compute (symbolically or numerically) key performance
-indicators of the network (e.g., expected flow throughput, projected
-flow completion time, etc.) without the need to use computationally
-intensive simulators.  This capability can be especially useful when
-building a digital twin or a large-scale network, potentially saving
-orders or magnitude in computational resources in comparison to
-simulation or emulation-based approaches.<a href="#section-8.2-3" class="pilcrow">¶</a></p>
+<span>[<a href="#I-D.giraltyellamraju-alto-bsg-requirements" class="cite xref">I-D.giraltyellamraju-alto-bsg-requirements</a>]</span> for more info). A bottleneck
+structure is a computational graph that efficiently captures the topology, the
+routing and flow properties of the network. The graph embeds the latent
+relationships that exist between bottlenecks and the application flows in a
+distributed system, providing an efficient mathematical framework to compute
+the ripple effects of perturbations (e.g., a flow arriving or departing from
+the system, or the dynamic change in the capacity of a wireless link, among
+others). Because these perturbations are mathematical derivatives of the
+communication system, bottleneck structures can be used to compute optimized
+network configurations, providing a natural engineering sandbox for building
+network models. One of the key advantages of bottleneck structures is that
+they can be used to compute (symbolically or numerically) key performance
+indicators of the network (e.g., expected flow throughput, projected flow
+completion time) without using computationally intensive simulators.
+This capability can be especially useful when building a digital twin or
+a large-scale network, potentially saving orders or magnitude in computational
+resources in comparison to simulation or emulation-based approaches.<a href="#section-8.2-3" class="pilcrow">¶</a></p>
 <p id="section-8.2-4">The functional model aims to realize the dynamic evolution of network
-performance evaluation and intelligent decision-making.  Data driven
-AI/ML algorithm will play a great role in building complex network
-functional models.  As a research hotspot in recent years, many
-successfully cases have been demonstrated, such as <span>[<a href="#RouteNet" class="cite xref">RouteNet</a>]</span>,
-<span>[<a href="#MimicNet" class="cite xref">MimicNet</a>]</span>, etc.  In the future, in addition to improving the
-generalization ability and interpretability of AI models, we also
-need to focus on how to improve the real-time and interactivity of
-model reasoning based on data and control in network digital twin
-layer.<a href="#section-8.2-4" class="pilcrow">¶</a></p>
+performance evaluation and intelligent decision-making. Data-driven
+AI/ML algorithms will play a great role in building complex network
+functional models. As a research hotspot in recent years, many successful
+cases have been demonstrated, such as <span>[<a href="#RouteNet" class="cite xref">RouteNet</a>]</span>, <span>[<a href="#MimicNet" class="cite xref">MimicNet</a>]</span>, etc.
+In the future, in addition to improving the generalization ability and
+interpretability of AI models, there is also a need to focus on how to improve
+the real-time and interactivity of model reasoning based on data and
+control in network digital twin layer.<a href="#section-8.2-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="network-visualization">
@@ -2224,21 +2219,21 @@ layer.<a href="#section-8.2-4" class="pilcrow">¶</a></p>
 <a href="#section-8.3" class="section-number selfRef">8.3. </a><a href="#name-network-visualization" class="section-name selfRef">Network Visualization</a>
         </h3>
 <p id="section-8.3-1">It is the internal requirement of the network digital twin system to
-use network visibility technology to visually present the data and
-model in the network twin with high fidelity and intuitively reflect
-the interactive mapping between the real network entity and the
-network twin.  Network Visibility technology can help users
-understand the internal structure of the network, and also help mine
-valuable information hidden in the network.<a href="#section-8.3-1" class="pilcrow">¶</a></p>
+use network visibility technology to visually present the data and model
+in the network twin with high fidelity and intuitively reflect the
+interactive mapping between the real network entity and the network twin.
+Network visibility technology can help users understand the internal
+structure of the network and mine valuable information hidden in the
+network.<a href="#section-8.3-1" class="pilcrow">¶</a></p>
 <p id="section-8.3-2">Network Visibility can use algorithms such as hierarchical layout,
-heuristic layout or force oriented layout (or a combination of
+heuristic layout or force-oriented layout (or a combination of
 several algorithms) for topology layout.  The related topology
 data can be acquired using solutions provided in <span>[<a href="#RFC8345" class="cite xref">RFC8345</a>]</span>,
 <span>[<a href="#RFC8346" class="cite xref">RFC8346</a>]</span>, <span>[<a href="#RFC8944" class="cite xref">RFC8944</a>]</span>, etc.  Meanwhile, network digital twin system
 can select different interaction methods or combinations of
 interaction methods to realize the visual dynamic interaction mapping
 of virtual and real networks.  The data query technology, such as
-SPARQL, can be used to express queries across diverse data sources,
+SPARQL, can express queries across diverse data sources,
 whether the data is stored natively as RDF or viewed as RDF via
 middleware.<a href="#section-8.3-2" class="pilcrow">¶</a></p>
 </section>
@@ -2280,11 +2275,10 @@ HTTP/3.0 <span>[<a href="#RFC9114" class="cite xref">RFC9114</a>]</span>.<a href
 </dd>
         <dd class="break"></dd>
 </dl>
-<p id="section-8.4-3">All these interfaces are recommended to be open and standardized interfaces so as to
-avoid either hardware or software vendor lock, and achieve
-interoperability.  Besides the interfaces list above, some new
-interfaces or protocols can be created to better serve digital twin
-network system.<a href="#section-8.4-3" class="pilcrow">¶</a></p>
+<p id="section-8.4-3">All these interfaces are recommended to be open and standardized so
+as to avoid either hardware or software vendor lock and achieve
+interoperability. Besides the interfaces listed above, some new interfaces
+or protocols can be created to better serve digital twin network system.<a href="#section-8.4-3" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="twinning-management">
@@ -2293,16 +2287,15 @@ network system.<a href="#section-8.4-3" class="pilcrow">¶</a></p>
 <a href="#section-8.5" class="section-number selfRef">8.5. </a><a href="#name-twinning-management" class="section-name selfRef">Twinning Management</a>
         </h3>
 <p id="section-8.5-1">Twinning management is the key to the efficient deployment and
-potential value of network digital twin systems in production
-networks.  Twinning management technology inputs all information and
-data from each step of network business into the constructed model
-through the construction of digital threads for optimization,
-prediction, and guidance.  Then, the implementation results are
-analyzed to see if they meet expectations, and any actions are fed
-back to form a closed loop.  Twinning management involves various
-network components (e.g., controller, orchestrator) and domains (security, for example)
-from end to end, including, but not limited to, the
-following main technologies:<a href="#section-8.5-1" class="pilcrow">¶</a></p>
+potential value of network digital twin systems in production networks.
+Twinning management technology inputs all information and data from each
+step of the network business into the constructed model by constructing
+digital threads for optimization, prediction, and guidance. Then, the
+implementation results are analyzed to see if they meet expectations,
+and any actions are fed back to form a closed loop. Twinning management
+involves various network components (e.g., controller, orchestrator)
+and domains (security, for example) from end to end, including, but
+not limited to, the following main technologies:<a href="#section-8.5-1" class="pilcrow">¶</a></p>
 <ul class="normal">
 <li class="normal" id="section-8.5-2.1">
             <p id="section-8.5-2.1.1">Orchestration of twins: Manage and organize multiple twin
@@ -2320,20 +2313,25 @@ following main technologies:<a href="#section-8.5-1" class="pilcrow">¶</a></p>
   among all parties.<a href="#section-8.5-2.2.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="section-8.5-2.3">
-            <p id="section-8.5-2.3.1">Conflict Detection and Resolution: Identify and address conflicts
+            <p id="section-8.5-2.3.1">Conflict Detection and Resolution: Identify and address conflicts,
   including user intents, access control policies, or multiple
-  applications interacting within the digtial twin netowrk system.
-  Conflict detection and resolution techniques may use various
-  mechanisms, such as rule-based policies, role-based access
-  control, or dynamic conflict resolution algorithms (e.g.
-  <span>[<a href="#Pradeep2022" class="cite xref">Pradeep2022</a>]</span> and <span>[<a href="#Zheng2022" class="cite xref">Zheng2022</a>]</span>).<a href="#section-8.5-2.3.1" class="pilcrow">¶</a></p>
+  applications interacting within the digtial twin network system.
+  Conflict detection and resolution techniques may use various mechanisms,
+  such as rule-based policies, role-based access control, or dynamic conflict
+  resolution algorithms (e.g., {Pradeep2022}} and <span>[<a href="#Zheng2022" class="cite xref">Zheng2022</a>]</span>).<a href="#section-8.5-2.3.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="section-8.5-2.4">
-            <p id="section-8.5-2.4.1">Energy-Efficient Twinning: Focus on energy efficiency in digital
-  twin network system.  It includes monitoring and optimizing the
-  energy consumption of both network equipment and digital twin
-  system operation, reducing the energy expenditure of network
-  operation, and achieving the goal of green network.<a href="#section-8.5-2.4.1" class="pilcrow">¶</a></p>
+            <span class="break"></span><dl class="dlParallel" id="section-8.5-2.4.1">
+              <dt id="section-8.5-2.4.1.1">Energy-Efficient Twinning:</dt>
+              <dd style="margin-left: 1.5em" id="section-8.5-2.4.1.2">
+                <p id="section-8.5-2.4.1.2.1">Focus on energy efficiency in digital twin
+network system. It includes monitoring and optimizing the energy
+consumption of both network equipment and digital twin system operation,
+reducing the energy expenditure of network operation, and achieving the
+goal of a green (energy efficient) network.<a href="#section-8.5-2.4.1.2.1" class="pilcrow">¶</a></p>
+</dd>
+            <dd class="break"></dd>
+</dl>
 </li>
         </ul>
 </section>
@@ -2606,7 +2604,7 @@ enabled to prevent data leaks.<a href="#section-12-5" class="pilcrow">¶</a></p>
 <dd class="break"></dd>
 <dt id="I-D.ietf-netconf-adaptive-subscription">[I-D.ietf-netconf-adaptive-subscription]</dt>
       <dd>
-<span class="refAuthor">Wu, Q.</span>, <span class="refAuthor">Song, W.</span>, <span class="refAuthor">Liu, P.</span>, <span class="refAuthor">Ma, Q.</span>, <span class="refAuthor">Wang, W.</span>, and <span class="refAuthor">Z. Niu</span>, <span class="refTitle">"Adaptive Subscription to YANG Notification"</span>, <span class="refContent">Work in Progress</span>, <span class="seriesInfo">Internet-Draft, draft-ietf-netconf-adaptive-subscription-04</span>, <time datetime="2023-12-12" class="refDate">12 December 2023</time>, <span>&lt;<a href="https://datatracker.ietf.org/doc/html/draft-ietf-netconf-adaptive-subscription-04">https://datatracker.ietf.org/doc/html/draft-ietf-netconf-adaptive-subscription-04</a>&gt;</span>. </dd>
+<span class="refAuthor">Wu, Q.</span>, <span class="refAuthor">Song, W.</span>, <span class="refAuthor">Liu, P.</span>, <span class="refAuthor">Ma, Q.</span>, <span class="refAuthor">Wang, W.</span>, and <span class="refAuthor">Z. Niu</span>, <span class="refTitle">"Adaptive Subscription to YANG Notification"</span>, <span class="refContent">Work in Progress</span>, <span class="seriesInfo">Internet-Draft, draft-ietf-netconf-adaptive-subscription-05</span>, <time datetime="2024-06-13" class="refDate">13 June 2024</time>, <span>&lt;<a href="https://datatracker.ietf.org/doc/html/draft-ietf-netconf-adaptive-subscription-05">https://datatracker.ietf.org/doc/html/draft-ietf-netconf-adaptive-subscription-05</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 <dt id="I-D.zcz-nmrg-digitaltwin-data-collection">[I-D.zcz-nmrg-digitaltwin-data-collection]</dt>
       <dd>
