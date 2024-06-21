@@ -12,7 +12,7 @@ v: 3
 area: "IRTF"
 workgroup: "Network Management"
 keyword:
- - network digital twin
+ - Network Digital Twin
  - model
  - data driven management
 
@@ -273,7 +273,7 @@ emulation). Basically, the digital twin for networks is an expansion platform of
 network emulation and can be seen as a tool for scenario planning, impact analysis,
 and change management. Compared to conventional network simulation, the main
 difference is the interactive virtual-real mapping and data-driven approach to build
-closed-loop network automation. Integrating network digital twin into the network
+closed-loop network automation. Integrating Network Digital Twin into the network
 management allows network maintenance engineers to assess, model, and tweak optimization
 strategies in a risk-free environment, ensuring that only the most effective changes
 might be implemented in the real network (i.e., subject to adequate validation and
@@ -284,7 +284,7 @@ of data-driven insights without impacting end-users.
 Through the real-time data interaction between the real network and its twin network(s),
 the Network Digital Twin (NDT) platform will provide the data for NDT-based applications
 and network designers to achieve greater simplification, automation, resilience testing
-(“what if scenarios”), and full life-cycle operation and infrastructure maintenance.
+("what-if scenarios"), and full life-cycle operation and infrastructure maintenance.
 
 # Terminology
 
@@ -376,7 +376,7 @@ various 'digital twin' applications.  At the same time, in the face
 of increasing business types, scale and complexity, a network itself
 also needs to use digital twin technology to seek enhanced and
 optimized solutions compared to relying solely on the real network.
-The motivation for network digital twin can somehow be traced back to
+The motivation for Network Digital Twin can somehow be traced back to
 some earlier concepts, such as "shadow MIB", inductive modeling
 techniques, parallel systems, etc.  Since 2017, the application of
 digital twin technology in the field of communication networks has
@@ -407,11 +407,11 @@ NOMS 2022 - TNT workshop {{TNT2022}}.
 Although the application of digital twin technology in networking has
 started, the research of digital twin for networks technology is
 still in its infancy.  Current applications focus on specific
-scenarios (such as network optimization), where network digital twin
+scenarios (such as network optimization), where Network Digital Twin
 is just used as a network simulation tool to solve the problem of
 network operation and maintenance.  Combined with the characteristics
 of digital twin technology and its application in other industries,
-this document believes that network digital twin can be regarded as
+this document believes that Network Digital Twin can be regarded as
 an indispensable part of the overall network system and provides a
 general architecture involving the whole life cycle of a "real"
 (typically, physical) network in the future, serving the application
@@ -424,7 +424,7 @@ level of the network.
 So far, there is no standard definition for characteristic of "network
 digital twin" within the networking industry. This document introduces five
 key elements (i.e., data, models, mapping, interfaces, and logic) to characterize
-the network digital twin. These five elements can be integrated into a network
+the Network Digital Twin. These five elements can be integrated into a network
 management system to analyze, diagnose, emulate, and control the real network.
 To that aim, a real-time and interactive mapping is required between the real
 network and its virtual twin network.  Whether a Digital Twin supports all or
@@ -465,7 +465,7 @@ that consumes the information to analyze, diagnose, or control.
 {: #kelem title="Key Elements of Network Digital Twin" artwork-align="center"}
 
   Data:
-  :  A network digital twin should maintain historical data and/or
+  :  A Network Digital Twin should maintain historical data and/or
   real-time data (configuration data, operational state data,
   topology data, trace data, metric data, process data, etc.) about
   its real-world twin (i.e. real network) that are required by the
@@ -490,15 +490,15 @@ that consumes the information to analyze, diagnose, or control.
   : Standardized interfaces ensure the interoperability of network digital
   twin with real network operations systems. There are two major types of interfaces:
 
-    *	The interface between the network digital twin platform and the real network
+    *	The interface between the Network Digital Twin platform and the real network
     infrastructure, directly or through an associated operations (i.e. planning,
 control, management) system.
 
-    *	The interface between network digital twin platform and operations applications
+    *	The interface between Network Digital Twin platform and operations applications
     that consume the information provided by the NDT.
 
   : The former provides real-time data collection from the real network. The latter helps
-  in delivering application requests to the network digital twin platform and exposing
+  in delivering application requests to the Network Digital Twin platform and exposing
   the various platform capabilities to applications.
 
   Mapping:
@@ -516,12 +516,12 @@ control, management) system.
   to analyze and understand what is going on in the real network. It also allows using the
   digital twin to optimize the performance and maintenance of the real network.
 
-  The network digital twin, constructed based on the four core technology elements, can provide
+  The Network Digital Twin, constructed based on the four core technology elements, can provide
   crucial emulation-driven information to support analysis, diagnosis, and control of the real
   network, through its whole life cycle, with the help of optimization algorithms, management
   methods, and expert knowledge.
 
-  The network digital twin environment and its elements must be controlled and driven to support
+  The Network Digital Twin environment and its elements must be controlled and driven to support
   required  behaviors in use, e.g., to provide:
 
   *	repeatability: that is the capacity to replicate network conditions on-demand.
@@ -537,13 +537,13 @@ control, management) system.
   might be useful to have interactive mapping capability so that the validated changes can be evaluated
   under real network conditions whenever required by the testers. Whether real-time interaction between
   virtual and real network is mandatory is a configurable parameter. Adequate validation guards have to
-  be enforced at both twin and physical network. Enabling real-time interaction in network digital twin
+  be enforced at both twin and physical network. Enabling real-time interaction in Network Digital Twin
   is a catalyst to achieving autonomous networks or self-driven network.
 
   Logic:
   : Network digital twin facilitates optimal resource allocation and configuration, enhancing
   efficiency and performance. They enable comprehensive troubleshooting maintenance and control by
-  diagnosing issues in the digital twin. Moreover, network digital twins play a crucial role in planning
+  diagnosing issues in the digital twin. Moreover, Network Digital Twins play a crucial role in planning
   and deployment, allowing for the simulation of new designs and configurations to anticipate their effects
   before implementation.
 
@@ -559,15 +559,15 @@ operators and/or enterprise user can safely exercise the enforcement
 of network planning policies, deployment procedures, etc., without
 jeopardizing the daily operation of the real network.
 
-The main difference between network digital twin and simulation platforms
+The main difference between Network Digital Twin and simulation platforms
 is the use of interactive virtual-real mapping to support integration of
 model (e.g., emulation) based analysis in real network operations environments,
 up to and including closed loops for network operations automation. Simulation
-platforms can be considered as a predecessor of the network digital twin, one example of such
+platforms can be considered as a predecessor of the Network Digital Twin, one example of such
 a simulation platform is network simulator {{NS-3}}, which can be seen as
-a variant of network digital twin but with low fidelity and lacking
+a variant of Network Digital Twin but with low fidelity and lacking
 for interactive interfaces to the real network.  Compared with those
-classical approaches, key benefits of network digital twin can be
+classical approaches, key benefits of Network Digital Twin can be
 summarized as follows:
 
 {: counter="bar" style="format (%c)"}
@@ -597,7 +597,7 @@ daily operation and possibly degrading the quality of the services
 supported by the network.  Such assessment greatly increases network
 operator's Operational Expenditure (OPEX) budgets too.
 
-With a network digital twin platform, network operators can safely
+With a Network Digital Twin platform, network operators can safely
 emulate candidate optimization solutions before deploying them on the
 real network.  In addition, operator's OPEX on the real network
 deployment will be greatly decreased accordingly at the cost of the
@@ -630,7 +630,7 @@ efficiently, and network operators to deploy new technologies quickly
 with lower risks.  Take AI/ ML application as example, it is a
 conflict between the continuous high reliability requirement (i.e.,
 99.999%) and the slow learning speed or phase-in learning steps of
-AI/ML algorithms.  With network digital twin, AI/ML can complete the
+AI/ML algorithms.  With Network Digital Twin, AI/ML can complete the
 learning and training with the sufficient data before deploying the
 model in the real network.  This would encourage more network AI
 innovations in future networks.
@@ -650,7 +650,7 @@ inspection, all of them considered suitable to be associated to an
 individual person, and hence requiring strong protection and/or data
 anonymization mechanisms.
 
-With strong modeling capability provided by the network digital twin,
+With strong modeling capability provided by the Network Digital Twin,
 very limited real data (if at all) will be needed to achieve similar
 or even higher level of data-driven intelligent analysis.  This way,
 a lower demand of sensitive data will permit to satisfy privacy
@@ -694,7 +694,7 @@ needs to consider the following major challenges:
 
 Large-scale challenge:
 : A digital twin of large-scale networks will significantly increase the complexity of data acquisition and storage and the design and implementation of relevant models.
-: The requirements of the software and hardware of the network digital twin system
+: The requirements of the software and hardware of the Network Digital Twin system
 will be even more constrained. Therefore, efficient and low cost tools in various
 fields should be required. Take data as an example, massive network data can help
 achieve more accurate models. However, the cost of virtual-real communication and
@@ -728,8 +728,8 @@ Real-time requirements:
 processing of model simulation and verification through a digital network twin will
 introduce service latency. Meanwhile, the real-time requirements will further impose
 performance requirements on the system software and hardware. However, given the nature
-of distributed systems and propagation delays, keeping network digital twins in sync or
-auto-sync between real network and network digital twin is challenging.
+of distributed systems and propagation delays, keeping Network Digital Twins in sync or
+auto-sync between real network and Network Digital Twin is challenging.
 
 : Changes to the digital object automatically drive changes in the real object can be even
 challenging. To address these requirements, the function and process of the data model
@@ -741,7 +741,7 @@ match the corresponding computing resources and suitable solutions as needed to 
 the task processing in the twin.
 
 Security risks:
-: A network digital twin has to synchronize all or subset of the data
+: A Network Digital Twin has to synchronize all or subset of the data
 related to involved real networks in real time, which inevitably augments the attack
 surface, with a higher risk of information leakage, in particular. On one hand, it
 is mandatory to design more secure data mechanism leveraging legacy data protection
@@ -750,18 +750,16 @@ design can limit the data (especially raw data) requirement for building digital
 network, leveraging innovative modeling technologies such as federal learning.
 
 To address the above listed challenges, it is important to agree on a unified
-architecture of network digital twin, which defines the main functional components
+architecture of Network Digital Twin, which defines the main functional components
 and interfaces ({{arch}}). Then, relying upon such an architecture, it is required
 to continue researching on the key enabling technologies including data acquisition,
 data storage, data modeling, interface standardization, and security assurance.
 
-# A Reference Architecture of Network Digital Twin  {#arch}
+# A Reference Architecture of Network Digital Twin {#arch}
 
-Based on the definition of the key network digital twin technology
-elements introduced in {{def}}, a network digital twin
-architecture is depicted in Figure 2.  This network digital twin
-architecture is broken down into three layers: Application Layer,
-Digital Twin Layer, and Real Network Layer.
+Based on the definition of the key Network Digital Twin
+elements introduced in {{def}}, a Network Digital Twin
+architecture is depicted in {{arc}}. 
 
 ~~~~
       +---------------------------------------------------------+
@@ -793,6 +791,8 @@ Digital Twin Layer, and Real Network Layer.
 ~~~~
 {: #arc title="Reference Architecture of Network Digital Twin" artwork-align="center"}
 
+This architecture is broken down into three layers:
+
   Real Network:
   :  All or subset of network elements in the real network
      exchange network data and control messages with a network digital
@@ -818,7 +818,7 @@ Digital Twin Layer, and Real Network Layer.
      other network administrative domain, or lied in every network
      administrative domain and coordinate between each other to provide
      services to the application in the upper layer.
-   : One or multiple network digital twin instances can be built and
+   : One or multiple Network Digital Twin instances can be built and
      maintained:
 
      +  Data Repository subsystem is responsible for collecting and
@@ -835,7 +835,7 @@ Digital Twin Layer, and Real Network Layer.
      models include two major types: basic and functional models.
 
          -  Basic models refer to the network element model(s) and
-        network topology model(s) of the network digital twin based
+        network topology model(s) of the Network Digital Twin based
         on the basic configuration, environment information,
         operational state, link topology and other information of
         the network element(s), to complete the real-time accurate
@@ -860,8 +860,8 @@ Digital Twin Layer, and Real Network Layer.
           Models’ subsystem will be triggered to help creating new
           models based on data retrieved from ‘Data Repository’.
 
-   *  Network Digital Twin Management fulfils the management function
-     of network digital twin, records the life-cycle transactions of
+     +  Network Digital Twin Management fulfils the management function
+     of Network Digital Twin, records the life-cycle transactions of
      the twin entity, monitors the performance and resource
      consumption of the twin entity or even of individual models,
      visualizes and controls various elements of the network digital
@@ -883,10 +883,10 @@ Digital Twin Layer, and Real Network Layer.
 
   Application Layer:  Various applications (e.g., Operations,
      Administration, and Maintenance (OAM)) can effectively run over a
-     network digital twin platform to implement either conventional or
+     Network Digital Twin platform to implement either conventional or
      innovative network operations, with low cost and less service
      impact on real networks.  Network applications make requests that
-     need to be addressed by the network digital twin.  Such requests
+     need to be addressed by the Network Digital Twin.  Such requests
      are exchanged through a northbound interface, so they are applied
      by service emulation at the appropriate twin instance(s).
 
@@ -897,33 +897,33 @@ automation-supporting network systems. As an example,
 {{ETSI-GS-ZSM-002}} describes a framework architecture for network
 automation. It uses so-called management services as a fundamental
 conceptual unit of currency, and describes the enablement of automation
-use cases through flexible composition and extension of such management
+use cases through composition and extensions of such management
 services. For example, a closed loop might be represented as a composition
-of appropriate data, analytics, intelligence/decision and orchestration/control
+of appropriate data, analytics, intelligence/decision, and orchestration/control
 services.
 
-The role and and utility of NDTs may be represented architecturally by
-following similar principles, e.g., {{ETSI-GS-ZSM-015}}. As described in Section 4,
+The role and and utility of NDT may be represented architecturally by
+following similar principles, e.g., {{ETSI-GS-ZSM-015}}. As described in {{arch}},
 an NDT may be represented as encompassing models, data, mapping, and interfaces;
-these components then work together and in composition with appropriate other
-functions or services to deliver overall functional architectures matching specific
-use cases.
+these components then work in composition with appropriate other
+functions or services to deliver an overall functional architecture matching specific
+use cases. For example, the example depicted in {{arc-detail}}.
 
-For example, {{arc-detail}}. The NDT (or, NDT core or layer) is represented as
+The NDT (or, NDT core or layer) is represented as
 encompassing data and models, along with capability to manage them together to
 useful purpose. The overall system architecture shows an intent-capable controller
 mediating between intent-generating network service demand sources and the physical
-network. The NDT plays an important role in this controller. An “outer” closed loop
+network. The NDT plays an important role in this controller. An "outer" closed loop
 detects gaps between service parameters set by intents and actual service characteristics,
 finds solutions to close those gaps, and drives those solutions on to the network. Finding
-solutions makes use of an "inner loop" that includes an NDT: effectively, prospective solutions
+solutions makes use of an "inner loops" that include an NDT: for example, prospective solutions
 are being proposed, their impacts on services are evaluated by the NDT acting as a "sandbox” in
 virtual space, and the process is repeated until a satisfactory solution is found. At that
 point, the known-good solution is passed to the outer loop for actuation.
 
 Many automation use cases may be thought of as following a similar pattern: a solution
-corresponding to some kind of optimization problem is found through iteration in virtual
-space using an NDT; the solution is then placed at the disposal of other, active components
+corresponding to some kind of optimization criteria is found through iteration in virtual
+space using an NDT instance; the solution is then placed at the disposal of other, active components
 of the operations system. However, all use cases involving NDTs can be represented as some
 composition of the core data/modeling functions, and appropriate other functions/services.
 
@@ -968,7 +968,7 @@ composition of the core data/modeling functions, and appropriate other functions
   |                                     +----------------+       |
   |                                                              |
   +-----------^-------------------------------------+------------+
-              |                                     |            |
+              |                                     |
               |Data Collection               Control|
               |                                     |
   +-----------+-------------------------------------V------------+
@@ -991,10 +991,10 @@ separately.
 ##  Data Collection and Data Services
 
 Data collection technology is the foundation of building data
-repository for network digital twin. Target driven mode should be
+repository for Network Digital Twin. Target driven mode should be
 adopted for data collection from heterogeneous data sources. The
 type, frequency and data collection method shall meet the requirements
-of the network digital twin application. Whenever building network
+of the Network Digital Twin application. Whenever building network
 models for a specific network application, the required data can be
 efficiently obtained from the data repository.
 
@@ -1075,11 +1075,11 @@ cases have been demonstrated, such as {{RouteNet}}, {{MimicNet}}, etc.
 In the future, in addition to improving the generalization ability and
 interpretability of AI models, there is also a need to focus on how to improve
 the real-time and interactivity of model reasoning based on data and
-control in network digital twin layer.
+control in Network Digital Twin layer.
 
 ## Network Visualization
 
-It is the internal requirement of the network digital twin system to
+It is the internal requirement of the Network Digital Twin system to
 use network visibility technology to visually present the data and model
 in the network twin with high fidelity and intuitively reflect the
 interactive mapping between the real network entity and the network twin.
@@ -1091,7 +1091,7 @@ Network Visibility can use algorithms such as hierarchical layout,
 heuristic layout or force-oriented layout (or a combination of
 several algorithms) for topology layout.  The related topology
 data can be acquired using solutions provided in {{?RFC8345}},
-{{?RFC8346}}, {{?RFC8944}}, etc.  Meanwhile, network digital twin system
+{{?RFC8346}}, {{?RFC8944}}, etc.  Meanwhile, Network Digital Twin system
 can select different interaction methods or combinations of
 interaction methods to realize the visual dynamic interaction mapping
 of virtual and real networks.  The data query technology, such as
@@ -1102,7 +1102,7 @@ middleware.
 ## Interfaces
 
 Based on the reference architecture, there are three types of
-interfaces on building a network digital twin system:
+interfaces on building a Network Digital Twin system:
 
 {: counter="bar" style="format (%c)"}
 * Network-facing interfaces are twin interfaces between the real
@@ -1111,12 +1111,12 @@ interfaces on building a network digital twin system:
    twin.  The candidate interfaces can be SNMP, NETCONF, etc.
 
 * Application-facing interfaces are Application-facing interfaces
-   between the network digital twin and applications.  They are
-   responsible for information exchange between network digital twin
+   between the Network Digital Twin and applications.  They are
+   responsible for information exchange between Network Digital Twin
    and network applications.  The lightweight and extensible
    {{RESTFul}} interface can be the candidate northbound interface.
 
-*  Internal interfaces are within network digital twin layer.  They
+*  Internal interfaces are within Network Digital Twin layer.  They
    are responsible for information exchange between the three
    subsystems: Data Repository, Service Mapping Models, and Digital
    Twin Network Management.  These interfaces should be of high-
@@ -1132,7 +1132,7 @@ or protocols can be created to better serve digital twin network system.
 ## Twinning Management
 
 Twinning management is the key to the efficient deployment and
-potential value of network digital twin systems in production networks.
+potential value of Network Digital Twin systems in production networks.
 Twinning management technology inputs all information and data from each
 step of the network business into the constructed model by constructing
 digital threads for optimization, prediction, and guidance. Then, the
@@ -1178,8 +1178,8 @@ and provides an overview of IBN functionalities. The key characteristic
 of an IBN system is that user intent can be assured automatically via
 continuously adjust policies and validate real-time situations.
 
-IBN can be envisaged in a network digital twin context to show how
-network digital twin improves the efficiency of deploying network
+IBN can be envisaged in a Network Digital Twin context to show how
+Network Digital Twin improves the efficiency of deploying network
 innovation. Several rounds of adjustment and validation can be emulated
 on the digital twin platform instead of directly impacting real network
 during the testing phase. Therefore, the digital twin network can be an
@@ -1203,7 +1203,7 @@ reduce the faults and response time, but still, there is the need of
 a human-in-the-loop for multiple actions. These processes are not
 intuitive and require training to learn how to respond.
 
-The use of network digital twin for this purpose in different network
+The use of Network Digital Twin for this purpose in different network
 management activities will improve the operators performance.  One
 common example is cybersecurity incident handling, where "cyber-
 range" exercises are executed periodically to train security
@@ -1223,7 +1223,7 @@ period.
 Network digital twin simplifies the complete ML lifecycle development
 by providing a realistic environment, including network topologies,
 to generate the data required in a well-aligned context.  Dataset
-generated belongs to the network digital twin and not to the
+generated belongs to the Network Digital Twin and not to the
 production network, allowing information access by third parties,
 without impacting data privacy.
 
@@ -1235,7 +1235,7 @@ non-validated updates, which conflicts with the goal of the
 certification requirements applied by network service providers.
 A solution for addressing these certification requirements is to
 verify the specific impacts of updates on service assurance and
-Service Level Agreements (SLAs) using a network digital twin
+Service Level Agreements (SLAs) using a Network Digital Twin
 environment replicating the network particularities as a previous
 step to production release.
 
@@ -1283,10 +1283,10 @@ dependency, and hardware dependency "what-if" scenarios.
 
 # Research Perspectives: A Summary
 
-Research on network digital twin has just started. This document
-presents an overview of the network digital twin concepts and reference
+Research on Network Digital Twin has just started. This document
+presents an overview of the Network Digital Twin concepts and reference
 architecture. As digital twin technology develops, further investigation
-of network digital twin scenarios, requirements, architecture, and key
+of Network Digital Twin scenarios, requirements, architecture, and key
 enabling technologies should be investigated by the industry to accelerate
 the implementation and deployment of digital twin network.
 
@@ -1297,7 +1297,7 @@ network. As such, the following security considerations are abstract
 and lack specific guidance or detail, i.e., in the form of principles,
 guidelines or requirements.
 
-Security considerations of the network digital twin include:
+Security considerations of the Network Digital Twin include:
 
 *  Secure the digital twin system itself.
 
