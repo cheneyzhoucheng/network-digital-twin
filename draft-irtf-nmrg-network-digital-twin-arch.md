@@ -476,7 +476,8 @@ that consumes the information to analyze, diagnose, or control.
   assets and their behaviours, and composed to emulate network changes and behaviours,
   serving the analysis needs of various use case-based network applications.
 
-  Interfaces: Standardized interfaces ensure the interoperability of network digital
+  Interfaces:
+  : Standardized interfaces ensure the interoperability of network digital
   twin with real network operations systems. There are two major types of interfaces:
 
     *	The interface between the network digital twin platform and the real network
