@@ -356,20 +356,22 @@ Table of Contents
       and composed to emulate network changes and behaviours, serving
       the analysis needs of various use case-based network applications.
 
-   Interfaces: Standardized interfaces ensure the interoperability of
-   network digital twin with real network operations systems.  There are
-   two major types of interfaces:
+   Interfaces:  Standardized interfaces ensure the interoperability of
+      network digital twin with real network operations systems.  There
+      are two major types of interfaces:
 
-*   The interface between the network digital twin platform and the real network
-infrastructure, directly or through an associated operations (i.e. planning, control, management) system.
+      *  The interface between the network digital twin platform and the
+         real network infrastructure, directly or through an associated
+         operations (i.e. planning, control, management) system.
 
-*   The interface between network digital twin platform and operations applications
-that consume the information provided by the NDT.
+      *  The interface between network digital twin platform and
+         operations applications that consume the information provided
+         by the NDT.
 
-   : The former provides real-time data collection from the real
-   network.  The latter helps in delivering application requests to the
-   network digital twin platform and exposing the various platform
-   capabilities to applications.
+      The former provides real-time data collection from the real
+      network.  The latter helps in delivering application requests to
+      the network digital twin platform and exposing the various
+      platform capabilities to applications.
 
    Mapping:  Used to identify the digital twin and the underlying
       entities and establish a real-time interactive relation between
