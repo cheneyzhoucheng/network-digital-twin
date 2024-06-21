@@ -5,7 +5,7 @@
 Network Management                                               C. Zhou
 Internet-Draft                                                   H. Yang
 Intended status: Informational                                   X. Duan
-Expires: 13 December 2024                                   China Mobile
+Expires: 23 December 2024                                   China Mobile
                                                                 D. Lopez
                                                                A. Pastor
                                                           Telefonica I+D
@@ -14,7 +14,7 @@ Expires: 13 December 2024                                   China Mobile
                                                             M. Boucadair
                                                             C. Jacquenet
                                                                   Orange
-                                                            11 June 2024
+                                                            21 June 2024
 
 
        Network Digital Twin: Concepts and Reference Architecture
@@ -59,7 +59,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 13 December 2024.
+   This Internet-Draft will expire on 23 December 2024.
 
 Copyright Notice
 
@@ -1219,9 +1219,9 @@ that consume the information provided by the NDT.
               Wu, Q., Song, W., Liu, P., Ma, Q., Wang, W., and Z. Niu,
               "Adaptive Subscription to YANG Notification", Work in
               Progress, Internet-Draft, draft-ietf-netconf-adaptive-
-              subscription-04, 12 December 2023,
+              subscription-05, 13 June 2024,
               <https://datatracker.ietf.org/doc/html/draft-ietf-netconf-
-              adaptive-subscription-04>.
+              adaptive-subscription-05>.
 
    [I-D.zcz-nmrg-digitaltwin-data-collection]
               Zhou, C., Chen, D., Martinez-Julia, P., and Q. Ma, "Data
