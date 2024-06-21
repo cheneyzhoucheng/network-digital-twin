@@ -759,7 +759,7 @@ data storage, data modeling, interface standardization, and security assurance.
 
 Based on the definition of the key Network Digital Twin
 elements introduced in {{def}}, a Network Digital Twin
-architecture is depicted in {{arc}}. 
+architecture is depicted in {{arc}}.
 
 ~~~~
       +---------------------------------------------------------+
