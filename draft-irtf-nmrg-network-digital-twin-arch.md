@@ -223,6 +223,16 @@ informative:
     title: "Intent Based Networking management with conflict detection and policy resolution in an enterprise network, Computer Networks, Volume 219"
     date: December 2022
 
+  ETSI-GS-ZSM-002:
+    title: "Zero-touch network and Service Management (ZSM); Reference Architecture"
+    target: https://www.etsi.org/deliver/etsi_gs/ZSM/001_099/002/01.01.01_60/gs_ZSM002v010101p.pdf
+    date: August 2019
+
+  ETSI-GS-ZSM-015:
+    title: "Zero-touch network and Service Management (ZSM); Network Digital Twin"
+    target: https://www.etsi.org/deliver/etsi_gr/ZSM/001_099/015/01.01.01_60/gr_ZSM015v010101p.pdf
+    date: February 2024
+
 --- abstract
 
 Digital Twin technology has been seen as a rapid adoption technology
@@ -811,7 +821,7 @@ Digital Twin Layer, and Real Network Layer.
    : One or multiple network digital twin instances can be built and
      maintained:
 
-     *  Data Repository subsystem is responsible for collecting and
+     +  Data Repository subsystem is responsible for collecting and
      storing various network data for building various models by
      collecting and updating the real-time operational data of
      various network elements through the twin southbound interface,
@@ -819,7 +829,7 @@ Digital Twin Layer, and Real Network Layer.
      conflict handling, batch service) and unified interfaces to
      Service Mapping Models subsystem.
 
-     *  Service Mapping Models complete data modeling, provide data
+     +  Service Mapping Models complete data modeling, provide data
      model instances for various network applications, and maximizes
      the agility and programmability of network services.  The data
      models include two major types: basic and functional models.
@@ -879,6 +889,96 @@ Digital Twin Layer, and Real Network Layer.
      need to be addressed by the network digital twin.  Such requests
      are exchanged through a northbound interface, so they are applied
      by service emulation at the appropriate twin instance(s).
+
+# A Realization Example
+
+Considerable industry work and research has focused on
+automation-supporting network systems. As an example,
+{{ETSI-GS-ZSM-002}} describes a framework architecture for network
+automation. It uses so-called management services as a fundamental
+conceptual unit of currency, and describes the enablement of automation
+use cases through flexible composition and extension of such management
+services. For example, a closed loop might be represented as a composition
+of appropriate data, analytics, intelligence/decision and orchestration/control
+services.
+
+The role and and utility of NDTs may be represented architecturally by
+following similar principles, e.g., {{ETSI-GS-ZSM-015}}. As described in Section 4,
+an NDT may be represented as encompassing models, data, mapping, and interfaces;
+these components then work together and in composition with appropriate other
+functions or services to deliver overall functional architectures matching specific
+use cases.
+
+For example, {{arc-detail}}. The NDT (or, NDT core or layer) is represented as
+encompassing data and models, along with capability to manage them together to
+useful purpose. The overall system architecture shows an intent-capable controller
+mediating between intent-generating network service demand sources and the physical
+network. The NDT plays an important role in this controller. An “outer” closed loop
+detects gaps between service parameters set by intents and actual service characteristics,
+finds solutions to close those gaps, and drives those solutions on to the network. Finding
+solutions makes use of an "inner loop" that includes an NDT: effectively, prospective solutions
+are being proposed, their impacts on services are evaluated by the NDT acting as a "sandbox” in
+virtual space, and the process is repeated until a satisfactory solution is found. At that
+point, the known-good solution is passed to the outer loop for actuation.
+
+Many automation use cases may be thought of as following a similar pattern: a solution
+corresponding to some kind of optimization problem is found through iteration in virtual
+space using an NDT; the solution is then placed at the disposal of other, active components
+of the operations system. However, all use cases involving NDTs can be represented as some
+composition of the core data/modeling functions, and appropriate other functions/services.
+
+~~~~
+  +--------------------------------------------------------------+
+  |                                                              |
+  |                 Service Demand Generators                    |
+  |                                                              |
+  +-----------+-------------------------------------------^------+
+              |                                           |
+          Service Intents                         Intents Report
+              |                                           |
+              V                                           |
+  +-------------------------------------------------------+------+
+  |                                                              |
+  |  +-------------+                                             |
+  |  |             |                      Network Controller     |
+  |  |   Intent    |                                             |
+  |  | Translation |                                             |
+  |  |             |                                             |
+  |  +---+---------+                                             |
+  |      |                                                       |
+  |      |                                      Outer Loop       |
+  |      |      +----------------------------------------------+ |
+  |      |      |                                              | |
+  |      |      |   +---------------------------------------+  | |
+  |      |      |   |               Inner Loop              |  | |
+  |      |      |   | +------------------------------------||  | |
+  |      |      |   | |   +----------------------------+   ||  | |
+  |      |      |   | |   |           NDT              |   ||  | |
+  |      V      V   | |   |+------+ +-------+  +------+|   ||  | |
+  |+------------+-+ | +-> || Data | | Models|  | NDT  |+---+|  | |
+  ||              | |     ||      | |       |  | Mgmt ||    |  | |
+  || Service Data | |     |+------+ +-------+  +------+|    |  | |
+  ||   vs. Intents| |     |                            |    |  | |
+  ||              | |     +----------------------------+    |  | |
+  |+--------------+ +---------------------------------------+  | |
+  |                            |        +----------------+     | |
+  |                            |        |                |     | |
+  |                            |        |  Orchestration |     | |
+  |                            +----->  |     Control    +-----+ |
+  |                                     +----------------+       |
+  |                                                              |
+  +-----------^-------------------------------------+------------+
+              |                                     |            |
+              |Data Collection               Control|
+              |                                     |
+  +-----------+-------------------------------------V------------+
+  |                                                              |
+  |                   Physical Netework                          |
+  |                                                              |
+  +--------------------------------------------------------------+
+~~~~
+{: #arc-detail title="Example of Detailed NDT Architecure" artwork-align="center"}
+
 
 # Enabling Technologies to Build Network Digital Twin
 
