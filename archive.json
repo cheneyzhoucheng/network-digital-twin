@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-06-20T01:21:11.999521+00:00",
+  "timestamp": "2024-06-23T01:33:14.448378+00:00",
   "repo": "cheneyzhoucheng/network-digital-twin",
   "labels": [
     {
@@ -942,24 +942,26 @@
       "id": "PR_kwDOLV8yHc5yGVlV",
       "title": "Update draft-irtf-nmrg-network-digital-twin-arch.md",
       "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/22",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "billwuqin",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Update Concept section based on Input from Chris and Daniel.  One  big change is to introduce Logic element as fifth element.",
       "createdAt": "2024-06-11T11:31:16Z",
-      "updatedAt": "2024-06-12T13:45:37Z",
+      "updatedAt": "2024-06-21T11:19:21Z",
       "baseRepository": "cheneyzhoucheng/network-digital-twin",
       "baseRefName": "main",
       "baseRefOid": "3cfa7046ab3211558bcfb63111a50ff78b4fb889",
       "headRepository": "cheneyzhoucheng/network-digital-twin",
       "headRefName": "billwuqin-patch-1",
-      "headRefOid": "16c8332c084caa4aba8ebbc92d7e9355769112dd",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "3112f86cb9cdf54d466e936c0e0f4ae88d25415b",
+      "closedAt": "2024-06-21T11:19:21Z",
+      "mergedAt": "2024-06-21T11:19:21Z",
+      "mergedBy": "boucadair",
+      "mergeCommit": {
+        "oid": "07014424a8135ed573ce7f0b43601acc64e9d733"
+      },
       "comments": [],
       "reviews": [
         {
@@ -1066,6 +1068,19 @@
           "createdAt": "2024-06-12T13:45:37Z",
           "updatedAt": "2024-06-12T13:45:37Z",
           "comments": []
+        },
+        {
+          "id": "PRR_kwDOLV8yHc5_GlzR",
+          "commit": {
+            "abbreviatedOid": "3112f86"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-06-21T11:18:28Z",
+          "updatedAt": "2024-06-21T11:18:28Z",
+          "comments": []
         }
       ]
     },
@@ -1074,24 +1089,26 @@
       "id": "PR_kwDOLV8yHc5yGhRI",
       "title": "Update draft-irtf-nmrg-network-digital-twin-arch.md",
       "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/23",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "billwuqin",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Update Benefit and Challenges section based on input from Chris and Daniel",
       "createdAt": "2024-06-11T11:57:10Z",
-      "updatedAt": "2024-06-12T13:45:55Z",
+      "updatedAt": "2024-06-21T11:21:32Z",
       "baseRepository": "cheneyzhoucheng/network-digital-twin",
       "baseRefName": "main",
       "baseRefOid": "3cfa7046ab3211558bcfb63111a50ff78b4fb889",
       "headRepository": "cheneyzhoucheng/network-digital-twin",
       "headRefName": "billwuqin-patch-2",
       "headRefOid": "4204069348d371e5b7356446c11982a567662188",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2024-06-21T11:21:32Z",
+      "mergedAt": "2024-06-21T11:21:32Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "2276f506d7577d2d17c675924ed834362ea27da3"
+      },
       "comments": [],
       "reviews": [
         {
@@ -1186,26 +1203,28 @@
     {
       "number": 24,
       "id": "PR_kwDOLV8yHc5yG2XM",
-      "title": "Update draft-irtf-nmrg-network-digital-twin-arch.md",
+      "title": "Detailed Example of Arch",
       "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/24",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "billwuqin",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Update Referenced Architecture based on Chris's input and comments",
       "createdAt": "2024-06-11T12:39:28Z",
-      "updatedAt": "2024-06-12T13:46:24Z",
+      "updatedAt": "2024-06-21T12:51:01Z",
       "baseRepository": "cheneyzhoucheng/network-digital-twin",
       "baseRefName": "main",
       "baseRefOid": "3cfa7046ab3211558bcfb63111a50ff78b4fb889",
       "headRepository": "cheneyzhoucheng/network-digital-twin",
       "headRefName": "billwuqin-patch-3",
-      "headRefOid": "962d7501ed8a10c5f8836f8dd919837fbb6ebc84",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "53f34f6b88b577909411af96712df31c8fbef750",
+      "closedAt": "2024-06-21T12:51:01Z",
+      "mergedAt": "2024-06-21T12:51:01Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "e75f6208838333b454045ce5d4a3e4dc3e32c4a8"
+      },
       "comments": [],
       "reviews": [
         {
@@ -1282,6 +1301,19 @@
           "createdAt": "2024-06-12T13:46:24Z",
           "updatedAt": "2024-06-12T13:46:24Z",
           "comments": []
+        },
+        {
+          "id": "PRR_kwDOLV8yHc5_Gkof",
+          "commit": {
+            "abbreviatedOid": "962d750"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "I suggest we wait for this one",
+          "createdAt": "2024-06-21T11:15:16Z",
+          "updatedAt": "2024-06-21T11:15:16Z",
+          "comments": []
         }
       ]
     },
@@ -1290,24 +1322,26 @@
       "id": "PR_kwDOLV8yHc5yHHg1",
       "title": "Update draft-irtf-nmrg-network-digital-twin-arch.md",
       "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/25",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "billwuqin",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Update Enabling Technologies section based on discussion with Chris and Daniel",
       "createdAt": "2024-06-11T13:12:28Z",
-      "updatedAt": "2024-06-12T13:46:43Z",
+      "updatedAt": "2024-06-21T11:18:56Z",
       "baseRepository": "cheneyzhoucheng/network-digital-twin",
       "baseRefName": "main",
       "baseRefOid": "3cfa7046ab3211558bcfb63111a50ff78b4fb889",
       "headRepository": "cheneyzhoucheng/network-digital-twin",
       "headRefName": "billwuqin-patch-4",
       "headRefOid": "0720a8fc8f9716720b0913e645749d12571a7856",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2024-06-21T11:18:56Z",
+      "mergedAt": "2024-06-21T11:18:56Z",
+      "mergedBy": "boucadair",
+      "mergeCommit": {
+        "oid": "514b12ca45e7c62348ab9f056dc473fd47c66537"
+      },
       "comments": [],
       "reviews": [
         {
@@ -1409,6 +1443,70 @@
           "body": "",
           "createdAt": "2024-06-11T13:43:53Z",
           "updatedAt": "2024-06-11T13:43:53Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "id": "PR_kwDOLV8yHc5zLRSi",
+      "title": "maintain old arch but add an example",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/27",
+      "state": "MERGED",
+      "author": "boucadair",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-06-21T11:45:49Z",
+      "updatedAt": "2024-06-21T13:06:28Z",
+      "baseRepository": "cheneyzhoucheng/network-digital-twin",
+      "baseRefName": "billwuqin-patch-3",
+      "baseRefOid": "962d7501ed8a10c5f8836f8dd919837fbb6ebc84",
+      "headRepository": "cheneyzhoucheng/network-digital-twin",
+      "headRefName": "detailed-arch-as-an-example",
+      "headRefOid": "704785a6f9c38cb6e88d5b3027a4daed7cb89c92",
+      "closedAt": "2024-06-21T12:50:18Z",
+      "mergedAt": "2024-06-21T12:50:18Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "53f34f6b88b577909411af96712df31c8fbef750"
+      },
+      "comments": [
+        {
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@billwuqin, please check this PR and merge it with your patch#3 if you are OK. Thanks.",
+          "createdAt": "2024-06-21T11:46:31Z",
+          "updatedAt": "2024-06-21T11:46:31Z"
+        },
+        {
+          "author": "billwuqin",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Sounds good to me, so there is no conflict with patch#3?",
+          "createdAt": "2024-06-21T12:48:41Z",
+          "updatedAt": "2024-06-21T12:48:41Z"
+        },
+        {
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "body": "> Sounds good to me, so there is no conflict with patch#3?\r\n\r\nYes, we can work in // in both the main ref arch and the example to reflect what was discussed in the meeting. \r\n\r\nI made some other minor changes to avoid giving the impression that we are prescriptive. Another pass is needed",
+          "createdAt": "2024-06-21T13:06:27Z",
+          "updatedAt": "2024-06-21T13:06:27Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOLV8yHc5_HKvr",
+          "commit": {
+            "abbreviatedOid": "704785a"
+          },
+          "author": "billwuqin",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-06-21T12:50:07Z",
+          "updatedAt": "2024-06-21T12:50:07Z",
           "comments": []
         }
       ]
