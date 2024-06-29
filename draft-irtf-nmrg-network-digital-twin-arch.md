@@ -890,42 +890,39 @@ This architecture is broken down into three layers:
      are exchanged through a northbound interface, so they are applied
      by service emulation at the appropriate twin instance(s).
 
-# A Realization Example
+# Use of NDT
 
-Considerable industry work and research has focused on
-automation-supporting network systems. As an example,
-{{ETSI-GS-ZSM-002}} describes a framework architecture for network
-automation. It uses so-called management services as a fundamental
-conceptual unit of currency, and describes the enablement of automation
-use cases through composition and extensions of such management
-services. For example, a closed loop might be represented as a composition
-of appropriate data, analytics, intelligence/decision, and orchestration/control
-services.
+Considerable industry work and research has focused on automation-supporting
+network systems. For example, {{ETSI-GS-ZSM-002}} describes a framework
+architecture for network automation. It uses so-called management services as
+a fundamental conceptual unit of currency, and describes the enablement of
+automation use cases through flexible composition and extensions of such
+management services. For example, a closed loop might be represented as a
+composition of appropriate data, analytics, intelligence/decision, and
+orchestration/control services.
 
-The role and and utility of NDT may be represented architecturally by
-following similar principles, e.g., {{ETSI-GS-ZSM-015}}. As described in {{arch}},
-an NDT may be represented as encompassing models, data, mapping, and interfaces;
-these components then work in composition with appropriate other
-functions or services to deliver an overall functional architecture matching specific
-use cases. For example, the example depicted in {{arc-detail}}.
+The role and utility of NDTs may be represented architecturally by following
+similar principles, e.g., {{ETSI-GS-ZSM-015}}. As described in Section 7, an
+NDT instantiation encompasses models, data, mapping, and interfaces. These
+components then work in composition with appropriate other functions or services
+to deliver an overall functional architecture matching specific use cases.
 
-The NDT (or, NDT core or layer) is represented as
-encompassing data and models, along with capability to manage them together to
-useful purpose. The overall system architecture shows an intent-capable controller
-mediating between intent-generating network service demand sources and the physical
-network. The NDT plays an important role in this controller. An "outer" closed loop
-detects gaps between service parameters set by intents and actual service characteristics,
-finds solutions to close those gaps, and drives those solutions on to the network. Finding
-solutions makes use of an "inner loops" that include an NDT: for example, prospective solutions
-are being proposed, their impacts on services are evaluated by the NDT acting as a "sandbox” in
-virtual space, and the process is repeated until a satisfactory solution is found. At that
-point, the known-good solution is passed to the outer loop for actuation.
+For example: an NDT may play an important role in an intent-drive network controller.
+In this case, an "outer" closed loop (or, intent-assurance close loop) would detect
+gaps between service parameters set by intents and actual service characteristics,
+find solutions to close those gaps, and drive those solutions on to the network.
+Finding such solutions would rely on "inner loops" that include an NDT: for example,
+prospective solutions would be proposed, their impacts on services evaluated by the
+NDT acting as a "sandbox” in virtual space, and the process would be repeated until
+a satisfactory solution is found. At that point, the known-good solution is passed
+to the outer loop for actuation.
 
 Many automation use cases may be thought of as following a similar pattern: a solution
 corresponding to some kind of optimization criteria is found through iteration in virtual
-space using an NDT instance; the solution is then placed at the disposal of other, active components
-of the operations system. However, all use cases involving NDTs can be represented as some
-composition of the core data/modeling functions, and appropriate other functions/services.
+space using an NDT instance; the solution is then placed at the disposal of other, active
+components of the operations system. However, all use cases involving NDTs can be
+represented as some composition of the core data/modeling functions, and appropriate other
+functions/services.
 
 ~~~~
   +--------------------------------------------------------------+
