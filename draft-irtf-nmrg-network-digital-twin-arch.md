@@ -73,7 +73,7 @@ author:
     city: Ottawa
     country: Canada
     email: christopher.janz@huawei.com
-    
+
 normative:
 
 informative:
@@ -799,13 +799,13 @@ architecture is depicted in {{arc}}.
 
 Section 4 described functional characteristics or elements of NDTs in four principal classes:
 data, models, interfaces, and mappings (it also referred to logic associated with the operation
-and use of NDTs). 
+and use of NDTs).
 
 This Section describes the important functional components of NDTs - reflecting
 these functional elements - in greater detail. It also describes how an NDT consisting of these
 components may be used in operations systems to deliver the various functional use cases of NDTs.
 
-The core functional components of an NDT may be posited as follows: 
+The core functional components of an NDT may be posited as follows:
 a Data Repository component or subsystem, a Service Mapping Models subsystem, and an NDT Management
 subsystem. These key subsystems can be placed in one single network administrative domain and provide
 service to the operations applications (e.g. SDN controllers) within that domain or in other network
@@ -823,7 +823,7 @@ Service Mapping Models complete data modeling, and provide data or other functio
 supporting various network applications. Models include two major types, basic and functional models:
 o  Basic models refer to network element model(s) and network topology model(s) used to reflect the
    basic configuration, environment information, operational state, link topology etc. of the network
-   and its elements. 
+   and its elements.
 o  Functional models refer to various data or other models used to generate information supporting
    network analysis, emulation, diagnosis, prediction, assurance, etc. The functional models can be
    constructed and expanded in various ways: by network type; there can be models serving single or
@@ -845,14 +845,14 @@ management and security management.
 
 The “real network” – the physical counter-part of the NDT - can be a mobile access network, a transport network,
 a mobile core, a backbone, etc. The real network can also be a data center network, a campus enterprise network,
-an industrial Internet of Things, etc. 
+an industrial Internet of Things, etc.
 The real network can span across a single network administrative domain or multiple network administrative domains.
 It can include both physical entities and some virtual entities (e.g. vSwitches, NFVs, etc.), which together carry
-traffic and provide actual network services. 
+traffic and provide actual network services.
 All or subset of network elements in the real network deliver network data, directly or through other systems, to
 the NDT, through appropriate interfaces. Network elements may receive control inputs, through appropriate interfaces,
 from operations systems in which NDTs play a role.
-This document focuses on the IETF related real network such as IP bearer network and data center network. 
+This document focuses on the IETF related real network such as IP bearer network and data center network.
 
 # A Realization Example
 
