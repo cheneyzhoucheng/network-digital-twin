@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-06-27T01:23:02.366785+00:00",
+  "timestamp": "2024-06-30T01:35:30.393925+00:00",
   "repo": "cheneyzhoucheng/network-digital-twin",
   "labels": [
     {
@@ -1510,6 +1510,58 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 28,
+      "id": "PR_kwDOLV8yHc5z83ME",
+      "title": "Incorporate Chris's proposed change to section 7 and make it focus on Definition of function components of NDT",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/28",
+      "state": "OPEN",
+      "author": "billwuqin",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-06-29T06:55:51Z",
+      "updatedAt": "2024-06-29T07:05:32Z",
+      "baseRepository": "cheneyzhoucheng/network-digital-twin",
+      "baseRefName": "main",
+      "baseRefOid": "2b18fb59aa528ecf4f57e850a569724a44faae3e",
+      "headRepository": "cheneyzhoucheng/network-digital-twin",
+      "headRefName": "billwuqin-patch-6",
+      "headRefOid": "9bf6567b7354036f115e9f314ea8a3fd3cafe0d0",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 29,
+      "id": "PR_kwDOLV8yHc5z83tg",
+      "title": "Incorporate Chris's proposed change to section 8 on use of NDT",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/29",
+      "state": "OPEN",
+      "author": "billwuqin",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-06-29T07:04:17Z",
+      "updatedAt": "2024-06-29T07:04:38Z",
+      "baseRepository": "cheneyzhoucheng/network-digital-twin",
+      "baseRefName": "main",
+      "baseRefOid": "2b18fb59aa528ecf4f57e850a569724a44faae3e",
+      "headRepository": "cheneyzhoucheng/network-digital-twin",
+      "headRefName": "billwuqin-patch-7",
+      "headRefOid": "90ae8a3de42ed2db3afb49d3145a515acb323542",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }
