@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-06-30T01:35:30.393925+00:00",
+  "timestamp": "2024-07-02T01:23:39.317323+00:00",
   "repo": "cheneyzhoucheng/network-digital-twin",
   "labels": [
     {
@@ -1523,7 +1523,7 @@
       "labels": [],
       "body": "",
       "createdAt": "2024-06-29T06:55:51Z",
-      "updatedAt": "2024-06-29T07:05:32Z",
+      "updatedAt": "2024-07-01T07:06:35Z",
       "baseRepository": "cheneyzhoucheng/network-digital-twin",
       "baseRefName": "main",
       "baseRefOid": "2b18fb59aa528ecf4f57e850a569724a44faae3e",
@@ -1535,7 +1535,148 @@
       "mergedBy": null,
       "mergeCommit": null,
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOLV8yHc6ALx24",
+          "commit": {
+            "abbreviatedOid": "9bf6567"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "",
+          "createdAt": "2024-07-01T06:56:56Z",
+          "updatedAt": "2024-07-01T07:06:35Z",
+          "comments": [
+            {
+              "originalPosition": 142,
+              "body": "```suggestion\r\nSection 4 described functional characteristics or elements of NDTs in four principal classes:\r\n```\r\n```suggestion\r\nSection 4 describes functional characteristics or elements of NDT in four principal classes:\r\n```",
+              "createdAt": "2024-07-01T06:56:56Z",
+              "updatedAt": "2024-07-01T07:06:35Z"
+            },
+            {
+              "originalPosition": 143,
+              "body": "```suggestion\r\ndata, models, interfaces, and mappings.\r\n```",
+              "createdAt": "2024-07-01T06:57:19Z",
+              "updatedAt": "2024-07-01T07:06:35Z"
+            },
+            {
+              "originalPosition": 144,
+              "body": "```suggestion\r\n```",
+              "createdAt": "2024-07-01T06:57:26Z",
+              "updatedAt": "2024-07-01T07:06:35Z"
+            },
+            {
+              "originalPosition": 146,
+              "body": "```suggestion\r\nThis section describes the important functional components of NDTs - reflecting\r\n```",
+              "createdAt": "2024-07-01T06:57:42Z",
+              "updatedAt": "2024-07-01T07:06:35Z"
+            },
+            {
+              "originalPosition": 151,
+              "body": "```suggestion\r\na Data Repository component, a Service Mapping Models component, and an NDT Management\r\n```",
+              "createdAt": "2024-07-01T06:58:02Z",
+              "updatedAt": "2024-07-01T07:06:35Z"
+            },
+            {
+              "originalPosition": 152,
+              "body": "```suggestion\r\ncomponent. These key components might be placed within one single network administrative domain and provide\r\n```",
+              "createdAt": "2024-07-01T06:58:28Z",
+              "updatedAt": "2024-07-01T07:06:35Z"
+            },
+            {
+              "originalPosition": 153,
+              "body": "```suggestion\r\nservice to the operations applications (e.g., SDN controllers, emulation applications) within that domain or in other network\r\n```",
+              "createdAt": "2024-07-01T06:59:01Z",
+              "updatedAt": "2024-07-01T07:06:35Z"
+            },
+            {
+              "originalPosition": 154,
+              "body": "```suggestion\r\nadministrative domains. They may be also placed in each network administrative domain and coordinate\r\n```",
+              "createdAt": "2024-07-01T06:59:20Z",
+              "updatedAt": "2024-07-01T07:06:35Z"
+            },
+            {
+              "originalPosition": 155,
+              "body": "```suggestion\r\namong each other to provide services to operations applications. One or multiple NDT\r\n```",
+              "createdAt": "2024-07-01T06:59:37Z",
+              "updatedAt": "2024-07-01T07:06:35Z"
+            },
+            {
+              "originalPosition": 156,
+              "body": "```suggestion\r\ninstances may be maintained and operated in service of a given real network.\r\n```",
+              "createdAt": "2024-07-01T06:59:45Z",
+              "updatedAt": "2024-07-01T07:06:35Z"
+            },
+            {
+              "originalPosition": 158,
+              "body": "```suggestion\r\nThe Data Repository component is responsible for collecting and storing network data. It collects and\r\n```",
+              "createdAt": "2024-07-01T07:00:06Z",
+              "updatedAt": "2024-07-01T07:06:35Z"
+            },
+            {
+              "originalPosition": 160,
+              "body": "```suggestion\r\nthe appropriate real network-facing interface, as well as from other operations system\r\n```",
+              "createdAt": "2024-07-01T07:00:21Z",
+              "updatedAt": "2024-07-01T07:06:35Z"
+            },
+            {
+              "originalPosition": 162,
+              "body": "```suggestion\r\nbatch service) through appropriate interfaces to a Service Mapping Models component.\r\n```",
+              "createdAt": "2024-07-01T07:00:40Z",
+              "updatedAt": "2024-07-01T07:06:35Z"
+            },
+            {
+              "originalPosition": 166,
+              "body": "```suggestion\r\n\r\no  Basic models refer to network element models and network topology models used to reflect the\r\n```",
+              "createdAt": "2024-07-01T07:01:15Z",
+              "updatedAt": "2024-07-01T07:06:35Z"
+            },
+            {
+              "originalPosition": 167,
+              "body": "```suggestion\r\n   basic configuration, environment information, operational state, link topology, etc. of the network\r\n```",
+              "createdAt": "2024-07-01T07:01:34Z",
+              "updatedAt": "2024-07-01T07:06:35Z"
+            },
+            {
+              "originalPosition": 181,
+              "body": "```suggestion\r\nThe Network Digital Twin Management component manages the NDT operation and its subcomponents to useful\r\n```",
+              "createdAt": "2024-07-01T07:02:30Z",
+              "updatedAt": "2024-07-01T07:06:35Z"
+            },
+            {
+              "originalPosition": 184,
+              "body": "```suggestion\r\nassociated applications; it monitors the performance and resource consumption of the NDT (including individual\r\n```",
+              "createdAt": "2024-07-01T07:03:13Z",
+              "updatedAt": "2024-07-01T07:06:35Z"
+            },
+            {
+              "originalPosition": 185,
+              "body": "```suggestion\r\nmodels); and controls various operational aspects of the NDT, including topology management, model\r\n```",
+              "createdAt": "2024-07-01T07:03:39Z",
+              "updatedAt": "2024-07-01T07:06:35Z"
+            },
+            {
+              "originalPosition": 188,
+              "body": "```suggestion\r\nThe \"real network\" \u2013 the physical counter-part of an NDT - can be a mobile access network, a transport network,\r\n```",
+              "createdAt": "2024-07-01T07:03:57Z",
+              "updatedAt": "2024-07-01T07:06:35Z"
+            },
+            {
+              "originalPosition": 192,
+              "body": "```suggestion\r\nIt can include both physical entities and some virtual entities (e.g., vSwitches), which together carry\r\n```",
+              "createdAt": "2024-07-01T07:04:33Z",
+              "updatedAt": "2024-07-01T07:06:35Z"
+            },
+            {
+              "originalPosition": 195,
+              "body": "```suggestion\r\nthe NDT, through appropriate interfaces. Network elements may receive control inputs, through specific interfaces,\r\n```",
+              "createdAt": "2024-07-01T07:05:01Z",
+              "updatedAt": "2024-07-01T07:06:35Z"
+            }
+          ]
+        }
+      ]
     },
     {
       "number": 29,
@@ -1549,7 +1690,7 @@
       "labels": [],
       "body": "",
       "createdAt": "2024-06-29T07:04:17Z",
-      "updatedAt": "2024-06-29T07:04:38Z",
+      "updatedAt": "2024-07-01T07:16:10Z",
       "baseRepository": "cheneyzhoucheng/network-digital-twin",
       "baseRefName": "main",
       "baseRefOid": "2b18fb59aa528ecf4f57e850a569724a44faae3e",
@@ -1561,7 +1702,100 @@
       "mergedBy": null,
       "mergeCommit": null,
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOLV8yHc6AL2Of",
+          "commit": {
+            "abbreviatedOid": "90ae8a3"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "",
+          "createdAt": "2024-07-01T07:07:36Z",
+          "updatedAt": "2024-07-01T07:16:10Z",
+          "comments": [
+            {
+              "originalPosition": 40,
+              "body": "```suggestion\r\nautomation use cases through composition and extensions of such\r\n```",
+              "createdAt": "2024-07-01T07:07:36Z",
+              "updatedAt": "2024-07-01T07:16:10Z"
+            },
+            {
+              "originalPosition": 41,
+              "body": "```suggestion\r\nmanagement services. For example, a closed-loop might be represented as a\r\n```",
+              "createdAt": "2024-07-01T07:08:27Z",
+              "updatedAt": "2024-07-01T07:16:10Z"
+            },
+            {
+              "originalPosition": 45,
+              "body": "```suggestion\r\nThe role and utility of NDT may be represented architecturally by following\r\n```",
+              "createdAt": "2024-07-01T07:08:45Z",
+              "updatedAt": "2024-07-01T07:16:10Z"
+            },
+            {
+              "originalPosition": 46,
+              "body": "```suggestion\r\nsimilar principles, e.g., {{ETSI-GS-ZSM-015}} or {{?RFC8969}}. As described in Section 7, an\r\n```",
+              "createdAt": "2024-07-01T07:08:59Z",
+              "updatedAt": "2024-07-01T07:16:10Z"
+            },
+            {
+              "originalPosition": 48,
+              "body": "```suggestion\r\ncomponents then work in composition with other functions or services\r\n```",
+              "createdAt": "2024-07-01T07:09:40Z",
+              "updatedAt": "2024-07-01T07:16:10Z"
+            },
+            {
+              "originalPosition": 49,
+              "body": "```suggestion\r\nto deliver an overall functional architecture matching specific NDT use cases.\r\n```",
+              "createdAt": "2024-07-01T07:09:51Z",
+              "updatedAt": "2024-07-01T07:16:10Z"
+            },
+            {
+              "originalPosition": 51,
+              "body": "```suggestion\r\nFor example: an NDT instance may be used as a core element of an intent-drive network controller.\r\n```",
+              "createdAt": "2024-07-01T07:10:48Z",
+              "updatedAt": "2024-07-01T07:16:10Z"
+            },
+            {
+              "originalPosition": 52,
+              "body": "```suggestion\r\nIn such as case, an \"outer\" closed-loop (or, intent-assurance closed-loop) would detect\r\n```",
+              "createdAt": "2024-07-01T07:11:14Z",
+              "updatedAt": "2024-07-01T07:16:10Z"
+            },
+            {
+              "originalPosition": 53,
+              "body": "```suggestion\r\ngaps between target service objectives set by intents and actual observed service characteristics,\r\n```",
+              "createdAt": "2024-07-01T07:12:00Z",
+              "updatedAt": "2024-07-01T07:16:10Z"
+            },
+            {
+              "originalPosition": 54,
+              "body": "```suggestion\r\nfind and proposed candidate mitigation solutions to soften the observed deviation, and drive the enforcement of the mitigation in the network.\r\n```",
+              "createdAt": "2024-07-01T07:13:46Z",
+              "updatedAt": "2024-07-01T07:16:10Z"
+            },
+            {
+              "originalPosition": 55,
+              "body": "```suggestion\r\nFinding such mitigations would rely on multiple \"inner loops\" that include an NDT: for example,\r\n```",
+              "createdAt": "2024-07-01T07:14:20Z",
+              "updatedAt": "2024-07-01T07:16:10Z"
+            },
+            {
+              "originalPosition": 57,
+              "body": "```suggestion\r\nNDT acting as a \"sandbox\" in virtual space, and the process might be iterated until\r\n```",
+              "createdAt": "2024-07-01T07:15:08Z",
+              "updatedAt": "2024-07-01T07:16:10Z"
+            },
+            {
+              "originalPosition": 58,
+              "body": "```suggestion\r\na satisfactory solution is found. At that point, the selected mitigation is passed\r\n```",
+              "createdAt": "2024-07-01T07:15:38Z",
+              "updatedAt": "2024-07-01T07:16:10Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
