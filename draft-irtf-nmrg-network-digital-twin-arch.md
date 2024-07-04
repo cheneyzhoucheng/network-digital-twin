@@ -250,36 +250,34 @@ challenges.
 
 # Introduction
 
-The fast growth of network scale and the increased demand on these networks
-require them to accommodate and adapt dynamically to customer needs, implying
-a significant challenge to network operators. Indeed, network operation and
-maintenance are becoming more complex due to the higher complexity of the
-managed networks and the sophisticated services they deliver. As such,
-providing innovations on network technologies, management, and operation will
-be more and more challenging due to the high risk of interfering with existing
-services and the higher trial costs if no reliable emulation platforms are
-available.
+The rapid expansion of network scale and the increasing demands on these networks
+necessitate their dynamic adaptation to customer needs, presenting significant 
+challenges for network operators. Network operation and maintenance are becoming
+increasingly complex due to the advanced nature of the networks and the sophisticated
+services they provide. Consequently, introducing innovations in network technologies,
+management, and operations is becoming more challenging due to the high risk of 
+disrupting existing services and the elevated costs of trials without reliable 
+emulation platforms.
 
-A Digital Twin is the real-time representation of a physical entity in the
-digital world. It has the characteristics of virtual-reality interrelation
-and real-time interaction, iterative operation and process optimization,
-full life-cycle and comprehensive data-driven network infrastructure.
-Digital twin has been widely acknowledged in academic publications and
-adopted in Industry 4.0. See more details in {{concept}}.
+A Digital Twin is a real-time digital representation of a physical entity. It features
+virtual-reality interrelation and real-time interaction, iterative operation and process
+optimization, and full life-cycle, comprehensive data-driven network infrastructure. 
+Digital twins have gained widespread recognition in academic publications and are now
+being widely adopted for Industry 4.0 use cases. For more details, see {{concept}}.
 
-A digital twin for networks can be built by applying Digital Twin technologies
-to networks and creating a virtual image of real network facilities (called herein,
-emulation). Basically, the digital twin for networks is an expansion platform of
-network emulation and can be seen as a tool for scenario planning, impact analysis,
-and change management. Compared to conventional network simulation, the main
-difference is the interactive virtual-real mapping and data-driven approach to build
-closed-loop network automation. Integrating Network Digital Twin into the network
-management allows network maintenance engineers to assess, model, and tweak optimization
-strategies in a risk-free environment, ensuring that only the most effective changes
-might be implemented in the real network (i.e., subject to adequate validation and
-control checks). Digital twin for networks provide crucial data for network failure
-root cause analysis, and a sandbox for assessing hypotheses and validating the outcomes
-of data-driven insights without impacting end-users.
+A digital twin for networks can be created by applying Digital Twin technologies to 
+networks, resulting in a virtual replica of real network facilities (emulation). A 
+network digital twin is an advanced platform for network emulation, serving as a tool 
+for scenario planning, impact analysis, and change management. Unlike conventional 
+network simulation, it features an interactive virtual-real mapping and a data-driven 
+approach to establish closed-loop network automation.
+
+Integrating a Network Digital Twin into network management allows engineers to assess, 
+model, and refine optimization strategies in a risk-free environment. This ensures 
+that only the most effective changes are implemented in the real network, following 
+thorough validation and control checks. Moreover, a network digital twin provides 
+critical data for analyzing the root causes of network failures and offers a sandbox 
+for testing hypotheses and validating data-driven insights without affecting end-users.
 
 Through the real-time data interaction between the real network and its twin network(s),
 the Network Digital Twin (NDT) platform will provide the data for NDT-based applications
