@@ -799,7 +799,7 @@ these functional elements - in greater detail. It also describes how an NDT cons
 components may be used in operations systems to deliver the various functional use cases of NDTs.
 
 The core functional components of an NDT may be posited as follows:
-a Data Repository component or subsystem, a Service Mapping Models subsystem, and an NDT Management
+a Data Repository component, a Service Mapping Models component, and an NDT Management
 subsystem. These key subsystems can be placed in one single network administrative domain and provide
 service to the operations applications (e.g. SDN controllers) within that domain or in other network
 administrative domains, or they may be placed in each network administrative domain and coordinate
