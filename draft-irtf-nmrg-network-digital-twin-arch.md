@@ -1320,7 +1320,8 @@ enabled to prevent data leaks. Also, appropriate access rights must be provision
 
 * Data Security and Privacy Protection.
 
-Confidentiality: Ensuring that sensitive data used in the digital twin
+Confidentiality:
+: Ensuring that sensitive data used in the digital twin
 is protected from unauthorized access. This includes encrypting data
 both at rest and in transit.
 
