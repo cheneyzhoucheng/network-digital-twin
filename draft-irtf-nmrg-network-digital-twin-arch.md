@@ -908,7 +908,7 @@ components then work in composition with other functions or services
 to deliver an overall functional architecture matching specific NDT use cases.
 
 For example: an NDT instance may be used as a core element of an intent-drive network controller.
-In this case, an "outer" closed loop (or, intent-assurance close loop) would detect
+In such as case, an "outer" closed-loop (or, intent-assurance closed-loop) would detect
 gaps between target service objectives set by intents and actual observed service characteristics,
 find and proposed candidate mitigation solutions to soften the observed deviation, and drive the enforcement of the mitigation in the network.
 Finding such mitigations would rely on multiple "inner loops" that include an NDT: for example,
