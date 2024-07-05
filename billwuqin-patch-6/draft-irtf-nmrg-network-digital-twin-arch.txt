@@ -715,8 +715,8 @@ Table of Contents
    through the appropriate real network-facing interface, as well as
    from other operations system components.  It also provides data
    services (e.g., fast retrieval, concurrent conflict handling, batch
-   service) through appropriate unified interfaces to a Service Mapping
-   Models subsystem.
+   service) through appropriate interfaces to a Service Mapping Models
+   component.
 
    Service Mapping Models complete data modeling, and provide data or
    other functional model instances supporting various network
