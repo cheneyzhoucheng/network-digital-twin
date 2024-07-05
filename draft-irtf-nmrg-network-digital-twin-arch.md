@@ -1384,7 +1384,7 @@ to identify and address potential security gaps.
 
 Redundancy:
 : Implementing redundancy and failover mechanisms ensures the
-digital twin remains operational during and after a security incident.
+digital twin remains operational during and after a security/failure incident.
 
 Backup and Recovery:
 : Regularly back up NDT data and have a robust
