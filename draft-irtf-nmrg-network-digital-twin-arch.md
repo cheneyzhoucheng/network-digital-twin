@@ -69,6 +69,16 @@ author:
     country: France
     email: christian.jacquenet@orange.com
 
+contributor:
+-
+    fullname: Christopher Janz
+    organization: Huawei
+    email: christopher.janz@huawei.com
+-
+    fullname: Daniel King
+    organization: Lancaster University
+    email: d.king@lancaster.ac.uk
+
 normative:
 
 informative:
@@ -1377,17 +1387,6 @@ Refer to:
 <https://github.com/cheneyzhoucheng/network-digital-twin/issues>.
 
 --- back
-
-# Contributors
-{:numbered="false"}
-
-Christopher Janz
-Huawei
-christopher.janz@huawei.com
-
-Daniel King
-Lancaster University
-d.king@lancaster.ac.uk
 
 # Acknowledgments
 {:numbered="false"}
