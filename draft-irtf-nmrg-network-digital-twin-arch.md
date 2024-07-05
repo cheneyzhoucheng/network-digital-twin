@@ -911,7 +911,7 @@ For example: an NDT may play an important role in an intent-drive network contro
 In this case, an "outer" closed loop (or, intent-assurance close loop) would detect
 gaps between target service objectives set by intents and actual observed service characteristics,
 find and proposed candidate mitigation solutions to soften the observed deviation, and drive the enforcement of the mitigation in the network.
-Finding such solutions would rely on "inner loops" that include an NDT: for example,
+Finding such mitigations would rely on multiple "inner loops" that include an NDT: for example,
 prospective solutions would be proposed, their impacts on services evaluated by the
 NDT acting as a "sandbox” in virtual space, and the process would be repeated until
 a satisfactory solution is found. At that point, the known-good solution is passed
