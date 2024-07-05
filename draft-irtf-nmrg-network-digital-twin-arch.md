@@ -283,7 +283,7 @@ network simulation, it features an interactive virtual-real mapping and a data-d
 approach to establish closed-loop network automation.
 
 Integrating a Network Digital Twin into network management allows engineers to assess,
-model, and refine optimization strategies in a risk-free environment. This ensures
+model, and refine optimization strategies under real conditions but in a risk-free environment. This ensures
 that only the most effective changes are implemented in the real network, following
 thorough validation and control checks. Moreover, a network digital twin provides
 critical data for analyzing the root causes of network failures and offers a sandbox
