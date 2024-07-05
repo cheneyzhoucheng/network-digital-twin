@@ -1335,7 +1335,8 @@ role-based access control (RBAC).
 
 *  System Security
 
-Authentication and Authorization: Ensuring robust authentication and
+Authentication and Authorization:
+: Ensuring robust authentication and
 authorization mechanisms to prevent unauthorized access to the digital
 twin environment.
 
