@@ -808,7 +808,7 @@ instances may be maintained and operated in service of a given real network.
 
 The Data Repository component is responsible for collecting and storing network data. It collects and
 updates the real-time operational and instrumentation data of the various network elements through
-the appropriate real network-facing southbound interface, as well as from other operations system
+the appropriate real network-facing interface, as well as from other operations system
 components. It also provides data services (e.g., fast retrieval, concurrent conflict handling,
 batch service) through appropriate unified interfaces to a Service Mapping Models subsystem.
 
