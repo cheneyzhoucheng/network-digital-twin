@@ -896,7 +896,7 @@ Considerable industry work and research has focused on automation-supporting
 network systems. For example, {{ETSI-GS-ZSM-002}} describes a framework
 architecture for network automation. It uses so-called management services as
 a fundamental conceptual unit of currency, and describes the enablement of
-automation use cases through flexible composition and extensions of such
+automation use cases through composition and extensions of such
 management services. For example, a closed loop might be represented as a
 composition of appropriate data, analytics, intelligence/decision, and
 orchestration/control services.
