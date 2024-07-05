@@ -1225,7 +1225,7 @@ challenges.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
             <p id="section-toc.1-1.7.1"><a href="#section-7" class="auto internal xref">7</a>.  <a href="#name-ndt-functional-components" class="internal xref">NDT Functional Components</a></p>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.8">
-            <p id="section-toc.1-1.8.1"><a href="#section-8" class="auto internal xref">8</a>.  <a href="#name-a-realization-example" class="internal xref">A Realization Example</a></p>
+            <p id="section-toc.1-1.8.1"><a href="#section-8" class="auto internal xref">8</a>.  <a href="#name-a-sample-ndt-realization" class="internal xref">A Sample NDT Realization</a></p>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.9">
             <p id="section-toc.1-1.9.1"><a href="#section-9" class="auto internal xref">9</a>.  <a href="#name-enabling-technologies-to-bu" class="internal xref">Enabling Technologies to Build Network Digital Twin</a></p>
@@ -2024,42 +2024,39 @@ from operations systems in which NDTs play a role.
 This document focuses on the IETF related real network such as IP bearer network and data center network.<a href="#section-7-10" class="pilcrow">¶</a></p>
 </section>
 </div>
-<div id="a-realization-example">
+<div id="a-sample-ndt-realization">
 <section id="section-8">
-      <h2 id="name-a-realization-example">
-<a href="#section-8" class="section-number selfRef">8. </a><a href="#name-a-realization-example" class="section-name selfRef">A Realization Example</a>
+      <h2 id="name-a-sample-ndt-realization">
+<a href="#section-8" class="section-number selfRef">8. </a><a href="#name-a-sample-ndt-realization" class="section-name selfRef">A Sample NDT Realization</a>
       </h2>
-<p id="section-8-1">Considerable industry work and research has focused on
-automation-supporting network systems. As an example,
-<span>[<a href="#ETSI-GS-ZSM-002" class="cite xref">ETSI-GS-ZSM-002</a>]</span> describes a framework architecture for network
-automation. It uses so-called management services as a fundamental
-conceptual unit of currency, and describes the enablement of automation
-use cases through composition and extensions of such management
-services. For example, a closed loop might be represented as a composition
-of appropriate data, analytics, intelligence/decision, and orchestration/control
-services.<a href="#section-8-1" class="pilcrow">¶</a></p>
-<p id="section-8-2">The role and and utility of NDT may be represented architecturally by
-following similar principles, e.g., <span>[<a href="#ETSI-GS-ZSM-015" class="cite xref">ETSI-GS-ZSM-015</a>]</span>. As described in <a href="#arch" class="auto internal xref">Section 7</a>,
-an NDT may be represented as encompassing models, data, mapping, and interfaces;
-these components then work in composition with appropriate other
-functions or services to deliver an overall functional architecture matching specific
-use cases. For example, the example depicted in <a href="#arc-detail" class="auto internal xref">Figure 3</a>.<a href="#section-8-2" class="pilcrow">¶</a></p>
-<p id="section-8-3">The NDT (or, NDT core or layer) is represented as
-encompassing data and models, along with capability to manage them together to
-useful purpose. The overall system architecture shows an intent-capable controller
-mediating between intent-generating network service demand sources and the physical
-network. The NDT plays an important role in this controller. An "outer" closed loop
-detects gaps between service parameters set by intents and actual service characteristics,
-finds solutions to close those gaps, and drives those solutions on to the network. Finding
-solutions makes use of an "inner loops" that include an NDT: for example, prospective solutions
-are being proposed, their impacts on services are evaluated by the NDT acting as a "sandbox” in
-virtual space, and the process is repeated until a satisfactory solution is found. At that
-point, the known-good solution is passed to the outer loop for actuation.<a href="#section-8-3" class="pilcrow">¶</a></p>
+<p id="section-8-1">Considerable industry work and research has focused on automation-supporting
+network systems. For example, <span>[<a href="#ETSI-GS-ZSM-002" class="cite xref">ETSI-GS-ZSM-002</a>]</span> describes a framework
+architecture for network automation. It uses so-called management services as
+a fundamental conceptual unit of currency, and describes the enablement of
+automation use cases through composition and extensions of such
+management services. For example, a closed-loop might be represented as a
+composition of appropriate data, analytics, intelligence/decision, and
+orchestration/control services.<a href="#section-8-1" class="pilcrow">¶</a></p>
+<p id="section-8-2">The role and utility of NDT may be represented architecturally by following
+similar principles, e.g., <span>[<a href="#ETSI-GS-ZSM-015" class="cite xref">ETSI-GS-ZSM-015</a>]</span> or <span>[<a href="#RFC8969" class="cite xref">RFC8969</a>]</span>. As described in Section 7, an
+NDT instantiation encompasses models, data, mapping, and interfaces. These
+components then work in composition with other functions or services
+to deliver an overall functional architecture matching specific NDT use cases.<a href="#section-8-2" class="pilcrow">¶</a></p>
+<p id="section-8-3">For example: an NDT instance may be used as a core element of an intent-drive network controller.
+In such a case, an "outer" closed-loop (or, intent-assurance closed-loop) would detect
+gaps between target service objectives set by intents and actual observed service characteristics,
+find and proposed candidate mitigation solutions to soften the observed deviation, and drive the enforcement of the mitigation in the network.
+Finding such mitigations would rely on multiple "inner loops" that include an NDT: for example,
+prospective solutions would be proposed, their impacts on services evaluated by the
+NDT acting as a "sandbox" in virtual space, and the process might be iterated until
+a satisfactory solution is found. At that point, the selected mitigation is passed
+to the outer loop for actuation.<a href="#section-8-3" class="pilcrow">¶</a></p>
 <p id="section-8-4">Many automation use cases may be thought of as following a similar pattern: a solution
 corresponding to some kind of optimization criteria is found through iteration in virtual
-space using an NDT instance; the solution is then placed at the disposal of other, active components
-of the operations system. However, all use cases involving NDTs can be represented as some
-composition of the core data/modeling functions, and appropriate other functions/services.<a href="#section-8-4" class="pilcrow">¶</a></p>
+space using an NDT instance; the solution is then placed at the disposal of other, active
+components of the operations system. However, all use cases involving NDTs can be
+represented as some composition of the core data/modeling functions, and appropriate other
+functions/services.<a href="#section-8-4" class="pilcrow">¶</a></p>
 <span id="name-example-of-detailed-ndt-arc"></span><div id="arc-detail">
 <figure id="figure-3">
         <div class="alignCenter art-text artwork" id="section-8-5.1">
@@ -2694,6 +2691,10 @@ enabled to prevent data leaks.<a href="#section-13-5" class="pilcrow">¶</a></p>
 <dt id="RFC8944">[RFC8944]</dt>
       <dd>
 <span class="refAuthor">Dong, J.</span>, <span class="refAuthor">Wei, X.</span>, <span class="refAuthor">Wu, Q.</span>, <span class="refAuthor">Boucadair, M.</span>, and <span class="refAuthor">A. Liu</span>, <span class="refTitle">"A YANG Data Model for Layer 2 Network Topologies"</span>, <span class="seriesInfo">RFC 8944</span>, <span class="seriesInfo">DOI 10.17487/RFC8944</span>, <time datetime="2020-11" class="refDate">November 2020</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc8944">https://www.rfc-editor.org/rfc/rfc8944</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="RFC8969">[RFC8969]</dt>
+      <dd>
+<span class="refAuthor">Wu, Q., Ed.</span>, <span class="refAuthor">Boucadair, M., Ed.</span>, <span class="refAuthor">Lopez, D.</span>, <span class="refAuthor">Xie, C.</span>, and <span class="refAuthor">L. Geng</span>, <span class="refTitle">"A Framework for Automating Service and Network Management with YANG"</span>, <span class="seriesInfo">RFC 8969</span>, <span class="seriesInfo">DOI 10.17487/RFC8969</span>, <time datetime="2021-01" class="refDate">January 2021</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc8969">https://www.rfc-editor.org/rfc/rfc8969</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 <dt id="RFC9114">[RFC9114]</dt>
       <dd>
