@@ -1310,7 +1310,8 @@ different aspects:
 
 * Data Management
 
-Synchronization: Synchronizing the data between the real and twin
+Synchronization:
+: Synchronizing the data between the real and twin
 networks may increase the risk of sensitive data and information leakage.
 
 Data Access: Strict control and security mechanisms must be provided and
