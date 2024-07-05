@@ -1354,7 +1354,8 @@ Segmentation:
 : Isolating the NDT environment from the
 main operational network to limit the potential impact of a security breach.
 
-Encryption: Encrypting network communications to prevent interception and
+Encryption:
+: Encrypting network communications to prevent interception and
 eavesdropping.
 
 Firewalls and Intrusion Detection/Prevention Systems (IDS/IPS): Deploying
