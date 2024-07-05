@@ -690,9 +690,8 @@ Table of Contents
           Figure 2: Reference Architecture of Network Digital Twin
 
    Section 4 describes functional characteristics or elements of NDT in
-   four principal classes: data, models, interfaces, and mappings (it
-   also referred to logic associated with the operation and use of
-   NDTs).
+   four principal classes: data, models, interfaces, and mappings. and
+   use of NDTs).
 
    This Section describes the important functional components of NDTs -
    reflecting these functional elements - in greater detail.  It also
