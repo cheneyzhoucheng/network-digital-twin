@@ -251,32 +251,32 @@ challenges.
 # Introduction
 
 The rapid expansion of network scale and the increasing demands on these networks
-necessitate their dynamic adaptation to customer needs, presenting significant 
+necessitate their dynamic adaptation to customer needs, presenting significant
 challenges for network operators. Network operation and maintenance are becoming
 increasingly complex due to the advanced nature of the networks and the sophisticated
 services they provide. Consequently, introducing innovations in network technologies,
-management, and operations is becoming more challenging due to the high risk of 
-disrupting existing services and the elevated costs of trials without reliable 
+management, and operations is becoming more challenging due to the high risk of
+disrupting existing services and the elevated costs of trials without reliable
 emulation platforms.
 
 A Digital Twin is a real-time digital representation of a physical entity. It features
 virtual-reality interrelation and real-time interaction, iterative operation and process
-optimization, and full life-cycle, comprehensive data-driven network infrastructure. 
+optimization, and full life-cycle, comprehensive data-driven network infrastructure.
 Digital twins have gained widespread recognition in academic publications and are now
 being widely adopted for Industry 4.0 use cases. For more details, see {{concept}}.
 
-A digital twin for networks can be created by applying Digital Twin technologies to 
-networks, resulting in a virtual replica of real network facilities (emulation). A 
-network digital twin is an advanced platform for network emulation, serving as a tool 
-for scenario planning, impact analysis, and change management. Unlike conventional 
-network simulation, it features an interactive virtual-real mapping and a data-driven 
+A digital twin for networks can be created by applying Digital Twin technologies to
+networks, resulting in a virtual replica of real network facilities (emulation). A
+network digital twin is an advanced platform for network emulation, serving as a tool
+for scenario planning, impact analysis, and change management. Unlike conventional
+network simulation, it features an interactive virtual-real mapping and a data-driven
 approach to establish closed-loop network automation.
 
-Integrating a Network Digital Twin into network management allows engineers to assess, 
-model, and refine optimization strategies in a risk-free environment. This ensures 
-that only the most effective changes are implemented in the real network, following 
-thorough validation and control checks. Moreover, a network digital twin provides 
-critical data for analyzing the root causes of network failures and offers a sandbox 
+Integrating a Network Digital Twin into network management allows engineers to assess,
+model, and refine optimization strategies in a risk-free environment. This ensures
+that only the most effective changes are implemented in the real network, following
+thorough validation and control checks. Moreover, a network digital twin provides
+critical data for analyzing the root causes of network failures and offers a sandbox
 for testing hypotheses and validating data-driven insights without affecting end-users.
 
 Through the real-time data interaction between the real network and its twin network(s),
@@ -1290,57 +1290,57 @@ the implementation and deployment of digital twin network.
 
 # Security Considerations
 
-This document describes concepts and definitions of digital twin networks. 
-As this document presents system architecture, the following security 
-considerations are abstract and lack specific guidance or detail, i.e., 
-principles, guidelines or requirements. However, the implementation and 
-deployment of network digital twins will need to be carefully investigate 
-the following security considerations, which may be categorized into 
+This document describes concepts and definitions of digital twin networks.
+As this document presents system architecture, the following security
+considerations are abstract and lack specific guidance or detail, i.e.,
+principles, guidelines or requirements. However, the implementation and
+deployment of network digital twins will need to be carefully investigate
+the following security considerations, which may be categorized into
 different aspects:
 
-* Data Management 
+* Data Management
 
 Synchronization: Synchronizing the data between the real and twin
 networks may increase the risk of sensitive data and information leakage.
 
-Data Access: Strict control and security mechanisms must be provided and 
+Data Access: Strict control and security mechanisms must be provided and
 enabled to prevent data leaks.
 
 * Data Security and Privacy Protection.
 
 Confidentiality: Ensuring that sensitive data used in the digital twin
-is protected from unauthorized access. This includes encrypting data 
+is protected from unauthorized access. This includes encrypting data
 both at rest and in transit.
 
-Integrity: Ensuring that the data used in and produced by the digital 
+Integrity: Ensuring that the data used in and produced by the digital
 twin is accurate and unaltered. This can be achieved through cryptographic
 hash functions and other integrity verification methods.
 
-Access Control: Implementing strict access control measures ensures that 
-only authorized users can access, modify, or interact with the digital 
+Access Control: Implementing strict access control measures ensures that
+only authorized users can access, modify, or interact with the digital
 twin. This includes using multi-factor authentication (MFA) and 
 role-based access control (RBAC).
 
 *  System Security
 
-Authentication and Authorization: Ensuring robust authentication and 
+Authentication and Authorization: Ensuring robust authentication and
 authorization mechanisms to prevent unauthorized access to the digital
 twin environment.
 
-Vulnerability Management: Regularly updating and patching the digital 
+Vulnerability Management: Regularly updating and patching the digital
 twin software and underlying infrastructure to mitigate vulnerabilities.
 
-Monitoring and Logging: Implementing comprehensive logging and 
+Monitoring and Logging: Implementing comprehensive logging and
 monitoring to detect and respond to security incidents in real-time.
 
 *  Network Security
 Segmentation: Isolating the digital twin network environment from the
 main operational network to limit the potential impact of a security breach.
 
-Encryption: Encrypting network communications to prevent interception and 
-eavesdropping. 
+Encryption: Encrypting network communications to prevent interception and
+eavesdropping.
 
-Firewalls and Intrusion Detection/Prevention Systems (IDS/IPS): Deploying 
+Firewalls and Intrusion Detection/Prevention Systems (IDS/IPS): Deploying
 firewalls and IDS/IPS to protect the digital twin network from external
 and internal threats.
 
@@ -1350,7 +1350,7 @@ System Access: Data verification, model validation, and mapping operations
 between the real and digital counterpart networks by authenticated and
 authorized users only.
 
-Secure Development Practices: Ensuring the digital twin software is 
+Secure Development Practices: Ensuring the digital twin software is
 developed following secure coding practices to minimize vulnerabilities.
 
 Incident Response: Having a well-defined incident response plan to address
@@ -1386,7 +1386,7 @@ Huawei
 christopher.janz@huawei.com
 
 Daniel King
-Lancaster University 
+Lancaster University
 d.king@lancaster.ac.uk
 
 # Acknowledgments
