@@ -837,7 +837,7 @@ associated applications; it monitors the performance and resource consumption of
 models); and controls various operational aspects of the NDT, including topology management, model
 management and security management.
 
-The “real network” – the physical counter-part of the NDT - can be a mobile access network, a transport network,
+The "real network" – the physical counter-part of an NDT - can be a mobile access network, a transport network,
 a mobile core, a backbone, etc. The real network can also be a data center network, a campus enterprise network,
 an industrial Internet of Things, etc.
 The real network can span across a single network administrative domain or multiple network administrative domains.
