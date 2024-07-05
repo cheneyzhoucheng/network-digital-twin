@@ -68,6 +68,16 @@ author:
     country: France
     email: christian.jacquenet@orange.com
 
+contributor:
+-
+    fullname: Christopher Janz
+    organization: Huawei
+    email: christopher.janz@huawei.com
+-
+    fullname: Daniel King
+    organization: Lancaster University
+    email: d.king@lancaster.ac.uk
+
 normative:
 
 informative:
@@ -249,36 +259,34 @@ challenges.
 
 # Introduction
 
-The fast growth of network scale and the increased demand on these networks
-require them to accommodate and adapt dynamically to customer needs, implying
-a significant challenge to network operators. Indeed, network operation and
-maintenance are becoming more complex due to the higher complexity of the
-managed networks and the sophisticated services they deliver. As such,
-providing innovations on network technologies, management, and operation will
-be more and more challenging due to the high risk of interfering with existing
-services and the higher trial costs if no reliable emulation platforms are
-available.
+The rapid expansion of network scale and the increasing demands on these networks
+necessitate their dynamic adaptation to customer needs, presenting significant
+challenges for network operators. Network operation and maintenance are becoming
+increasingly complex due to the advanced nature of the networks and the sophisticated
+services they provide. Consequently, introducing innovations in network technologies,
+management, and operations is becoming more challenging due to the high risk of
+disrupting existing services and the elevated costs of trials without reliable
+emulation platforms.
 
-A Digital Twin is the real-time representation of a physical entity in the
-digital world. It has the characteristics of virtual-reality interrelation
-and real-time interaction, iterative operation and process optimization,
-full life-cycle and comprehensive data-driven network infrastructure.
-Digital twin has been widely acknowledged in academic publications and
-adopted in Industry 4.0. See more details in {{concept}}.
+A Digital Twin is a real-time digital representation of a physical entity. It features
+virtual-reality interrelation and real-time interaction, iterative operation and process
+optimization, and full life-cycle, comprehensive data-driven network infrastructure.
+Digital twins have gained widespread recognition in academic publications and are now
+being widely adopted for Industry 4.0 use cases.  The reader may refer to {{concept}} for more details,.
 
-A digital twin for networks can be built by applying Digital Twin technologies
-to networks and creating a virtual image of real network facilities (called herein,
-emulation). Basically, the digital twin for networks is an expansion platform of
-network emulation and can be seen as a tool for scenario planning, impact analysis,
-and change management. Compared to conventional network simulation, the main
-difference is the interactive virtual-real mapping and data-driven approach to build
-closed-loop network automation. Integrating Network Digital Twin into the network
-management allows network maintenance engineers to assess, model, and tweak optimization
-strategies in a risk-free environment, ensuring that only the most effective changes
-might be implemented in the real network (i.e., subject to adequate validation and
-control checks). Digital twin for networks provide crucial data for network failure
-root cause analysis, and a sandbox for assessing hypotheses and validating the outcomes
-of data-driven insights without impacting end-users.
+A digital twin for networks can be created by applying Digital Twin technologies to
+networks, resulting in a virtual replica of real network facilities (emulation). A
+Network Digital Twin (NDT) is an advanced platform for network emulation, serving as a tool
+for scenario planning, impact analysis, and change management. Unlike conventional
+network simulation, it features an interactive virtual-real mapping and a data-driven
+approach to establish closed-loop network automation.
+
+Integrating a Network Digital Twin into network management allows engineers to assess,
+model, and refine optimization strategies under real conditions but in a risk-free environment. This ensures
+that only the most effective changes are implemented in the real network, following
+thorough validation and control checks. Moreover, a network digital twin captures and aggregates
+critical data for analyzing the root causes of network failures, anomalies, vulnerabilities, etc. It also offers a sandbox
+for testing hypotheses, exercising mitigation scenarios, and validating data-driven insights without affecting end-users.
 
 Through the real-time data interaction between the real network and its twin network(s),
 the Network Digital Twin (NDT) platform will provide the data for NDT-based applications
@@ -1247,30 +1255,99 @@ the implementation and deployment of digital twin network.
 
 # Security Considerations
 
-This document describes concepts and definitions of digital twin
-network. As such, the following security considerations are abstract
-and lack specific guidance or detail, i.e., in the form of principles,
-guidelines or requirements.
+This document describes concepts and definitions of NDT.
+As this document presents system architecture, the following security
+considerations are abstract and generic, i.e., they provide mainly
+principles, guidelines or requirements. However, the implementation and
+deployment of NDT will need to carefully investigate
+the following security considerations, which may be categorized into
+different aspects:
 
-Security considerations of the Network Digital Twin include:
+* Data Management
 
-*  Secure the digital twin system itself.
+Synchronization:
+: Synchronizing the data between the real and twin
+networks may increase the risk of sensitive data and information leakage.
 
-*  Data privacy protection.
+Data Access:
+: Strict control and security mechanisms must be provided and
+enabled to prevent data leaks. Also, appropriate access rights must be provisioned to prevent unauthorized entities to access sensitive data (e.g., logging data used for legal data retention).
 
+* Data Security and Privacy Protection.
 
-A key objective would be to make the digital twin system
-operationally secure by implementing security mechanisms and
-applying industry best practices for security. In the context
-of digital twin network, such mechanisms and practices may
-consist in data verification and model validation, mapping
-operations between real network and digital counterpart
-network by authenticated and authorized users only.
+Confidentiality:
+: Ensuring that sensitive data used in the digital twin
+is protected from unauthorized access. This includes encrypting data
+both at rest and in transit.
 
-Synchronizing the data between the real and twin networks may
-increase the risk of sensitive data and information leakage.
-Strict control and security mechanisms must be provided and
-enabled to prevent data leaks.
+Integrity:
+: Ensuring that the data used in and produced by the digital
+twin is accurate and unaltered. This can be achieved through cryptographic
+hash functions and other integrity verification methods.
+
+Access Control:
+: Implementing strict access control measures ensures that
+only authorized users can access, modify, or interact with the digital
+twin. This includes using multi-factor authentication (MFA) and
+role-based access control (RBAC).
+
+*  System Security
+
+Authentication and Authorization:
+: Ensuring robust authentication and
+authorization mechanisms to prevent unauthorized access to the digital
+twin environment.
+
+Vulnerability Management:
+: Regularly auditing, updating, and patching the digital
+twin software and underlying infrastructure to mitigate vulnerabilities.
+
+Monitoring and Logging:
+: Implementing comprehensive logging and
+monitoring to detect and respond to security incidents in real-time.
+
+*  Network Security
+
+Segmentation:
+: Isolating the NDT environment from the
+main operational network to limit the potential impact of a security breach.
+
+Encryption:
+: Encrypting network communications to prevent interception and
+eavesdropping.
+
+Access Control List: Deploying
+, e.g., firewalls and IDS/IPS with appropriate policies to protect the NDT from external
+and internal threats.
+
+*  Operational Security
+
+System Access:
+: Data verification, model validation, and mapping operations
+between the real and digital counterpart networks by authenticated and
+authorized users only.
+
+Secure Development Practices:
+: Ensuring the NDT software is
+developed following secure coding practices to minimize vulnerabilities.
+
+Incident Response:
+: Having a well-defined incident response plan (e.g., playbooks) to address
+and mitigate any security incidents quickly.
+
+Regular Audits and Assessments:
+: Conduct security audits and risk assessments
+to identify and address potential security gaps.
+
+*  Resilience and Reliability
+
+Redundancy:
+: Implementing redundancy and failover mechanisms ensures the
+digital twin remains operational during and after a security/failure incident.
+
+Backup and Recovery:
+: Regularly back up NDT data and have a robust
+recovery plan to restore operations in case of data loss or corruption.
 
 # IANA Considerations
 
@@ -1287,11 +1364,16 @@ Refer to:
 {:numbered="false"}
 
 Many thanks to the NMRG participants for their comments and reviews.
-Thanks to Daniel King, Quifang Ma, Laurent Ciavaglia, Jérôme
+Thanks to Quifang Ma, Laurent Ciavaglia, Jérôme
 François, Jordi Paillissé, Luis Miguel Contreras Murillo, Alexander
 Clemm, Qiao Xiang, Ramin Sadre, Pedro Martinez-Julia, Wei Wang,
-Zongpeng Du, Peng Liu, Christopher Janz, and Albrecht Schwarz.
+Zongpeng Du, Peng Liu, and Albrecht Schwarz.
 
 Diego Lopez and Antonio Pastor were partly supported by the European
 Commission under Horizon 2020 grant agreement no. 833685 (SPIDER),
 and grant agreement no. 871808 (INSPIRE-5Gplus).
+
+Daniel King was partly supported by the UK Department for Science,
+Innovation and Technology under the Future Open Networks Research
+Challenge project TUDOR (Towards Ubiquitous 3D Open Resilient Network).
+
