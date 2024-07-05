@@ -1318,7 +1318,7 @@ hash functions and other integrity verification methods.
 
 Access Control: Implementing strict access control measures ensures that
 only authorized users can access, modify, or interact with the digital
-twin. This includes using multi-factor authentication (MFA) and 
+twin. This includes using multi-factor authentication (MFA) and
 role-based access control (RBAC).
 
 *  System Security
@@ -1402,7 +1402,7 @@ Diego Lopez and Antonio Pastor were partly supported by the European
 Commission under Horizon 2020 grant agreement no. 833685 (SPIDER),
 and grant agreement no. 871808 (INSPIRE-5Gplus).
 
-Daniel King was partly supported by the UK Department for Science, 
-Innovation and Technology under the Future Open Networks Research 
+Daniel King was partly supported by the UK Department for Science,
+Innovation and Technology under the Future Open Networks Research
 Challenge project TUDOR (Towards Ubiquitous 3D Open Resilient Network).
 
