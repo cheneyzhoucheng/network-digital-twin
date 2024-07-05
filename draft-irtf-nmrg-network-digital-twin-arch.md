@@ -791,7 +791,7 @@ architecture is depicted in {{arc}}.
 ~~~~
 {: #arc title="Reference Architecture of Network Digital Twin" artwork-align="center"}
 
-Section 4 described functional characteristics or elements of NDTs in four principal classes:
+Section 4 describes functional characteristics or elements of NDT in four principal classes:
 data, models, interfaces, and mappings (it also referred to logic associated with the operation
 and use of NDTs).
 
