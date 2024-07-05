@@ -1330,7 +1330,8 @@ Integrity:
 twin is accurate and unaltered. This can be achieved through cryptographic
 hash functions and other integrity verification methods.
 
-Access Control: Implementing strict access control measures ensures that
+Access Control:
+: Implementing strict access control measures ensures that
 only authorized users can access, modify, or interact with the digital
 twin. This includes using multi-factor authentication (MFA) and
 role-based access control (RBAC).
