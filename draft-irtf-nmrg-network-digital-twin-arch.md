@@ -287,7 +287,7 @@ model, and refine optimization strategies under real conditions but in a risk-fr
 that only the most effective changes are implemented in the real network, following
 thorough validation and control checks. Moreover, a network digital twin captures and aggregates
 critical data for analyzing the root causes of network failures, anomalies, vulnerabilities, etc. It also offers a sandbox
-for testing hypotheses and validating data-driven insights without affecting end-users.
+for testing hypotheses, exercising mitigation scenarios, and validating data-driven insights without affecting end-users.
 
 Through the real-time data interaction between the real network and its twin network(s),
 the Network Digital Twin (NDT) platform will provide the data for NDT-based applications
