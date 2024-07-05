@@ -1373,7 +1373,8 @@ Secure Development Practices:
 : Ensuring the NDT software is
 developed following secure coding practices to minimize vulnerabilities.
 
-Incident Response: Having a well-defined incident response plan to address
+Incident Response:
+: Having a well-defined incident response plan (e.g., playbooks) to address
 and mitigate any security incidents quickly.
 
 Regular Audits and Assessments: Conduct security audits and risk assessments
