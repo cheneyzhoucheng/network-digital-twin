@@ -285,7 +285,7 @@ approach to establish closed-loop network automation.
 Integrating a Network Digital Twin into network management allows engineers to assess,
 model, and refine optimization strategies under real conditions but in a risk-free environment. This ensures
 that only the most effective changes are implemented in the real network, following
-thorough validation and control checks. Moreover, a network digital twin provides
+thorough validation and control checks. Moreover, a network digital twin captures and aggregates
 critical data for analyzing the root causes of network failures, anomalies, vulnerabilities, etc. It also offers a sandbox
 for testing hypotheses and validating data-driven insights without affecting end-users.
 
