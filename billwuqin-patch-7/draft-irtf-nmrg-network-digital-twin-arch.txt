@@ -810,15 +810,15 @@ Table of Contents
 
    For example: an NDT may play an important role in an intent-drive
    network controller.  In this case, an "outer" closed loop (or,
-   intent-assurance close loop) would detect gaps between service
-   parameters set by intents and actual service characteristics, find
-   solutions to close those gaps, and drive those solutions on to the
-   network.  Finding such solutions would rely on "inner loops" that
-   include an NDT: for example, prospective solutions would be proposed,
-   their impacts on services evaluated by the NDT acting as a "sandbox”
-   in virtual space, and the process would be repeated until a
-   satisfactory solution is found.  At that point, the known-good
-   solution is passed to the outer loop for actuation.
+   intent-assurance close loop) would detect gaps between target service
+   objectives set by intents and actual observed service
+   characteristics, find solutions to close those gaps, and drive those
+   solutions on to the network.  Finding such solutions would rely on
+   "inner loops" that include an NDT: for example, prospective solutions
+   would be proposed, their impacts on services evaluated by the NDT
+   acting as a "sandbox” in virtual space, and the process would be
+   repeated until a satisfactory solution is found.  At that point, the
+   known-good solution is passed to the outer loop for actuation.
 
    Many automation use cases may be thought of as following a similar
    pattern: a solution corresponding to some kind of optimization
