@@ -1323,7 +1323,8 @@ Confidentiality: Ensuring that sensitive data used in the digital twin
 is protected from unauthorized access. This includes encrypting data
 both at rest and in transit.
 
-Integrity: Ensuring that the data used in and produced by the digital
+Integrity:
+: Ensuring that the data used in and produced by the digital
 twin is accurate and unaltered. This can be achieved through cryptographic
 hash functions and other integrity verification methods.
 
