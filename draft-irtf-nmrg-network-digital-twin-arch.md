@@ -890,7 +890,7 @@ This architecture is broken down into three layers:
      are exchanged through a northbound interface, so they are applied
      by service emulation at the appropriate twin instance(s).
 
-# Use of NDT
+# A Sample NDT Realization
 
 Considerable industry work and research has focused on automation-supporting
 network systems. For example, {{ETSI-GS-ZSM-002}} describes a framework
