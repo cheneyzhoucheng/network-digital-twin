@@ -704,10 +704,10 @@ Table of Contents
    within one single network administrative domain and provide service
    to the operations applications (e.g., SDN controllers, emulation
    applications) within that domain or in other network administrative
-   domains, or they may be placed in each network administrative domain
-   and coordinate among each other to provide services to operations
-   applications (in effect, one or multiple NDT instances may be
-   maintained and operated in service of a given real network).
+   domains.  They may be also placed in each network administrative
+   domain and coordinate among each other to provide services to
+   operations applications (in effect, one or multiple NDT instances may
+   be maintained and operated in service of a given real network).
 
    A Data Repository subsystem is responsible for collecting and storing
    network data.  It collects and updates the real-time operational and
