@@ -1349,6 +1349,7 @@ Monitoring and Logging:
 monitoring to detect and respond to security incidents in real-time.
 
 *  Network Security
+
 Segmentation: Isolating the digital twin network environment from the
 main operational network to limit the potential impact of a security breach.
 
