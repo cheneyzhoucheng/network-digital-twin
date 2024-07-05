@@ -904,7 +904,7 @@ orchestration/control services.
 The role and utility of NDT may be represented architecturally by following
 similar principles, e.g., {{ETSI-GS-ZSM-015}} or {{?RFC8969}}. As described in Section 7, an
 NDT instantiation encompasses models, data, mapping, and interfaces. These
-components then work in composition with appropriate other functions or services
+components then work in composition with other functions or services
 to deliver an overall functional architecture matching specific use cases.
 
 For example: an NDT may play an important role in an intent-drive network controller.
