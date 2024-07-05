@@ -816,7 +816,7 @@ Service Mapping Models complete data modeling, and provide data or other functio
 supporting various network applications. Models include two major types, basic and functional models:
 
 o  Basic models refer to network element models and network topology models used to reflect the
-   basic configuration, environment information, operational state, link topology etc. of the network
+   basic configuration, environment information, operational state, link topology, etc. of the network
    and its elements.
 o  Functional models refer to various data or other models used to generate information supporting
    network analysis, emulation, diagnosis, prediction, assurance, etc. The functional models can be
