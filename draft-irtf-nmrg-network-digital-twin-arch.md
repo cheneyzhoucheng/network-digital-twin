@@ -796,7 +796,7 @@ data, models, interfaces, and mappings.
 
 This section describes the important functional components of NDTs - reflecting
 these functional elements - in greater detail. It also describes how an NDT consisting of these
-components may be used in operations systems to deliver the various functional use cases of NDTs.
+components may be used in operations systems to deliver the various functional NDT use cases.
 
 The core functional components of an NDT may be posited as follows:
 a Data Repository component, a Service Mapping Models component, and an NDT Management
