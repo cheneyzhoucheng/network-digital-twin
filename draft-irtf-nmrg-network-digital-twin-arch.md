@@ -1302,7 +1302,7 @@ the implementation and deployment of digital twin network.
 
 This document describes concepts and definitions of NDT.
 As this document presents system architecture, the following security
-considerations are abstract and lack specific guidance or detail, i.e.,
+considerations are abstract and generic, i.e., they provide mainly
 principles, guidelines or requirements. However, the implementation and
 deployment of network digital twins will need to be carefully investigate
 the following security considerations, which may be categorized into
