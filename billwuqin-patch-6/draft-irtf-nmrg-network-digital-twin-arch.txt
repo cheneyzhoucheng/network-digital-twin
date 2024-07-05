@@ -699,15 +699,15 @@ Table of Contents
    NDTs.
 
    The core functional components of an NDT may be posited as follows: a
-   Data Repository component or subsystem, a Service Mapping Models
-   subsystem, and an NDT Management subsystem.  These key subsystems can
-   be placed in one single network administrative domain and provide
-   service to the operations applications (e.g.  SDN controllers) within
-   that domain or in other network administrative domains, or they may
-   be placed in each network administrative domain and coordinate among
-   each other to provide services to operations applications (in effect,
-   one or multiple NDT instances may be maintained and operated in
-   service of a given real network).
+   Data Repository component, a Service Mapping Models component, and an
+   NDT Management subsystem.  These key subsystems can be placed in one
+   single network administrative domain and provide service to the
+   operations applications (e.g.  SDN controllers) within that domain or
+   in other network administrative domains, or they may be placed in
+   each network administrative domain and coordinate among each other to
+   provide services to operations applications (in effect, one or
+   multiple NDT instances may be maintained and operated in service of a
+   given real network).
 
    A Data Repository subsystem is responsible for collecting and storing
    network data.  It collects and updates the real-time operational and
