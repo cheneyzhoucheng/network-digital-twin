@@ -801,11 +801,11 @@ Table of Contents
    loop might be represented as a composition of appropriate data,
    analytics, intelligence/decision, and orchestration/control services.
 
-   The role and utility of NDTs may be represented architecturally by
-   following similar principles, e.g., [ETSI-GS-ZSM-015].  As described
-   in Section 7, an NDT instantiation encompasses models, data, mapping,
-   and interfaces.  These components then work in composition with
-   appropriate other functions or services to deliver an overall
+   The role and utility of NDT may be represented architecturally by
+   following similar principles, e.g., [ETSI-GS-ZSM-015] or [RFC8969].
+   As described in Section 7, an NDT instantiation encompasses models,
+   data, mapping, and interfaces.  These components then work in
+   composition with other functions or services to deliver an overall
    functional architecture matching specific use cases.
 
    For example: an NDT may play an important role in an intent-drive
@@ -1411,6 +1411,11 @@ Table of Contents
               YANG Data Model for Layer 2 Network Topologies", RFC 8944,
               DOI 10.17487/RFC8944, November 2020,
               <https://www.rfc-editor.org/rfc/rfc8944>.
+
+   [RFC8969]  Wu, Q., Ed., Boucadair, M., Ed., Lopez, D., Xie, C., and
+              L. Geng, "A Framework for Automating Service and Network
+              Management with YANG", RFC 8969, DOI 10.17487/RFC8969,
+              January 2021, <https://www.rfc-editor.org/rfc/rfc8969>.
 
    [RFC9114]  Bishop, M., Ed., "HTTP/3", RFC 9114, DOI 10.17487/RFC9114,
               June 2022, <https://www.rfc-editor.org/rfc/rfc9114>.
