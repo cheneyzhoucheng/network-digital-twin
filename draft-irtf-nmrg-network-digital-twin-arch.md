@@ -1377,7 +1377,8 @@ Incident Response:
 : Having a well-defined incident response plan (e.g., playbooks) to address
 and mitigate any security incidents quickly.
 
-Regular Audits and Assessments: Conduct security audits and risk assessments
+Regular Audits and Assessments:
+: Conduct security audits and risk assessments
 to identify and address potential security gaps.
 
 *  Resilience and Reliability
