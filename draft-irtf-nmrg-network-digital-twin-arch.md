@@ -1382,7 +1382,8 @@ to identify and address potential security gaps.
 
 *  Resilience and Reliability
 
-Redundancy: Implementing redundancy and failover mechanisms ensures the
+Redundancy:
+: Implementing redundancy and failover mechanisms ensures the
 digital twin remains operational during and after a security incident.
 
 Backup and Recovery: Regularly back up digital twin data and have a robust
