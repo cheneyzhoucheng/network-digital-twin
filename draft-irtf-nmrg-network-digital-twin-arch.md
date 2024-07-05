@@ -1358,7 +1358,7 @@ Encryption:
 : Encrypting network communications to prevent interception and
 eavesdropping.
 
-Firewalls and Intrusion Detection/Prevention Systems (IDS/IPS): Deploying
+Access Control List: Deploying
 firewalls and IDS/IPS to protect the digital twin network from external
 and internal threats.
 
