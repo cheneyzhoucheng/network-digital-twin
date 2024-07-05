@@ -1364,7 +1364,8 @@ and internal threats.
 
 *  Operational Security
 
-System Access: Data verification, model validation, and mapping operations
+System Access:
+: Data verification, model validation, and mapping operations
 between the real and digital counterpart networks by authenticated and
 authorized users only.
 
