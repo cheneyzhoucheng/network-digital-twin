@@ -1315,7 +1315,7 @@ Synchronization:
 networks may increase the risk of sensitive data and information leakage.
 
 Data Access: Strict control and security mechanisms must be provided and
-enabled to prevent data leaks.
+enabled to prevent data leaks. Also, appropriate access rights must be provisioned to prevent unauthorized entities to access sensitive data (e.g., logging data used for legal data retention).
 
 * Data Security and Privacy Protection.
 
