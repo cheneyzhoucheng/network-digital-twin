@@ -1386,7 +1386,8 @@ Redundancy:
 : Implementing redundancy and failover mechanisms ensures the
 digital twin remains operational during and after a security incident.
 
-Backup and Recovery: Regularly back up digital twin data and have a robust
+Backup and Recovery:
+: Regularly back up NDT data and have a robust
 recovery plan to restore operations in case of data loss or corruption.
 
 # IANA Considerations
