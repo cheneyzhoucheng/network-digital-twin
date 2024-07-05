@@ -1344,7 +1344,8 @@ Vulnerability Management:
 : Regularly auditing, updating, and patching the digital
 twin software and underlying infrastructure to mitigate vulnerabilities.
 
-Monitoring and Logging: Implementing comprehensive logging and
+Monitoring and Logging:
+: Implementing comprehensive logging and
 monitoring to detect and respond to security incidents in real-time.
 
 *  Network Security
