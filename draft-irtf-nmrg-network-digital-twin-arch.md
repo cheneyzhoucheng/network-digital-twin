@@ -48,7 +48,6 @@ author:
     city: Madrid
     country: Spain
     email: antonio.pastorperales@telefonica.com
-
 -
     fullname: Qin Wu
     organization: Huawei
@@ -693,7 +692,8 @@ administrative domains. So, the construction of a digital twin network system
 needs to consider the following major challenges:
 
 Large-scale challenge:
-: A digital twin of large-scale networks will significantly increase the complexity of data acquisition and storage and the design and implementation of relevant models.
+: A digital twin of large-scale networks will significantly increase the complexity
+  of data acquisition and storage and the design and implementation of relevant models.
 : The requirements of the software and hardware of the Network Digital Twin system
 will be even more constrained. Therefore, efficient and low cost tools in various
 fields should be required. Take data as an example, massive network data can help
@@ -755,7 +755,7 @@ and interfaces ({{arch}}). Then, relying upon such an architecture, it is requir
 to continue researching on the key enabling technologies including data acquisition,
 data storage, data modeling, interface standardization, and security assurance.
 
-# A Reference Architecture of Network Digital Twin {#arch}
+# NDT Functional Components {#arch}
 
 Based on the definition of the key Network Digital Twin
 elements introduced in {{def}}, a Network Digital Twin
@@ -791,104 +791,62 @@ architecture is depicted in {{arc}}.
 ~~~~
 {: #arc title="Reference Architecture of Network Digital Twin" artwork-align="center"}
 
-This architecture is broken down into three layers:
+Section 4 describes functional characteristics or elements of NDT in four principal classes:
+data, models, interfaces, and mappings.
 
-  Real Network:
-  :  All or subset of network elements in the real network
-     exchange network data and control messages with a network digital
-     twin instance, through twin-real control interfaces.  The real
-     network can be a mobile access network, a transport network, a
-     mobile core, a backbone, etc.  The real network can also be a data
-     center network, a campus enterprise network, an industrial
-     Internet of Things, etc.
-   : The real network can span across a single network administrative
-     domain or multiple network administrative domains.  And, the real
-     network can include both physical entities and some virtual
-     entities (e.g. vSwitches, NFVs, etc.), which together carry
-     traffic and provide actual network services.
-   : This document focuses on the IETF related real network such as IP
-     bearer network and data center network.
+This section describes the important functional components of NDTs - reflecting
+these functional elements - in greater detail. It also describes how an NDT consisting of these
+components may be used in operations systems to deliver the various functional NDT use cases.
 
-  Digital Twin Layer:
-  :  This layer includes three key subsystems: Data
-     Repository subsystem, Service Mapping Models subsystem, and
-     Network Digital Twin  Management subsystem.  These key subsystems
-     can be placed in one single network administrative domain and
-     provide the service to the application (e.g.,SDN controller) in
-     other network administrative domain, or lied in every network
-     administrative domain and coordinate between each other to provide
-     services to the application in the upper layer.
-   : One or multiple Network Digital Twin instances can be built and
-     maintained:
+The core functional components of an NDT may be posited as follows:
+a Data Repository component, a Service Mapping Models component, and an NDT Management
+component. These key components might be placed within one single network administrative domain and provide
+service to the operations applications (e.g., SDN controllers, emulation applications) within that domain or in other network
+administrative domains. They may be also placed in each network administrative domain and coordinate
+among each other to provide services to operations applications. One or multiple NDT
+instances may be maintained and operated in service of a given real network.
 
-     +  Data Repository subsystem is responsible for collecting and
-     storing various network data for building various models by
-     collecting and updating the real-time operational data of
-     various network elements through the twin southbound interface,
-     and providing data services (e.g., fast retrieval, concurrent
-     conflict handling, batch service) and unified interfaces to
-     Service Mapping Models subsystem.
+The Data Repository component is responsible for collecting and storing network data. It collects and
+updates the real-time operational and instrumentation data of the various network elements through
+the appropriate real network-facing interface, as well as from other operations system
+components. It also provides data services (e.g., fast retrieval, concurrent conflict handling,
+batch service) through appropriate interfaces to a Service Mapping Models component.
 
-     +  Service Mapping Models complete data modeling, provide data
-     model instances for various network applications, and maximizes
-     the agility and programmability of network services.  The data
-     models include two major types: basic and functional models.
+Service Mapping Models complete data modeling, and provide data or other functional model instances
+supporting various network applications. Models include two major types, basic and functional models:
 
-         -  Basic models refer to the network element model(s) and
-        network topology model(s) of the Network Digital Twin based
-        on the basic configuration, environment information,
-        operational state, link topology and other information of
-        the network element(s), to complete the real-time accurate
-        characterization of the real network.
+o  Basic models refer to network element models and network topology models used to reflect the
+   basic configuration, environment information, operational state, link topology, etc. of the network
+   and its elements.
+o  Functional models refer to various data or other models used to generate information supporting
+   network analysis, emulation, diagnosis, prediction, assurance, etc. The functional models can be
+   constructed and expanded in various ways: by network type; there can be models serving single or
+   multiple network domains; by function type. Functional models and the information they generate
+   can relate to state monitoring, traffic analysis, security exercise, fault diagnosis, quality
+   assurance and various network lifecycle management goal - such as planning, construction, maintenance,
+   optimization and operation. Functional models can also be divided into general models and
+   special-purpose models. Multiple models can be combined to create a model for more specific application
+   scenarios. New applications might need new functional models that do not yet exist. If a new model is
+   needed, the Service Mapping Models subsystem may help to create new models based on data retrieved from
+   the Data Repository.
 
-          -  Functional models refer to various data models used for
-        network analysis, emulation, diagnosis, prediction,
-        assurance, etc.  The functional models can be constructed
-        and expanded by multiple dimensions: by network type, there
-        can be models serving for a single or multiple network
-        domains; by function type, it can be divided into state
-        monitoring, traffic analysis, security exercise, fault
-        diagnosis, quality assurance and other models; by network
-        lifecycle management, it can be divided into planning,
-        construction, maintenance, optimization and operation.
-        Functional models can also be divided into general models
-        and special-purpose models.  Specifically, multiple
-        dimensions can be combined to create a data model for more
-        specific application scenarios.
-          New applications might need new functional models that do
-          not exist yet.  If a new model is needed, ‘Service Mapping
-          Models’ subsystem will be triggered to help creating new
-          models based on data retrieved from ‘Data Repository’.
+The Network Digital Twin Management component manages the NDT operation and its subcomponents to useful
+effect, serving applications that require and make use of the information generated by the NDT. It manages
+the session-based operation of the NDT, managing the life-cycle of these operations under the direction of
+associated applications; it monitors the performance and resource consumption of the NDT (including individual
+models); and controls various operational aspects of the NDT, including topology management, model
+management and security management.
 
-     +  Network Digital Twin Management fulfils the management function
-     of Network Digital Twin, records the life-cycle transactions of
-     the twin entity, monitors the performance and resource
-     consumption of the twin entity or even of individual models,
-     visualizes and controls various elements of the network digital
-     twin, including topology management, model management and
-     security management.
-
-> Notes: 'Data collection' and 'change control' are regarded as
-  network-facing interfaces between virtual and real network.  From
-  implementation perspective, they may form a sub-layer
-  or sub-system to provide common data collection
-  and change control functions, enabled by a specific infrastructure
-  supporting bi-directional flows and facilitating data aggregation, action
-  translation, pre-processing, and ontologies. It might not be possible or necessary
-  to 'synchronize' all twin state or flows from twin entity to physical entity
-  or network management system. Bi-directional interaction means that:
-  data, state, or flows are reported or collected from the physical network or the network management
-  system to a twin instance, and configure changes or 'necessary' data sent from a twin instance to
-  physical.
-
-  Application Layer:  Various applications (e.g., Operations,
-     Administration, and Maintenance (OAM)) can effectively run over a
-     Network Digital Twin platform to implement either conventional or
-     innovative network operations, with low cost and less service
-     impact on real networks.  Network applications make requests that
-     need to be addressed by the Network Digital Twin.  Such requests
-     are exchanged through a northbound interface, so they are applied
-     by service emulation at the appropriate twin instance(s).
+The "real network" – the physical counter-part of an NDT - can be a mobile access network, a transport network,
+a mobile core, a backbone, etc. The real network can also be a data center network, a campus enterprise network,
+an industrial Internet of Things, etc.
+The real network can span across a single network administrative domain or multiple network administrative domains.
+It can include both physical entities and some virtual entities (e.g., vSwitches), which together carry
+traffic and provide actual network services.
+All or subset of network elements in the real network deliver network data, directly or through other systems, to
+the NDT, through appropriate interfaces. Network elements may receive control inputs, through specific interfaces,
+from operations systems in which NDTs play a role.
+This document focuses on the IETF related real network such as IP bearer network and data center network.
 
 # A Realization Example
 
