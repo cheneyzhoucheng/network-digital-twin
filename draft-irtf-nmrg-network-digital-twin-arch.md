@@ -913,7 +913,7 @@ gaps between target service objectives set by intents and actual observed servic
 find and proposed candidate mitigation solutions to soften the observed deviation, and drive the enforcement of the mitigation in the network.
 Finding such mitigations would rely on multiple "inner loops" that include an NDT: for example,
 prospective solutions would be proposed, their impacts on services evaluated by the
-NDT acting as a "sandbox” in virtual space, and the process would be repeated until
+NDT acting as a "sandbox" in virtual space, and the process might be iterated until
 a satisfactory solution is found. At that point, the known-good solution is passed
 to the outer loop for actuation.
 
