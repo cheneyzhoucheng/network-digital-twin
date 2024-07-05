@@ -1340,7 +1340,8 @@ Authentication and Authorization:
 authorization mechanisms to prevent unauthorized access to the digital
 twin environment.
 
-Vulnerability Management: Regularly updating and patching the digital
+Vulnerability Management:
+: Regularly auditing, updating, and patching the digital
 twin software and underlying infrastructure to mitigate vulnerabilities.
 
 Monitoring and Logging: Implementing comprehensive logging and
