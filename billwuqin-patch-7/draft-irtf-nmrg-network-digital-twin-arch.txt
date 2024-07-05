@@ -797,7 +797,7 @@ Table of Contents
    a framework architecture for network automation.  It uses so-called
    management services as a fundamental conceptual unit of currency, and
    describes the enablement of automation use cases through composition
-   and extensions of such management services.  For example, a closed
+   and extensions of such management services.  For example, a closed-
    loop might be represented as a composition of appropriate data,
    analytics, intelligence/decision, and orchestration/control services.
 
