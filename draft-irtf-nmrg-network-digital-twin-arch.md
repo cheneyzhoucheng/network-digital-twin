@@ -793,7 +793,6 @@ architecture is depicted in {{arc}}.
 
 Section 4 describes functional characteristics or elements of NDT in four principal classes:
 data, models, interfaces, and mappings.
-and use of NDTs).
 
 This Section describes the important functional components of NDTs - reflecting
 these functional elements - in greater detail. It also describes how an NDT consisting of these
