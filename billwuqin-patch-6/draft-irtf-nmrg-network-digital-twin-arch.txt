@@ -753,20 +753,20 @@ Table of Contents
    various operational aspects of the NDT, including topology
    management, model management and security management.
 
-   The “real network” – the physical counter-part of the NDT - can be a
+   The "real network" – the physical counter-part of an NDT - can be a
    mobile access network, a transport network, a mobile core, a
    backbone, etc.  The real network can also be a data center network, a
    campus enterprise network, an industrial Internet of Things, etc.
    The real network can span across a single network administrative
    domain or multiple network administrative domains.  It can include
-   both physical entities and some virtual entities (e.g. vSwitches,
-   NFVs, etc.), which together carry traffic and provide actual network
-   services.  All or subset of network elements in the real network
-   deliver network data, directly or through other systems, to the NDT,
-   through appropriate interfaces.  Network elements may receive control
-   inputs, through appropriate interfaces, from operations systems in
-   which NDTs play a role.  This document focuses on the IETF related
-   real network such as IP bearer network and data center network.
+   both physical entities and some virtual entities (e.g., vSwitches),
+   which together carry traffic and provide actual network services.
+   All or subset of network elements in the real network deliver network
+   data, directly or through other systems, to the NDT, through
+   appropriate interfaces.  Network elements may receive control inputs,
+   through appropriate interfaces, from operations systems in which NDTs
+   play a role.  This document focuses on the IETF related real network
+   such as IP bearer network and data center network.
 
 8.  A Realization Example
 
