@@ -277,7 +277,7 @@ being widely adopted for Industry 4.0 use cases.  The reader may refer to {{conc
 
 A digital twin for networks can be created by applying Digital Twin technologies to
 networks, resulting in a virtual replica of real network facilities (emulation). A
-network digital twin is an advanced platform for network emulation, serving as a tool
+Network Digital Twin (NDT) is an advanced platform for network emulation, serving as a tool
 for scenario planning, impact analysis, and change management. Unlike conventional
 network simulation, it features an interactive virtual-real mapping and a data-driven
 approach to establish closed-loop network automation.
