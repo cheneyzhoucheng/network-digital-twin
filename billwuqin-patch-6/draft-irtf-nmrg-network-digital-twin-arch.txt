@@ -5,7 +5,7 @@
 Network Management                                               C. Zhou
 Internet-Draft                                                   H. Yang
 Intended status: Informational                                   X. Duan
-Expires: 31 December 2024                                   China Mobile
+Expires: 6 January 2025                                     China Mobile
                                                                 D. Lopez
                                                                A. Pastor
                                                           Telefonica I+D
@@ -14,8 +14,7 @@ Expires: 31 December 2024                                   China Mobile
                                                             M. Boucadair
                                                             C. Jacquenet
                                                                   Orange
-                                                                 C. Janz
-                                                            29 June 2024
+                                                             5 July 2024
 
 
        Network Digital Twin: Concepts and Reference Architecture
@@ -60,7 +59,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 31 December 2024.
+   This Internet-Draft will expire on 6 January 2025.
 
 Copyright Notice
 
@@ -1499,9 +1498,3 @@ Authors' Addresses
    Rennes
    France
    Email: christian.jacquenet@orange.com
-
-
-   Christopher Janz
-   Ottawa
-   Canada
-   Email: christopher.janz@huawei.com
