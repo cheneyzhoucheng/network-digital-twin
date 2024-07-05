@@ -1359,7 +1359,7 @@ Encryption:
 eavesdropping.
 
 Access Control List: Deploying
-firewalls and IDS/IPS to protect the digital twin network from external
+, e.g., firewalls and IDS/IPS with appropriate policies to protect the NDT from external
 and internal threats.
 
 *  Operational Security
