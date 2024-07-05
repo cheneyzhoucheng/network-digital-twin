@@ -721,18 +721,20 @@ Table of Contents
    Service Mapping Models complete data modeling, and provide data or
    other functional model instances supporting various network
    applications.  Models include two major types, basic and functional
-   models: o Basic models refer to network element model(s) and network
-   topology model(s) used to reflect the basic configuration,
-   environment information, operational state, link topology etc. of the
-   network and its elements. o Functional models refer to various data
-   or other models used to generate information supporting network
-   analysis, emulation, diagnosis, prediction, assurance, etc.  The
-   functional models can be constructed and expanded in various ways: by
-   network type; there can be models serving single or multiple network
-   domains; by function type.  Functional models and the information
-   they generate can relate to state monitoring, traffic analysis,
-   security exercise, fault diagnosis, quality assurance and various
-   network lifecycle management goal - such as planning, construction,
+   models:
+
+   o Basic models refer to network element models and network topology
+   models used to reflect the basic configuration, environment
+   information, operational state, link topology, etc. of the network
+   and its elements. o Functional models refer to various data or other
+   models used to generate information supporting network analysis,
+   emulation, diagnosis, prediction, assurance, etc.  The functional
+   models can be constructed and expanded in various ways: by network
+   type; there can be models serving single or multiple network domains;
+   by function type.  Functional models and the information they
+   generate can relate to state monitoring, traffic analysis, security
+   exercise, fault diagnosis, quality assurance and various network
+   lifecycle management goal - such as planning, construction,
    maintenance, optimization and operation.  Functional models can also
    be divided into general models and special-purpose models.  Multiple
    models can be combined to create a model for more specific
