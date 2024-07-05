@@ -1369,7 +1369,8 @@ System Access:
 between the real and digital counterpart networks by authenticated and
 authorized users only.
 
-Secure Development Practices: Ensuring the digital twin software is
+Secure Development Practices:
+: Ensuring the NDT software is
 developed following secure coding practices to minimize vulnerabilities.
 
 Incident Response: Having a well-defined incident response plan to address
