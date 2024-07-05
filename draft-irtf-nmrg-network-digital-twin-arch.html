@@ -1289,7 +1289,10 @@ challenges.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
             <p id="section-toc.1-1.17.1"><a href="#appendix-A" class="auto internal xref"></a><a href="#name-acknowledgments" class="internal xref">Acknowledgments</a></p>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.18">
-            <p id="section-toc.1-1.18.1"><a href="#appendix-B" class="auto internal xref"></a><a href="#name-authors-addresses" class="internal xref">Authors' Addresses</a></p>
+            <p id="section-toc.1-1.18.1"><a href="#appendix-B" class="auto internal xref"></a><a href="#name-contributors" class="internal xref">Contributors</a></p>
+</li>
+          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.19">
+            <p id="section-toc.1-1.19.1"><a href="#appendix-C" class="auto internal xref"></a><a href="#name-authors-addresses" class="internal xref">Authors' Addresses</a></p>
 </li>
         </ul>
 </nav>
@@ -1300,38 +1303,35 @@ challenges.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
       <h2 id="name-introduction">
 <a href="#section-1" class="section-number selfRef">1. </a><a href="#name-introduction" class="section-name selfRef">Introduction</a>
       </h2>
-<p id="section-1-1">The fast growth of network scale and the increased demand on these networks
-require them to accommodate and adapt dynamically to customer needs, implying
-a significant challenge to network operators. Indeed, network operation and
-maintenance are becoming more complex due to the higher complexity of the
-managed networks and the sophisticated services they deliver. As such,
-providing innovations on network technologies, management, and operation will
-be more and more challenging due to the high risk of interfering with existing
-services and the higher trial costs if no reliable emulation platforms are
-available.<a href="#section-1-1" class="pilcrow">¶</a></p>
-<p id="section-1-2">A Digital Twin is the real-time representation of a physical entity in the
-digital world. It has the characteristics of virtual-reality interrelation
-and real-time interaction, iterative operation and process optimization,
-full life-cycle and comprehensive data-driven network infrastructure.
-Digital twin has been widely acknowledged in academic publications and
-adopted in Industry 4.0. See more details in <a href="#concept" class="auto internal xref">Section 3</a>.<a href="#section-1-2" class="pilcrow">¶</a></p>
-<p id="section-1-3">A digital twin for networks can be built by applying Digital Twin technologies
-to networks and creating a virtual image of real network facilities (called herein,
-emulation). Basically, the digital twin for networks is an expansion platform of
-network emulation and can be seen as a tool for scenario planning, impact analysis,
-and change management. Compared to conventional network simulation, the main
-difference is the interactive virtual-real mapping and data-driven approach to build
-closed-loop network automation. Integrating Network Digital Twin into the network
-management allows network maintenance engineers to assess, model, and tweak optimization
-strategies in a risk-free environment, ensuring that only the most effective changes
-might be implemented in the real network (i.e., subject to adequate validation and
-control checks). Digital twin for networks provide crucial data for network failure
-root cause analysis, and a sandbox for assessing hypotheses and validating the outcomes
-of data-driven insights without impacting end-users.<a href="#section-1-3" class="pilcrow">¶</a></p>
-<p id="section-1-4">Through the real-time data interaction between the real network and its twin network(s),
+<p id="section-1-1">The rapid expansion of network scale and the increasing demands on these networks
+necessitate their dynamic adaptation to customer needs, presenting significant
+challenges for network operators. Network operation and maintenance are becoming
+increasingly complex due to the advanced nature of the networks and the sophisticated
+services they provide. Consequently, introducing innovations in network technologies,
+management, and operations is becoming more challenging due to the high risk of
+disrupting existing services and the elevated costs of trials without reliable
+emulation platforms.<a href="#section-1-1" class="pilcrow">¶</a></p>
+<p id="section-1-2">A Digital Twin is a real-time digital representation of a physical entity. It features
+virtual-reality interrelation and real-time interaction, iterative operation and process
+optimization, and full life-cycle, comprehensive data-driven network infrastructure.
+Digital twins have gained widespread recognition in academic publications and are now
+being widely adopted for Industry 4.0 use cases.  The reader may refer to <a href="#concept" class="auto internal xref">Section 3</a> for more details,.<a href="#section-1-2" class="pilcrow">¶</a></p>
+<p id="section-1-3">A digital twin for networks can be created by applying Digital Twin technologies to
+networks, resulting in a virtual replica of real network facilities (emulation). A
+Network Digital Twin (NDT) is an advanced platform for network emulation, serving as a tool
+for scenario planning, impact analysis, and change management. Unlike conventional
+network simulation, it features an interactive virtual-real mapping and a data-driven
+approach to establish closed-loop network automation.<a href="#section-1-3" class="pilcrow">¶</a></p>
+<p id="section-1-4">Integrating a Network Digital Twin into network management allows engineers to assess,
+model, and refine optimization strategies under real conditions but in a risk-free environment. This ensures
+that only the most effective changes are implemented in the real network, following
+thorough validation and control checks. Moreover, a network digital twin captures and aggregates
+critical data for analyzing the root causes of network failures, anomalies, vulnerabilities, etc. It also offers a sandbox
+for testing hypotheses, exercising mitigation scenarios, and validating data-driven insights without affecting end-users.<a href="#section-1-4" class="pilcrow">¶</a></p>
+<p id="section-1-5">Through the real-time data interaction between the real network and its twin network(s),
 the Network Digital Twin (NDT) platform will provide the data for NDT-based applications
 and network designers to achieve greater simplification, automation, resilience testing
-("what-if scenarios"), and full life-cycle operation and infrastructure maintenance.<a href="#section-1-4" class="pilcrow">¶</a></p>
+("what-if scenarios"), and full life-cycle operation and infrastructure maintenance.<a href="#section-1-5" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="terminology">
@@ -2495,30 +2495,160 @@ the implementation and deployment of digital twin network.<a href="#section-12-1
       <h2 id="name-security-considerations">
 <a href="#section-13" class="section-number selfRef">13. </a><a href="#name-security-considerations" class="section-name selfRef">Security Considerations</a>
       </h2>
-<p id="section-13-1">This document describes concepts and definitions of digital twin
-network. As such, the following security considerations are abstract
-and lack specific guidance or detail, i.e., in the form of principles,
-guidelines or requirements.<a href="#section-13-1" class="pilcrow">¶</a></p>
-<p id="section-13-2">Security considerations of the Network Digital Twin include:<a href="#section-13-2" class="pilcrow">¶</a></p>
+<p id="section-13-1">This document describes concepts and definitions of NDT.
+As this document presents system architecture, the following security
+considerations are abstract and generic, i.e., they provide mainly
+principles, guidelines or requirements. However, the implementation and
+deployment of NDT will need to carefully investigate
+the following security considerations, which may be categorized into
+different aspects:<a href="#section-13-1" class="pilcrow">¶</a></p>
 <ul class="normal">
-<li class="normal" id="section-13-3.1">
-          <p id="section-13-3.1.1">Secure the digital twin system itself.<a href="#section-13-3.1.1" class="pilcrow">¶</a></p>
-</li>
-        <li class="normal" id="section-13-3.2">
-          <p id="section-13-3.2.1">Data privacy protection.<a href="#section-13-3.2.1" class="pilcrow">¶</a></p>
+<li class="normal" id="section-13-2.1">
+          <p id="section-13-2.1.1">Data Management<a href="#section-13-2.1.1" class="pilcrow">¶</a></p>
 </li>
       </ul>
-<p id="section-13-4">A key objective would be to make the digital twin system
-operationally secure by implementing security mechanisms and
-applying industry best practices for security. In the context
-of digital twin network, such mechanisms and practices may
-consist in data verification and model validation, mapping
-operations between real network and digital counterpart
-network by authenticated and authorized users only.<a href="#section-13-4" class="pilcrow">¶</a></p>
-<p id="section-13-5">Synchronizing the data between the real and twin networks may
-increase the risk of sensitive data and information leakage.
-Strict control and security mechanisms must be provided and
-enabled to prevent data leaks.<a href="#section-13-5" class="pilcrow">¶</a></p>
+<span class="break"></span><dl class="dlParallel" id="section-13-3">
+        <dt id="section-13-3.1">Synchronization:</dt>
+        <dd style="margin-left: 1.5em" id="section-13-3.2">
+          <p id="section-13-3.2.1">Synchronizing the data between the real and twin
+networks may increase the risk of sensitive data and information leakage.<a href="#section-13-3.2.1" class="pilcrow">¶</a></p>
+</dd>
+        <dd class="break"></dd>
+<dt id="section-13-3.3">Data Access:</dt>
+        <dd style="margin-left: 1.5em" id="section-13-3.4">
+          <p id="section-13-3.4.1">Strict control and security mechanisms must be provided and
+enabled to prevent data leaks. Also, appropriate access rights must be provisioned to prevent unauthorized entities to access sensitive data (e.g., logging data used for legal data retention).<a href="#section-13-3.4.1" class="pilcrow">¶</a></p>
+</dd>
+      <dd class="break"></dd>
+</dl>
+<ul class="normal">
+<li class="normal" id="section-13-4.1">
+          <p id="section-13-4.1.1">Data Security and Privacy Protection.<a href="#section-13-4.1.1" class="pilcrow">¶</a></p>
+</li>
+      </ul>
+<span class="break"></span><dl class="dlParallel" id="section-13-5">
+        <dt id="section-13-5.1">Confidentiality:</dt>
+        <dd style="margin-left: 1.5em" id="section-13-5.2">
+          <p id="section-13-5.2.1">Ensuring that sensitive data used in the digital twin
+is protected from unauthorized access. This includes encrypting data
+both at rest and in transit.<a href="#section-13-5.2.1" class="pilcrow">¶</a></p>
+</dd>
+        <dd class="break"></dd>
+<dt id="section-13-5.3">Integrity:</dt>
+        <dd style="margin-left: 1.5em" id="section-13-5.4">
+          <p id="section-13-5.4.1">Ensuring that the data used in and produced by the digital
+twin is accurate and unaltered. This can be achieved through cryptographic
+hash functions and other integrity verification methods.<a href="#section-13-5.4.1" class="pilcrow">¶</a></p>
+</dd>
+        <dd class="break"></dd>
+<dt id="section-13-5.5">Access Control:</dt>
+        <dd style="margin-left: 1.5em" id="section-13-5.6">
+          <p id="section-13-5.6.1">Implementing strict access control measures ensures that
+only authorized users can access, modify, or interact with the digital
+twin. This includes using multi-factor authentication (MFA) and
+role-based access control (RBAC).<a href="#section-13-5.6.1" class="pilcrow">¶</a></p>
+</dd>
+      <dd class="break"></dd>
+</dl>
+<ul class="normal">
+<li class="normal" id="section-13-6.1">
+          <p id="section-13-6.1.1">System Security<a href="#section-13-6.1.1" class="pilcrow">¶</a></p>
+</li>
+      </ul>
+<span class="break"></span><dl class="dlParallel" id="section-13-7">
+        <dt id="section-13-7.1">Authentication and Authorization:</dt>
+        <dd style="margin-left: 1.5em" id="section-13-7.2">
+          <p id="section-13-7.2.1">Ensuring robust authentication and
+authorization mechanisms to prevent unauthorized access to the digital
+twin environment.<a href="#section-13-7.2.1" class="pilcrow">¶</a></p>
+</dd>
+        <dd class="break"></dd>
+<dt id="section-13-7.3">Vulnerability Management:</dt>
+        <dd style="margin-left: 1.5em" id="section-13-7.4">
+          <p id="section-13-7.4.1">Regularly auditing, updating, and patching the digital
+twin software and underlying infrastructure to mitigate vulnerabilities.<a href="#section-13-7.4.1" class="pilcrow">¶</a></p>
+</dd>
+        <dd class="break"></dd>
+<dt id="section-13-7.5">Monitoring and Logging:</dt>
+        <dd style="margin-left: 1.5em" id="section-13-7.6">
+          <p id="section-13-7.6.1">Implementing comprehensive logging and
+monitoring to detect and respond to security incidents in real-time.<a href="#section-13-7.6.1" class="pilcrow">¶</a></p>
+</dd>
+      <dd class="break"></dd>
+</dl>
+<ul class="normal">
+<li class="normal" id="section-13-8.1">
+          <p id="section-13-8.1.1">Network Security<a href="#section-13-8.1.1" class="pilcrow">¶</a></p>
+</li>
+      </ul>
+<span class="break"></span><dl class="dlParallel" id="section-13-9">
+        <dt id="section-13-9.1">Segmentation:</dt>
+        <dd style="margin-left: 1.5em" id="section-13-9.2">
+          <p id="section-13-9.2.1">Isolating the NDT environment from the
+main operational network to limit the potential impact of a security breach.<a href="#section-13-9.2.1" class="pilcrow">¶</a></p>
+</dd>
+        <dd class="break"></dd>
+<dt id="section-13-9.3">Encryption:</dt>
+        <dd style="margin-left: 1.5em" id="section-13-9.4">
+          <p id="section-13-9.4.1">Encrypting network communications to prevent interception and
+eavesdropping.<a href="#section-13-9.4.1" class="pilcrow">¶</a></p>
+</dd>
+      <dd class="break"></dd>
+</dl>
+<p id="section-13-10">Access Control List: Deploying
+, e.g., firewalls and IDS/IPS with appropriate policies to protect the NDT from external
+and internal threats.<a href="#section-13-10" class="pilcrow">¶</a></p>
+<ul class="normal">
+<li class="normal" id="section-13-11.1">
+          <p id="section-13-11.1.1">Operational Security<a href="#section-13-11.1.1" class="pilcrow">¶</a></p>
+</li>
+      </ul>
+<span class="break"></span><dl class="dlParallel" id="section-13-12">
+        <dt id="section-13-12.1">System Access:</dt>
+        <dd style="margin-left: 1.5em" id="section-13-12.2">
+          <p id="section-13-12.2.1">Data verification, model validation, and mapping operations
+between the real and digital counterpart networks by authenticated and
+authorized users only.<a href="#section-13-12.2.1" class="pilcrow">¶</a></p>
+</dd>
+        <dd class="break"></dd>
+<dt id="section-13-12.3">Secure Development Practices:</dt>
+        <dd style="margin-left: 1.5em" id="section-13-12.4">
+          <p id="section-13-12.4.1">Ensuring the NDT software is
+developed following secure coding practices to minimize vulnerabilities.<a href="#section-13-12.4.1" class="pilcrow">¶</a></p>
+</dd>
+        <dd class="break"></dd>
+<dt id="section-13-12.5">Incident Response:</dt>
+        <dd style="margin-left: 1.5em" id="section-13-12.6">
+          <p id="section-13-12.6.1">Having a well-defined incident response plan (e.g., playbooks) to address
+and mitigate any security incidents quickly.<a href="#section-13-12.6.1" class="pilcrow">¶</a></p>
+</dd>
+        <dd class="break"></dd>
+<dt id="section-13-12.7">Regular Audits and Assessments:</dt>
+        <dd style="margin-left: 1.5em" id="section-13-12.8">
+          <p id="section-13-12.8.1">Conduct security audits and risk assessments
+to identify and address potential security gaps.<a href="#section-13-12.8.1" class="pilcrow">¶</a></p>
+</dd>
+      <dd class="break"></dd>
+</dl>
+<ul class="normal">
+<li class="normal" id="section-13-13.1">
+          <p id="section-13-13.1.1">Resilience and Reliability<a href="#section-13-13.1.1" class="pilcrow">¶</a></p>
+</li>
+      </ul>
+<span class="break"></span><dl class="dlParallel" id="section-13-14">
+        <dt id="section-13-14.1">Redundancy:</dt>
+        <dd style="margin-left: 1.5em" id="section-13-14.2">
+          <p id="section-13-14.2.1">Implementing redundancy and failover mechanisms ensures the
+digital twin remains operational during and after a security/failure incident.<a href="#section-13-14.2.1" class="pilcrow">¶</a></p>
+</dd>
+        <dd class="break"></dd>
+<dt id="section-13-14.3">Backup and Recovery:</dt>
+        <dd style="margin-left: 1.5em" id="section-13-14.4">
+          <p id="section-13-14.4.1">Regularly back up NDT data and have a robust
+recovery plan to restore operations in case of data loss or corruption.<a href="#section-13-14.4.1" class="pilcrow">¶</a></p>
+</dd>
+      <dd class="break"></dd>
+</dl>
 </section>
 </div>
 <div id="iana-considerations">
@@ -2737,17 +2867,43 @@ enabled to prevent data leaks.<a href="#section-13-5" class="pilcrow">¶</a></p>
 <a href="#name-acknowledgments" class="section-name selfRef">Acknowledgments</a>
       </h2>
 <p id="appendix-A-1">Many thanks to the NMRG participants for their comments and reviews.
-Thanks to Daniel King, Quifang Ma, Laurent Ciavaglia, Jérôme
+Thanks to Quifang Ma, Laurent Ciavaglia, Jérôme
 François, Jordi Paillissé, Luis Miguel Contreras Murillo, Alexander
 Clemm, Qiao Xiang, Ramin Sadre, Pedro Martinez-Julia, Wei Wang,
-Zongpeng Du, Peng Liu, Christopher Janz, and Albrecht Schwarz.<a href="#appendix-A-1" class="pilcrow">¶</a></p>
+Zongpeng Du, Peng Liu, and Albrecht Schwarz.<a href="#appendix-A-1" class="pilcrow">¶</a></p>
 <p id="appendix-A-2">Diego Lopez and Antonio Pastor were partly supported by the European
 Commission under Horizon 2020 grant agreement no. 833685 (SPIDER),
 and grant agreement no. 871808 (INSPIRE-5Gplus).<a href="#appendix-A-2" class="pilcrow">¶</a></p>
+<p id="appendix-A-3">Daniel King was partly supported by the UK Department for Science,
+Innovation and Technology under the Future Open Networks Research
+Challenge project TUDOR (Towards Ubiquitous 3D Open Resilient Network).<a href="#appendix-A-3" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="contributors">
+<section id="appendix-B">
+      <h2 id="name-contributors">
+<a href="#name-contributors" class="section-name selfRef">Contributors</a>
+      </h2>
+<address class="vcard">
+        <div dir="auto" class="left"><span class="fn nameRole">Christopher Janz</span></div>
+<div dir="auto" class="left"><span class="org">Huawei</span></div>
+<div class="email">
+<span>Email:</span>
+<a href="mailto:christopher.janz@huawei.com" class="email">christopher.janz@huawei.com</a>
+</div>
+</address>
+<address class="vcard">
+        <div dir="auto" class="left"><span class="fn nameRole">Daniel King</span></div>
+<div dir="auto" class="left"><span class="org">Lancaster University</span></div>
+<div class="email">
+<span>Email:</span>
+<a href="mailto:d.king@lancaster.ac.uk" class="email">d.king@lancaster.ac.uk</a>
+</div>
+</address>
 </section>
 </div>
 <div id="authors-addresses">
-<section id="appendix-B">
+<section id="appendix-C">
       <h2 id="name-authors-addresses">
 <a href="#name-authors-addresses" class="section-name selfRef">Authors' Addresses</a>
       </h2>
