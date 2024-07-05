@@ -806,7 +806,7 @@ administrative domains. They may be also placed in each network administrative d
 among each other to provide services to operations applications. One or multiple NDT
 instances may be maintained and operated in service of a given real network.
 
-A Data Repository subsystem is responsible for collecting and storing network data. It collects and
+The Data Repository component is responsible for collecting and storing network data. It collects and
 updates the real-time operational and instrumentation data of the various network elements through
 the appropriate real network-facing southbound interface, as well as from other operations system
 components. It also provides data services (e.g., fast retrieval, concurrent conflict handling,
