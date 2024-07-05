@@ -841,7 +841,7 @@ The "real network" – the physical counter-part of an NDT - can be a mobile acc
 a mobile core, a backbone, etc. The real network can also be a data center network, a campus enterprise network,
 an industrial Internet of Things, etc.
 The real network can span across a single network administrative domain or multiple network administrative domains.
-It can include both physical entities and some virtual entities (e.g. vSwitches, NFVs, etc.), which together carry
+It can include both physical entities and some virtual entities (e.g., vSwitches), which together carry
 traffic and provide actual network services.
 All or subset of network elements in the real network deliver network data, directly or through other systems, to
 the NDT, through appropriate interfaces. Network elements may receive control inputs, through appropriate interfaces,
