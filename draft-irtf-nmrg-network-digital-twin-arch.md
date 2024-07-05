@@ -844,7 +844,7 @@ The real network can span across a single network administrative domain or multi
 It can include both physical entities and some virtual entities (e.g., vSwitches), which together carry
 traffic and provide actual network services.
 All or subset of network elements in the real network deliver network data, directly or through other systems, to
-the NDT, through appropriate interfaces. Network elements may receive control inputs, through appropriate interfaces,
+the NDT, through appropriate interfaces. Network elements may receive control inputs, through specific interfaces,
 from operations systems in which NDTs play a role.
 This document focuses on the IETF related real network such as IP bearer network and data center network.
 
