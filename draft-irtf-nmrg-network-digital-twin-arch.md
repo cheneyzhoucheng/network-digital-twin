@@ -804,7 +804,7 @@ component. These key components might be placed within one single network admini
 service to the operations applications (e.g., SDN controllers, emulation applications) within that domain or in other network
 administrative domains. They may be also placed in each network administrative domain and coordinate
 among each other to provide services to operations applications. One or multiple NDT
-instances may be maintained and operated in service of a given real network).
+instances may be maintained and operated in service of a given real network.
 
 A Data Repository subsystem is responsible for collecting and storing network data. It collects and
 updates the real-time operational and instrumentation data of the various network elements through
