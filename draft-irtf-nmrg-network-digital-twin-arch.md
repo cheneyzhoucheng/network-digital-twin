@@ -1300,7 +1300,7 @@ the implementation and deployment of digital twin network.
 
 # Security Considerations
 
-This document describes concepts and definitions of digital twin networks.
+This document describes concepts and definitions of NDT.
 As this document presents system architecture, the following security
 considerations are abstract and lack specific guidance or detail, i.e.,
 principles, guidelines or requirements. However, the implementation and
