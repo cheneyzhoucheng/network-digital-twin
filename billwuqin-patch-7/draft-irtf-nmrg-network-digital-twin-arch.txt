@@ -90,7 +90,7 @@ Table of Contents
      5.5.  Customized Network Operation Training
    6.  Challenges to Build a Network Digital Twin
    7.  A Reference Architecture of Network Digital Twin
-   8.  Use of NDT
+   8.  A Sample NDT Realization
    9.  Enabling Technologies to Build Network Digital Twin
      9.1.  Data Collection and Data Services
      9.2.  Network Modeling
@@ -790,7 +790,7 @@ Table of Contents
    through a northbound interface, so they are applied by service
    emulation at the appropriate twin instance(s).
 
-8.  Use of NDT
+8.  A Sample NDT Realization
 
    Considerable industry work and research has focused on automation-
    supporting network systems.  For example, [ETSI-GS-ZSM-002] describes
@@ -809,7 +809,7 @@ Table of Contents
    functional architecture matching specific NDT use cases.
 
    For example: an NDT instance may be used as a core element of an
-   intent-drive network controller.  In such as case, an "outer" closed-
+   intent-drive network controller.  In such a case, an "outer" closed-
    loop (or, intent-assurance closed-loop) would detect gaps between
    target service objectives set by intents and actual observed service
    characteristics, find and proposed candidate mitigation solutions to
