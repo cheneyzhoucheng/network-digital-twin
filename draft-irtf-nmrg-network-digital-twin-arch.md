@@ -273,7 +273,7 @@ A Digital Twin is a real-time digital representation of a physical entity. It fe
 virtual-reality interrelation and real-time interaction, iterative operation and process
 optimization, and full life-cycle, comprehensive data-driven network infrastructure.
 Digital twins have gained widespread recognition in academic publications and are now
-being widely adopted for Industry 4.0 use cases. For more details, see {{concept}}.
+being widely adopted for Industry 4.0 use cases.  The reader may refer to {{concept}} for more details,.
 
 A digital twin for networks can be created by applying Digital Twin technologies to
 networks, resulting in a virtual replica of real network facilities (emulation). A
