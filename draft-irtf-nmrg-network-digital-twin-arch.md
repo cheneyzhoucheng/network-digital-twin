@@ -67,12 +67,6 @@ author:
     city: Rennes
     country: France
     email: christian.jacquenet@orange.com
--
-    fullname: Christopher Janz
-    orgnization: Huawei
-    city: Ottawa
-    country: Canada
-    email: christopher.janz@huawei.com
 
 normative:
 
