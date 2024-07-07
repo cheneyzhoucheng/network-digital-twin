@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-07-04T01:23:36.262696+00:00",
+  "timestamp": "2024-07-07T01:36:24.774548+00:00",
   "repo": "cheneyzhoucheng/network-digital-twin",
   "labels": [
     {
@@ -1516,24 +1516,26 @@
       "id": "PR_kwDOLV8yHc5z83ME",
       "title": "Incorporate Chris's proposed change to section 7 and make it focus on Definition of function components of NDT",
       "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/28",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "billwuqin",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2024-06-29T06:55:51Z",
-      "updatedAt": "2024-07-01T07:06:35Z",
+      "updatedAt": "2024-07-05T06:28:08Z",
       "baseRepository": "cheneyzhoucheng/network-digital-twin",
       "baseRefName": "main",
       "baseRefOid": "2b18fb59aa528ecf4f57e850a569724a44faae3e",
       "headRepository": "cheneyzhoucheng/network-digital-twin",
       "headRefName": "billwuqin-patch-6",
-      "headRefOid": "9bf6567b7354036f115e9f314ea8a3fd3cafe0d0",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "4a75324209be213f266c03ca53fdf01b3a607a55",
+      "closedAt": "2024-07-05T06:28:08Z",
+      "mergedAt": "2024-07-05T06:28:08Z",
+      "mergedBy": "boucadair",
+      "mergeCommit": {
+        "oid": "af476394e3ff567f6d5f15227c85bc3779affe6a"
+      },
       "comments": [],
       "reviews": [
         {
@@ -1675,6 +1677,39 @@
               "updatedAt": "2024-07-01T07:06:35Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOLV8yHc6AvxjM",
+          "commit": {
+            "abbreviatedOid": "78c4604"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-07-05T06:21:14Z",
+          "updatedAt": "2024-07-05T06:21:15Z",
+          "comments": [
+            {
+              "originalPosition": 134,
+              "body": "```suggestion\r\ncomponents may be used in operations systems to deliver the various functional NDT use cases.\r\n```",
+              "createdAt": "2024-07-05T06:21:14Z",
+              "updatedAt": "2024-07-05T06:21:15Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOLV8yHc6Av05C",
+          "commit": {
+            "abbreviatedOid": "4a75324"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-07-05T06:27:56Z",
+          "updatedAt": "2024-07-05T06:27:56Z",
+          "comments": []
         }
       ]
     },
@@ -1683,24 +1718,26 @@
       "id": "PR_kwDOLV8yHc5z83tg",
       "title": "Incorporate Chris's proposed change to section 8 on use of NDT",
       "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/29",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "billwuqin",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2024-06-29T07:04:17Z",
-      "updatedAt": "2024-07-01T07:16:10Z",
+      "updatedAt": "2024-07-05T06:33:34Z",
       "baseRepository": "cheneyzhoucheng/network-digital-twin",
       "baseRefName": "main",
       "baseRefOid": "2b18fb59aa528ecf4f57e850a569724a44faae3e",
       "headRepository": "cheneyzhoucheng/network-digital-twin",
       "headRefName": "billwuqin-patch-7",
-      "headRefOid": "90ae8a3de42ed2db3afb49d3145a515acb323542",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "a28afcada46bd84554caba7aa422f726ff7ba0d5",
+      "closedAt": "2024-07-05T06:33:34Z",
+      "mergedAt": "2024-07-05T06:33:34Z",
+      "mergedBy": "boucadair",
+      "mergeCommit": {
+        "oid": "9de781e361ba13271487d1b0e9f3b3ee4a7cfd85"
+      },
       "comments": [],
       "reviews": [
         {
@@ -1794,6 +1831,303 @@
               "updatedAt": "2024-07-01T07:16:10Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOLV8yHc6Av2Eg",
+          "commit": {
+            "abbreviatedOid": "1350376"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-07-05T06:30:02Z",
+          "updatedAt": "2024-07-05T06:30:02Z",
+          "comments": [
+            {
+              "originalPosition": 52,
+              "body": "```suggestion\r\nIn such a case, an \"outer\" closed-loop (or, intent-assurance closed-loop) would detect\r\n```",
+              "createdAt": "2024-07-05T06:30:02Z",
+              "updatedAt": "2024-07-05T06:30:02Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOLV8yHc6Av2-i",
+          "commit": {
+            "abbreviatedOid": "026c7b1"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-07-05T06:31:26Z",
+          "updatedAt": "2024-07-05T06:31:26Z",
+          "comments": [
+            {
+              "originalPosition": 34,
+              "body": "```suggestion\r\n# A Sample NDT Realization\r\n```",
+              "createdAt": "2024-07-05T06:31:26Z",
+              "updatedAt": "2024-07-05T06:31:26Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOLV8yHc6Av3Fm",
+          "commit": {
+            "abbreviatedOid": "a28afca"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-07-05T06:31:39Z",
+          "updatedAt": "2024-07-05T06:31:39Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "id": "PR_kwDOLV8yHc50eeDw",
+      "title": "Editorial suggestions and updated Security Considerations",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/30",
+      "state": "MERGED",
+      "author": "danielkinguk",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Changes include:\r\n- Several editorial tweaks in early section of the document. \r\n- Significantly increased Security Considerations.\r\n- Contributor Section.\r\n- Additional acknowledgement.  \r\n",
+      "createdAt": "2024-07-04T20:26:25Z",
+      "updatedAt": "2024-07-05T07:39:23Z",
+      "baseRepository": "cheneyzhoucheng/network-digital-twin",
+      "baseRefName": "main",
+      "baseRefOid": "2b18fb59aa528ecf4f57e850a569724a44faae3e",
+      "headRepository": "danielkinguk/network-digital-twin",
+      "headRefName": "main",
+      "headRefOid": "0e8b9d29a87be59ea50308f1c20411e48e2758ed",
+      "closedAt": "2024-07-05T07:39:22Z",
+      "mergedAt": "2024-07-05T07:39:22Z",
+      "mergedBy": "boucadair",
+      "mergeCommit": {
+        "oid": "a07e9363694b1625fb99ab48a134e3c058dcaa44"
+      },
+      "comments": [
+        {
+          "author": "danielkinguk",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Thanks Med, looks good. ",
+          "createdAt": "2024-07-05T07:22:33Z",
+          "updatedAt": "2024-07-05T07:22:33Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOLV8yHc6Av61-",
+          "commit": {
+            "abbreviatedOid": "2738e1d"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "Thanks, Daniel. Please find some proposed changes.\r\n\r\nI also fixed some trailing spaces directly in the file.",
+          "createdAt": "2024-07-05T06:39:28Z",
+          "updatedAt": "2024-07-05T06:56:21Z",
+          "comments": [
+            {
+              "originalPosition": 64,
+              "body": "```suggestion\r\nbeing widely adopted for Industry 4.0 use cases.  The reader may refer to {{concept}} for more details,.\r\n```",
+              "createdAt": "2024-07-05T06:39:28Z",
+              "updatedAt": "2024-07-05T06:56:21Z"
+            },
+            {
+              "originalPosition": 68,
+              "body": "```suggestion\r\nNetwork Digital Twin (NDT) is an advanced platform for network emulation, serving as a tool\r\n```",
+              "createdAt": "2024-07-05T06:40:24Z",
+              "updatedAt": "2024-07-05T06:56:21Z"
+            },
+            {
+              "originalPosition": 74,
+              "body": "```suggestion\r\nmodel, and refine optimization strategies under real conditions but in a risk-free environment. This ensures\r\n```",
+              "createdAt": "2024-07-05T06:42:01Z",
+              "updatedAt": "2024-07-05T06:56:21Z"
+            },
+            {
+              "originalPosition": 76,
+              "body": "```suggestion\r\nthorough validation and control checks. Moreover, a network digital twin captures and aggregates\r\n```",
+              "createdAt": "2024-07-05T06:42:46Z",
+              "updatedAt": "2024-07-05T06:56:21Z"
+            },
+            {
+              "originalPosition": 77,
+              "body": "```suggestion\r\ncritical data for analyzing the root causes of network failures, anomalies, vulnerabilities, etc. It also offers a sandbox\r\n```",
+              "createdAt": "2024-07-05T06:44:00Z",
+              "updatedAt": "2024-07-05T06:56:21Z"
+            },
+            {
+              "originalPosition": 78,
+              "body": "```suggestion\r\nfor testing hypotheses, exercising mitigation scenarios, and validating data-driven insights without affecting end-users.\r\n```",
+              "createdAt": "2024-07-05T06:44:41Z",
+              "updatedAt": "2024-07-05T06:56:21Z"
+            },
+            {
+              "originalPosition": 90,
+              "body": "```suggestion\r\nThis document describes concepts and definitions of NDT.\r\n```",
+              "createdAt": "2024-07-05T06:44:59Z",
+              "updatedAt": "2024-07-05T06:56:21Z"
+            },
+            {
+              "originalPosition": 92,
+              "body": "```suggestion\r\nconsiderations are abstract and generic, i.e., they provide mainly\r\n```",
+              "createdAt": "2024-07-05T06:46:27Z",
+              "updatedAt": "2024-07-05T06:56:21Z"
+            },
+            {
+              "originalPosition": 94,
+              "body": "```suggestion\r\ndeployment of NDT will need to carefully investigate\r\n```",
+              "createdAt": "2024-07-05T06:46:56Z",
+              "updatedAt": "2024-07-05T06:56:21Z"
+            },
+            {
+              "originalPosition": 102,
+              "body": "```suggestion\r\nSynchronization:\r\n: Synchronizing the data between the real and twin\r\n```",
+              "createdAt": "2024-07-05T06:47:28Z",
+              "updatedAt": "2024-07-05T06:56:21Z"
+            },
+            {
+              "originalPosition": 106,
+              "body": "```suggestion\r\nData Access:\r\n: Strict control and security mechanisms must be provided and\r\n```",
+              "createdAt": "2024-07-05T06:47:43Z",
+              "updatedAt": "2024-07-05T06:56:21Z"
+            },
+            {
+              "originalPosition": 107,
+              "body": "```suggestion\r\nenabled to prevent data leaks. Also, appropriate access rights must be provisioned to prevent unauthorized entities to access sensitive data (e.g., logging data used for legal data retention).\r\n```",
+              "createdAt": "2024-07-05T06:49:45Z",
+              "updatedAt": "2024-07-05T06:56:21Z"
+            },
+            {
+              "originalPosition": 118,
+              "body": "```suggestion\r\nConfidentiality:\r\n: Ensuring that sensitive data used in the digital twin\r\n```",
+              "createdAt": "2024-07-05T06:50:08Z",
+              "updatedAt": "2024-07-05T06:56:21Z"
+            },
+            {
+              "originalPosition": 126,
+              "body": "```suggestion\r\nIntegrity:\r\n: Ensuring that the data used in and produced by the digital\r\n```",
+              "createdAt": "2024-07-05T06:50:36Z",
+              "updatedAt": "2024-07-05T06:56:21Z"
+            },
+            {
+              "originalPosition": 130,
+              "body": "```suggestion\r\nAccess Control:\r\n: Implementing strict access control measures ensures that\r\n```",
+              "createdAt": "2024-07-05T06:50:50Z",
+              "updatedAt": "2024-07-05T06:56:22Z"
+            },
+            {
+              "originalPosition": 137,
+              "body": "```suggestion\r\nAuthentication and Authorization:\r\n: Ensuring robust authentication and\r\n```",
+              "createdAt": "2024-07-05T06:51:02Z",
+              "updatedAt": "2024-07-05T06:56:22Z"
+            },
+            {
+              "originalPosition": 141,
+              "body": "```suggestion\r\nVulnerability Management:\r\n: Regularly auditing, updating, and patching the digital\r\n```",
+              "createdAt": "2024-07-05T06:51:22Z",
+              "updatedAt": "2024-07-05T06:56:22Z"
+            },
+            {
+              "originalPosition": 144,
+              "body": "```suggestion\r\nMonitoring and Logging:\r\n: Implementing comprehensive logging and\r\n```",
+              "createdAt": "2024-07-05T06:51:38Z",
+              "updatedAt": "2024-07-05T06:56:22Z"
+            },
+            {
+              "originalPosition": 147,
+              "body": "```suggestion\r\n*  Network Security\r\n\r\n```",
+              "createdAt": "2024-07-05T06:51:51Z",
+              "updatedAt": "2024-07-05T06:56:22Z"
+            },
+            {
+              "originalPosition": 148,
+              "body": "```suggestion\r\nSegmentation:\r\n: Isolating the NDT environment from the\r\n```",
+              "createdAt": "2024-07-05T06:52:09Z",
+              "updatedAt": "2024-07-05T06:56:22Z"
+            },
+            {
+              "originalPosition": 151,
+              "body": "```suggestion\r\nEncryption:\r\n: Encrypting network communications to prevent interception and\r\n```",
+              "createdAt": "2024-07-05T06:52:18Z",
+              "updatedAt": "2024-07-05T06:56:22Z"
+            },
+            {
+              "originalPosition": 154,
+              "body": "```suggestion\r\nAccess Control List: Deploying\r\n```",
+              "createdAt": "2024-07-05T06:53:01Z",
+              "updatedAt": "2024-07-05T06:56:22Z"
+            },
+            {
+              "originalPosition": 155,
+              "body": "```suggestion\r\n, e.g., firewalls and IDS/IPS with appropriate policies to protect the NDT from external\r\n```",
+              "createdAt": "2024-07-05T06:53:28Z",
+              "updatedAt": "2024-07-05T06:56:22Z"
+            },
+            {
+              "originalPosition": 160,
+              "body": "```suggestion\r\nSystem Access:\r\n: Data verification, model validation, and mapping operations\r\n```",
+              "createdAt": "2024-07-05T06:53:39Z",
+              "updatedAt": "2024-07-05T06:56:22Z"
+            },
+            {
+              "originalPosition": 164,
+              "body": "```suggestion\r\nSecure Development Practices:\r\n: Ensuring the NDT software is\r\n```",
+              "createdAt": "2024-07-05T06:53:55Z",
+              "updatedAt": "2024-07-05T06:56:22Z"
+            },
+            {
+              "originalPosition": 167,
+              "body": "```suggestion\r\nIncident Response:\r\n: Having a well-defined incident response plan (e.g., playbooks) to address\r\n```",
+              "createdAt": "2024-07-05T06:54:22Z",
+              "updatedAt": "2024-07-05T06:56:22Z"
+            },
+            {
+              "originalPosition": 170,
+              "body": "```suggestion\r\nRegular Audits and Assessments:\r\n: Conduct security audits and risk assessments\r\n```",
+              "createdAt": "2024-07-05T06:54:35Z",
+              "updatedAt": "2024-07-05T06:56:22Z"
+            },
+            {
+              "originalPosition": 175,
+              "body": "```suggestion\r\nRedundancy:\r\n: Implementing redundancy and failover mechanisms ensures the\r\n```",
+              "createdAt": "2024-07-05T06:54:49Z",
+              "updatedAt": "2024-07-05T06:56:22Z"
+            },
+            {
+              "originalPosition": 176,
+              "body": "```suggestion\r\ndigital twin remains operational during and after a security/failure incident.\r\n```",
+              "createdAt": "2024-07-05T06:55:04Z",
+              "updatedAt": "2024-07-05T06:56:22Z"
+            },
+            {
+              "originalPosition": 178,
+              "body": "```suggestion\r\nBackup and Recovery:\r\n: Regularly back up NDT data and have a robust\r\n```",
+              "createdAt": "2024-07-05T06:55:19Z",
+              "updatedAt": "2024-07-05T06:56:22Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOLV8yHc6AwQLH",
+          "commit": {
+            "abbreviatedOid": "0e8b9d2"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-07-05T07:35:10Z",
+          "updatedAt": "2024-07-05T07:35:10Z",
+          "comments": []
         }
       ]
     }
