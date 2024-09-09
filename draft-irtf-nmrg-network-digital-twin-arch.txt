@@ -5,7 +5,7 @@
 Network Management                                               C. Zhou
 Internet-Draft                                                   H. Yang
 Intended status: Informational                                   X. Duan
-Expires: 6 January 2025                                     China Mobile
+Expires: 13 March 2025                                      China Mobile
                                                                 D. Lopez
                                                                A. Pastor
                                                           Telefonica I+D
@@ -14,7 +14,7 @@ Expires: 6 January 2025                                     China Mobile
                                                             M. Boucadair
                                                             C. Jacquenet
                                                                   Orange
-                                                             5 July 2024
+                                                        9 September 2024
 
 
        Network Digital Twin: Concepts and Reference Architecture
@@ -59,7 +59,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 6 January 2025.
+   This Internet-Draft will expire on 13 March 2025.
 
 Copyright Notice
 
@@ -728,29 +728,32 @@ Table of Contents
    o Basic models refer to network element models and network topology
    models used to reflect the basic configuration, environment
    information, operational state, link topology, etc. of the network
-   and its elements. o Functional models refer to various data or other
-   models used to generate information supporting network analysis,
-   emulation, diagnosis, prediction, assurance, etc.  The functional
-   models can be constructed and expanded in various ways: by network
-   type; there can be models serving single or multiple network domains;
-   by function type.  Functional models and the information they
-   generate can relate to state monitoring, traffic analysis, security
-   exercise, fault diagnosis, quality assurance and various network
-   lifecycle management goal - such as planning, construction,
-   maintenance, optimization and operation.  Functional models can also
-   be divided into general models and special-purpose models.  Multiple
-   models can be combined to create a model for more specific
-   application scenarios.  New applications might need new functional
-   models that do not yet exist.  If a new model is needed, the Service
-   Mapping Models subsystem may help to create new models based on data
-   retrieved from the Data Repository.
+   and its elements.
+
+   o Functional models refer to various data or other models used to
+   generate information supporting network analysis, emulation,
+   diagnosis, prediction, assurance, etc.  The functional models can be
+   constructed and expanded in various ways: by network type; there can
+   be models serving single or multiple network domains; by function
+   type.  Functional models and the information they generate can relate
+   to state monitoring, traffic analysis, security exercise, fault
+   diagnosis, quality assurance and various network lifecycle management
+   goal - such as planning, construction, maintenance, optimization and
+   operation.  Functional models can also be divided into general models
+   and special-purpose models.  Multiple models can be combined to
+   create a model for more specific application scenarios.  New
+   applications might need new functional models that do not yet exist.
+   If a new model is needed, the Service Mapping Models subsystem may
+   help to create new models based on data retrieved from the Data
+   Repository.
 
    The Network Digital Twin Management component manages the NDT
    operation and its subcomponents to useful effect, serving
    applications that require and make use of the information generated
-   by the NDT.  It manages the session-based operation of the NDT,
-   managing the life-cycle of these operations under the direction of
-   associated applications; it monitors the performance and resource
+   by the NDT through capability exposure interface.  It manages the
+   session-based operation of the NDT, managing the life-cycle of these
+   operations under the direction of associated applications through
+   intent input interface; it monitors the performance and resource
    consumption of the NDT (including individual models); and controls
    various operational aspects of the NDT, including topology
    management, model management and security management.
