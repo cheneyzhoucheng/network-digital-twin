@@ -1045,7 +1045,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 </tr></thead>
 <tfoot><tr>
 <td class="left">Zhou, et al.</td>
-<td class="center">Expires 13 March 2025</td>
+<td class="center">Expires 14 March 2025</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1058,12 +1058,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <dd class="internet-draft">draft-irtf-nmrg-network-digital-twin-arch-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2024-09-09" class="published">9 September 2024</time>
+<time datetime="2024-09-10" class="published">10 September 2024</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2025-03-13">13 March 2025</time></dd>
+<dd class="expires"><time datetime="2025-03-14">14 March 2025</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1144,7 +1144,7 @@ challenges.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 13 March 2025.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 14 March 2025.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1943,32 +1943,20 @@ architecture is depicted in <a href="#arc" class="auto internal xref">Figure 2</
 <figure id="figure-2">
         <div class="alignCenter art-text artwork" id="section-7-2.1">
 <pre>
-      +---------------------------------------------------------+
-      |   +-------+   +-------+          +-------+              |
-      |   | App 1 |   | App 2 |   ...    | App n |   Application|
-      |   +-------+   +-------+          +-------+              |
-      +-------------^-------------------+-----------------------+
-                    |Capability Exposure| Intent Input
-                    |                   |
-      +-------------+-------------------v-----------------------+
-      |                        Instance of Network Digital Twin |
-      |  +--------+   +------------------------+   +--------+   |
-      |  |        |   | Service Mapping Models |   |        |   |
-      |  |        |   |  +------------------+  |   |        |   |
-      |  | Data   +---&gt;  |Functional Models |  +---&gt; Digital|   |
-      |  | Repo-  |   |  +-----+-----^------+  |   | Twin   |   |
-      |  | sitory |   |        |     |         |   | Network|   |
-      |  |        |   |  +-----v-----+------+  |   |  Mgmt  |   |
-      |  |        &lt;---+  |  Basic Models    |  &lt;---+        |   |
-      |  |        |   |  +------------------+  |   |        |   |
-      |  +--------+   +------------------------+   +--------+   |
-      +--------^----------------------------+-------------------+
-               |                            |
-               | data collection            | control
-      +--------+----------------------------v-------------------+
-      |                      Real Network                       |
-      |                                                         |
-      +---------------------------------------------------------+
+           +---------------------------------------------------------+
+           |                        Instance of Network Digital Twin |
+           |  +--------+   +------------------------+   +--------+   |
+           |  |        |   | Service Mapping Models |   |        |   |
+   input   |  |        |   |  +------------------+  |   |        |   |  output
+interface  |  | Data   +---&gt;  |Functional Models |  +---&gt; Digital|   | interface
+  -------&gt; |  | Repo-  |   |  +-----+-----^------+  |   | Twin   |   |------&gt;
+           |  | sitory |   |        |     |         |   | Network|   |
+           |  |        |   |  +-----v-----+------+  |   |  Mgmt  |   |
+           |  |        &lt;---+  |  Basic Models    |  &lt;---+        |   |
+           |  |        |   |  +------------------+  |   |        |   |
+           |  +--------+   +------------------------+   +--------+   |
+           +---------------------------------------------------------+
+
 </pre>
 </div>
 <figcaption><a href="#figure-2" class="selfRef">Figure 2</a>:
@@ -1978,7 +1966,7 @@ architecture is depicted in <a href="#arc" class="auto internal xref">Figure 2</
 <p id="section-7-3">Section 4 describes functional characteristics or elements of NDT in four principal classes:
 data, models, interfaces, and mappings.<a href="#section-7-3" class="pilcrow">¶</a></p>
 <p id="section-7-4">This section describes the important functional components of NDTs - reflecting
-these functional elements - in greater detail. It also describes how an NDT consisting of these
+these functional elements - in greater detail. It also briefly describes how an NDT consisting of these
 components may be used in operations systems to deliver the various functional NDT use cases.<a href="#section-7-4" class="pilcrow">¶</a></p>
 <p id="section-7-5">The core functional components of an NDT may be posited as follows:
 a Data Repository component, a Service Mapping Models component, and an NDT Management
@@ -1989,9 +1977,10 @@ domain and coordinate among each other to provide services to operations applica
 instances may be maintained and operated in service of a given real network.<a href="#section-7-5" class="pilcrow">¶</a></p>
 <p id="section-7-6">The Data Repository component is responsible for collecting and storing network data. It collects and
 updates the real-time operational and instrumentation data of the various network elements through
-the appropriate real network-facing interface, as well as from other operations system
-components. It also provides data services (e.g., fast retrieval, concurrent conflict handling,
-batch service) through appropriate interfaces to a Service Mapping Models component.<a href="#section-7-6" class="pilcrow">¶</a></p>
+the appropriate real network-facing input interfaces (e.g., data collection interface, intent interface), as well as from
+other operations system components. It also provides data services (e.g., fast retrieval, concurrent conflict handling,
+batch service) through appropriate output interfaces (e.g., query interface ) to a Service
+Mapping Models component.<a href="#section-7-6" class="pilcrow">¶</a></p>
 <p id="section-7-7">Service Mapping Models complete data modeling, and provide data or other functional model instances
 supporting various network applications. Models include two major types, basic and functional models:<a href="#section-7-7" class="pilcrow">¶</a></p>
 <p id="section-7-8">o  Basic models refer to network element models and network topology models used to reflect the
@@ -2009,11 +1998,11 @@ supporting various network applications. Models include two major types, basic a
    needed, the Service Mapping Models subsystem may help to create new models based on data retrieved from
    the Data Repository.<a href="#section-7-9" class="pilcrow">¶</a></p>
 <p id="section-7-10">The Network Digital Twin Management component manages the NDT operation and its subcomponents to useful
-effect, serving applications that require and make use of the information generated by the NDT through
-capability exposure interface. It manages the session-based operation of the NDT, managing the life-cycle
-of these operations under the direction of associated applications through intent input interface; it monitors
-the performance and resource consumption of the NDT (including individual models); and controls various
-operational aspects of the NDT, including topology management, model management and security management.<a href="#section-7-10" class="pilcrow">¶</a></p>
+effect, serving applications that require and make use of the information generated by the NDT. It manages
+the session-based operation of the NDT, managing the life-cycle of these operations under the direction of
+associated applications; it monitors the performance and resource consumption of the NDT (including individual models);
+and controls various operational aspects of the NDT, including topology management, configuration management, performance
+management and security management.<a href="#section-7-10" class="pilcrow">¶</a></p>
 <p id="section-7-11">The "real network" – the physical counter-part of an NDT - can be a mobile access network, a transport network,
 a mobile core, a backbone, etc. The real network can also be a data center network, a campus enterprise network,
 an industrial Internet of Things, etc.
@@ -2021,7 +2010,7 @@ The real network can span across a single network administrative domain or multi
 It can include both physical entities and some virtual entities (e.g., vSwitches), which together carry
 traffic and provide actual network services.
 All or subset of network elements in the real network deliver network data, directly or through other systems, to
-the NDT, through appropriate interfaces. Network elements may receive control inputs, through specific interfaces,
+the NDT, through appropriate input interfaces. Network elements may receive control inputs, through specific output interfaces,
 from operations systems in which NDTs play a role.
 This document focuses on the IETF related real network such as IP bearer network and data center network.<a href="#section-7-11" class="pilcrow">¶</a></p>
 </section>

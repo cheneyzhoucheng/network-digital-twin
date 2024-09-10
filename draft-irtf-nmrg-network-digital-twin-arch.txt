@@ -5,7 +5,7 @@
 Network Management                                               C. Zhou
 Internet-Draft                                                   H. Yang
 Intended status: Informational                                   X. Duan
-Expires: 13 March 2025                                      China Mobile
+Expires: 14 March 2025                                      China Mobile
                                                                 D. Lopez
                                                                A. Pastor
                                                           Telefonica I+D
@@ -14,7 +14,7 @@ Expires: 13 March 2025                                      China Mobile
                                                             M. Boucadair
                                                             C. Jacquenet
                                                                   Orange
-                                                        9 September 2024
+                                                       10 September 2024
 
 
        Network Digital Twin: Concepts and Reference Architecture
@@ -59,7 +59,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 13 March 2025.
+   This Internet-Draft will expire on 14 March 2025.
 
 Copyright Notice
 
@@ -664,41 +664,29 @@ Table of Contents
    depicted in Figure 2.
 
            +---------------------------------------------------------+
-           |   +-------+   +-------+          +-------+              |
-           |   | App 1 |   | App 2 |   ...    | App n |   Application|
-           |   +-------+   +-------+          +-------+              |
-           +-------------^-------------------+-----------------------+
-                         |Capability Exposure| Intent Input
-                         |                   |
-           +-------------+-------------------v-----------------------+
            |                        Instance of Network Digital Twin |
            |  +--------+   +------------------------+   +--------+   |
            |  |        |   | Service Mapping Models |   |        |   |
-           |  |        |   |  +------------------+  |   |        |   |
-           |  | Data   +--->  |Functional Models |  +---> Digital|   |
-           |  | Repo-  |   |  +-----+-----^------+  |   | Twin   |   |
+   input   |  |        |   |  +------------------+  |   |        |   |  output
+interface  |  | Data   +--->  |Functional Models |  +---> Digital|   | interface
+  -------> |  | Repo-  |   |  +-----+-----^------+  |   | Twin   |   |------>
            |  | sitory |   |        |     |         |   | Network|   |
            |  |        |   |  +-----v-----+------+  |   |  Mgmt  |   |
            |  |        <---+  |  Basic Models    |  <---+        |   |
            |  |        |   |  +------------------+  |   |        |   |
            |  +--------+   +------------------------+   +--------+   |
-           +--------^----------------------------+-------------------+
-                    |                            |
-                    | data collection            | control
-           +--------+----------------------------v-------------------+
-           |                      Real Network                       |
-           |                                                         |
            +---------------------------------------------------------+
 
-          Figure 2: Reference Architecture of Network Digital Twin
+       Figure 2: Reference Architecture of Network Digital Twin
 
    Section 4 describes functional characteristics or elements of NDT in
    four principal classes: data, models, interfaces, and mappings.
 
    This section describes the important functional components of NDTs -
    reflecting these functional elements - in greater detail.  It also
-   describes how an NDT consisting of these components may be used in
-   operations systems to deliver the various functional NDT use cases.
+   briefly describes how an NDT consisting of these components may be
+   used in operations systems to deliver the various functional NDT use
+   cases.
 
    The core functional components of an NDT may be posited as follows: a
    Data Repository component, a Service Mapping Models component, and an
@@ -714,11 +702,12 @@ Table of Contents
    The Data Repository component is responsible for collecting and
    storing network data.  It collects and updates the real-time
    operational and instrumentation data of the various network elements
-   through the appropriate real network-facing interface, as well as
-   from other operations system components.  It also provides data
-   services (e.g., fast retrieval, concurrent conflict handling, batch
-   service) through appropriate interfaces to a Service Mapping Models
-   component.
+   through the appropriate real network-facing input interfaces (e.g.,
+   data collection interface, intent interface), as well as from other
+   operations system components.  It also provides data services (e.g.,
+   fast retrieval, concurrent conflict handling, batch service) through
+   appropriate output interfaces (e.g., query interface ) to a Service
+   Mapping Models component.
 
    Service Mapping Models complete data modeling, and provide data or
    other functional model instances supporting various network
@@ -750,13 +739,13 @@ Table of Contents
    The Network Digital Twin Management component manages the NDT
    operation and its subcomponents to useful effect, serving
    applications that require and make use of the information generated
-   by the NDT through capability exposure interface.  It manages the
-   session-based operation of the NDT, managing the life-cycle of these
-   operations under the direction of associated applications through
-   intent input interface; it monitors the performance and resource
+   by the NDT.  It manages the session-based operation of the NDT,
+   managing the life-cycle of these operations under the direction of
+   associated applications; it monitors the performance and resource
    consumption of the NDT (including individual models); and controls
    various operational aspects of the NDT, including topology
-   management, model management and security management.
+   management, configuration management, performance management and
+   security management.
 
    The "real network" – the physical counter-part of an NDT - can be a
    mobile access network, a transport network, a mobile core, a
@@ -768,10 +757,10 @@ Table of Contents
    which together carry traffic and provide actual network services.
    All or subset of network elements in the real network deliver network
    data, directly or through other systems, to the NDT, through
-   appropriate interfaces.  Network elements may receive control inputs,
-   through specific interfaces, from operations systems in which NDTs
-   play a role.  This document focuses on the IETF related real network
-   such as IP bearer network and data center network.
+   appropriate input interfaces.  Network elements may receive control
+   inputs, through specific output interfaces, from operations systems
+   in which NDTs play a role.  This document focuses on the IETF related
+   real network such as IP bearer network and data center network.
 
 8.  A Sample NDT Realization
 
