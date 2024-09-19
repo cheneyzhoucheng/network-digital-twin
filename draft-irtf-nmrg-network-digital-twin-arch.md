@@ -846,7 +846,7 @@ It can include both physical entities and some virtual entities (e.g., vSwitches
 traffic and provide actual network services.
 All or subset of network elements in the real network deliver network data, directly or through other systems, to
 the NDT, through appropriate input interfaces. Network elements may receive control inputs, through specific output interfaces,
-from operations systems in which NDTs play a role. The input interfaces and output interfaces might vary in functional NDT use cases.
+from operations systems in which NDTs play a role. The input and output interfaces might vary as a function of the specific NDT use case. The number of input interfaces or output interfaces are also determined by specific NDT use cases.
 This document focuses on the IETF related real network such as IP bearer network and data center network.
 
 # A Sample NDT Realization
