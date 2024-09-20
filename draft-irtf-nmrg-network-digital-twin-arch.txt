@@ -5,7 +5,7 @@
 Network Management                                               C. Zhou
 Internet-Draft                                                   H. Yang
 Intended status: Informational                                   X. Duan
-Expires: 14 March 2025                                      China Mobile
+Expires: 24 March 2025                                      China Mobile
                                                                 D. Lopez
                                                                A. Pastor
                                                           Telefonica I+D
@@ -14,7 +14,7 @@ Expires: 14 March 2025                                      China Mobile
                                                             M. Boucadair
                                                             C. Jacquenet
                                                                   Orange
-                                                       10 September 2024
+                                                       20 September 2024
 
 
        Network Digital Twin: Concepts and Reference Architecture
@@ -59,7 +59,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 14 March 2025.
+   This Internet-Draft will expire on 24 March 2025.
 
 Copyright Notice
 
@@ -742,7 +742,7 @@ interface  |  | Data   +--->  |Functional Models |  +---> Digital|   | interface
    by the NDT.  It manages the session-based operation of the NDT,
    managing the life-cycle of these operations under the direction of
    associated applications; it monitors the performance and resource
-   consumption of the NDT (including individual models); and controls
+   consumption of the NDT (including individual models) and controls
    various operational aspects of the NDT, including topology
    management, configuration management, performance management and
    security management.
@@ -759,8 +759,11 @@ interface  |  | Data   +--->  |Functional Models |  +---> Digital|   | interface
    data, directly or through other systems, to the NDT, through
    appropriate input interfaces.  Network elements may receive control
    inputs, through specific output interfaces, from operations systems
-   in which NDTs play a role.  This document focuses on the IETF related
-   real network such as IP bearer network and data center network.
+   in which NDTs play a role.  The input and output interfaces might
+   vary as a function of the specific NDT use case.  The number of input
+   interfaces or output interfaces are also determined by specific NDT
+   use cases.  This document focuses on the IETF related real network
+   such as IP bearer network and data center network.
 
 8.  A Sample NDT Realization
 
@@ -1366,9 +1369,9 @@ interface  |  | Data   +--->  |Functional Models |  +---> Digital|   | interface
               Wu, Q., Song, W., Liu, P., Ma, Q., Wang, W., and Z. Niu,
               "Adaptive Subscription to YANG Notification", Work in
               Progress, Internet-Draft, draft-ietf-netconf-adaptive-
-              subscription-05, 13 June 2024,
+              subscription-06, 11 September 2024,
               <https://datatracker.ietf.org/doc/html/draft-ietf-netconf-
-              adaptive-subscription-05>.
+              adaptive-subscription-06>.
 
    [I-D.zcz-nmrg-digitaltwin-data-collection]
               Zhou, C., Chen, D., Martinez-Julia, P., and Q. Ma, "Data
