@@ -778,7 +778,7 @@ architecture is depicted in {{arc}}.
            |  +--------+   +------------------------+   +--------+   |
            |  |        |   | Service Mapping Models |   |        |   |
    input   |  |        |   |  +------------------+  |   |        |   |  output
-interface  |  | Data   +--->  |Functional Models |  +---> Digital|   | interface
+interfaces |  | Data   +--->  |Functional Models |  +---> Digital|   | interfaces
   -------> |  | Repo-  |   |  +-----+-----^------+  |   | Twin   |   |------>
            |  | sitory |   |        |     |         |   | Network|   |
            |  |        |   |  +-----v-----+------+  |   |  Mgmt  |   |
