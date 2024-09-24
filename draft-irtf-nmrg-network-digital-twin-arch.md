@@ -12,9 +12,18 @@ v: 3
 area: "IRTF"
 workgroup: "Network Management"
 keyword:
- - Network Digital Twin
+ - Emulation
+ - Simulation
+ - What-if scenario
+ - optimization
+ - service delivery
+ - automation
  - model
- - data driven management
+ - data-driven management
+ - data models
+ - closed-loop
+ - assurance
+ - fulfillment
 
 
 author:
@@ -807,7 +816,7 @@ instances may be maintained and operated in service of a given real network.
 
 The Data Repository component is responsible for collecting and storing network data. It collects and
 updates the real-time operational and instrumentation data of the various network elements through
-the appropriate real network-facing input interfaces (e.g., data collection interface, intent interface), as well as from
+the appropriate real network-facing input interfaces (e.g., data collection interface and intent interface), as well as from
 other operations system components. It also provides data services (e.g., fast retrieval, concurrent conflict handling,
 batch service) through appropriate output interfaces (e.g., query interface ) to a Service
 Mapping Models component.
@@ -836,11 +845,11 @@ effect, serving applications that require and make use of the information genera
 the session-based operation of the NDT, managing the life-cycle of these operations under the direction of
 associated applications; it monitors the performance and resource consumption of the NDT (including individual models)
 and controls various operational aspects of the NDT, including topology management, configuration management, performance
-management and security management.
+management, and security management.
 
 The "real network" – the physical counter-part of an NDT - can be a mobile access network, a transport network,
 a mobile core, a backbone, etc. The real network can also be a data center network, a campus enterprise network,
-an industrial Internet of Things, etc.
+an industrial Internet of Things (IoT), etc.
 The real network can span across a single network administrative domain or multiple network administrative domains.
 It can include both physical entities and some virtual entities (e.g., vSwitches), which together carry
 traffic and provide actual network services.
@@ -1214,7 +1223,7 @@ vulnerabilities, bugs and zero-day attacks before production delivery.
 ## Network Inventory Management
 
 With the development of enterprise digitization, the number of enterprise
-Internet of Objects (IoT) devices, virtualized Cloud software inventory
+IoT devices, virtualized Cloud software inventory
 components (e.g., virtual firewall), and network hardware inventory (e.g.,
 switches or routers) also increases. The endpoints connected to an enterprise
 network lack coherent modelling and lifecycle management because different
