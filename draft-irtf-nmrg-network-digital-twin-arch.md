@@ -12,6 +12,7 @@ v: 3
 area: "IRTF"
 workgroup: "Network Management"
 keyword:
+
  - Emulation
  - Simulation
  - What-if scenario
@@ -394,7 +395,7 @@ various 'digital twin' applications.  At the same time, in the face
 of increasing business types, scale and complexity, a network itself
 also needs to use digital twin technology to seek enhanced and
 optimized solutions compared to relying solely on the real network.
-The motivation for Network Digital Twin can somehow be traced back to
+The motivation for Network Digital Twin can be traced back to
 some earlier concepts, such as "shadow MIB", inductive modeling
 techniques, parallel systems, etc.  Since 2017, the application of
 digital twin technology in the field of communication networks has
@@ -412,9 +413,9 @@ edge computing system provides data for training offloading strategy.
 {{Nguyen2021}} discusses how to deploy a digital twin for complex 5G
 networks.  {{Hong2021}} presents a digital twin platform towards
 automatic and intelligent management for data center networks, and
-then proposes a simplified the workflows of network service
+then proposes a simplified workflow of network service
 management.  {{Dai2022}} gives the concept of digital twin and proposes
-an digital twin-enabled vehicular edge computing (VEC) network, where
+a digital twin-enabled vehicular edge computing (VEC) network, where
 digital twin can enable adaptive network management via the two-
 closed loops between physical VEC networks and digital twins.  In
 addition, international workshops dedicated to digital twin in
@@ -423,18 +424,18 @@ Digital Twin Network Online Session {{DTPI2021}}, {{DTPI2022}}, and IEEE
 NOMS 2022 - TNT workshop {{TNT2022}}.
 
 Although the application of digital twin technology in networking has
-started, the research of digital twin for networks technology is
+started, the research on digital twins for networks technology is
 still in its infancy.  Current applications focus on specific
-scenarios (such as network optimization), where Network Digital Twin
-is just used as a network simulation tool to solve the problem of
+scenarios (such as network optimization), where a Network Digital Twin
+is used as a network simulation tool to solve particular problems in
 network operation and maintenance.  Combined with the characteristics
 of digital twin technology and its application in other industries,
 this document believes that Network Digital Twin can be regarded as
-an indispensable part of the overall network system and provides a
-general architecture involving the whole life cycle of a "real"
-(typically, physical) network in the future, serving the application
-of network innovative technologies such as network planning, construction,
-maintenance and optimization, improving the automation and intelligence
+an indispensable part of the overall network system, and can play a role
+generally in architectures serving use cases across  the whole life cycle of a "real"
+(typically, physical) network. Such use cases and applications span the
+range of network operations such as network planning, construction,
+maintenance and optimization, and improving the automation and intelligence
 level of the network.
 
 # Characteristics of Network Digital Twin  {#def}
@@ -442,18 +443,18 @@ level of the network.
 So far, there is no standard definition for characteristic of "network
 digital twin" within the networking industry. This document introduces five
 key elements (i.e., data, models, mapping, interfaces, and logic) to characterize
-the Network Digital Twin. These five elements can be integrated into a network
-management system to analyze, diagnose, emulate, and control the real network.
-To that aim, a real-time and interactive mapping is required between the real
-network and its virtual twin network.  Whether a Digital Twin supports all or
-a subset of the functions above (i.e., analyze, diagnose, emulate, and control)
-is deployment-specific.
+the Network Digital Twin and its use. These five elements can be integrated into a 
+network management system to analyze, diagnose, emulate, and control the real 
+network. To that aim, a real-time and interactive mapping is required between the 
+real network and its virtual twin network.  Whether a Network Digital Twin is used in
+support all of or a subset of the functions above (i.e., analyze, diagnose, emulate, 
+and control) is use case and deployment-specific.
 
 Referring to the characteristics of digital twins in other industries and the
-characteristics of networking itself, the digital twin network should involve
-at least five key elements: data, mapping, models, interfaces, and logic, as
-shown in {{kelem}}. This provides the information to the application or entity
-that consumes the information to analyze, diagnose, or control.
+characteristics of networking itself, the network digital twin and its use should 
+involve at least five key elements: data, mapping, models, interfaces, and logic, as
+shown in {{kelem}}. This first four elements together provide information to applications
+or architectural entities that consume it in service of analysis, diagnosis, control, etc.
 
 ~~~~
 +-------------------------------------------------+
@@ -509,11 +510,8 @@ that consumes the information to analyze, diagnose, or control.
   twin with real network operations systems. There are two major types of interfaces:
 
     *	The interface between the Network Digital Twin platform and the real network
-    infrastructure, directly or through an associated operations (i.e. planning,
-control, management) system.
-
-    *	The interface between Network Digital Twin platform and operations applications
-    that consume the information provided by the NDT.
+    infrastructure, directly or through an associated operations (i.e. planning,control, management) system.
+    *	The interface between Network Digital Twin platform and logic - operations applications - that consume the information provided by the NDT.
 
   : The former provides real-time data collection from the real network. The latter helps
   in delivering application requests to the Network Digital Twin platform and exposing
@@ -560,8 +558,8 @@ control, management) system.
 
   Logic:
   : Network digital twin facilitates optimal resource allocation and configuration, enhancing
-  efficiency and performance. They enable comprehensive troubleshooting maintenance and control by
-  diagnosing issues in the digital twin. Moreover, Network Digital Twins play a crucial role in planning
+  efficiency and performance. They can enable comprehensive troubleshooting maintenance and control by
+  diagnosing issues using the digital twin. Moreover, Network Digital Twins play a crucial role in planning
   and deployment, allowing for the simulation of new designs and configurations to anticipate their effects
   before implementation.
 
@@ -858,7 +856,7 @@ the NDT, through appropriate input interfaces. Network elements may receive cont
 from operations systems in which NDTs play a role. The input and output interfaces might vary as a function of the specific NDT use case. The number of input interfaces or output interfaces are also determined by specific NDT use cases.
 This document focuses on the IETF related real network such as IP bearer network and data center network.
 
-# A Sample NDT Realization
+# A Sample NDT-Based Use Case Realization
 
 Considerable industry work and research has focused on automation-supporting
 network systems. For example, {{ETSI-GS-ZSM-002}} describes a framework
@@ -871,15 +869,16 @@ orchestration/control services.
 
 The role and utility of NDT may be represented architecturally by following
 similar principles, e.g., {{ETSI-GS-ZSM-015}} or {{?RFC8969}}. As described in Section 7, an
-NDT instantiation encompasses models, data, mapping, and interfaces. These
-components then work in composition with other functions or services
+NDT instantiation encompasses at the core models, data, mapping, and interfaces. These
+components then work in composition with other logic, functions or services
 to deliver an overall functional architecture matching specific NDT use cases.
 
-For example: an NDT instance may be used as a core element of an intent-drive network controller.
+For example: an NDT instance may be used as a core element of an intent-driven network controller.
 In such a case, an "outer" closed-loop (or, intent-assurance closed-loop) would detect
 gaps between target service objectives set by intents and actual observed service characteristics,
-find and proposed candidate mitigation solutions to soften the observed deviation, and drive the enforcement of the mitigation in the network.
-Finding such mitigations would rely on multiple "inner loops" that include an NDT: for example,
+find and propose candidate mitigation solutions to soften the observed deviation, and drive the enforcement of the mitigation in the network.
+
+Finding such mitigations would rely e.g. on an "inner loop" that include an NDT: for example,
 prospective solutions would be proposed, their impacts on services evaluated by the
 NDT acting as a "sandbox" in virtual space, and the process might be iterated until
 a satisfactory solution is found. At that point, the selected mitigation is passed
