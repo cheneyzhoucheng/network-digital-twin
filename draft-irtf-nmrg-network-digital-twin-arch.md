@@ -12,7 +12,6 @@ v: 3
 area: "IRTF"
 workgroup: "Network Management"
 keyword:
-
  - Emulation
  - Simulation
  - What-if scenario
