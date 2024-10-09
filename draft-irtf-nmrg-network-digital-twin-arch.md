@@ -433,7 +433,7 @@ this document believes that Network Digital Twin can be regarded as
 an indispensable part of the overall network system, and can play an
 important role generally in architectures serving use cases across the
 whole life cycle of a "real" (typically, physical) network. Such use cases
-and applications span the range of network operations such as network
+and applications span the range of network operations (e.g., network
 planning, construction, maintenance and optimization, and improve the
 automation and intelligence level of the network.
 
