@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-10-08T01:43:55.827762+00:00",
+  "timestamp": "2024-10-10T01:43:21.731120+00:00",
   "repo": "cheneyzhoucheng/network-digital-twin",
   "labels": [
     {
@@ -2422,6 +2422,127 @@
           "createdAt": "2024-09-20T07:37:05Z",
           "updatedAt": "2024-09-20T07:37:05Z",
           "comments": []
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "id": "PR_kwDOLV8yHc5-CYfG",
+      "title": "Some Editorial changes proposed by Chris for final check",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/34",
+      "state": "MERGED",
+      "author": "billwuqin",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-10-09T07:28:23Z",
+      "updatedAt": "2024-10-09T08:25:44Z",
+      "baseRepository": "cheneyzhoucheng/network-digital-twin",
+      "baseRefName": "main",
+      "baseRefOid": "2fbe7a33ee3667604cb91d5a7147b04c824c023d",
+      "headRepository": "cheneyzhoucheng/network-digital-twin",
+      "headRefName": "billwuqin-patch-10",
+      "headRefOid": "7be763919a007bdaee6ac50763bf2f4acfe3378a",
+      "closedAt": "2024-10-09T08:25:44Z",
+      "mergedAt": "2024-10-09T08:25:44Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "51f76cf477857c252c7c4757ae8519b901799efe"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOLV8yHc6Mci9U",
+          "commit": {
+            "abbreviatedOid": "d73cb53"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "Thanks.",
+          "createdAt": "2024-10-09T07:33:17Z",
+          "updatedAt": "2024-10-09T07:36:17Z",
+          "comments": [
+            {
+              "originalPosition": 41,
+              "body": "```suggestion\r\nand applications span the range of network operations (e.g., network\r\n```",
+              "createdAt": "2024-10-09T07:33:17Z",
+              "updatedAt": "2024-10-09T07:36:17Z"
+            },
+            {
+              "originalPosition": 43,
+              "body": "```suggestion\r\nautomation and intelligence level of the network).\r\n```",
+              "createdAt": "2024-10-09T07:33:28Z",
+              "updatedAt": "2024-10-09T07:36:17Z"
+            },
+            {
+              "originalPosition": 119,
+              "body": "```suggestion\r\npropose candidate mitigation solutions to soften the observed deviation, and drive the\r\n```",
+              "createdAt": "2024-10-09T07:35:09Z",
+              "updatedAt": "2024-10-09T07:36:17Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOLV8yHc6McmzG",
+          "commit": {
+            "abbreviatedOid": "d73cb53"
+          },
+          "author": "billwuqin",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-10-09T07:38:19Z",
+          "updatedAt": "2024-10-09T07:38:19Z",
+          "comments": [
+            {
+              "originalPosition": 41,
+              "body": "Good change",
+              "createdAt": "2024-10-09T07:38:19Z",
+              "updatedAt": "2024-10-09T07:38:19Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOLV8yHc6Mcns7",
+          "commit": {
+            "abbreviatedOid": "d73cb53"
+          },
+          "author": "billwuqin",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-10-09T07:39:28Z",
+          "updatedAt": "2024-10-09T07:39:28Z",
+          "comments": [
+            {
+              "originalPosition": 119,
+              "body": "Good change",
+              "createdAt": "2024-10-09T07:39:28Z",
+              "updatedAt": "2024-10-09T07:39:28Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOLV8yHc6Mc2q_",
+          "commit": {
+            "abbreviatedOid": "d73cb53"
+          },
+          "author": "billwuqin",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-10-09T08:02:16Z",
+          "updatedAt": "2024-10-09T08:02:17Z",
+          "comments": [
+            {
+              "originalPosition": 43,
+              "body": "Med, Can you check again whether this right \r\nparentheses is needed\uff1f",
+              "createdAt": "2024-10-09T08:02:16Z",
+              "updatedAt": "2024-10-09T08:02:17Z"
+            }
+          ]
         }
       ]
     }
