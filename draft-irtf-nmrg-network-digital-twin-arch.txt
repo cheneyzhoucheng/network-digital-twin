@@ -5,7 +5,7 @@
 Network Management                                               C. Zhou
 Internet-Draft                                                   H. Yang
 Intended status: Informational                                   X. Duan
-Expires: 12 April 2025                                      China Mobile
+Expires: 19 April 2025                                      China Mobile
                                                                 D. Lopez
                                                                A. Pastor
                                                           Telefonica I+D
@@ -14,7 +14,7 @@ Expires: 12 April 2025                                      China Mobile
                                                             M. Boucadair
                                                             C. Jacquenet
                                                                   Orange
-                                                          9 October 2024
+                                                         16 October 2024
 
 
        Network Digital Twin: Concepts and Reference Architecture
@@ -59,7 +59,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 12 April 2025.
+   This Internet-Draft will expire on 19 April 2025.
 
 Copyright Notice
 
@@ -131,7 +131,7 @@ Table of Contents
    life-cycle, comprehensive data-driven network infrastructure.
    Digital twins have gained widespread recognition in academic
    publications and are now being widely adopted for Industry 4.0 use
-   cases.  The reader may refer to Section 3 for more details,.
+   cases.  The reader may refer to Section 3 for more details.
 
    A digital twin for networks can be created by applying Digital Twin
    technologies to networks, resulting in a virtual replica of real
