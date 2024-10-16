@@ -282,7 +282,7 @@ virtual-reality interrelation and real-time interaction, iterative operation and
 optimization, and full life-cycle, comprehensive data-driven network infrastructure.
 Digital twins have gained widespread recognition in academic publications and are now
 being widely adopted for Industry 4.0 use cases.  The reader may refer to {{concept}} for
-more details,.
+more details.
 
 A digital twin for networks can be created by applying Digital Twin technologies to
 networks, resulting in a virtual replica of real network facilities (emulation). A
