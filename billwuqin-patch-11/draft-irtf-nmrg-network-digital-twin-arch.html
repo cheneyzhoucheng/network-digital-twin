@@ -24,7 +24,7 @@ provides the basic definitions and a reference architecture, lists a set of
 application scenarios, and discusses such technology's benefits and key
 challenges. 
     " name="description">
-<meta content="xml2rfc 3.23.1" name="generator">
+<meta content="xml2rfc 3.25.0" name="generator">
 <meta content="Emulation" name="keyword">
 <meta content="Simulation" name="keyword">
 <meta content="What-if scenario" name="keyword">
@@ -39,16 +39,16 @@ challenges.
 <meta content="fulfillment" name="keyword">
 <meta content="draft-irtf-nmrg-network-digital-twin-arch-latest" name="ietf.draft">
 <!-- Generator version information:
-  xml2rfc 3.23.1
-    Python 3.12.6
+  xml2rfc 3.25.0
+    Python 3.12.8
     ConfigArgParse 1.7
     google-i18n-address 3.1.1
     intervaltree 3.1.0
     Jinja2 3.1.4
-    lxml 4.9.4
+    lxml 5.3.0
     platformdirs 4.3.6
-    pycountry 22.3.5
-    PyYAML 6.0.1
+    pycountry 24.6.1
+    PyYAML 6.0.2
     requests 2.32.3
     setuptools 70.3.0
     wcwidth 0.2.13
@@ -187,31 +187,6 @@ challenges.
 }
 
 @font-face {
-  font-family: 'Cabin Condensed';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: local('Cabin Condensed SemiBold'), local('CabinCondensed-SemiBold'), url('https://martinthomson.github.io/rfc-css/fonts/cabincondensed-semibold-vietnamese.woff2') format('woff2');
-  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
-}
-@font-face {
-  font-family: 'Cabin Condensed';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: local('Cabin Condensed SemiBold'), local('CabinCondensed-SemiBold'), url('https://martinthomson.github.io/rfc-css/fonts/cabincondensed-semibold-latin-ext.woff2') format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-@font-face {
-  font-family: 'Cabin Condensed';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: local('Cabin Condensed SemiBold'), local('CabinCondensed-SemiBold'), url('https://martinthomson.github.io/rfc-css/fonts/cabincondensed-semibold-latin.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
   font-family: 'Oxygen Mono';
   font-style: normal;
   font-weight: 400;
@@ -228,6 +203,77 @@ challenges.
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  font-style: italic;
+  font-weight: 1 1000;
+  src: url('https://martinthomson.github.io/rfc-css/fonts/sofiasanssemicondensed-italic-cyrillic-ext.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  font-style: italic;
+  font-weight: 1 1000;
+  src: url('https://martinthomson.github.io/rfc-css/fonts/sofiasanssemicondensed-italic-cyrillic.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  font-style: italic;
+  font-weight: 1 1000;
+  src: url('https://martinthomson.github.io/rfc-css/fonts/sofiasanssemicondensed-italic-greek.woff2') format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  font-style: italic;
+  font-weight: 1 1000;
+  src: url('https://martinthomson.github.io/rfc-css/fonts/sofiasanssemicondensed-italic-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  font-style: italic;
+  font-weight: 1 1000;
+  src: url('https://martinthomson.github.io/rfc-css/fonts/sofiasanssemicondensed-italic-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  font-style: normal;
+  font-weight: 1 1000;
+  src: url('https://martinthomson.github.io/rfc-css/fonts/sofiasanssemicondensed-regular-cyrillic-ext.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  font-style: normal;
+  font-weight: 1 1000;
+  src: url('https://martinthomson.github.io/rfc-css/fonts/sofiasanssemicondensed-regular-cyrillic.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  font-style: normal;
+  font-weight: 1 1000;
+  src: url('https://martinthomson.github.io/rfc-css/fonts/sofiasanssemicondensed-regular-greek.woff2') format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  font-style: normal;
+  font-weight: 1 1000;
+  src: url('https://martinthomson.github.io/rfc-css/fonts/sofiasanssemicondensed-regular-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  font-style: normal;
+  font-weight: 1 1000;
+  src: url('https://martinthomson.github.io/rfc-css/fonts/sofiasanssemicondensed-regular-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 :root {
   color-scheme: light dark;
   --background-color: #fff;
@@ -240,6 +286,7 @@ challenges.
   --pilcrow-strong: #bbb;
   --small-font-size: 14.5px;
   --font-mono: 'Oxygen Mono', monospace;
+  --font-title: "Sofia Sans Semi Condensed", sans-serif;
   scrollbar-color: #bbb #eee;
 }
 body {
@@ -257,9 +304,15 @@ body {
 }
 
 /* headings */
+section {
+  clear: both;
+}
+.section-number {
+  padding-right: 0.5em;
+}
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Cabin Condensed", sans-serif;
-  font-weight: 600;
+  font-family: var(--font-title);
+  font-weight: 680;
   margin: 0.8em 0 0.3em;
   font-size-adjust: 0.5;
   color: var(--title-color);
@@ -288,6 +341,7 @@ h4, h5, h6 {
 /* general structure */
 .author {
   padding-bottom: 0.3em;
+  vertical-align: top;
 }
 #abstract+p {
   font-size: 18px;
@@ -365,25 +419,26 @@ svg[font-family~="monospace" i], svg [font-family~="monospace" i] {
 ol, ul {
   padding: 0;
   margin: 0 0 0.5em 2em;
-}
-:is(ol, ul) :is(ol, ul) {
-  margin-left: 1em;
+  & :is(ol, ul) {
+    margin-left: 1em;
+  }
 }
 li {
   margin: 0 0 0.25em 0;
 }
-.ulCompact li {
-  margin: 0;
-}
 ul.empty, .ulEmpty {
   list-style-type: none;
-}
-ul.empty li, .ulEmpty li {
-  margin-top: 0.5em;
+  & li {
+    margin-top: 0.5em;
+  }
 }
 :is(ul, ol).compact, .ulCompact, .olCompact {
-  line-height: 1;
   margin: 0 0 0 2em;
+  & li {
+    margin: 0;
+    & :first-child { margin-top: 0; }
+    & :last-child { margin-bottom: 0; }
+  }
 }
 
 /* definition lists */
@@ -391,38 +446,39 @@ dl {
   clear: left;
   --indent: 3ch;
   /* --indent: attr(indent ch); not supported in any browser, but we can dream */
-}
-dl.olPercent {
-  --indent: 5ch;
+  &.olPercent {
+    --indent: 5ch;
+    & > dt {
+      min-width: calc(var(--indent) - 2ch);
+    }
+  }
+  &.olPercent > dt {
+    float: none;
+  }
+
+  dl > dd > & {
+    margin-top: 0.5em;
+    margin-bottom: 0;
+  }
 }
 dl > dt {
   float: left;
   margin-right: 2ch;
   min-width: 8ch;
 }
-dl.dlNewline > dt {
-  float: none;
-}
 dl > dd {
   margin-bottom: .8em;
   margin-left: var(--indent) !important; /* stupid element overrides */
   min-height: 2ex;
 }
-dl.olPercent > dt {
-  min-width: calc(var(--indent) - 2ch);
-}
 :is(dl.compact, .dlCompact) > dd {
   margin-bottom: 0;
-}
-:is(dl.compact, .dlCompact) > dd > :is(:first-child, .break:first-child + *) {
-  margin-top: 0;
-}
-:is(dl.compact, .dlCompact) > dd > :is(:last-child) {
-  margin-bottom: 0;
-}
-dl > dd > dl {
-  margin-top: 0.5em;
-  margin-bottom: 0;
+  & > :is(:first-child, .break:first-child + *) {
+    margin-top: 0;
+  }
+  & > :is(:last-child) {
+    margin-bottom: 0;
+  }
 }
 :is(dd, span).break {
   display: none;
@@ -486,6 +542,7 @@ figcaption, caption {
   font-style: italic;
   margin: 0.5em 1.5em;
   text-align: left;
+  caption-side: bottom;
 }
 @media screen {
   /* Auto-collapse boilerplate. */
@@ -503,7 +560,11 @@ figcaption, caption {
   }
   pre, svg {
     display: inline-block;
-    overflow-x: auto;
+    /* In the horizontal direction, sometimes people make over-sized figures.
+       Scrollbars for those is therefore necessary: auto adds them as necessary..
+       In the vertical direction, the line-height can combine with the font
+       asender/descender height to produce scrollbars: hidden avoids that. */
+    overflow: auto hidden;
   }
   pre {
     max-width: 100%;
@@ -540,6 +601,7 @@ cite {
 
 /* tables */
 table {
+  width: auto;
   max-width: 100%;
   margin: 0 0 1em;
   border-collapse: collapse;
@@ -554,6 +616,16 @@ table.center {
 table.left {
   margin-right: auto;
 }
+table .text-left {
+  text-align: left;
+}
+table .text-center {
+  text-align: center;
+}
+table .text-right {
+  text-align: right;
+}
+
 thead, tbody {
   border: 1px solid var(--line-color);
 }
@@ -584,9 +656,11 @@ a.pilcrow {
   margin-left: 3px;
   opacity: 0.2;
   user-select: none;
+  &[href] {
+    color: var(--pilcrow-weak);
+    &:hover { text-decoration: none; }
+  }
 }
-a.pilcrow[href] { color: var(--pilcrow-weak); }
-a.pilcrow[href]:hover { text-decoration: none; }
 @media not print {
   :hover > a.pilcrow {
     opacity: 1;
@@ -626,26 +700,28 @@ sub, sup {
   font-size: var(--small-font-size);
   line-height: 18px;
   --identifier-width: 15ch;
-}
-#identifiers dt {
-  width: var(--identifier-width);
-  min-width: var(--identifier-width);
-  clear: left;
-  float: left;
-  text-align: right;
-  margin-right: 1ch;
-}
-#identifiers dd {
-  margin: 0;
-  margin-left: calc(1em + var(--identifier-width)) !important;
-  min-width: 5em;
-}
-#identifiers .authors .author {
-  display: inline-block;
-  margin-right: 1.5em;
-}
-#identifiers .authors .org {
-  font-style: italic;
+  & dt {
+    width: var(--identifier-width);
+    min-width: var(--identifier-width);
+    clear: left;
+    float: left;
+    text-align: right;
+    margin-right: 1ch;
+  }
+  & dd {
+    margin: 0;
+    margin-left: calc(1em + var(--identifier-width)) !important;
+    min-width: 5em;
+  }
+  & .authors {
+    & .author {
+      display: inline-block;
+      margin-right: 1.5em;
+    }
+    & .org {
+      font-style: italic;
+    }
+  }
 }
 
 /* The prepared/rendered info at the very bottom of the page */
@@ -656,9 +732,6 @@ sub, sup {
   margin-top: 2em;
 }
 .docInfo .prepared {
-  float: left;
-}
-.docInfo .prepared {
   float: right;
 }
 
@@ -666,47 +739,48 @@ sub, sup {
 #toc {
   padding: 0.75em 0 2em 0;
   margin-bottom: 1em;
-}
-#toc nav ul {
-  margin: 0 0.5em 0 0;
-  padding: 0;
-  list-style: none;
-}
-#toc nav li {
-  line-height: 1.3em;
-  margin: 2px 0;
-  padding-left: 1.2em;
-  text-indent: -1.2em;
-}
-#toc a.xref {
-  white-space: normal;
-}
-/* references */
-.references dt {
-  text-align: right;
-  font-weight: bold;
-  min-width: 10ch;
-  margin-right: 1.5ch;
-}
-.references dt:target::before {
-  content: "⇒";
-  width: 15px;
-  margin: 0 10px 0 -25px;
-}
-.references dd {
-  margin-left: 12ch !important;
-  overflow: auto;
+
+  & nav {
+    & ul {
+      margin: 0 0.5em 0 0;
+      padding: 0;
+      list-style: none;
+    }
+    & li {
+      line-height: 1.3em;
+      margin: 2px 0;
+      padding-left: 1.2em;
+      text-indent: -1.2em;
+    }
+  }
+  & a.xref {
+    white-space: normal;
+  }
 }
 
-.refInstance {
-  margin-bottom: 1.25em;
+.references {
+  & > dt {
+    text-align: right;
+    font-weight: bold;
+    min-width: 10ch;
+    margin-right: 1.5ch;
+    &:target::before {
+      content: "⇒";
+      margin: 0 10px 0 -25px;
+    }
+  }
+  & > dd {
+    margin-left: 12ch !important;
+    overflow: visible;
+    & .refInstance {
+      margin-bottom: 0.8em;
+    }
+    & .ascii {
+      margin-bottom: 0.25em;
+    }
+  }
 }
 
-.references .ascii {
-  margin-bottom: 0.25em;
-}
-
-/* index */
 #rfc\.index\.index + ul {
   margin-left: 0;
 }
@@ -714,21 +788,33 @@ sub, sup {
 /* authors */
 address.vcard {
   font-style: normal;
-  margin: 1em 0;
+  max-width: 20em;
+  margin: 1em auto 1em 0;
+
+  & .nameRole {
+    font-weight: 700;
+    margin-left: 0;
+  }
+  & .label {
+    margin: 0.5em 0;
+  }
+  & .type {
+    display: none;
+  }
+  & .alternative-contact {
+    margin: 0.5em 0 0.25em 0;
+  }
+  & .non-ascii {
+    margin: 0 0 0 2em;
+  }
+  & div.left {
+    text-align: left;
+  }
+  & div.right {
+    text-align: right;
+  }
 }
-address.vcard .nameRole {
-  font-weight: 700;
-  margin-left: 0;
-}
-address.vcard .label {
-  margin: 0.5em 0;
-}
-address.vcard .type {
-  display: none;
-}
-.alternative-contact {
-  margin: 1.5em 0 1em;
-}
+
 hr.addr {
   border-top: 1px dashed;
   margin: 0;
@@ -750,6 +836,7 @@ hr.addr {
   }
 }
 
+/* Comments */
 .rfcEditorRemove p:first-of-type {
   font-style: italic;
 }
@@ -760,7 +847,31 @@ hr.addr {
 .crefSource {
   font-style: italic;
 }
-/* alternative layout for smaller screens */
+
+@media screen {
+  #toc nav {
+    font-family: var(--font-title);
+    font-weight: 360;
+    & > ul { margin-bottom: 2em; }
+    & ul {
+      margin: 0 0 0 4px;
+      & :is(p, li) {
+        margin: 2px 0;
+      }
+    }
+  }
+  #toc a.toplink {
+    float: right;
+  }
+}
+@media not screen {
+  #toc a.toplink {
+    display: none;
+  }
+}
+
+
+/* TOC layout for smaller screens */
 @media screen and (max-width: 929px) {
   #toc {
     position: fixed;
@@ -771,9 +882,6 @@ hr.addr {
     margin: 0;
     border-bottom: 1px solid #ccc;
     opacity: 0.6;
-  }
-  #toc.active {
-      opacity: 1;
   }
   #toc h2 {
     margin: 0;
@@ -786,17 +894,17 @@ hr.addr {
     background-color: #444;
     color: white;
     cursor: pointer;
-  }
-  #toc h2::before { /* css hamburger */
-    float: right;
-    position: relative;
-    width: 1em;
-    height: 1px;
-    left: -164px;
-    margin: 8px 0 0 0;
-    background: white none repeat scroll 0 0;
-    box-shadow: 0 4px 0 0 white, 0 8px 0 0 white;
-    content: "";
+    &::before { /* css hamburger */
+      float: right;
+      position: relative;
+      width: 1em;
+      height: 1px;
+      left: -164px;
+      margin: 8px 0 0 0;
+      background: white none repeat scroll 0 0;
+      box-shadow: 0 4px 0 0 white, 0 8px 0 0 white;
+      content: "";
+    }
   }
   #toc nav {
     display: none;
@@ -807,14 +915,13 @@ hr.addr {
     height: calc(100vh - 48px);
     border-left: 1px solid #ddd;
   }
-  #toc.active nav {
-    display: block;
+  #toc.active {
+    opacity: 1;
+    & nav { display: block; }
   }
   /* Make the collapsed ToC header render white on gray also when it's a link */
   #toc h2 a,
-  #toc h2 a:link,
-  #toc h2 a:focus,
-  #toc h2 a:hover,
+  #toc h2 a:is(:link, :focus, :hover),
   #toc a.toplink,
   #toc a.toplink:hover {
     color: white;
@@ -822,11 +929,11 @@ hr.addr {
     text-decoration: none;
   }
   #toc a.toplink {
-    margin-top: 2px;
+    margin: 2px 0.5em 0;
   }
 }
 
-/* alternative layout for wide screens */
+/* TOC layout for wide screens */
 @media screen and (min-width: 930px) {
   body {
     padding-right: 360px;
@@ -855,20 +962,12 @@ hr.addr {
     overscroll-behavior: contain;
     scrollbar-width: thin;
   }
-  #toc nav > ul  {
-    margin-bottom: 2em;
-  }
-  #toc ul {
-    margin: 0 0 0 4px;
-    font-size: var(--small-font-size);
-  }
-  #toc ul :is(p, li) {
-    margin: 2px 0;
-    line-height: 22px;
-  }
   img { /* future proofing */
     max-width: 100%;
     height: auto;
+  }
+  #toc a.toplink {
+    margin: 8px 0.5em 0;
   }
 }
 
@@ -911,9 +1010,6 @@ hr.addr {
   td {
     border-top: 1px solid #ddd;
   }
-  .toplink {
-    display: none;
-  }
 }
 
 @page :first {
@@ -936,82 +1032,6 @@ hr.addr {
   size: A4;
   margin-bottom: 45mm;
   padding-top: 20px;
-}
-
-/* Changes introduced to fix issues found during implementation */
-
-/* Separate body from document info even without intervening H1 */
-section {
-  clear: both;
-}
-
-/* Top align author divs, to avoid names without organization dropping level with org names */
-.author {
-  vertical-align: top;
-}
-
-/* Style section numbers with more space between number and title */
-.section-number {
-  padding-right: 0.5em;
-}
-
-/* Add styling for a link in the ToC that points to the top of the document */
-a.toplink {
-  float: right;
-  margin: 8px 0.5em 0;
-}
-
-/* Provide styling for table cell text alignment */
-table .text-left {
-  text-align: left;
-}
-table .text-center {
-  text-align: center;
-}
-table .text-right {
-  text-align: right;
-}
-
-/* Make the alternative author contact information look less like just another
-   author, and group it closer with the primary author contact information */
-.alternative-contact {
-  margin: 0.5em 0 0.25em 0;
-}
-address .non-ascii {
-  margin: 0 0 0 2em;
-}
-
-/* With it being possible to set tables with alignment
-  left, center, and right, { width: 100%; } does not make sense */
-table {
-  width: auto;
-}
-
-/* Avoid reference text that sits in a block with very wide left margin,
-   because of a long floating dt label.*/
-.references dd {
-  overflow: visible;
-}
-
-/* Control caption placement */
-caption {
-  caption-side: bottom;
-}
-
-/* Limit the width of the author address vcard, so names in right-to-left
-   script don't end up on the other side of the page. */
-
-address.vcard {
-  max-width: 20em;
-  margin-right: auto;
-}
-
-/* For address alignment dependent on LTR or RTL scripts */
-address div.left {
-  text-align: left;
-}
-address div.right {
-  text-align: right;
 }
 
 /* Dark mode. */
@@ -1050,11 +1070,11 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <thead><tr>
 <td class="left">Internet-Draft</td>
 <td class="center">Network Digital Twin Concept</td>
-<td class="right">September 2024</td>
+<td class="right">December 2024</td>
 </tr></thead>
 <tfoot><tr>
 <td class="left">Zhou, et al.</td>
-<td class="center">Expires 30 March 2025</td>
+<td class="center">Expires 26 June 2025</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1067,12 +1087,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <dd class="internet-draft">draft-irtf-nmrg-network-digital-twin-arch-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2024-09-26" class="published">26 September 2024</time>
+<time datetime="2024-12-23" class="published">23 December 2024</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2025-03-30">30 March 2025</time></dd>
+<dd class="expires"><time datetime="2025-06-26">26 June 2025</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1153,7 +1173,7 @@ challenges.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 30 March 2025.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 26 June 2025.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1234,7 +1254,7 @@ challenges.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
             <p id="section-toc.1-1.7.1"><a href="#section-7" class="auto internal xref">7</a>.  <a href="#name-ndt-functional-components" class="internal xref">NDT Functional Components</a></p>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.8">
-            <p id="section-toc.1-1.8.1"><a href="#section-8" class="auto internal xref">8</a>.  <a href="#name-a-sample-ndt-realization" class="internal xref">A Sample NDT Realization</a></p>
+            <p id="section-toc.1-1.8.1"><a href="#section-8" class="auto internal xref">8</a>.  <a href="#name-a-sample-ndt-based-use-case" class="internal xref">A Sample NDT-Based Use Case Realization</a></p>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.9">
             <p id="section-toc.1-1.9.1"><a href="#section-9" class="auto internal xref">9</a>.  <a href="#name-enabling-technologies-to-bu" class="internal xref">Enabling Technologies to Build Network Digital Twin</a></p>
@@ -1323,10 +1343,10 @@ emulation platforms.<a href="#section-1-1" class="pilcrow">¶</a></p>
 <p id="section-1-2">A Digital Twin is a real-time digital representation of a physical entity. It features
 virtual-reality interrelation and real-time interaction, iterative operation and process
 optimization, and full life-cycle, comprehensive data-driven network infrastructure.
-Digital twins have gained widespread recognition in academic publications and are now
+Digital Twins have gained widespread recognition in academic publications and are now
 being widely adopted for Industry 4.0 use cases.  The reader may refer to <a href="#concept" class="auto internal xref">Section 3</a> for
-more details,.<a href="#section-1-2" class="pilcrow">¶</a></p>
-<p id="section-1-3">A digital twin for networks can be created by applying Digital Twin technologies to
+more details.<a href="#section-1-2" class="pilcrow">¶</a></p>
+<p id="section-1-3">A Digital Twin for networks can be created by applying Digital Twin technologies to
 networks, resulting in a virtual replica of real network facilities (emulation). A
 Network Digital Twin (NDT) is an advanced platform for network emulation, serving as a tool
 for scenario planning, impact analysis, and change management. Unlike conventional
@@ -1335,7 +1355,7 @@ approach to establish closed-loop network automation.<a href="#section-1-3" clas
 <p id="section-1-4">Integrating a Network Digital Twin into network management allows engineers to assess,
 model, and refine optimization strategies under real conditions but in a risk-free environment.
 This ensures that only the most effective changes are implemented in the real network, following
-thorough validation and control checks. Moreover, a network digital twin captures and aggregates
+thorough validation and control checks. Moreover, a Network Digital Twin captures and aggregates
 critical data for analyzing the root causes of network failures, anomalies, vulnerabilities, etc.
 It also offers a sandbox for testing hypotheses, exercising mitigation scenarios, and validating
 data-driven insights without affecting end-users.<a href="#section-1-4" class="pilcrow">¶</a></p>
@@ -1360,6 +1380,7 @@ and network designers to achieve greater simplification, automation, resilience 
 <p id="section-2.1-3">CI/CD:  Continuous Integration/Continuous Delivery<a href="#section-2.1-3" class="pilcrow">¶</a></p>
 <p id="section-2.1-4">ML:  Machine Learning<a href="#section-2.1-4" class="pilcrow">¶</a></p>
 <p id="section-2.1-5">OAM:  Operations, Administration, and Maintenance<a href="#section-2.1-5" class="pilcrow">¶</a></p>
+<p id="section-2.1-6">SDN: Software Defined Networking<a href="#section-2.1-6" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="definitions">
@@ -1414,39 +1435,39 @@ equipment during the mission <span>[<a href="#Rosen2015" class="cite xref">Rosen
 <p id="section-3.1-2">In 2003, Digital Twin was attributed to John Vickers by Michael
 Grieves in his Product Lifecycle Management (PLM) course as "virtual
 digital representation equivalent to physical products"
-<span>[<a href="#Grieves2014" class="cite xref">Grieves2014</a>]</span>.  Digital twin can be defined as a virtual instance of
+<span>[<a href="#Grieves2014" class="cite xref">Grieves2014</a>]</span>.  Digital Twin can be defined as a virtual instance of
 a physical system (twin) that is continually updated with the
 latter's performance, maintenance, and health status data throughout
 the physical system's life cycle <span>[<a href="#Madni2019" class="cite xref">Madni2019</a>]</span>.  By providing a living
-copy of physical system, digital twins bring numerous advantages,
+copy of physical system, Digital Twins bring numerous advantages,
 such as accelerated business processes, enhanced productivity, and
-faster innovation with reduced costs.  So far, digital twin has been
+faster innovation with reduced costs.  So far, Digital Twin has been
 successfully applied in the fields of intelligent manufacturing,
 smart city, or complex system operation and maintenance to help with
 not only object design and testing, but also management aspects
 <span>[<a href="#Tao2019" class="cite xref">Tao2019</a>]</span>.<a href="#section-3.1-2" class="pilcrow">¶</a></p>
 <p id="section-3.1-3">Compared with 'digital model' and 'digital shadow', the key difference
 of 'digital twin' is the direction of data between the physical and virtual
-systems <span>[<a href="#Fuller2020" class="cite xref">Fuller2020</a>]</span>. Typically, when using a digital twin, the (twin)
+systems <span>[<a href="#Fuller2020" class="cite xref">Fuller2020</a>]</span>. Typically, when using a Digital Twin, the (twin)
 system is generated. Then a partial or full synchronization of data flows in
 both directions between physical and digital components, so that control data
 can be sent, and changes between systems' physical and digital objectives are
 automatically represented. This behavior is unlike a 'digital model' or 'digital
 shadow', which are usually synchronized manually, lacking control data, and
 might not have integrated a full cycle of data.<a href="#section-3.1-3" class="pilcrow">¶</a></p>
-<p id="section-3.1-4">At present (2024), there is no unified definition of digital twin
+<p id="section-3.1-4">At present (2024), there is no unified definition of Digital Twin
 framework.  The industry, scientific research institutions, and
 standards developing organizations are trying to define a general or
-domain-specific framework of digital twin.  <span>[<a href="#Natis-Gartner2017" class="cite xref">Natis-Gartner2017</a>]</span>
-proposed that building a digital twin of a physical entity requires
+domain-specific framework of Digital Twin.  <span>[<a href="#Natis-Gartner2017" class="cite xref">Natis-Gartner2017</a>]</span>
+proposed that building a Digital Twin of a physical entity requires
 four key elements: model, data, monitoring, and uniqueness.
-<span>[<a href="#Tao2019" class="cite xref">Tao2019</a>]</span> proposed a five-dimensional framework of digital twin {PE,
+<span>[<a href="#Tao2019" class="cite xref">Tao2019</a>]</span> proposed a five-dimensional framework of Digital Twin {PE,
 VE, SS, DD, CN}, in which PE represents physical entity, VE
 represents virtual entity, SS represents service, DD represents twin
 data, and CN represents the connection between various components.
-<span>[<a href="#ISO-2021" class="cite xref">ISO-2021</a>]</span> issued a draft standard for digital twin manufacturing
+<span>[<a href="#ISO-2021" class="cite xref">ISO-2021</a>]</span> issued a draft standard for Digital Twin manufacturing
 system, and proposed a reference framework including data collection
-domain, device control domain, digital twin domain, and user domain.<a href="#section-3.1-4" class="pilcrow">¶</a></p>
+domain, device control domain, Digital Twin domain, and user domain.<a href="#section-3.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="digital-twin-for-networks">
@@ -1457,48 +1478,48 @@ domain, device control domain, digital twin domain, and user domain.<a href="#se
 <p id="section-3.2-1">Communication networks provide a solid foundation for implementing
 various 'digital twin' applications.  At the same time, in the face
 of increasing business types, scale and complexity, a network itself
-also needs to use digital twin technology to seek enhanced and
+also needs to use Digital Twin technology to seek enhanced and
 optimized solutions compared to relying solely on the real network.
-The motivation for Network Digital Twin can somehow be traced back to
+The motivation for Network Digital Twin can be traced back to
 some earlier concepts, such as "shadow MIB", inductive modeling
 techniques, parallel systems, etc.  Since 2017, the application of
-digital twin technology in the field of communication networks has
+Digital Twin technology in the field of communication networks has
 gradually been researched as illustrated by the (non-exhaustive) list
 of examples that are listed hereafter.<a href="#section-3.2-1" class="pilcrow">¶</a></p>
-<p id="section-3.2-2">Within academia, <span>[<a href="#Dong2019" class="cite xref">Dong2019</a>]</span> established the digital twin of 5G mobile
+<p id="section-3.2-2">Within academia, <span>[<a href="#Dong2019" class="cite xref">Dong2019</a>]</span> established the Digital Twin of 5G mobile
 edge computing (MEC) network, used the twin offline to train the
 resource allocation optimization and normalized energy-saving
 algorithm based on reinforcement learning, and then updated the
-scheme to MEC network.  <span>[<a href="#Dai2020" class="cite xref">Dai2020</a>]</span> established a digital twin edge
+scheme to MEC network.  <span>[<a href="#Dai2020" class="cite xref">Dai2020</a>]</span> established a Digital Twin edge
 network for mobile edge computing system, in which a twin edge server
 is used to evaluate the state of entity server, and the twin mobile
 edge computing system provides data for training offloading strategy.
-<span>[<a href="#Nguyen2021" class="cite xref">Nguyen2021</a>]</span> discusses how to deploy a digital twin for complex 5G
-networks.  <span>[<a href="#Hong2021" class="cite xref">Hong2021</a>]</span> presents a digital twin platform towards
+<span>[<a href="#Nguyen2021" class="cite xref">Nguyen2021</a>]</span> discusses how to deploy a Digital Twin for complex 5G
+networks.  <span>[<a href="#Hong2021" class="cite xref">Hong2021</a>]</span> presents a Digital Twin platform towards
 automatic and intelligent management for data center networks, and
-then proposes a simplified the workflows of network service
-management.  <span>[<a href="#Dai2022" class="cite xref">Dai2022</a>]</span> gives the concept of digital twin and proposes
-an digital twin-enabled vehicular edge computing (VEC) network, where
-digital twin can enable adaptive network management via the two-
-closed loops between physical VEC networks and digital twins.  In
-addition, international workshops dedicated to digital twin in
+then proposes a simplified workflow of network service
+management.  <span>[<a href="#Dai2022" class="cite xref">Dai2022</a>]</span> gives the concept of Digital Twin and proposes
+a Digital Twin-enabled vehicular edge computing (VEC) network, where
+Digital Twin can enable adaptive network management via the two-
+closed loops between physical VEC networks and Digital Twins.  In
+addition, international workshops dedicated to Digital Twin in
 networking field have already appeared, such as IEEE DTPI 2021&amp;2022-
 Digital Twin Network Online Session <span>[<a href="#DTPI2021" class="cite xref">DTPI2021</a>]</span>, <span>[<a href="#DTPI2022" class="cite xref">DTPI2022</a>]</span>, and IEEE
 NOMS 2022 - TNT workshop <span>[<a href="#TNT2022" class="cite xref">TNT2022</a>]</span>.<a href="#section-3.2-2" class="pilcrow">¶</a></p>
-<p id="section-3.2-3">Although the application of digital twin technology in networking has
-started, the research of digital twin for networks technology is
+<p id="section-3.2-3">Although the application of Digital Twin technology in networking has
+started, the research on Digital Twins for networks technology is
 still in its infancy.  Current applications focus on specific
-scenarios (such as network optimization), where Network Digital Twin
-is just used as a network simulation tool to solve the problem of
+scenarios (such as network optimization), where a Network Digital Twin
+is used as a network simulation tool to solve particular problems in
 network operation and maintenance.  Combined with the characteristics
-of digital twin technology and its application in other industries,
+of Digital Twin technology and its application in other industries,
 this document believes that Network Digital Twin can be regarded as
-an indispensable part of the overall network system and provides a
-general architecture involving the whole life cycle of a "real"
-(typically, physical) network in the future, serving the application
-of network innovative technologies such as network planning, construction,
-maintenance and optimization, improving the automation and intelligence
-level of the network.<a href="#section-3.2-3" class="pilcrow">¶</a></p>
+an indispensable part of the overall network system, and can play an
+important role generally in architectures serving use cases across the
+whole life cycle of a "real" (typically, physical) network. Such use cases
+and applications span the range of network operations (e.g., network
+planning, construction, maintenance and optimization, and improve the
+automation and intelligence level of the network.<a href="#section-3.2-3" class="pilcrow">¶</a></p>
 </section>
 </div>
 </section>
@@ -1511,17 +1532,18 @@ level of the network.<a href="#section-3.2-3" class="pilcrow">¶</a></p>
 <p id="section-4-1">So far, there is no standard definition for characteristic of "network
 digital twin" within the networking industry. This document introduces five
 key elements (i.e., data, models, mapping, interfaces, and logic) to characterize
-the Network Digital Twin. These five elements can be integrated into a network
-management system to analyze, diagnose, emulate, and control the real network.
+the Network Digital Twin and its use. These five elements can be integrated into a
+network management system to analyze, diagnose, emulate, and control the real network.
 To that aim, a real-time and interactive mapping is required between the real
-network and its virtual twin network.  Whether a Digital Twin supports all or
+network and its virtual twin network.  Whether a Network Digital Twin supports all or
 a subset of the functions above (i.e., analyze, diagnose, emulate, and control)
-is deployment-specific.<a href="#section-4-1" class="pilcrow">¶</a></p>
-<p id="section-4-2">Referring to the characteristics of digital twins in other industries and the
-characteristics of networking itself, the digital twin network should involve
-at least five key elements: data, mapping, models, interfaces, and logic, as
-shown in <a href="#kelem" class="auto internal xref">Figure 1</a>. This provides the information to the application or entity
-that consumes the information to analyze, diagnose, or control.<a href="#section-4-2" class="pilcrow">¶</a></p>
+is use case and deployment-specific.<a href="#section-4-1" class="pilcrow">¶</a></p>
+<p id="section-4-2">Referring to the characteristics of Digital Twins in other industries and the
+characteristics of networking itself, the Network Digital Twin and its use should
+involve at least five key elements: data, mapping, models, interfaces, and logic,
+as shown in <a href="#kelem" class="auto internal xref">Figure 1</a>. The first four elements together provide the information to
+the applications or architectural entities that consumes it in the service of
+analysis, diagnosis, or control.<a href="#section-4-2" class="pilcrow">¶</a></p>
 <span id="name-key-elements-of-network-dig"></span><div id="kelem">
 <figure id="figure-1">
         <div class="alignCenter art-text artwork" id="section-4-3.1">
@@ -1600,7 +1622,7 @@ infrastructure, directly or through an associated operations (i.e. planning,
 control, management) system.<a href="#section-4-4.10.2.1.1" class="pilcrow">¶</a></p>
 </li>
             <li class="normal" id="section-4-4.10.2.2">
-              <p id="section-4-4.10.2.2.1">The interface between Network Digital Twin platform and operations applications
+              <p id="section-4-4.10.2.2.1">The interface between Network Digital Twin platform and logic - operations applications -
 that consume the information provided by the NDT.<a href="#section-4-4.10.2.2.1" class="pilcrow">¶</a></p>
 </li>
           </ul>
@@ -1615,7 +1637,7 @@ that consume the information provided by the NDT.<a href="#section-4-4.10.2.2.1"
         <dd class="break"></dd>
 <dt id="section-4-4.13">Mapping:</dt>
         <dd style="margin-left: 1.5em" id="section-4-4.14">
-          <p id="section-4-4.14.1">Used to identify the digital twin and the underlying entities and establish
+          <p id="section-4-4.14.1">Used to identify the Digital Twin and the underlying entities and establish
   a real-time interactive relation between the real network and the twin network or
   between two twin networks. The mapping can be:<a href="#section-4-4.14.1" class="pilcrow">¶</a></p>
 </dd>
@@ -1631,9 +1653,9 @@ that consume the information provided by the NDT.<a href="#section-4-4.10.2.2.1"
     occasional data exchange.<a href="#section-4-5.2.1" class="pilcrow">¶</a></p>
 </li>
       </ul>
-<p id="section-4-6">Such mappings provide a good visibility of actual status, making the digital twin suitable
+<p id="section-4-6">Such mappings provide a good visibility of actual status, making the Digital Twin suitable
   to analyze and understand what is going on in the real network. It also allows using the
-  digital twin to optimize the performance and maintenance of the real network.<a href="#section-4-6" class="pilcrow">¶</a></p>
+  Digital Twin to optimize the performance and maintenance of the real network.<a href="#section-4-6" class="pilcrow">¶</a></p>
 <p id="section-4-7">The Network Digital Twin, constructed based on the four core technology elements, can provide
   crucial emulation-driven information to support analysis, diagnosis, and control of the real
   network, through its whole life cycle, with the help of optimization algorithms, management
@@ -1653,7 +1675,7 @@ that consume the information provided by the NDT.<a href="#section-4-4.10.2.2.1"
 <ul class="normal ulEmpty">
 <li class="normal ulEmpty" id="section-4-11.1">
           <p id="section-4-11.1.1">Note: Real-time interaction is not always mandatory for all NDT use cases. For example, when
-  assessing some configuration changes or emulating some innovative techniques, the digital twin
+  assessing some configuration changes or emulating some innovative techniques, the Digital Twin
   can behave as an isolated simulation platform without the need of real-time telemetry data. It
   might be useful to have interactive mapping capability so that the validated changes can be evaluated
   under real network conditions whenever required by the testers. Whether real-time interaction between
@@ -1665,9 +1687,9 @@ that consume the information provided by the NDT.<a href="#section-4-4.10.2.2.1"
 <span class="break"></span><dl class="dlParallel" id="section-4-12">
         <dt id="section-4-12.1">Logic:</dt>
         <dd style="margin-left: 1.5em" id="section-4-12.2">
-          <p id="section-4-12.2.1">Network digital twin facilitates optimal resource allocation and configuration, enhancing
-  efficiency and performance. They enable comprehensive troubleshooting maintenance and control by
-  diagnosing issues in the digital twin. Moreover, Network Digital Twins play a crucial role in planning
+          <p id="section-4-12.2.1">Network Digital Twin facilitates optimal resource allocation and configuration, enhancing
+  efficiency and performance. They can enable comprehensive troubleshooting maintenance and control by
+  diagnosing issues using the Network Digital Twin. Moreover, Network Digital Twins play a crucial role in planning
   and deployment, allowing for the simulation of new designs and configurations to anticipate their effects
   before implementation.<a href="#section-4-12.2.1" class="pilcrow">¶</a></p>
 </dd>
@@ -1680,7 +1702,7 @@ that consume the information provided by the NDT.<a href="#section-4-4.10.2.2.1"
       <h2 id="name-benefits-of-network-digital">
 <a href="#section-5" class="section-number selfRef">5. </a><a href="#name-benefits-of-network-digital" class="section-name selfRef">Benefits of Network Digital Twin</a>
       </h2>
-<p id="section-5-1">Network digital twin can help enabling closed-loop network management
+<p id="section-5-1">Network Digital Twin can help enable closed-loop network management
 across the entire lifecycle, from deployment and emulation, to
 visualized assessment, physical deployment, and continuous
 verification.  By doing so, network operators and end-users to some
@@ -1752,7 +1774,7 @@ complexity of the assessment and the resources involved.<a href="#section-5.1-2"
 <p id="section-5.2-1">Traditional network operation and management mainly focus on
 deploying and managing running services, but hardly support
 predictive maintenance techniques.<a href="#section-5.2-1" class="pilcrow">¶</a></p>
-<p id="section-5.2-2">Network digital twin can combine data acquisition, big data
+<p id="section-5.2-2">Network Digital Twin can combine data acquisition, big data
 processing, and AI-based modeling to assess the status of the network,
 but also to predict future trends, and better organize predictive
 maintenance.  The ability to reproduce network behaviors under
@@ -1768,12 +1790,12 @@ various evolution options as often as required.<a href="#section-5.2-2" class="p
 <p id="section-5.3-1">Testing a new feature in an operational network is not only complex,
 but also extremely risky.  Service impact analysis is required to be
 adequately achieved prior to effective activation of a new feature.<a href="#section-5.3-1" class="pilcrow">¶</a></p>
-<p id="section-5.3-2">Network digital twin can greatly help assessing innovative network
+<p id="section-5.3-2">Network Digital Twin can greatly help assessing innovative network
 capabilities without jeopardizing the daily operation of the real
 network.  In addition, it helps researchers to explore network
 innovation (e.g., new network protocols, network AI/ML applications)
 efficiently, and network operators to deploy new technologies quickly
-with lower risks.  Take AI/ ML application as example, it is a
+with lower risks.  Take AI/ ML application as an example, it is a
 conflict between the continuous high reliability requirement (i.e.,
 99.999%) and the slow learning speed or phase-in learning steps of
 AI/ML algorithms.  With Network Digital Twin, AI/ML can complete the
@@ -1789,7 +1811,7 @@ innovations in future networks.<a href="#section-5.3-2" class="pilcrow">¶</a></
         </h3>
 <p id="section-5.4-1">The requirements on data confidentiality and privacy on network
 providers increase the complexity of network management, as decisions
-made by computation logics such as an SDN controller may rely upon
+made by computation logics such as an SDN <span>[<a href="#RFC7426" class="cite xref">RFC7426</a>]</span> controller may rely upon
 the packet payloads.  As a result, the improvement of data-driven
 management requires complementary techniques that can provide a
 strict control based upon security mechanisms to guarantee data
@@ -1813,7 +1835,7 @@ for data-driven operation.<a href="#section-5.4-2" class="pilcrow">¶</a></p>
 <a href="#section-5.5" class="section-number selfRef">5.5. </a><a href="#name-customized-network-operatio" class="section-name selfRef">Customized Network Operation Training</a>
         </h3>
 <p id="section-5.5-1">Network architectures can be complex, and their operation requires
-expert personnel.  Network digital twin offers an opportunity to
+expert personnel.  Network Digital Twin offers an opportunity to
 train staff for customized networks and specific user needs.  Two
 salient examples are the application of new network architectures and
 protocols or the use of "cyber-ranges" to train security experts in
@@ -1828,7 +1850,7 @@ threat detection and mitigation.<a href="#section-5.5-1" class="pilcrow">¶</a><
 <a href="#section-6" class="section-number selfRef">6. </a><a href="#name-challenges-to-build-a-netwo" class="section-name selfRef">Challenges to Build a Network Digital Twin</a>
       </h2>
 <p id="section-6-1">According to <span>[<a href="#Hu2021" class="cite xref">Hu2021</a>]</span>, the main challenges in building and maintaining
-digital twins can be summarized as the following five aspects:<a href="#section-6-1" class="pilcrow">¶</a></p>
+Digital Twins can be summarized as the following five aspects:<a href="#section-6-1" class="pilcrow">¶</a></p>
 <ul class="normal">
 <li class="normal" id="section-6-2.1">
           <p id="section-6-2.1.1">Data acquisition and processing<a href="#section-6-2.1.1" class="pilcrow">¶</a></p>
@@ -1846,7 +1868,7 @@ digital twins can be summarized as the following five aspects:<a href="#section-
           <p id="section-6-2.5.1">Environmental coupling technologies<a href="#section-6-2.5.1" class="pilcrow">¶</a></p>
 </li>
       </ul>
-<p id="section-6-3">Compared with other industrial fields, digital twin in networking field has
+<p id="section-6-3">Compared with other industrial fields, Digital Twin in networking field has
 its unique characteristics. On the one hand, network elements and system have
 higher level of digitalization, which implies that data acquisition and
 virtual-real communication are relatively easy to achieve. On the other hand,
@@ -1854,12 +1876,12 @@ there are various different types of network elements and topologies in the
 network field; and the network size is characterized by the number of nodes and
 links in it but the network size growth pace can not meet the service needs,
 especially in the deployment of end to end service which spans across multiple
-administrative domains. So, the construction of a digital twin network system
+administrative domains. So, the construction of a Digital Twin network system
 needs to consider the following major challenges:<a href="#section-6-3" class="pilcrow">¶</a></p>
 <span class="break"></span><dl class="dlParallel" id="section-6-4">
         <dt id="section-6-4.1">Large-scale challenge:</dt>
         <dd style="margin-left: 1.5em" id="section-6-4.2">
-          <p id="section-6-4.2.1">A digital twin of large-scale networks will significantly increase the complexity
+          <p id="section-6-4.2.1">A Digital Twin of large-scale networks will significantly increase the complexity
 of data acquisition and storage and the design and implementation of relevant models.<a href="#section-6-4.2.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
@@ -1878,7 +1900,7 @@ compression methods must be used.<a href="#section-6-4.4.1" class="pilcrow">¶</
         <dd style="margin-left: 1.5em" id="section-6-4.6">
           <p id="section-6-4.6.1">Due to the inconsistency of technical implementations and the
 heterogeneity of vendor-adopted technologies, it is difficult to establish a unified
-digital twin network system with a common technology in a network domain.
+Digital Twin network system with a common technology in a network domain.
 Therefore, it is needed firstly to propose a unified architecture of network digital
 twin, in which all components and functionalities are clear to all stakeholders; then
 define standardized and unified interfaces to connect all network twins via ensuring
@@ -1923,12 +1945,12 @@ the task processing in the twin.<a href="#section-6-4.12.1" class="pilcrow">¶</
         <dd class="break"></dd>
 <dt id="section-6-4.13">Security risks:</dt>
         <dd style="margin-left: 1.5em" id="section-6-4.14">
-          <p id="section-6-4.14.1">A Network Digital Twin has to synchronize all or subset of the data
+          <p id="section-6-4.14.1">A Network Digital Twin has to synchronize all or a subset of the data
 related to involved real networks in real time, which inevitably augments the attack
 surface, with a higher risk of information leakage, in particular. On one hand, it
 is mandatory to design more secure data mechanism leveraging legacy data protection
-methods and innovative technologies such as block chain. On the other hand, the system
-design can limit the data (especially raw data) requirement for building digital twin
+methods and innovative technologies such as blockchain. On the other hand, the system
+design can limit the data (especially raw data) requirement for building Digital Twin
 network, leveraging innovative modeling technologies such as federal learning.<a href="#section-6-4.14.1" class="pilcrow">¶</a></p>
 </dd>
       <dd class="break"></dd>
@@ -2012,22 +2034,22 @@ the session-based operation of the NDT, managing the life-cycle of these operati
 associated applications; it monitors the performance and resource consumption of the NDT (including individual models)
 and controls various operational aspects of the NDT, including topology management, configuration management, performance
 management, and security management.<a href="#section-7-10" class="pilcrow">¶</a></p>
-<p id="section-7-11">The "real network" – the physical counter-part of an NDT - can be a mobile access network, a transport network,
+<p id="section-7-11">The "real network" – the physical counterpart of an NDT - can be a mobile access network, a transport network,
 a mobile core, a backbone, etc. The real network can also be a data center network, a campus enterprise network,
-an industrial Internet of Things (IoT), etc.
+or an industrial Internet of Things (IoT), etc.
 The real network can span across a single network administrative domain or multiple network administrative domains.
 It can include both physical entities and some virtual entities (e.g., vSwitches), which together carry
 traffic and provide actual network services.
-All or subset of network elements in the real network deliver network data, directly or through other systems, to
+All or a subset of network elements in the real network deliver network data, directly or through other systems, to
 the NDT, through appropriate input interfaces. Network elements may receive control inputs, through specific output interfaces,
 from operations systems in which NDTs play a role. The input and output interfaces might vary as a function of the specific NDT use case. The number of input interfaces or output interfaces are also determined by specific NDT use cases.
 This document focuses on the IETF related real network such as IP bearer network and data center network.<a href="#section-7-11" class="pilcrow">¶</a></p>
 </section>
 </div>
-<div id="a-sample-ndt-realization">
+<div id="a-sample-ndt-based-use-case-realization">
 <section id="section-8">
-      <h2 id="name-a-sample-ndt-realization">
-<a href="#section-8" class="section-number selfRef">8. </a><a href="#name-a-sample-ndt-realization" class="section-name selfRef">A Sample NDT Realization</a>
+      <h2 id="name-a-sample-ndt-based-use-case">
+<a href="#section-8" class="section-number selfRef">8. </a><a href="#name-a-sample-ndt-based-use-case" class="section-name selfRef">A Sample NDT-Based Use Case Realization</a>
       </h2>
 <p id="section-8-1">Considerable industry work and research has focused on automation-supporting
 network systems. For example, <span>[<a href="#ETSI-GS-ZSM-002" class="cite xref">ETSI-GS-ZSM-002</a>]</span> describes a framework
@@ -2040,13 +2062,14 @@ orchestration/control services.<a href="#section-8-1" class="pilcrow">¶</a></p>
 <p id="section-8-2">The role and utility of NDT may be represented architecturally by following
 similar principles, e.g., <span>[<a href="#ETSI-GS-ZSM-015" class="cite xref">ETSI-GS-ZSM-015</a>]</span> or <span>[<a href="#RFC8969" class="cite xref">RFC8969</a>]</span>. As described in Section 7, an
 NDT instantiation encompasses models, data, mapping, and interfaces. These
-components then work in composition with other functions or services
+components then work in composition with other logic, functions or services
 to deliver an overall functional architecture matching specific NDT use cases.<a href="#section-8-2" class="pilcrow">¶</a></p>
 <p id="section-8-3">For example: an NDT instance may be used as a core element of an intent-drive network controller.
 In such a case, an "outer" closed-loop (or, intent-assurance closed-loop) would detect
 gaps between target service objectives set by intents and actual observed service characteristics,
-find and proposed candidate mitigation solutions to soften the observed deviation, and drive the enforcement of the mitigation in the network.
-Finding such mitigations would rely on multiple "inner loops" that include an NDT: for example,
+propose candidate mitigation solutions to soften the observed deviation, and drive the
+enforcement of the mitigation in the network.
+Finding such mitigations would rely, e.g., on an "inner loops" that include an NDT: for example,
 prospective solutions would be proposed, their impacts on services evaluated by the
 NDT acting as a "sandbox" in virtual space, and the process might be iterated until
 a satisfactory solution is found. At that point, the selected mitigation is passed
@@ -2123,7 +2146,7 @@ functions/services.<a href="#section-8-4" class="pilcrow">¶</a></p>
 <a href="#section-9" class="section-number selfRef">9. </a><a href="#name-enabling-technologies-to-bu" class="section-name selfRef">Enabling Technologies to Build Network Digital Twin</a>
       </h2>
 <p id="section-9-1">This section briefly describes several key enabling technologies to
-build digital twin work system, based on the challenges and the
+build Digital Twin work system, based on the challenges and the
 reference architecture described in above sections.  Actually, each
 enabling technology is worth of deep researching respectively and
 separately.<a href="#section-9-1" class="pilcrow">¶</a></p>
@@ -2136,12 +2159,12 @@ separately.<a href="#section-9-1" class="pilcrow">¶</a></p>
 repository for Network Digital Twin. Target driven mode should be
 adopted for data collection from heterogeneous data sources. The
 type, frequency and data collection method shall meet the requirements
-of the Network Digital Twin application. Whenever building network
+of the Network Digital Twin application. When building network
 models for a specific network application, the required data can be
 efficiently obtained from the data repository.<a href="#section-9.1-1" class="pilcrow">¶</a></p>
 <p id="section-9.1-2">Diverse existing tools and methods (e.g., SNMP, NETCONF <span>[<a href="#RFC6241" class="cite xref">RFC6241</a>]</span>,
 IPFIX <span>[<a href="#RFC7011" class="cite xref">RFC7011</a>]</span>, and telemetry <span>[<a href="#RFC9232" class="cite xref">RFC9232</a>]</span>) can be used to collect
-different type of network data.  YANG data models and associated
+different types of network data.  YANG data models and associated
 mechanisms defined in <span>[<a href="#RFC8639" class="cite xref">RFC8639</a>]</span><span>[<a href="#RFC8641" class="cite xref">RFC8641</a>]</span> enable subscriber-specific
 subscriptions to a publisher's event streams.  Such mechanisms can be
 used by subscriber applications to request for a continuous and
@@ -2150,7 +2173,7 @@ innovative methods (e.g., sketch-based measurement) can be used to
 acquire more complex network data, such as network performance data.
 Furthermore, data transformation and aggregation capabilities can be
 used to improve the applicability on network modelling.  Toward
-building data repository for a digital twin system, data collection
+building data repository for a Digital Twin system, data collection
 tools and methods should be as lightweight as possible, so as to
 reduce the volume of required network equipment resources, and
 meaningful so it can be useful.  Several solutions related to data
@@ -2205,7 +2228,7 @@ network models. One of the key advantages of bottleneck structures is that
 they can be used to compute (symbolically or numerically) key performance
 indicators of the network (e.g., expected flow throughput, projected flow
 completion time) without using computationally intensive simulators.
-This capability can be especially useful when building a digital twin or
+This capability can be especially useful when building a Digital Twin or
 a large-scale network, potentially saving orders or magnitude in computational
 resources in comparison to simulation or emulation-based approaches.<a href="#section-9.2-3" class="pilcrow">¶</a></p>
 <p id="section-9.2-4">The functional model aims to realize the dynamic evolution of network
@@ -2284,7 +2307,7 @@ HTTP/3.0 <span>[<a href="#RFC9114" class="cite xref">RFC9114</a>]</span>.<a href
 <p id="section-9.4-3">All these interfaces are recommended to be open and standardized so
 as to avoid either hardware or software vendor lock and achieve
 interoperability. Besides the interfaces listed above, some new interfaces
-or protocols can be created to better serve digital twin network system.<a href="#section-9.4-3" class="pilcrow">¶</a></p>
+or protocols can be created to better serve Digital Twin network system.<a href="#section-9.4-3" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="twinning-management">
@@ -2330,9 +2353,9 @@ not limited to, the following main technologies:<a href="#section-9.5-1" class="
             <span class="break"></span><dl class="dlParallel" id="section-9.5-2.4.1">
               <dt id="section-9.5-2.4.1.1">Energy-Efficient Twinning:</dt>
               <dd style="margin-left: 1.5em" id="section-9.5-2.4.1.2">
-                <p id="section-9.5-2.4.1.2.1">Focus on energy efficiency in digital twin
+                <p id="section-9.5-2.4.1.2.1">Focus on energy efficiency in Digital Twin
 network system. It includes monitoring and optimizing the energy
-consumption of both network equipment and digital twin system operation,
+consumption of both network equipment and Digital Twin system operation,
 reducing the energy expenditure of network operation, and achieving the
 goal of a green (energy efficient) network.<a href="#section-9.5-2.4.1.2.1" class="pilcrow">¶</a></p>
 </dd>
@@ -2358,8 +2381,8 @@ continuously adjust policies and validate real-time situations.<a href="#section
 <p id="section-10-2">IBN can be envisaged in a Network Digital Twin context to show how
 Network Digital Twin improves the efficiency of deploying network
 innovation. Several rounds of adjustment and validation can be emulated
-on the digital twin platform instead of directly impacting real network
-during the testing phase. Therefore, the digital twin network can be an
+on the Digital Twin platform instead of directly impacting real network
+during the testing phase. Therefore, the Digital Twin network can be an
 important enabler platform for implementing IBN systems and fostering
 their deployment.<a href="#section-10-2" class="pilcrow">¶</a></p>
 </section>
@@ -2369,7 +2392,7 @@ their deployment.<a href="#section-10-2" class="pilcrow">¶</a></p>
       <h2 id="name-sample-application-scenario">
 <a href="#section-11" class="section-number selfRef">11. </a><a href="#name-sample-application-scenario" class="section-name selfRef">Sample Application Scenarios</a>
       </h2>
-<p id="section-11-1">Network digital twin can be applied to solve different problems in
+<p id="section-11-1">Network Digital Twin can be applied to solve different problems in
 network management and operation.<a href="#section-11-1" class="pilcrow">¶</a></p>
 <div id="human-training">
 <section id="section-11.1">
@@ -2377,7 +2400,7 @@ network management and operation.<a href="#section-11-1" class="pilcrow">¶</a><
 <a href="#section-11.1" class="section-number selfRef">11.1. </a><a href="#name-human-training" class="section-name selfRef">Human Training</a>
         </h3>
 <p id="section-11.1-1">The usual approach to network OAM with procedures applied by humans
-is open to errors in all these procedures, whigh impact network
+is open to errors in all these procedures, which impact network
 availability and resilience.  Response procedures and actions for
 most relevant operational requests and incidents are commonly defined
 to reduce errors to a minimum. The progressive automation of these
@@ -2389,7 +2412,7 @@ intuitive and require training to learn how to respond.<a href="#section-11.1-1"
 management activities will improve the operators performance.  One
 common example is cybersecurity incident handling, where "cyber-
 range" exercises are executed periodically to train security
-practitioners.  Network digital twin will offer realistic
+practitioners.  Network Digital Twin will offer realistic
 environments, fitted to the real production networks.<a href="#section-11.1-2" class="pilcrow">¶</a></p>
 </section>
 </div>
@@ -2398,14 +2421,14 @@ environments, fitted to the real production networks.<a href="#section-11.1-2" c
         <h3 id="name-machine-learning-training">
 <a href="#section-11.2" class="section-number selfRef">11.2. </a><a href="#name-machine-learning-training" class="section-name selfRef">Machine Learning Training</a>
         </h3>
-<p id="section-11.2-1">Machine learning requires data and their context to be available in
+<p id="section-11.2-1">Machine learning requires data and its context to be available in
 order to be applied. A common approach in the network management
 environment has been to simulate or import data in a specific environment
 (the ML developer lab), where they are used to train the selected model,
 while later, when the model is deployed in production, re-train or adjust
 to the production environment context. This demands a specific adaption
 period.<a href="#section-11.2-1" class="pilcrow">¶</a></p>
-<p id="section-11.2-2">Network digital twin simplifies the complete ML lifecycle development
+<p id="section-11.2-2">Network Digital Twin simplifies the complete ML lifecycle development
 by providing a realistic environment, including network topologies,
 to generate the data required in a well-aligned context.  Dataset
 generated belongs to the Network Digital Twin and not to the
@@ -2427,7 +2450,7 @@ verify the specific impacts of updates on service assurance and
 Service Level Agreements (SLAs) using a Network Digital Twin
 environment replicating the network particularities as a previous
 step to production release.<a href="#section-11.3-1" class="pilcrow">¶</a></p>
-<p id="section-11.3-2">Network digital twin control functional block supports such dynamic
+<p id="section-11.3-2">Network Digital Twin control functional block supports such dynamic
 mechanisms required by DevOps procedures.<a href="#section-11.3-2" class="pilcrow">¶</a></p>
 </section>
 </div>
@@ -2441,7 +2464,7 @@ complexity.  The behavior of new protocol stacks, API parameters, and
 interactions among complex software components are examples that
 imply higher risk to errors or vulnerabilities in software and
 configuration.<a href="#section-11.4-1" class="pilcrow">¶</a></p>
-<p id="section-11.4-2">Network digital twin allows to apply fuzzing testing techniques on
+<p id="section-11.4-2">Network Digital Twin allows to apply fuzzing testing techniques on
 a twin network environment, with interactions and conditions similar
 to the production network, permitting the identification of
 vulnerabilities, bugs and zero-day attacks before production delivery.<a href="#section-11.4-2" class="pilcrow">¶</a></p>
@@ -2462,7 +2485,7 @@ category of network devices (including network endpoints) may be repeatedly
 discovered, processed, and stored. Therefore, the inventory is difficult to
 manage when tracked in different places without formal synchronization
 procedures.<a href="#section-11.5-1" class="pilcrow">¶</a></p>
-<p id="section-11.5-2">Network digital twin management can be used as a means to ensure consistent
+<p id="section-11.5-2">Network Digital Twin management can be used as a means to ensure consistent
 representation and reporting of inventory component types. In doing so, the
 enforcement of security policies and assessments will be further simplified.
 Such an approach will ease the implementation of a unified control strategy
@@ -2484,10 +2507,10 @@ dependency, and hardware dependency "what-if" scenarios.<a href="#section-11.5-3
       </h2>
 <p id="section-12-1">Research on Network Digital Twin has just started. This document
 presents an overview of the Network Digital Twin concepts and reference
-architecture. As digital twin technology develops, further investigation
+architecture. As Digital Twin technology develops, further investigation
 of Network Digital Twin scenarios, requirements, architecture, and key
 enabling technologies should be investigated by the industry to accelerate
-the implementation and deployment of digital twin network.<a href="#section-12-1" class="pilcrow">¶</a></p>
+the implementation and deployment of Network Digital Twin.<a href="#section-12-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="security-considerations">
@@ -2529,7 +2552,7 @@ enabled to prevent data leaks. Also, appropriate access rights must be provision
 <span class="break"></span><dl class="dlParallel" id="section-13-5">
         <dt id="section-13-5.1">Confidentiality:</dt>
         <dd style="margin-left: 1.5em" id="section-13-5.2">
-          <p id="section-13-5.2.1">Ensuring that sensitive data used in the digital twin
+          <p id="section-13-5.2.1">Ensuring that sensitive data used in the Digital Twin
 is protected from unauthorized access. This includes encrypting data
 both at rest and in transit.<a href="#section-13-5.2.1" class="pilcrow">¶</a></p>
 </dd>
@@ -2639,7 +2662,7 @@ to identify and address potential security gaps.<a href="#section-13-12.8.1" cla
         <dt id="section-13-14.1">Redundancy:</dt>
         <dd style="margin-left: 1.5em" id="section-13-14.2">
           <p id="section-13-14.2.1">Implementing redundancy and failover mechanisms ensures the
-digital twin remains operational during and after a security/failure incident.<a href="#section-13-14.2.1" class="pilcrow">¶</a></p>
+Digital Twin remains operational during and after a security/failure incident.<a href="#section-13-14.2.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
 <dt id="section-13-14.3">Backup and Recovery:</dt>
@@ -2798,6 +2821,10 @@ recovery plan to restore operations in case of data loss or corruption.<a href="
       <dd>
 <span class="refAuthor">Claise, B., Ed.</span>, <span class="refAuthor">Trammell, B., Ed.</span>, and <span class="refAuthor">P. Aitken</span>, <span class="refTitle">"Specification of the IP Flow Information Export (IPFIX) Protocol for the Exchange of Flow Information"</span>, <span class="seriesInfo">STD 77</span>, <span class="seriesInfo">RFC 7011</span>, <span class="seriesInfo">DOI 10.17487/RFC7011</span>, <time datetime="2013-09" class="refDate">September 2013</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc7011">https://www.rfc-editor.org/rfc/rfc7011</a>&gt;</span>. </dd>
 <dd class="break"></dd>
+<dt id="RFC7426">[RFC7426]</dt>
+      <dd>
+<span class="refAuthor">Haleplidis, E., Ed.</span>, <span class="refAuthor">Pentikousis, K., Ed.</span>, <span class="refAuthor">Denazis, S.</span>, <span class="refAuthor">Hadi Salim, J.</span>, <span class="refAuthor">Meyer, D.</span>, and <span class="refAuthor">O. Koufopavlou</span>, <span class="refTitle">"Software-Defined Networking (SDN): Layers and Architecture Terminology"</span>, <span class="seriesInfo">RFC 7426</span>, <span class="seriesInfo">DOI 10.17487/RFC7426</span>, <time datetime="2015-01" class="refDate">January 2015</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc7426">https://www.rfc-editor.org/rfc/rfc7426</a>&gt;</span>. </dd>
+<dd class="break"></dd>
 <dt id="RFC7622">[RFC7622]</dt>
       <dd>
 <span class="refAuthor">Saint-Andre, P.</span>, <span class="refTitle">"Extensible Messaging and Presence Protocol (XMPP): Address Format"</span>, <span class="seriesInfo">RFC 7622</span>, <span class="seriesInfo">DOI 10.17487/RFC7622</span>, <time datetime="2015-09" class="refDate">September 2015</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc7622">https://www.rfc-editor.org/rfc/rfc7622</a>&gt;</span>. </dd>
@@ -2872,8 +2899,8 @@ François, Jordi Paillissé, Luis Miguel Contreras Murillo, Alexander
 Clemm, Qiao Xiang, Ramin Sadre, Pedro Martinez-Julia, Wei Wang,
 Zongpeng Du, Peng Liu, and Albrecht Schwarz.<a href="#appendix-A-1" class="pilcrow">¶</a></p>
 <p id="appendix-A-2">Diego Lopez and Antonio Pastor were partly supported by the European
-Commission under Horizon 2020 grant agreement no. 833685 (SPIDER),
-and grant agreement no. 871808 (INSPIRE-5Gplus).<a href="#appendix-A-2" class="pilcrow">¶</a></p>
+Commission under Horizon 2020 grant agreement No. 833685 (SPIDER),
+and grant agreement No. 871808 (INSPIRE-5Gplus).<a href="#appendix-A-2" class="pilcrow">¶</a></p>
 <p id="appendix-A-3">Daniel King was partly supported by the UK Department for Science,
 Innovation and Technology under the Future Open Networks Research
 Challenge project TUDOR (Towards Ubiquitous 3D Open Resilient Network).<a href="#appendix-A-3" class="pilcrow">¶</a></p>
