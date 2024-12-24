@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-12-22T01:51:07.578746+00:00",
+  "timestamp": "2024-12-24T01:43:58.060608+00:00",
   "repo": "cheneyzhoucheng/network-digital-twin",
   "labels": [
     {
@@ -460,6 +460,22 @@
           "updatedAt": "2024-09-20T07:38:45Z"
         }
       ]
+    },
+    {
+      "number": 35,
+      "id": "I_kwDOLV8yHc6kN4X6",
+      "title": "RG Last Call Review",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/issues/35",
+      "state": "OPEN",
+      "author": "billwuqin",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "1. https://mailarchive.ietf.org/arch/msg/nmrg/S8VjKu3MALQltD41LLvJTdQ9-2Q/\r\n2. https://mailarchive.ietf.org/arch/msg/nmrg/f7FMjvkD6SVh9C9yJKXH7H3aPds/\r\n3. https://mailarchive.ietf.org/arch/msg/nmrg/KrTmdMpAHqzmFGPYfcRjTjsqufA/\r\n4. https://mailarchive.ietf.org/arch/msg/nmrg/UILZqR36WiL7OMwvDMI0G06U4K8/",
+      "createdAt": "2024-12-23T02:59:42Z",
+      "updatedAt": "2024-12-23T02:59:42Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
@@ -2545,6 +2561,40 @@
           ]
         }
       ]
+    },
+    {
+      "number": 36,
+      "id": "PR_kwDOLV8yHc6GCPDs",
+      "title": "Fix comments in RGLC",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/36",
+      "state": "OPEN",
+      "author": "billwuqin",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-12-23T03:42:16Z",
+      "updatedAt": "2024-12-23T03:45:34Z",
+      "baseRepository": "cheneyzhoucheng/network-digital-twin",
+      "baseRefName": "main",
+      "baseRefOid": "877004c54268e633331c746e8f5a47d4e7050514",
+      "headRepository": "cheneyzhoucheng/network-digital-twin",
+      "headRefName": "billwuqin-patch-11",
+      "headRefOid": "8322b41270692bc5f5308f2cb2a621ee0edd0809",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "billwuqin",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@cheneyzhoucheng \r\nCan you take care of this comments in section 3.2\r\n==================================================\r\n2.In section 3.2\r\nSuggest the authors to further summarize some of the latest literature,\r\nsuch as 2023 and 2024. And it is necessary to classify the literature.\r\nhttps://www.sciencedirect.com/science/article/pii/S2667241323000137\r\nhttps://www.sciencedirect.com/science/article/pii/S0045782523007089\r\nhttps://ieeexplore-ieee-org/abstract/document/10234616/\r\nhttps://www.sciencedirect.com/science/article/pii/S0736584523000832\r\nhttps://ieeexplore-ieee-org/abstract/document/10234399/\r\nhttps://www.sciencedirect.com/science/article/pii/S0278612524001298",
+          "createdAt": "2024-12-23T03:43:29Z",
+          "updatedAt": "2024-12-23T03:43:29Z"
+        }
+      ],
+      "reviews": []
     }
   ]
 }
