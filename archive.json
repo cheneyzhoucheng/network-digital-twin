@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-01-07T01:45:29.167385+00:00",
+  "timestamp": "2025-01-09T02:11:17.870570+00:00",
   "repo": "cheneyzhoucheng/network-digital-twin",
   "labels": [
     {
@@ -2574,7 +2574,7 @@
       "labels": [],
       "body": "",
       "createdAt": "2024-12-23T03:42:16Z",
-      "updatedAt": "2024-12-23T03:45:34Z",
+      "updatedAt": "2025-01-07T14:57:49Z",
       "baseRepository": "cheneyzhoucheng/network-digital-twin",
       "baseRefName": "main",
       "baseRefOid": "877004c54268e633331c746e8f5a47d4e7050514",
@@ -2594,6 +2594,53 @@
           "updatedAt": "2024-12-23T03:43:29Z"
         }
       ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOLV8yHc6XEj2c",
+          "commit": {
+            "abbreviatedOid": "8322b41"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "Looks good. I have only one proposed change. Thanks",
+          "createdAt": "2025-01-07T14:57:19Z",
+          "updatedAt": "2025-01-07T14:57:49Z",
+          "comments": [
+            {
+              "originalPosition": 230,
+              "body": "```suggestion\r\nmade by computation logics such as an SDN {{?RFC7149}}{{?RFC7426}} controller may rely upon\r\n```\r\n\r\nCite both IETF/IRTF refs for SDN.",
+              "createdAt": "2025-01-07T14:57:19Z",
+              "updatedAt": "2025-01-07T14:57:49Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "id": "PR_kwDOLV8yHc6G82rD",
+      "title": "nits",
+      "url": "https://github.com/cheneyzhoucheng/network-digital-twin/pull/37",
+      "state": "OPEN",
+      "author": "boucadair",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "* NDT is expanded when first used\r\n* remove entries from the abbrev list that are used only once in the doc",
+      "createdAt": "2025-01-07T15:07:12Z",
+      "updatedAt": "2025-01-07T15:07:13Z",
+      "baseRepository": "cheneyzhoucheng/network-digital-twin",
+      "baseRefName": "main",
+      "baseRefOid": "877004c54268e633331c746e8f5a47d4e7050514",
+      "headRepository": "cheneyzhoucheng/network-digital-twin",
+      "headRefName": "nits",
+      "headRefOid": "b3b01f77e4668881cb24fcbf6fc8da0941feebb4",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
       "reviews": []
     }
   ]
