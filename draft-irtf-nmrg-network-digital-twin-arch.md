@@ -280,11 +280,11 @@ emulation platforms.
 A Digital Twin is a real-time digital representation of a physical entity. It features
 virtual-reality interrelation and real-time interaction, iterative operation and process
 optimization, and full life-cycle, comprehensive data-driven network infrastructure.
-Digital twins have gained widespread recognition in academic publications and are now
+Digital Twins have gained widespread recognition in academic publications and are now
 being widely adopted for Industry 4.0 use cases.  The reader may refer to {{concept}} for
 more details.
 
-A digital twin for networks can be created by applying Digital Twin technologies to
+A Digital Twin for networks can be created by applying Digital Twin technologies to
 networks, resulting in a virtual replica of real network facilities (emulation). A
 Network Digital Twin (NDT) is an advanced platform for network emulation, serving as a tool
 for scenario planning, impact analysis, and change management. Unlike conventional
@@ -294,7 +294,7 @@ approach to establish closed-loop network automation.
 Integrating a Network Digital Twin into network management allows engineers to assess,
 model, and refine optimization strategies under real conditions but in a risk-free environment.
 This ensures that only the most effective changes are implemented in the real network, following
-thorough validation and control checks. Moreover, a network digital twin captures and aggregates
+thorough validation and control checks. Moreover, a Network Digital Twin captures and aggregates
 critical data for analyzing the root causes of network failures, anomalies, vulnerabilities, etc.
 It also offers a sandbox for testing hypotheses, exercising mitigation scenarios, and validating
 data-driven insights without affecting end-users.
@@ -317,6 +317,8 @@ CI/CD:  Continuous Integration/Continuous Delivery
 ML:  Machine Learning
 
 OAM:  Operations, Administration, and Maintenance
+
+SDN: Software Defined Networking
 
 ## Definitions
 
@@ -351,13 +353,13 @@ equipment during the mission {{Rosen2015}}.
 In 2003, Digital Twin was attributed to John Vickers by Michael
 Grieves in his Product Lifecycle Management (PLM) course as "virtual
 digital representation equivalent to physical products"
-{{Grieves2014}}.  Digital twin can be defined as a virtual instance of
+{{Grieves2014}}.  Digital Twin can be defined as a virtual instance of
 a physical system (twin) that is continually updated with the
 latter's performance, maintenance, and health status data throughout
 the physical system's life cycle {{Madni2019}}.  By providing a living
-copy of physical system, digital twins bring numerous advantages,
+copy of physical system, Digital Twins bring numerous advantages,
 such as accelerated business processes, enhanced productivity, and
-faster innovation with reduced costs.  So far, digital twin has been
+faster innovation with reduced costs.  So far, Digital Twin has been
 successfully applied in the fields of intelligent manufacturing,
 smart city, or complex system operation and maintenance to help with
 not only object design and testing, but also management aspects
@@ -365,7 +367,7 @@ not only object design and testing, but also management aspects
 
 Compared with 'digital model' and 'digital shadow', the key difference
 of 'digital twin' is the direction of data between the physical and virtual
-systems {{Fuller2020}}. Typically, when using a digital twin, the (twin)
+systems {{Fuller2020}}. Typically, when using a Digital Twin, the (twin)
 system is generated. Then a partial or full synchronization of data flows in
 both directions between physical and digital components, so that control data
 can be sent, and changes between systems' physical and digital objectives are
@@ -373,62 +375,62 @@ automatically represented. This behavior is unlike a 'digital model' or 'digital
 shadow', which are usually synchronized manually, lacking control data, and
 might not have integrated a full cycle of data.
 
-At present (2024), there is no unified definition of digital twin
+At present (2024), there is no unified definition of Digital Twin
 framework.  The industry, scientific research institutions, and
 standards developing organizations are trying to define a general or
-domain-specific framework of digital twin.  {{Natis-Gartner2017}}
-proposed that building a digital twin of a physical entity requires
+domain-specific framework of Digital Twin.  {{Natis-Gartner2017}}
+proposed that building a Digital Twin of a physical entity requires
 four key elements: model, data, monitoring, and uniqueness.
-{{Tao2019}} proposed a five-dimensional framework of digital twin {PE,
+{{Tao2019}} proposed a five-dimensional framework of Digital Twin {PE,
 VE, SS, DD, CN}, in which PE represents physical entity, VE
 represents virtual entity, SS represents service, DD represents twin
 data, and CN represents the connection between various components.
-{{ISO-2021}} issued a draft standard for digital twin manufacturing
+{{ISO-2021}} issued a draft standard for Digital Twin manufacturing
 system, and proposed a reference framework including data collection
-domain, device control domain, digital twin domain, and user domain.
+domain, device control domain, Digital Twin domain, and user domain.
 
 ## Digital Twin for Networks
 
 Communication networks provide a solid foundation for implementing
 various 'digital twin' applications.  At the same time, in the face
 of increasing business types, scale and complexity, a network itself
-also needs to use digital twin technology to seek enhanced and
+also needs to use Digital Twin technology to seek enhanced and
 optimized solutions compared to relying solely on the real network.
 The motivation for Network Digital Twin can be traced back to
 some earlier concepts, such as "shadow MIB", inductive modeling
 techniques, parallel systems, etc.  Since 2017, the application of
-digital twin technology in the field of communication networks has
+Digital Twin technology in the field of communication networks has
 gradually been researched as illustrated by the (non-exhaustive) list
 of examples that are listed hereafter.
 
-Within academia, {{Dong2019}} established the digital twin of 5G mobile
+Within academia, {{Dong2019}} established the Digital Twin of 5G mobile
 edge computing (MEC) network, used the twin offline to train the
 resource allocation optimization and normalized energy-saving
 algorithm based on reinforcement learning, and then updated the
-scheme to MEC network.  {{Dai2020}} established a digital twin edge
+scheme to MEC network.  {{Dai2020}} established a Digital Twin edge
 network for mobile edge computing system, in which a twin edge server
 is used to evaluate the state of entity server, and the twin mobile
 edge computing system provides data for training offloading strategy.
-{{Nguyen2021}} discusses how to deploy a digital twin for complex 5G
-networks.  {{Hong2021}} presents a digital twin platform towards
+{{Nguyen2021}} discusses how to deploy a Digital Twin for complex 5G
+networks.  {{Hong2021}} presents a Digital Twin platform towards
 automatic and intelligent management for data center networks, and
 then proposes a simplified workflow of network service
-management.  {{Dai2022}} gives the concept of digital twin and proposes
-an digital twin-enabled vehicular edge computing (VEC) network, where
-digital twin can enable adaptive network management via the two-
-closed loops between physical VEC networks and digital twins.  In
-addition, international workshops dedicated to digital twin in
+management.  {{Dai2022}} gives the concept of Digital Twin and proposes
+a Digital Twin-enabled vehicular edge computing (VEC) network, where
+Digital Twin can enable adaptive network management via the two-
+closed loops between physical VEC networks and Digital Twins.  In
+addition, international workshops dedicated to Digital Twin in
 networking field have already appeared, such as IEEE DTPI 2021&2022-
 Digital Twin Network Online Session {{DTPI2021}}, {{DTPI2022}}, and IEEE
 NOMS 2022 - TNT workshop {{TNT2022}}.
 
-Although the application of digital twin technology in networking has
-started, the research on digital twins for networks technology is
+Although the application of Digital Twin technology in networking has
+started, the research on Digital Twins for networks technology is
 still in its infancy.  Current applications focus on specific
 scenarios (such as network optimization), where a Network Digital Twin
 is used as a network simulation tool to solve particular problems in
 network operation and maintenance.  Combined with the characteristics
-of digital twin technology and its application in other industries,
+of Digital Twin technology and its application in other industries,
 this document believes that Network Digital Twin can be regarded as
 an indispensable part of the overall network system, and can play an
 important role generally in architectures serving use cases across the
@@ -449,8 +451,8 @@ network and its virtual twin network.  Whether a Network Digital Twin supports a
 a subset of the functions above (i.e., analyze, diagnose, emulate, and control)
 is use case and deployment-specific.
 
-Referring to the characteristics of digital twins in other industries and the
-characteristics of networking itself, the network digital twin and its use should
+Referring to the characteristics of Digital Twins in other industries and the
+characteristics of networking itself, the Network Digital Twin and its use should
 involve at least five key elements: data, mapping, models, interfaces, and logic,
 as shown in {{kelem}}. The first four elements together provide the information to
 the applications or architectural entities that consumes it in the service of
@@ -521,7 +523,7 @@ analysis, diagnosis, or control.
   the various platform capabilities to applications.
 
   Mapping:
-  : Used to identify the digital twin and the underlying entities and establish
+  : Used to identify the Digital Twin and the underlying entities and establish
   a real-time interactive relation between the real network and the twin network or
   between two twin networks. The mapping can be:
 
@@ -531,9 +533,9 @@ analysis, diagnosis, or control.
   *	One to many (coupling, horizontal): Synchronize among virtual twin networks with
     occasional data exchange.
 
-  Such mappings provide a good visibility of actual status, making the digital twin suitable
+  Such mappings provide a good visibility of actual status, making the Digital Twin suitable
   to analyze and understand what is going on in the real network. It also allows using the
-  digital twin to optimize the performance and maintenance of the real network.
+  Digital Twin to optimize the performance and maintenance of the real network.
 
   The Network Digital Twin, constructed based on the four core technology elements, can provide
   crucial emulation-driven information to support analysis, diagnosis, and control of the real
@@ -551,7 +553,7 @@ analysis, diagnosis, or control.
   and "the mirroring pace and scope" should be controlled for a given twin usage.
 
  > Note: Real-time interaction is not always mandatory for all NDT use cases. For example, when
-  assessing some configuration changes or emulating some innovative techniques, the digital twin
+  assessing some configuration changes or emulating some innovative techniques, the Digital Twin
   can behave as an isolated simulation platform without the need of real-time telemetry data. It
   might be useful to have interactive mapping capability so that the validated changes can be evaluated
   under real network conditions whenever required by the testers. Whether real-time interaction between
@@ -560,15 +562,15 @@ analysis, diagnosis, or control.
   is a catalyst to achieving autonomous networks or self-driven network.
 
   Logic:
-  : Network digital twin facilitates optimal resource allocation and configuration, enhancing
+  : Network Digital Twin facilitates optimal resource allocation and configuration, enhancing
   efficiency and performance. They can enable comprehensive troubleshooting maintenance and control by
-  diagnosing issues using the network digital twin. Moreover, Network Digital Twins play a crucial role in planning
+  diagnosing issues using the Network Digital Twin. Moreover, Network Digital Twins play a crucial role in planning
   and deployment, allowing for the simulation of new designs and configurations to anticipate their effects
   before implementation.
 
 # Benefits of Network Digital Twin
 
-Network digital twin can help enabling closed-loop network management
+Network Digital Twin can help enable closed-loop network management
 across the entire lifecycle, from deployment and emulation, to
 visualized assessment, physical deployment, and continuous
 verification.  By doing so, network operators and end-users to some
@@ -628,7 +630,7 @@ Traditional network operation and management mainly focus on
 deploying and managing running services, but hardly support
 predictive maintenance techniques.
 
-Network digital twin can combine data acquisition, big data
+Network Digital Twin can combine data acquisition, big data
 processing, and AI-based modeling to assess the status of the network,
 but also to predict future trends, and better organize predictive
 maintenance.  The ability to reproduce network behaviors under
@@ -641,12 +643,12 @@ Testing a new feature in an operational network is not only complex,
 but also extremely risky.  Service impact analysis is required to be
 adequately achieved prior to effective activation of a new feature.
 
-Network digital twin can greatly help assessing innovative network
+Network Digital Twin can greatly help assessing innovative network
 capabilities without jeopardizing the daily operation of the real
 network.  In addition, it helps researchers to explore network
 innovation (e.g., new network protocols, network AI/ML applications)
 efficiently, and network operators to deploy new technologies quickly
-with lower risks.  Take AI/ ML application as example, it is a
+with lower risks.  Take AI/ ML application as an example, it is a
 conflict between the continuous high reliability requirement (i.e.,
 99.999%) and the slow learning speed or phase-in learning steps of
 AI/ML algorithms.  With Network Digital Twin, AI/ML can complete the
@@ -658,7 +660,7 @@ innovations in future networks.
 
 The requirements on data confidentiality and privacy on network
 providers increase the complexity of network management, as decisions
-made by computation logics such as an SDN controller may rely upon
+made by computation logics such as an SDN {{?RFC7149}}{{?RFC7426}} controller may rely upon
 the packet payloads.  As a result, the improvement of data-driven
 management requires complementary techniques that can provide a
 strict control based upon security mechanisms to guarantee data
@@ -679,7 +681,7 @@ for data-driven operation.
 ## Customized Network Operation Training
 
 Network architectures can be complex, and their operation requires
-expert personnel.  Network digital twin offers an opportunity to
+expert personnel.  Network Digital Twin offers an opportunity to
 train staff for customized networks and specific user needs.  Two
 salient examples are the application of new network architectures and
 protocols or the use of "cyber-ranges" to train security experts in
@@ -688,7 +690,7 @@ threat detection and mitigation.
 # Challenges to Build a Network Digital Twin
 
 According to {{Hu2021}}, the main challenges in building and maintaining
-digital twins can be summarized as the following five aspects:
+Digital Twins can be summarized as the following five aspects:
 
 *	Data acquisition and processing
 
@@ -700,7 +702,7 @@ digital twins can be summarized as the following five aspects:
 
 *	Environmental coupling technologies
 
-Compared with other industrial fields, digital twin in networking field has
+Compared with other industrial fields, Digital Twin in networking field has
 its unique characteristics. On the one hand, network elements and system have
 higher level of digitalization, which implies that data acquisition and
 virtual-real communication are relatively easy to achieve. On the other hand,
@@ -708,11 +710,11 @@ there are various different types of network elements and topologies in the
 network field; and the network size is characterized by the number of nodes and
 links in it but the network size growth pace can not meet the service needs,
 especially in the deployment of end to end service which spans across multiple
-administrative domains. So, the construction of a digital twin network system
+administrative domains. So, the construction of a Digital Twin network system
 needs to consider the following major challenges:
 
 Large-scale challenge:
-: A digital twin of large-scale networks will significantly increase the complexity
+: A Digital Twin of large-scale networks will significantly increase the complexity
   of data acquisition and storage and the design and implementation of relevant models.
 : The requirements of the software and hardware of the Network Digital Twin system
 will be even more constrained. Therefore, efficient and low cost tools in various
@@ -725,7 +727,7 @@ compression methods must be used.
 Interoperability:
 : Due to the inconsistency of technical implementations and the
 heterogeneity of vendor-adopted technologies, it is difficult to establish a unified
-digital twin network system with a common technology in a network domain.
+Digital Twin network system with a common technology in a network domain.
 Therefore, it is needed firstly to propose a unified architecture of network digital
 twin, in which all components and functionalities are clear to all stakeholders; then
 define standardized and unified interfaces to connect all network twins via ensuring
@@ -761,12 +763,12 @@ match the corresponding computing resources and suitable solutions as needed to 
 the task processing in the twin.
 
 Security risks:
-: A Network Digital Twin has to synchronize all or subset of the data
+: A Network Digital Twin has to synchronize all or a subset of the data
 related to involved real networks in real time, which inevitably augments the attack
 surface, with a higher risk of information leakage, in particular. On one hand, it
 is mandatory to design more secure data mechanism leveraging legacy data protection
-methods and innovative technologies such as block chain. On the other hand, the system
-design can limit the data (especially raw data) requirement for building digital twin
+methods and innovative technologies such as blockchain. On the other hand, the system
+design can limit the data (especially raw data) requirement for building Digital Twin
 network, leveraging innovative modeling technologies such as federal learning.
 
 To address the above listed challenges, it is important to agree on a unified
@@ -848,13 +850,13 @@ associated applications; it monitors the performance and resource consumption of
 and controls various operational aspects of the NDT, including topology management, configuration management, performance
 management, and security management.
 
-The "real network" – the physical counter-part of an NDT - can be a mobile access network, a transport network,
+The "real network" – the physical counterpart of an NDT - can be a mobile access network, a transport network,
 a mobile core, a backbone, etc. The real network can also be a data center network, a campus enterprise network,
-an industrial Internet of Things (IoT), etc.
+or an industrial Internet of Things (IoT), etc.
 The real network can span across a single network administrative domain or multiple network administrative domains.
 It can include both physical entities and some virtual entities (e.g., vSwitches), which together carry
 traffic and provide actual network services.
-All or subset of network elements in the real network deliver network data, directly or through other systems, to
+All or a subset of network elements in the real network deliver network data, directly or through other systems, to
 the NDT, through appropriate input interfaces. Network elements may receive control inputs, through specific output interfaces,
 from operations systems in which NDTs play a role. The input and output interfaces might vary as a function of the specific NDT use case. The number of input interfaces or output interfaces are also determined by specific NDT use cases.
 This document focuses on the IETF related real network such as IP bearer network and data center network.
@@ -950,7 +952,7 @@ functions/services.
 # Enabling Technologies to Build Network Digital Twin
 
 This section briefly describes several key enabling technologies to
-build digital twin work system, based on the challenges and the
+build Digital Twin work system, based on the challenges and the
 reference architecture described in above sections.  Actually, each
 enabling technology is worth of deep researching respectively and
 separately.
@@ -961,13 +963,13 @@ Data collection technology is the foundation of building data
 repository for Network Digital Twin. Target driven mode should be
 adopted for data collection from heterogeneous data sources. The
 type, frequency and data collection method shall meet the requirements
-of the Network Digital Twin application. Whenever building network
+of the Network Digital Twin application. When building network
 models for a specific network application, the required data can be
 efficiently obtained from the data repository.
 
 Diverse existing tools and methods (e.g., SNMP, NETCONF {{?RFC6241}},
 IPFIX {{?RFC7011}}, and telemetry {{?RFC9232}}) can be used to collect
-different type of network data.  YANG data models and associated
+different types of network data.  YANG data models and associated
 mechanisms defined in {{?RFC8639}}{{?RFC8641}} enable subscriber-specific
 subscriptions to a publisher's event streams.  Such mechanisms can be
 used by subscriber applications to request for a continuous and
@@ -976,7 +978,7 @@ innovative methods (e.g., sketch-based measurement) can be used to
 acquire more complex network data, such as network performance data.
 Furthermore, data transformation and aggregation capabilities can be
 used to improve the applicability on network modelling.  Toward
-building data repository for a digital twin system, data collection
+building data repository for a Digital Twin system, data collection
 tools and methods should be as lightweight as possible, so as to
 reduce the volume of required network equipment resources, and
 meaningful so it can be useful.  Several solutions related to data
@@ -1030,7 +1032,7 @@ network models. One of the key advantages of bottleneck structures is that
 they can be used to compute (symbolically or numerically) key performance
 indicators of the network (e.g., expected flow throughput, projected flow
 completion time) without using computationally intensive simulators.
-This capability can be especially useful when building a digital twin or
+This capability can be especially useful when building a Digital Twin or
 a large-scale network, potentially saving orders or magnitude in computational
 resources in comparison to simulation or emulation-based approaches.
 
@@ -1094,7 +1096,7 @@ interfaces on building a Network Digital Twin system:
 All these interfaces are recommended to be open and standardized so
 as to avoid either hardware or software vendor lock and achieve
 interoperability. Besides the interfaces listed above, some new interfaces
-or protocols can be created to better serve digital twin network system.
+or protocols can be created to better serve Digital Twin network system.
 
 ## Twinning Management
 
@@ -1130,9 +1132,9 @@ not limited to, the following main technologies:
   resolution algorithms (e.g., {{Pradeep2022}} and {{Zheng2022}}).
 
 *  Energy-Efficient Twinning:
-: Focus on energy efficiency in digital twin
+: Focus on energy efficiency in Digital Twin
   network system. It includes monitoring and optimizing the energy
-  consumption of both network equipment and digital twin system operation,
+  consumption of both network equipment and Digital Twin system operation,
   reducing the energy expenditure of network operation, and achieving the
   goal of a green (energy efficient) network.
 
@@ -1148,20 +1150,20 @@ continuously adjust policies and validate real-time situations.
 IBN can be envisaged in a Network Digital Twin context to show how
 Network Digital Twin improves the efficiency of deploying network
 innovation. Several rounds of adjustment and validation can be emulated
-on the digital twin platform instead of directly impacting real network
-during the testing phase. Therefore, the digital twin network can be an
+on the Digital Twin platform instead of directly impacting real network
+during the testing phase. Therefore, the Digital Twin network can be an
 important enabler platform for implementing IBN systems and fostering
 their deployment.
 
 # Sample Application Scenarios
 
-Network digital twin can be applied to solve different problems in
+Network Digital Twin can be applied to solve different problems in
 network management and operation.
 
 ## Human Training
 
 The usual approach to network OAM with procedures applied by humans
-is open to errors in all these procedures, whigh impact network
+is open to errors in all these procedures, which impact network
 availability and resilience.  Response procedures and actions for
 most relevant operational requests and incidents are commonly defined
 to reduce errors to a minimum. The progressive automation of these
@@ -1174,12 +1176,12 @@ The use of Network Digital Twin for this purpose in different network
 management activities will improve the operators performance.  One
 common example is cybersecurity incident handling, where "cyber-
 range" exercises are executed periodically to train security
-practitioners.  Network digital twin will offer realistic
+practitioners.  Network Digital Twin will offer realistic
 environments, fitted to the real production networks.
 
 ## Machine Learning Training
 
-Machine learning requires data and their context to be available in
+Machine learning requires data and its context to be available in
 order to be applied. A common approach in the network management
 environment has been to simulate or import data in a specific environment
 (the ML developer lab), where they are used to train the selected model,
@@ -1187,7 +1189,7 @@ while later, when the model is deployed in production, re-train or adjust
 to the production environment context. This demands a specific adaption
 period.
 
-Network digital twin simplifies the complete ML lifecycle development
+Network Digital Twin simplifies the complete ML lifecycle development
 by providing a realistic environment, including network topologies,
 to generate the data required in a well-aligned context.  Dataset
 generated belongs to the Network Digital Twin and not to the
@@ -1206,7 +1208,7 @@ Service Level Agreements (SLAs) using a Network Digital Twin
 environment replicating the network particularities as a previous
 step to production release.
 
-Network digital twin control functional block supports such dynamic
+Network Digital Twin control functional block supports such dynamic
 mechanisms required by DevOps procedures.
 
 ## Network Fuzzing
@@ -1217,7 +1219,7 @@ interactions among complex software components are examples that
 imply higher risk to errors or vulnerabilities in software and
 configuration.
 
-Network digital twin allows to apply fuzzing testing techniques on
+Network Digital Twin allows to apply fuzzing testing techniques on
 a twin network environment, with interactions and conditions similar
 to the production network, permitting the identification of
 vulnerabilities, bugs and zero-day attacks before production delivery.
@@ -1235,7 +1237,7 @@ discovered, processed, and stored. Therefore, the inventory is difficult to
 manage when tracked in different places without formal synchronization
 procedures.
 
-Network digital twin management can be used as a means to ensure consistent
+Network Digital Twin management can be used as a means to ensure consistent
 representation and reporting of inventory component types. In doing so, the
 enforcement of security policies and assessments will be further simplified.
 Such an approach will ease the implementation of a unified control strategy
@@ -1252,10 +1254,10 @@ dependency, and hardware dependency "what-if" scenarios.
 
 Research on Network Digital Twin has just started. This document
 presents an overview of the Network Digital Twin concepts and reference
-architecture. As digital twin technology develops, further investigation
+architecture. As Digital Twin technology develops, further investigation
 of Network Digital Twin scenarios, requirements, architecture, and key
 enabling technologies should be investigated by the industry to accelerate
-the implementation and deployment of digital twin network.
+the implementation and deployment of Network Digital Twin.
 
 # Security Considerations
 
@@ -1280,7 +1282,7 @@ enabled to prevent data leaks. Also, appropriate access rights must be provision
 * Data Security and Privacy Protection.
 
 Confidentiality:
-: Ensuring that sensitive data used in the digital twin
+: Ensuring that sensitive data used in the Digital Twin
 is protected from unauthorized access. This includes encrypting data
 both at rest and in transit.
 
@@ -1347,7 +1349,7 @@ to identify and address potential security gaps.
 
 Redundancy:
 : Implementing redundancy and failover mechanisms ensures the
-digital twin remains operational during and after a security/failure incident.
+Digital Twin remains operational during and after a security/failure incident.
 
 Backup and Recovery:
 : Regularly back up NDT data and have a robust
@@ -1374,8 +1376,8 @@ Clemm, Qiao Xiang, Ramin Sadre, Pedro Martinez-Julia, Wei Wang,
 Zongpeng Du, Peng Liu, and Albrecht Schwarz.
 
 Diego Lopez and Antonio Pastor were partly supported by the European
-Commission under Horizon 2020 grant agreement no. 833685 (SPIDER),
-and grant agreement no. 871808 (INSPIRE-5Gplus).
+Commission under Horizon 2020 grant agreement No. 833685 (SPIDER),
+and grant agreement No. 871808 (INSPIRE-5Gplus).
 
 Daniel King was partly supported by the UK Department for Science,
 Innovation and Technology under the Future Open Networks Research
