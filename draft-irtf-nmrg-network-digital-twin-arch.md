@@ -300,23 +300,25 @@ It also offers a sandbox for testing hypotheses, exercising mitigation scenarios
 data-driven insights without affecting end-users.
 
 Through the real-time data interaction between the real network and its twin network(s),
-the Network Digital Twin (NDT) platform will provide the data for NDT-based applications
+the NDT platform will provide the data for NDT-based applications
 and network designers to achieve greater simplification, automation, resilience testing
-("what-if scenarios"), and full life-cycle operation and infrastructure maintenance.
+("what-if" scenarios), and full life-cycle operation and infrastructure maintenance.
 
 # Terminology
 
 ## Acronyms and Abbreviations
 
-IBN:  Intent-Based Networking
+AI:
+:   Artificial Intelligence
 
-AI:   Artificial Intelligence
+IBN:
+:  Intent-Based Networking
 
-CI/CD:  Continuous Integration/Continuous Delivery
+ML:
+:  Machine Learning
 
-ML:  Machine Learning
-
-OAM:  Operations, Administration, and Maintenance
+NDT:
+: Network Digital Twin
 
 SDN: Software Defined Networking
 
@@ -1162,8 +1164,8 @@ network management and operation.
 
 ## Human Training
 
-The usual approach to network OAM with procedures applied by humans
-is open to errors in all these procedures, which impact network
+The usual approach to network Operations, Administration, and Maintenance (OAM) with procedures applied by humans
+is open to errors in all these procedures, whigh impact network
 availability and resilience.  Response procedures and actions for
 most relevant operational requests and incidents are commonly defined
 to reduce errors to a minimum. The progressive automation of these
@@ -1198,7 +1200,7 @@ without impacting data privacy.
 
 ## DevOps-Oriented Certification
 
-The potential application of CI/CD models network management
+The potential application of Continuous Integration/Continuous Delivery (CI/CD) models network management
 operations increases the risk associated to the deployment of
 non-validated updates, which conflicts with the goal of the
 certification requirements applied by network service providers.
