@@ -5,7 +5,7 @@
 Network Management                                               C. Zhou
 Internet-Draft                                                   H. Yang
 Intended status: Informational                                   X. Duan
-Expires: 26 June 2025                                       China Mobile
+Expires: 25 July 2025                                       China Mobile
                                                                 D. Lopez
                                                                A. Pastor
                                                           Telefonica I+D
@@ -14,7 +14,7 @@ Expires: 26 June 2025                                       China Mobile
                                                             M. Boucadair
                                                             C. Jacquenet
                                                                   Orange
-                                                        23 December 2024
+                                                         21 January 2025
 
 
        Network Digital Twin: Concepts and Reference Architecture
@@ -59,11 +59,11 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 26 June 2025.
+   This Internet-Draft will expire on 25 July 2025.
 
 Copyright Notice
 
-   Copyright (c) 2024 IETF Trust and the persons identified as the
+   Copyright (c) 2025 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -530,16 +530,16 @@ Table of Contents
 
    The requirements on data confidentiality and privacy on network
    providers increase the complexity of network management, as decisions
-   made by computation logics such as an SDN [RFC7426] controller may
-   rely upon the packet payloads.  As a result, the improvement of data-
-   driven management requires complementary techniques that can provide
-   a strict control based upon security mechanisms to guarantee data
-   privacy protection and regulatory compliance.  This may range from
-   flow identification (using the archetypal five-tuple of addresses,
-   ports and protocol) to techniques requiring some degree of payload
-   inspection, all of them considered suitable to be associated to an
-   individual person, and hence requiring strong protection and/or data
-   anonymization mechanisms.
+   made by computation logics such as an SDN [RFC7149][RFC7426]
+   controller may rely upon the packet payloads.  As a result, the
+   improvement of data-driven management requires complementary
+   techniques that can provide a strict control based upon security
+   mechanisms to guarantee data privacy protection and regulatory
+   compliance.  This may range from flow identification (using the
+   archetypal five-tuple of addresses, ports and protocol) to techniques
+   requiring some degree of payload inspection, all of them considered
+   suitable to be associated to an individual person, and hence
+   requiring strong protection and/or data anonymization mechanisms.
 
    With strong modeling capability provided by the Network Digital Twin,
    very limited real data (if at all) will be needed to achieve similar
@@ -1428,6 +1428,11 @@ interfaces |  | Data   +--->  |Functional Models |  +---> Digital|   | interface
               Protocol for the Exchange of Flow Information", STD 77,
               RFC 7011, DOI 10.17487/RFC7011, September 2013,
               <https://www.rfc-editor.org/rfc/rfc7011>.
+
+   [RFC7149]  Boucadair, M. and C. Jacquenet, "Software-Defined
+              Networking: A Perspective from within a Service Provider
+              Environment", RFC 7149, DOI 10.17487/RFC7149, March 2014,
+              <https://www.rfc-editor.org/rfc/rfc7149>.
 
    [RFC7426]  Haleplidis, E., Ed., Pentikousis, K., Ed., Denazis, S.,
               Hadi Salim, J., Meyer, D., and O. Koufopavlou, "Software-
