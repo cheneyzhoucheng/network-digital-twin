@@ -660,7 +660,7 @@ innovations in future networks.
 
 The requirements on data confidentiality and privacy on network
 providers increase the complexity of network management, as decisions
-made by computation logics such as an SDN {{?RFC7426}} controller may rely upon
+made by computation logics such as an SDN {{?RFC7149}}{{?RFC7426}} controller may rely upon
 the packet payloads.  As a result, the improvement of data-driven
 management requires complementary techniques that can provide a
 strict control based upon security mechanisms to guarantee data
