@@ -154,25 +154,22 @@ Table of Contents
    driven insights without affecting end-users.
 
    Through the real-time data interaction between the real network and
-   its twin network(s), the Network Digital Twin (NDT) platform will
-   provide the data for NDT-based applications and network designers to
-   achieve greater simplification, automation, resilience testing
-   ("what-if scenarios"), and full life-cycle operation and
-   infrastructure maintenance.
+   its twin network(s), the NDT platform will provide the data for NDT-
+   based applications and network designers to achieve greater
+   simplification, automation, resilience testing ("what-if" scenarios),
+   and full life-cycle operation and infrastructure maintenance.
 
 2.  Terminology
 
 2.1.  Acronyms and Abbreviations
 
-   IBN: Intent-Based Networking
+   AI:  Artificial Intelligence
 
-   AI: Artificial Intelligence
+   IBN:  Intent-Based Networking
 
-   CI/CD: Continuous Integration/Continuous Delivery
+   ML:  Machine Learning
 
-   ML: Machine Learning
-
-   OAM: Operations, Administration, and Maintenance
+   NDT:  Network Digital Twin
 
    SDN: Software Defined Networking
 
@@ -1080,15 +1077,16 @@ interfaces |  | Data   +--->  |Functional Models |  +---> Digital|   | interface
 
 11.1.  Human Training
 
-   The usual approach to network OAM with procedures applied by humans
-   is open to errors in all these procedures, which impact network
-   availability and resilience.  Response procedures and actions for
-   most relevant operational requests and incidents are commonly defined
-   to reduce errors to a minimum.  The progressive automation of these
-   procedures, such as predictive control or closed-loop management,
-   reduce the faults and response time, but still, there is the need of
-   a human-in-the-loop for multiple actions.  These processes are not
-   intuitive and require training to learn how to respond.
+   The usual approach to network Operations, Administration, and
+   Maintenance (OAM) with procedures applied by humans is open to errors
+   in all these procedures, whigh impact network availability and
+   resilience.  Response procedures and actions for most relevant
+   operational requests and incidents are commonly defined to reduce
+   errors to a minimum.  The progressive automation of these procedures,
+   such as predictive control or closed-loop management, reduce the
+   faults and response time, but still, there is the need of a human-in-
+   the-loop for multiple actions.  These processes are not intuitive and
+   require training to learn how to respond.
 
    The use of Network Digital Twin for this purpose in different network
    management activities will improve the operators performance.  One
@@ -1116,14 +1114,15 @@ interfaces |  | Data   +--->  |Functional Models |  +---> Digital|   | interface
 
 11.3.  DevOps-Oriented Certification
 
-   The potential application of CI/CD models network management
-   operations increases the risk associated to the deployment of non-
-   validated updates, which conflicts with the goal of the certification
-   requirements applied by network service providers.  A solution for
-   addressing these certification requirements is to verify the specific
-   impacts of updates on service assurance and Service Level Agreements
-   (SLAs) using a Network Digital Twin environment replicating the
-   network particularities as a previous step to production release.
+   The potential application of Continuous Integration/Continuous
+   Delivery (CI/CD) models network management operations increases the
+   risk associated to the deployment of non-validated updates, which
+   conflicts with the goal of the certification requirements applied by
+   network service providers.  A solution for addressing these
+   certification requirements is to verify the specific impacts of
+   updates on service assurance and Service Level Agreements (SLAs)
+   using a Network Digital Twin environment replicating the network
+   particularities as a previous step to production release.
 
    Network Digital Twin control functional block supports such dynamic
    mechanisms required by DevOps procedures.
