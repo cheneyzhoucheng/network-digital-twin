@@ -259,7 +259,7 @@ networking field is meant to develop various rich network applications,
 realize efficient and cost-effective data-driven network management,
 and accelerate network innovation.
 
-This document presents an overview of the concepts of Digital Twin Network,
+This document presents an overview of the concepts of Network Digital Twin,
 provides the basic definitions and a reference architecture, lists a set of
 application scenarios, and discusses such technology's benefits and key
 challenges.
@@ -1165,7 +1165,7 @@ network management and operation.
 ## Human Training
 
 The usual approach to network Operations, Administration, and Maintenance (OAM) with procedures applied by humans
-is open to errors in all these procedures, whigh impact network
+is open to errors in all these procedures, which impact network
 availability and resilience.  Response procedures and actions for
 most relevant operational requests and incidents are commonly defined
 to reduce errors to a minimum. The progressive automation of these
