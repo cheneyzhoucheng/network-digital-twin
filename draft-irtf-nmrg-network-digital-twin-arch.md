@@ -92,33 +92,45 @@ normative:
 informative:
 
   Chen2023:
-    title: Digital Twin Empowered Wireless Healthcare Monitoring for Smart Home
-    author: Chen J, Wang W, Fang B, et al.
-    organization: IEEE Journal on Selected Areas in Communications
+    title: "Digital Twin Empowered Wireless Healthcare Monitoring for Smart Home"
+    author:
+      -
+       name: Junxin Chen
+      -
+       name: Wei Wang
+      -
+       name: Bo Fang
+      -
+       name: Yu Liu
+      -
+       name: Keping Yu
+      -
+       name: Victor C. M. Leung
+    target: https://ieeexplore.ieee.org/document/10234399
     date: November 2023
 
   Dai2020:
     title: Deep Reinforcement Learning for Stochastic Computation Offloading in Digital Twin Networks
     author:
-    organization: IEEE Transactions on Industrial Informatics
+      org: IEEE Transactions on Industrial Informatics
     date: August 2020
 
   Dai2022:
     title: Adaptive Digital Twin for Vehicular Edge Computing and Networks
     author:
-    organization: Journal of Communications and Information Networks
+      org: Journal of Communications and Information Networks
     date: March 2022
 
   DNA-2022:
     title: "Differential Network Analysis, USENIX Symposium on Networked Systems Design and Implementation"
     author:
-    organization: NSDI 22
+      org: NSDI 22
     date: 2023
 
   Dong2019:
     title: "Deep Learning for Hybrid 5G Services in Mobile Edge Computing Systems: Learn from a Digital Twin"
     author:
-    organization: IEEE Transactions on Wireless Communications
+      org: IEEE Transactions on Wireless Communications
     date: July 2019
 
   DTPI2021:
@@ -137,17 +149,20 @@ informative:
 
   Fuller2020:
     title: "Digital Twin: Enabling Technologies, Challenges and Open Research"
-    organization: IEEE Access
+    author:
+      org:  IEEE Access
     date: 2020
 
   G2-SIGCOMM:
     title: Designing data center networks using bottleneck structures
-    organization: ACM SIGCOMM
+    author:
+      org:  ACM SIGCOMM
     date: August 2021
 
   G2-SIGMETRICS:
     title: On the Bottleneck Structure of Congestion-Controlled Networks
-    organization: ACM SIGMETRICS
+    author:
+      org: ACM SIGMETRICS
     date: December 2019
 
   GNS-3:
@@ -169,17 +184,20 @@ informative:
 
   Hong2021:
     title: "NetGraph: An Intelligent Operated Digital Twin Platform for Data Center Networks"
-    organization: ACM SIGCOMM 2021 Workshop on Network-Application Integration (NAI' 21)
+    author:
+      org:  ACM SIGCOMM 2021 Workshop on Network-Application Integration (NAI' 21)
     date: 2021
 
   Hu2021:
     title: "Digital twin: a state-of-the-art review of its enabling technologies, applications and challenges"
-    organization: Journal of Intelligent Manufacturing and Special Equipment
+    author:
+      org: Journal of Intelligent Manufacturing and Special Equipment
     date: 2021
 
   ISO-2021:
     title: "Digital Twin manufacturing framework - Part 2: Reference architecture: ISO/CD 23247-2"
-    organization: ISO
+    author:
+      org: ISO
     target: https://www.iso.org/standard/78743.html
     date: 2021
 
@@ -196,7 +214,8 @@ informative:
 
   MimicNet:
     title: "MimicNet: Fast Performance Estimates for Data Center Networks with Machine Learning"
-    organization: ACM SIGCOMM 2021 Conference (SIGCOMM '21)
+    author:
+      org:  ACM SIGCOMM 2021 Conference (SIGCOMM '21)
     date: 2021
 
   Natis-Gartner2017:
@@ -206,7 +225,8 @@ informative:
 
   Nguyen2021:
     title: "Digital Twin for 5G and Beyond"
-    organization: IEEE Communications Magazine
+    author:
+      org:  IEEE Communications Magazine
     date: Febuary 2021
 
   Pradeep2022:
@@ -215,22 +235,26 @@ informative:
 
   RESTFul:
     title: "RESTful Web APIs"
-    organization: O'Reilly Media, Inc
+    author:
+      org:  O'Reilly Media, Inc
     date: 2013
 
   Rosen2015:
     title: "About the importance of autonomy and DTs for the future of manufacturing"
-    organization: IFAC-Papersonline
+    author:
+      org:  IFAC-Papersonline
     date: 2015
 
   RouteNet:
     title: "RouteNet: Leveraging Graph Neural Networks for network modeling and optimization in SDN"
-    organization: IEEE Journal on Selected Areas in Communication (JSAC)
+    author:
+      org:  IEEE Journal on Selected Areas in Communication (JSAC)
     date: October 2020
 
   Tao2019:
     title: "Digital Twin in Industry: State-of-the-Art"
-    organization: IEEE Transactions on Industrial Informatics
+    author:
+      org:  IEEE Transactions on Industrial Informatics
     date: April 2019
 
   TNT2022:
@@ -264,8 +288,18 @@ informative:
 
   Liu2024:
     title: "Digital twin-based anomaly detection for real-time tool condition monitoring in machining"
-    author: Liu Z, Lang Z Q, Gui Y, et al.
-    organization: Journal of Manufacturing Systems
+    author:
+      -
+        name: Zepeng Liu 
+      -
+        name:  Zi-Qiang Lang
+      -
+        name: Yufei Gui
+      -
+        name: Yun-Peng Zhu
+      -
+        name: Hatim Laalej
+    target: https://www.sciencedirect.com/science/article/pii/S0278612524001298
     date: 2024
 
   Javaid2023:
