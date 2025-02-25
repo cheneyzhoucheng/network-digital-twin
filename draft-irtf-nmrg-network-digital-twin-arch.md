@@ -265,19 +265,19 @@ informative:
   Liu2024:
     title: Digital twin-based anomaly detection for real-time tool condition monitoring in machining
     author: Liu Z, Lang Z Q, Gui Y, et al.
-      organization: Journal of Manufacturing Systems
+    organization: Journal of Manufacturing Systems
     date: 2024
 
   Javaid2023:
     title: Digital twin applications toward industry 4.0: A review
     author: Javaid M, Haleem A, Suman R
-      organization: Cognitive Robotics
+    organization: Cognitive Robotics
     date: 2023
 
   Wang2024:
     title: A deep learning-enhanced Digital Twin framework for improving safety and reliability in human–robot collaborative manufacturing
     author: Wang S, Zhang J, Wang P, et al.
-      organization: Robotics and computer-integrated manufacturing
+    organization: Robotics and computer-integrated manufacturing
     date: 2024
 
 --- abstract
