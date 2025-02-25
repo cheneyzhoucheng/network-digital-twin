@@ -304,13 +304,13 @@ informative:
 
   Javaid2023:
     title: "Digital twin applications toward industry 4.0: A review"
-    author: Javaid M, Haleem A, Suman R
+    author:
     organization: Cognitive Robotics
     date: 2023
 
   Wang2024:
     title: "A deep learning-enhanced Digital Twin framework for improving safety and reliability in human–robot collaborative manufacturing"
-    author: Wang S, Zhang J, Wang P, et al.
+    author:
     organization: Robotics and computer-integrated manufacturing
     date: 2024
 
