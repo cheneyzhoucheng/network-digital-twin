@@ -91,28 +91,46 @@ normative:
 
 informative:
 
+  Chen2023:
+    title: "Digital Twin Empowered Wireless Healthcare Monitoring for Smart Home"
+    author:
+      -
+       name: Junxin Chen
+      -
+       name: Wei Wang
+      -
+       name: Bo Fang
+      -
+       name: Yu Liu
+      -
+       name: Keping Yu
+      -
+       name: Victor C. M. Leung
+    target: https://ieeexplore.ieee.org/document/10234399
+    date: November 2023
+
   Dai2020:
     title: Deep Reinforcement Learning for Stochastic Computation Offloading in Digital Twin Networks
     author:
-    organization: IEEE Transactions on Industrial Informatics
+      org: IEEE Transactions on Industrial Informatics
     date: August 2020
 
   Dai2022:
     title: Adaptive Digital Twin for Vehicular Edge Computing and Networks
     author:
-    organization: Journal of Communications and Information Networks
+      org: Journal of Communications and Information Networks
     date: March 2022
 
   DNA-2022:
     title: "Differential Network Analysis, USENIX Symposium on Networked Systems Design and Implementation"
     author:
-    organization: NSDI 22
+      org: NSDI 22
     date: 2023
 
   Dong2019:
     title: "Deep Learning for Hybrid 5G Services in Mobile Edge Computing Systems: Learn from a Digital Twin"
     author:
-    organization: IEEE Transactions on Wireless Communications
+      org: IEEE Transactions on Wireless Communications
     date: July 2019
 
   DTPI2021:
@@ -131,17 +149,20 @@ informative:
 
   Fuller2020:
     title: "Digital Twin: Enabling Technologies, Challenges and Open Research"
-    organization: IEEE Access
+    author:
+      org:  IEEE Access
     date: 2020
 
   G2-SIGCOMM:
     title: Designing data center networks using bottleneck structures
-    organization: ACM SIGCOMM
+    author:
+      org:  ACM SIGCOMM
     date: August 2021
 
   G2-SIGMETRICS:
     title: On the Bottleneck Structure of Congestion-Controlled Networks
-    organization: ACM SIGMETRICS
+    author:
+      org: ACM SIGMETRICS
     date: December 2019
 
   GNS-3:
@@ -163,19 +184,29 @@ informative:
 
   Hong2021:
     title: "NetGraph: An Intelligent Operated Digital Twin Platform for Data Center Networks"
-    organization: ACM SIGCOMM 2021 Workshop on Network-Application Integration (NAI' 21)
+    author:
+      org:  ACM SIGCOMM 2021 Workshop on Network-Application Integration (NAI' 21)
     date: 2021
 
   Hu2021:
     title: "Digital twin: a state-of-the-art review of its enabling technologies, applications and challenges"
-    organization: Journal of Intelligent Manufacturing and Special Equipment
+    author:
+      org: Journal of Intelligent Manufacturing and Special Equipment
     date: 2021
 
   ISO-2021:
     title: "Digital Twin manufacturing framework - Part 2: Reference architecture: ISO/CD 23247-2"
-    organization: ISO
+    author:
+      org: ISO
     target: https://www.iso.org/standard/78743.html
     date: 2021
+
+  ISO-2023:
+    title: "Digital twin - Concepts and terminology: ISO/IEC 30173:2023"
+    author:
+      organization: ISO
+    target: https://www.iso.org/standard/81442.html
+    date: 2023
 
   Madni2019:
     title: "Leveraging digital twin technology in model-based systems engineering"
@@ -183,7 +214,8 @@ informative:
 
   MimicNet:
     title: "MimicNet: Fast Performance Estimates for Data Center Networks with Machine Learning"
-    organization: ACM SIGCOMM 2021 Conference (SIGCOMM ’21)
+    author:
+      org:  ACM SIGCOMM 2021 Conference (SIGCOMM '21)
     date: 2021
 
   Natis-Gartner2017:
@@ -192,38 +224,53 @@ informative:
     date: 2017
 
   Nguyen2021:
-    title: Digital Twin for 5G and Beyond
-    organization: IEEE Communications Magazine
+    title: "Digital Twin for 5G and Beyond"
+    author:
+      org:  IEEE Communications Magazine
     date: Febuary 2021
 
   Pradeep2022:
-    title: "Conflict Detection and Resolution in IoT Systems: A Survey.  IoT 2022"
-    date: Febuary 2022
+    title: "Conflict Detection and Resolution in IoT Systems: A Survey. IoT 2022"
+    date: February 2022
 
   RESTFul:
-    title: RESTful Web APIs
-    organization: O'Reilly Media, Inc
+    title: "RESTful Web APIs"
+    author:
+      org:  O'Reilly Media, Inc
     date: 2013
 
   Rosen2015:
-    title: About the importance of autonomy and DTs for the future of manufacturing
-    organization: IFAC-Papersonline
+    title: "About the importance of autonomy and DTs for the future of manufacturing"
+    author:
+      org:  IFAC-Papersonline
     date: 2015
 
   RouteNet:
-    title: "RouteNet:Leveraging Graph Neural Networks for network modeling and optimization in SDN"
-    organization: IEEE Journal on Selected Areas in Communication (JSAC)
+    title: "RouteNet: Leveraging Graph Neural Networks for network modeling and optimization in SDN"
+    author:
+      org:  IEEE Journal on Selected Areas in Communication (JSAC)
     date: October 2020
 
   Tao2019:
     title: "Digital Twin in Industry: State-of-the-Art"
-    organization: IEEE Transactions on Industrial Informatics
+    author:
+      org:  IEEE Transactions on Industrial Informatics
     date: April 2019
 
   TNT2022:
-    title: IEEE International workshop on Technologies for Network Twins
+    title: "IEEE International workshop on Technologies for Network Twins"
     target: https://noms2022.ieee-noms.org/ws4-1st-international-workshop-technologies-network-twins-tnt-2022
     date: 2022
+
+  TNT2023:
+    title: "IEEE International workshop on Technologies for Network Twins"
+    target: https://noms2023.ieee-noms.org/program/workshops/2nd-ieeeifip-international-workshop-technologies-network-twins-tnt-2023-4th
+    date: 2023
+
+  TNT2024:
+    title: "IEEE International workshop on Technologies for Network Twins"
+    target: https://noms2024.ieee-noms.org/workshop/tnt-2024
+    date: 2024
 
   Zheng2022:
     title: "Intent Based Networking management with conflict detection and policy resolution in an enterprise network, Computer Networks, Volume 219"
@@ -239,6 +286,34 @@ informative:
     target: https://www.etsi.org/deliver/etsi_gr/ZSM/001_099/015/01.01.01_60/gr_ZSM015v010101p.pdf
     date: February 2024
 
+  Liu2024:
+    title: "Digital twin-based anomaly detection for real-time tool condition monitoring in machining"
+    author:
+      -
+        name: Zepeng Liu
+      -
+        name:  Zi-Qiang Lang
+      -
+        name: Yufei Gui
+      -
+        name: Yun-Peng Zhu
+      -
+        name: Hatim Laalej
+    target: https://www.sciencedirect.com/science/article/pii/S0278612524001298
+    date: 2024
+
+  Javaid2023:
+    title: "Digital twin applications toward industry 4.0: A review"
+    author:
+    organization: Cognitive Robotics
+    date: 2023
+
+  Wang2024:
+    title: "A deep learning-enhanced Digital Twin framework for improving safety and reliability in human–robot collaborative manufacturing"
+    author:
+    organization: Robotics and computer-integrated manufacturing
+    date: 2024
+
 --- abstract
 
 Digital Twin technology has been seen as a rapid adoption technology
@@ -247,7 +322,7 @@ networking field is meant to develop various rich network applications,
 realize efficient and cost-effective data-driven network management,
 and accelerate network innovation.
 
-This document presents an overview of the concepts of Digital Twin Network,
+This document presents an overview of the concepts of Network Digital Twin,
 provides the basic definitions and a reference architecture, lists a set of
 application scenarios, and discusses such technology's benefits and key
 challenges.
@@ -343,7 +418,7 @@ equipment during the mission {{Rosen2015}}.
 In 2003, Digital Twin was attributed to John Vickers by Michael
 Grieves in his Product Lifecycle Management (PLM) course as "virtual
 digital representation equivalent to physical products"
-{{Grieves2014}}.  Digital Twin can be defined as a virtual instance of
+{{Grieves2014}}. Digital Twin can be defined as a virtual instance of
 a physical system (twin) that is continually updated with the
 latter's performance, maintenance, and health status data throughout
 the physical system's life cycle {{Madni2019}}.  By providing a living
@@ -351,9 +426,10 @@ copy of physical system, Digital Twins bring numerous advantages,
 such as accelerated business processes, enhanced productivity, and
 faster innovation with reduced costs.  So far, Digital Twin has been
 successfully applied in the fields of intelligent manufacturing,
-smart city, or complex system operation and maintenance to help with
-not only object design and testing, but also management aspects
-{{Tao2019}}.
+machining, smart city, healthcare, etc., to help with not only object
+design and testing, but also management aspects {{Tao2019}} {{Chen2023}}
+{{Wang2024}} {{Liu2024}}. And it is playing a vital role in fulfilling
+various requirements of Industry 4.0 {{Javaid2023}}.
 
 Compared with 'digital model' and 'digital shadow', the key difference
 of 'digital twin' is the direction of data between the physical and virtual
@@ -375,9 +451,10 @@ four key elements: model, data, monitoring, and uniqueness.
 VE, SS, DD, CN}, in which PE represents physical entity, VE
 represents virtual entity, SS represents service, DD represents twin
 data, and CN represents the connection between various components.
-{{ISO-2021}} issued a draft standard for Digital Twin manufacturing
-system, and proposed a reference framework including data collection
-domain, device control domain, Digital Twin domain, and user domain.
+{{ISO-2023}} defined concepts and terminology of Digital Twin.
+{{ISO-2021}} proposed a reference framework for Digital Twin
+manufacturing system, including data collection domain, device control
+domain, Digital Twin domain, and user domain.
 
 ## Digital Twin for Networks
 
@@ -410,9 +487,9 @@ a Digital Twin-enabled vehicular edge computing (VEC) network, where
 Digital Twin can enable adaptive network management via the two-
 closed loops between physical VEC networks and Digital Twins.  In
 addition, international workshops dedicated to Digital Twin in
-networking field have already appeared, such as IEEE DTPI 2021&2022-
-Digital Twin Network Online Session {{DTPI2021}}, {{DTPI2022}}, and IEEE
-NOMS 2022 - TNT workshop {{TNT2022}}.
+networking field have already been held many times, such as IEEE DTPI -
+Digital Twin Network sessions {{DTPI2021}} {{DTPI2022}}, and IEEE NOMS -
+Network Digital Twin workshops {{TNT2022}} {{TNT2023}} {{TNT2024}}.
 
 Although the application of Digital Twin technology in networking has
 started, the research on Digital Twins for networks technology is
@@ -431,22 +508,18 @@ automation and intelligence level of the network.
 
 # Characteristics of Network Digital Twin  {#def}
 
-So far, there is no standard definition for characteristic of "network
-digital twin" within the networking industry. This document introduces five
-key elements (i.e., data, models, mapping, interfaces, and logic) to characterize
-the Network Digital Twin and its use. These five elements can be integrated into a
-network management system to analyze, diagnose, emulate, and control the real network.
-To that aim, a real-time and interactive mapping is required between the real
-network and its virtual twin network.  Whether a Network Digital Twin supports all or
-a subset of the functions above (i.e., analyze, diagnose, emulate, and control)
-is use case and deployment-specific.
-
-Referring to the characteristics of Digital Twins in other industries and the
-characteristics of networking itself, the Network Digital Twin and its use should
-involve at least five key elements: data, mapping, models, interfaces, and logic,
-as shown in {{kelem}}. The first four elements together provide the information to
-the applications or architectural entities that consumes it in the service of
-analysis, diagnosis, or control.
+So far, there is no unified definition for characteristic of "network
+digital twin" within the networking industry. Referring to the
+characteristics of Digital Twins in other industries and the
+characteristics of networking itself, this document introduces five
+key elements (i.e., data, models, mapping, interfaces, and logic) to
+characterize the Network Digital Twin and its use, as shown in {{kelem}}.
+These five elements can be integrated into a network management system
+to analyze, diagnose, emulate, and control the real network. To that aim,
+a real-time and interactive mapping is required between the real network
+and its virtual twin network.  Whether a Network Digital Twin supports
+all or a subset of the functions above (i.e., analyze, diagnose, emulate,
+and control) is use case and deployment-specific.
 
 ~~~~
 +-------------------------------------------------+
@@ -498,8 +571,8 @@ analysis, diagnosis, or control.
   serving the analysis needs of various use case-based network applications.
 
   Interfaces:
-  : Standardized interfaces ensure the interoperability of network digital
-  twin with real network operations systems. There are two major types of interfaces:
+  : Standardized interfaces ensure the interoperability of Network Digital
+  Twin with real network operations systems. There are two major types of interfaces:
 
     *	The interface between the Network Digital Twin platform and the real network
     infrastructure, directly or through an associated operations (i.e. planning,
@@ -527,10 +600,17 @@ analysis, diagnosis, or control.
   to analyze and understand what is going on in the real network. It also allows using the
   Digital Twin to optimize the performance and maintenance of the real network.
 
-  The Network Digital Twin, constructed based on the four core technology elements, can provide
+  The Network Digital Twin, constructed based on the above four core technology elements, can provide
   crucial emulation-driven information to support analysis, diagnosis, and control of the real
   network, through its whole life cycle, with the help of optimization algorithms, management
   methods, and expert knowledge.
+
+  Logic:
+  : Network Digital Twin facilitates optimal resource allocation and configuration, enhancing
+  efficiency and performance. They can enable comprehensive troubleshooting maintenance and control by
+  diagnosing issues using the Network Digital Twin. Moreover, Network Digital Twins play a crucial role in planning
+  and deployment, allowing for the simulation of new designs and configurations to anticipate their effects
+  before implementation.
 
   The Network Digital Twin environment and its elements must be controlled and driven to support
   required  behaviors in use, e.g., to provide:
@@ -551,12 +631,6 @@ analysis, diagnosis, or control.
   be enforced at both twin and physical network. Enabling real-time interaction in Network Digital Twin
   is a catalyst to achieving autonomous networks or self-driven network.
 
-  Logic:
-  : Network Digital Twin facilitates optimal resource allocation and configuration, enhancing
-  efficiency and performance. They can enable comprehensive troubleshooting maintenance and control by
-  diagnosing issues using the Network Digital Twin. Moreover, Network Digital Twins play a crucial role in planning
-  and deployment, allowing for the simulation of new designs and configurations to anticipate their effects
-  before implementation.
 
 # Benefits of Network Digital Twin
 
@@ -700,7 +774,7 @@ there are various different types of network elements and topologies in the
 network field; and the network size is characterized by the number of nodes and
 links in it but the network size growth pace can not meet the service needs,
 especially in the deployment of end to end service which spans across multiple
-administrative domains. So, the construction of a Digital Twin network system
+administrative domains. So, the construction of a Network Digital Twin system
 needs to consider the following major challenges:
 
 Large-scale challenge:
@@ -717,9 +791,9 @@ compression methods must be used.
 Interoperability:
 : Due to the inconsistency of technical implementations and the
 heterogeneity of vendor-adopted technologies, it is difficult to establish a unified
-Digital Twin network system with a common technology in a network domain.
-Therefore, it is needed firstly to propose a unified architecture of network digital
-twin, in which all components and functionalities are clear to all stakeholders; then
+Network Digital Twin system with a common technology in a network domain.
+Therefore, it is needed firstly to propose a unified architecture of Network Digital
+Twin, in which all components and functionalities are clear to all stakeholders; then
 define standardized and unified interfaces to connect all network twins via ensuring
 necessary compatibility.
 
@@ -758,8 +832,8 @@ related to involved real networks in real time, which inevitably augments the at
 surface, with a higher risk of information leakage, in particular. On one hand, it
 is mandatory to design more secure data mechanism leveraging legacy data protection
 methods and innovative technologies such as blockchain. On the other hand, the system
-design can limit the data (especially raw data) requirement for building Digital Twin
-network, leveraging innovative modeling technologies such as federal learning.
+design can limit the data (especially raw data) requirement for building Network Digital
+Twin, leveraging innovative modeling technologies such as federal learning.
 
 To address the above listed challenges, it is important to agree on a unified
 architecture of Network Digital Twin, which defines the main functional components
@@ -780,9 +854,9 @@ architecture is depicted in {{arc}}.
            |  +--------+   +------------------------+   +--------+   |
            |  |        |   | Service Mapping Models |   |        |   |
    input   |  |        |   |  +------------------+  |   |        |   |  output
-interfaces |  | Data   +--->  |Functional Models |  +---> Digital|   | interfaces
-  -------> |  | Repo-  |   |  +-----+-----^------+  |   | Twin   |   |------>
-           |  | sitory |   |        |     |         |   | Network|   |
+interfaces |  | Data   +--->  |Functional Models |  +---> Network|   | interfaces
+  -------> |  | Repo-  |   |  +-----+-----^------+  |   | Digital|   |------>
+           |  | sitory |   |        |     |         |   | Twin   |   |
            |  |        |   |  +-----v-----+------+  |   |  Mgmt  |   |
            |  |        <---+  |  Basic Models    |  <---+        |   |
            |  |        |   |  +------------------+  |   |        |   |
@@ -811,7 +885,7 @@ The Data Repository component is responsible for collecting and storing network 
 updates the real-time operational and instrumentation data of the various network elements through
 the appropriate real network-facing input interfaces (e.g., data collection interface and intent interface), as well as from
 other operations system components. It also provides data services (e.g., fast retrieval, concurrent conflict handling,
-batch service) through appropriate output interfaces (e.g., query interface ) to a Service
+batch service) through appropriate output interfaces (e.g., query interface) to a Service
 Mapping Models component.
 
 Service Mapping Models complete data modeling, and provide data or other functional model instances
@@ -1066,8 +1140,8 @@ interfaces on building a Network Digital Twin system:
 {: counter="bar" style="format (%c)"}
 * Network-facing interfaces are twin interfaces between the real
    network and its twin entity.  They are responsible for
-   information exchange between real network and network digital
-   twin.  The candidate interfaces can be SNMP, NETCONF, etc.
+   information exchange between real network and Network Digital
+   Twin.  The candidate interfaces can be SNMP, NETCONF, etc.
 
 * Application-facing interfaces are Application-facing interfaces
    between the Network Digital Twin and applications.  They are
@@ -1077,8 +1151,8 @@ interfaces on building a Network Digital Twin system:
 
 *  Internal interfaces are within Network Digital Twin layer.  They
    are responsible for information exchange between the three
-   subsystems: Data Repository, Service Mapping Models, and Digital
-   Twin Network Management.  These interfaces should be of high-
+   subsystems: Data Repository, Service Mapping Models, and Network
+   Digital Twin Management.  These interfaces should be of high-
    speed, high-efficiency and high-concurrency.  The candidate
    interfaces or protocols can be XMPP {{?RFC7622}} or
    HTTP/3.0 {{?RFC9114}}.
@@ -1086,7 +1160,7 @@ interfaces on building a Network Digital Twin system:
 All these interfaces are recommended to be open and standardized so
 as to avoid either hardware or software vendor lock and achieve
 interoperability. Besides the interfaces listed above, some new interfaces
-or protocols can be created to better serve Digital Twin network system.
+or protocols can be created to better serve Network Digital Twin system.
 
 ## Twinning Management
 
@@ -1116,17 +1190,17 @@ not limited to, the following main technologies:
 
 *  Conflict Detection and Resolution: Identify and address conflicts,
   including user intents, access control policies, or multiple
-  applications interacting within the digtial twin network system.
+  applications interacting within the Network Digital Twin system.
   Conflict detection and resolution techniques may use various mechanisms,
   such as rule-based policies, role-based access control, or dynamic conflict
   resolution algorithms (e.g., {{Pradeep2022}} and {{Zheng2022}}).
 
 *  Energy-Efficient Twinning:
-: Focus on energy efficiency in Digital Twin
-  network system. It includes monitoring and optimizing the energy
-  consumption of both network equipment and Digital Twin system operation,
-  reducing the energy expenditure of network operation, and achieving the
-  goal of a green (energy efficient) network.
+: Focus on energy efficiency in Network Digital Twin system. It includes
+  monitoring and optimizing the energy consumption of both network equipment
+  and Digital Twin system operation, reducing the energy expenditure of
+  network operation, and achieving the goal of a green (energy efficient)
+  network.
 
 # Interaction with Intent-Based Networking (IBN)
 
@@ -1141,7 +1215,7 @@ IBN can be envisaged in a Network Digital Twin context to show how
 Network Digital Twin improves the efficiency of deploying network
 innovation. Several rounds of adjustment and validation can be emulated
 on the Digital Twin platform instead of directly impacting real network
-during the testing phase. Therefore, the Digital Twin network can be an
+during the testing phase. Therefore, the Network Digital Twin can be an
 important enabler platform for implementing IBN systems and fostering
 their deployment.
 
@@ -1153,7 +1227,7 @@ network management and operation.
 ## Human Training
 
 The usual approach to network Operations, Administration, and Maintenance (OAM) with procedures applied by humans
-is open to errors in all these procedures, whigh impact network
+is open to errors in all these procedures, which impact network
 availability and resilience.  Response procedures and actions for
 most relevant operational requests and incidents are commonly defined
 to reduce errors to a minimum. The progressive automation of these
