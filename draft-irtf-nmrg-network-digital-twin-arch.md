@@ -290,7 +290,7 @@ informative:
     title: "Digital twin-based anomaly detection for real-time tool condition monitoring in machining"
     author:
       -
-        name: Zepeng Liu 
+        name: Zepeng Liu
       -
         name:  Zi-Qiang Lang
       -
