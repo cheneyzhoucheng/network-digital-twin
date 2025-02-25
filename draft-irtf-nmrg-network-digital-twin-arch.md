@@ -187,7 +187,7 @@ informative:
     title: " Digital twin - Concepts and terminology: ISO/IEC 30173:2023"
     author:
       organization: ISO
-    target: https://www.iso.org/standard/81442.html 
+    target: https://www.iso.org/standard/81442.html
     date: 2023
 
   Madni2019:
@@ -196,7 +196,7 @@ informative:
 
   MimicNet:
     title: "MimicNet: Fast Performance Estimates for Data Center Networks with Machine Learning"
-    organization: ACM SIGCOMM 2021 Conference (SIGCOMM ’21)
+    organization: ACM SIGCOMM 2021 Conference (SIGCOMM '21)
     date: 2021
 
   Natis-Gartner2017:
@@ -267,13 +267,13 @@ informative:
     author: Liu Z, Lang Z Q, Gui Y, et al.
       organization: Journal of Manufacturing Systems
     date: 2024
- 
+
   Javaid2023:
     title: Digital twin applications toward industry 4.0: A review
     author: Javaid M, Haleem A, Suman R
       organization: Cognitive Robotics
     date: 2023
- 
+
   Wang2024:
     title: A deep learning-enhanced Digital Twin framework for improving safety and reliability in human–robot collaborative manufacturing
     author: Wang S, Zhang J, Wang P, et al.
@@ -390,10 +390,10 @@ latter's performance, maintenance, and health status data throughout
 the physical system's life cycle {{Madni2019}}.  By providing a living
 copy of physical system, Digital Twins bring numerous advantages,
 such as accelerated business processes, enhanced productivity, and
-faster innovation with reduced costs.  So far, Digital Twin has been 
-successfully applied in the fields of intelligent manufacturing, 
+faster innovation with reduced costs.  So far, Digital Twin has been
+successfully applied in the fields of intelligent manufacturing,
 machining, smart city, healthcare, etc., to help with not only object
-design and testing, but also management aspects {{Tao2019}} {{Chen2023}} 
+design and testing, but also management aspects {{Tao2019}} {{Chen2023}}
 {{Wang2024}} {{Liu2024}}. And it is playing a vital role in fulfilling
 various requirements of Industry 4.0 {{Javaid2023}}.
 
@@ -417,8 +417,8 @@ four key elements: model, data, monitoring, and uniqueness.
 VE, SS, DD, CN}, in which PE represents physical entity, VE
 represents virtual entity, SS represents service, DD represents twin
 data, and CN represents the connection between various components.
-{{ISO-2023}} defined concepts and terminology of Digital Twin. 
-{{ISO-2021}} proposed a reference framework for Digital Twin 
+{{ISO-2023}} defined concepts and terminology of Digital Twin.
+{{ISO-2021}} proposed a reference framework for Digital Twin
 manufacturing system, including data collection domain, device control
 domain, Digital Twin domain, and user domain.
 
@@ -451,9 +451,9 @@ then proposes a simplified workflow of network service
 management.  {{Dai2022}} gives the concept of Digital Twin and proposes
 a Digital Twin-enabled vehicular edge computing (VEC) network, where
 Digital Twin can enable adaptive network management via the two-
-closed loops between physical VEC networks and Digital Twins.  In 
-addition, international workshops dedicated to Digital Twin in 
-networking field have already been held many times, such as IEEE DTPI - 
+closed loops between physical VEC networks and Digital Twins.  In
+addition, international workshops dedicated to Digital Twin in
+networking field have already been held many times, such as IEEE DTPI -
 Digital Twin Network sessions {{DTPI2021}} {{DTPI2022}}, and IEEE NOMS -
 Network Digital Twin workshops {{TNT2022}} {{TNT2023}} {{TNT2024}}.
 
@@ -475,16 +475,16 @@ automation and intelligence level of the network.
 # Characteristics of Network Digital Twin  {#def}
 
 So far, there is no unified definition for characteristic of "network
-digital twin" within the networking industry. Referring to the 
-characteristics of Digital Twins in other industries and the 
-characteristics of networking itself, this document introduces five 
-key elements (i.e., data, models, mapping, interfaces, and logic) to 
-characterize the Network Digital Twin and its use, as shown in {{kelem}}. 
-These five elements can be integrated into a network management system 
-to analyze, diagnose, emulate, and control the real network. To that aim, 
-a real-time and interactive mapping is required between the real network 
-and its virtual twin network.  Whether a Network Digital Twin supports 
-all or a subset of the functions above (i.e., analyze, diagnose, emulate, 
+digital twin" within the networking industry. Referring to the
+characteristics of Digital Twins in other industries and the
+characteristics of networking itself, this document introduces five
+key elements (i.e., data, models, mapping, interfaces, and logic) to
+characterize the Network Digital Twin and its use, as shown in {{kelem}}.
+These five elements can be integrated into a network management system
+to analyze, diagnose, emulate, and control the real network. To that aim,
+a real-time and interactive mapping is required between the real network
+and its virtual twin network.  Whether a Network Digital Twin supports
+all or a subset of the functions above (i.e., analyze, diagnose, emulate,
 and control) is use case and deployment-specific.
 
 ~~~~
