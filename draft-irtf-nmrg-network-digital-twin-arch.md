@@ -184,7 +184,7 @@ informative:
     date: 2021
 
   ISO-2023:
-    title: " Digital twin - Concepts and terminology: ISO/IEC 30173:2023"
+    title: "Digital twin - Concepts and terminology: ISO/IEC 30173:2023"
     author:
       organization: ISO
     target: https://www.iso.org/standard/81442.html
@@ -205,26 +205,26 @@ informative:
     date: 2017
 
   Nguyen2021:
-    title: Digital Twin for 5G and Beyond
+    title: "Digital Twin for 5G and Beyond"
     organization: IEEE Communications Magazine
     date: Febuary 2021
 
   Pradeep2022:
-    title: "Conflict Detection and Resolution in IoT Systems: A Survey.  IoT 2022"
+    title: "Conflict Detection and Resolution in IoT Systems: A Survey. IoT 2022"
     date: February 2022
 
   RESTFul:
-    title: RESTful Web APIs
+    title: "RESTful Web APIs"
     organization: O'Reilly Media, Inc
     date: 2013
 
   Rosen2015:
-    title: About the importance of autonomy and DTs for the future of manufacturing
+    title: "About the importance of autonomy and DTs for the future of manufacturing"
     organization: IFAC-Papersonline
     date: 2015
 
   RouteNet:
-    title: "RouteNet:Leveraging Graph Neural Networks for network modeling and optimization in SDN"
+    title: "RouteNet: Leveraging Graph Neural Networks for network modeling and optimization in SDN"
     organization: IEEE Journal on Selected Areas in Communication (JSAC)
     date: October 2020
 
@@ -234,17 +234,17 @@ informative:
     date: April 2019
 
   TNT2022:
-    title: IEEE International workshop on Technologies for Network Twins
+    title: "IEEE International workshop on Technologies for Network Twins"
     target: https://noms2022.ieee-noms.org/ws4-1st-international-workshop-technologies-network-twins-tnt-2022
     date: 2022
 
   TNT2023:
-    title: IEEE International workshop on Technologies for Network Twins
+    title: "IEEE International workshop on Technologies for Network Twins"
     target: https://noms2023.ieee-noms.org/program/workshops/2nd-ieeeifip-international-workshop-technologies-network-twins-tnt-2023-4th
     date: 2023
 
   TNT2024:
-    title: IEEE International workshop on Technologies for Network Twins
+    title: "IEEE International workshop on Technologies for Network Twins"
     target: https://noms2024.ieee-noms.org/workshop/tnt-2024
     date: 2024
 
@@ -263,19 +263,19 @@ informative:
     date: February 2024
 
   Liu2024:
-    title: Digital twin-based anomaly detection for real-time tool condition monitoring in machining
+    title: "Digital twin-based anomaly detection for real-time tool condition monitoring in machining"
     author: Liu Z, Lang Z Q, Gui Y, et al.
     organization: Journal of Manufacturing Systems
     date: 2024
 
   Javaid2023:
-    title: Digital twin applications toward industry 4.0: A review
+    title: "Digital twin applications toward industry 4.0: A review"
     author: Javaid M, Haleem A, Suman R
     organization: Cognitive Robotics
     date: 2023
 
   Wang2024:
-    title: A deep learning-enhanced Digital Twin framework for improving safety and reliability in human–robot collaborative manufacturing
+    title: "A deep learning-enhanced Digital Twin framework for improving safety and reliability in human–robot collaborative manufacturing"
     author: Wang S, Zhang J, Wang P, et al.
     organization: Robotics and computer-integrated manufacturing
     date: 2024
