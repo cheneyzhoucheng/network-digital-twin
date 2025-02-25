@@ -1049,7 +1049,7 @@ meaningful so it can be useful.  Several solutions related to data
 collection are work-in-progress in IETF/IRTF, e.g., adaptive
 subscription {{?I-D.ietf-netconf-adaptive-subscription}}, efficient data
 collection {{?I-D.zcz-nmrg-digitaltwin-data-collection}}, and contextual
-information {{?I-D.claise-opsawg-collected-data-manifest}}.
+information {{?I-D.ietf-opsawg-collected-data-manifest}}.
 
 Data repository works to effectively store large-scale and heterogeneous
 network data and provide data and services to build various network models.
@@ -1062,12 +1062,13 @@ interfaces, etc.
 The basic network element models and topology models help generate
 virtual twin of the network according to the network element
 configuration, operation data, network topology relationship, link
-state and other network information.  Then the operation status can
+state and other network information. The operation status can
 be monitored and displayed, and the network configuration change and
-optimization strategy can be pre-verified.
+optimization strategy can be pre-verified. For example, {{?I-D.ietf-nmop-simap-concept}}
+provides a foundation for multi-layered topologies.
 
-For small scale network, network simulating tools (e.g., {{NS-3}},
-{{Mininet}}, etc.) and emulating tools (e.g., {{EVE-NG}}, {{GNS-3}}) can be
+For small scale network, network simulating tools (e.g., {{NS-3}} and {{Mininet}})
+and emulating tools (e.g., {{EVE-NG}} and {{GNS-3}}) can be
 used to build basic network models.  By using the packet processing
 capability of virtual network element, such tools can quickly verify
 the functions of the control plane and data plane. However, this modeling
@@ -1081,8 +1082,7 @@ the extensibility and accuracy of the models represents a significant challenge.
 
 As an example, the theory of bottleneck structures introduced in
 {{G2-SIGCOMM}}, {{G2-SIGMETRICS}} can be used to construct a mathematical
-model of the network (see also
-{{?I-D.giraltyellamraju-alto-bsg-requirements}} for more info). A bottleneck
+model of the network (e.g., {{?I-D.giraltyellamraju-alto-bsg-requirements}}). A bottleneck
 structure is a computational graph that efficiently captures the topology, the
 routing and flow properties of the network. The graph embeds the latent
 relationships that exist between bottlenecks and the application flows in a
