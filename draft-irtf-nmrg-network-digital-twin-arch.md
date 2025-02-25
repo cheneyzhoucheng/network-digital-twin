@@ -396,7 +396,7 @@ equipment during the mission {{Rosen2015}}.
 In 2003, Digital Twin was attributed to John Vickers by Michael
 Grieves in his Product Lifecycle Management (PLM) course as "virtual
 digital representation equivalent to physical products"
-{{Grieves2014}}.  Digital Twin can be defined as a virtual instance of
+{{Grieves2014}}. Digital Twin can be defined as a virtual instance of
 a physical system (twin) that is continually updated with the
 latter's performance, maintenance, and health status data throughout
 the physical system's life cycle {{Madni2019}}.  By providing a living
