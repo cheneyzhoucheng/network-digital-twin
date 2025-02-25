@@ -215,11 +215,11 @@ informative:
     title: Digital Twin for 5G and Beyond
     author:
       organization: IEEE Communications Magazine
-    date: Febuary 2021
+    date: February 2021
 
   Pradeep2022:
     title: "Conflict Detection and Resolution in IoT Systems: A Survey.  IoT 2022"
-    date: Febuary 2022
+    date: February 2022
 
   RESTFul:
     title: RESTful Web APIs
@@ -234,7 +234,7 @@ informative:
     date: 2015
 
   RouteNet:
-    title: "RouteNet:Leveraging Graph Neural Networks for network modeling and optimization in SDN"
+    title: "RouteNet: Leveraging Graph Neural Networks for network modeling and optimization in SDN"
     author:
       organization: IEEE Journal on Selected Areas in Communication (JSAC)
     date: October 2020
@@ -549,8 +549,8 @@ and control) is use case and deployment-specific.
   serving the analysis needs of various use case-based network applications.
 
   Interfaces:
-  : Standardized interfaces ensure the interoperability of network digital
-  twin with real network operations systems. There are two major types of interfaces:
+  : Standardized interfaces ensure the interoperability of Network Digital
+  Twin with real network operations systems. There are two major types of interfaces:
 
     *	The interface between the Network Digital Twin platform and the real network
     infrastructure, directly or through an associated operations (i.e. planning,
@@ -752,7 +752,7 @@ there are various different types of network elements and topologies in the
 network field; and the network size is characterized by the number of nodes and
 links in it but the network size growth pace can not meet the service needs,
 especially in the deployment of end to end service which spans across multiple
-administrative domains. So, the construction of a Digital Twin network system
+administrative domains. So, the construction of a Network Digital Twin system
 needs to consider the following major challenges:
 
 Large-scale challenge:
@@ -769,9 +769,9 @@ compression methods must be used.
 Interoperability:
 : Due to the inconsistency of technical implementations and the
 heterogeneity of vendor-adopted technologies, it is difficult to establish a unified
-Digital Twin network system with a common technology in a network domain.
-Therefore, it is needed firstly to propose a unified architecture of network digital
-twin, in which all components and functionalities are clear to all stakeholders; then
+Network Digital Twin system with a common technology in a network domain.
+Therefore, it is needed firstly to propose a unified architecture of Network Digital
+Twin, in which all components and functionalities are clear to all stakeholders; then
 define standardized and unified interfaces to connect all network twins via ensuring
 necessary compatibility.
 
@@ -810,8 +810,8 @@ related to involved real networks in real time, which inevitably augments the at
 surface, with a higher risk of information leakage, in particular. On one hand, it
 is mandatory to design more secure data mechanism leveraging legacy data protection
 methods and innovative technologies such as blockchain. On the other hand, the system
-design can limit the data (especially raw data) requirement for building Digital Twin
-network, leveraging innovative modeling technologies such as federal learning.
+design can limit the data (especially raw data) requirement for building Network Digital
+Twin, leveraging innovative modeling technologies such as federal learning.
 
 To address the above listed challenges, it is important to agree on a unified
 architecture of Network Digital Twin, which defines the main functional components
@@ -832,9 +832,9 @@ architecture is depicted in {{arc}}.
            |  +--------+   +------------------------+   +--------+   |
            |  |        |   | Service Mapping Models |   |        |   |
    input   |  |        |   |  +------------------+  |   |        |   |  output
-interfaces |  | Data   +--->  |Functional Models |  +---> Digital|   | interfaces
-  -------> |  | Repo-  |   |  +-----+-----^------+  |   | Twin   |   |------>
-           |  | sitory |   |        |     |         |   | Network|   |
+interfaces |  | Data   +--->  |Functional Models |  +---> Network|   | interfaces
+  -------> |  | Repo-  |   |  +-----+-----^------+  |   | Digital|   |------>
+           |  | sitory |   |        |     |         |   | Twin   |   |
            |  |        |   |  +-----v-----+------+  |   |  Mgmt  |   |
            |  |        <---+  |  Basic Models    |  <---+        |   |
            |  |        |   |  +------------------+  |   |        |   |
@@ -863,7 +863,7 @@ The Data Repository component is responsible for collecting and storing network 
 updates the real-time operational and instrumentation data of the various network elements through
 the appropriate real network-facing input interfaces (e.g., data collection interface and intent interface), as well as from
 other operations system components. It also provides data services (e.g., fast retrieval, concurrent conflict handling,
-batch service) through appropriate output interfaces (e.g., query interface ) to a Service
+batch service) through appropriate output interfaces (e.g., query interface) to a Service
 Mapping Models component.
 
 Service Mapping Models complete data modeling, and provide data or other functional model instances
@@ -1118,8 +1118,8 @@ interfaces on building a Network Digital Twin system:
 {: counter="bar" style="format (%c)"}
 * Network-facing interfaces are twin interfaces between the real
    network and its twin entity.  They are responsible for
-   information exchange between real network and network digital
-   twin.  The candidate interfaces can be SNMP, NETCONF, etc.
+   information exchange between real network and Network Digital
+   Twin.  The candidate interfaces can be SNMP, NETCONF, etc.
 
 * Application-facing interfaces are Application-facing interfaces
    between the Network Digital Twin and applications.  They are
@@ -1129,8 +1129,8 @@ interfaces on building a Network Digital Twin system:
 
 *  Internal interfaces are within Network Digital Twin layer.  They
    are responsible for information exchange between the three
-   subsystems: Data Repository, Service Mapping Models, and Digital
-   Twin Network Management.  These interfaces should be of high-
+   subsystems: Data Repository, Service Mapping Models, and Network
+   Digital Twin Management.  These interfaces should be of high-
    speed, high-efficiency and high-concurrency.  The candidate
    interfaces or protocols can be XMPP {{?RFC7622}} or
    HTTP/3.0 {{?RFC9114}}.
@@ -1138,7 +1138,7 @@ interfaces on building a Network Digital Twin system:
 All these interfaces are recommended to be open and standardized so
 as to avoid either hardware or software vendor lock and achieve
 interoperability. Besides the interfaces listed above, some new interfaces
-or protocols can be created to better serve Digital Twin network system.
+or protocols can be created to better serve Network Digital Twin system.
 
 ## Twinning Management
 
@@ -1168,17 +1168,17 @@ not limited to, the following main technologies:
 
 *  Conflict Detection and Resolution: Identify and address conflicts,
   including user intents, access control policies, or multiple
-  applications interacting within the digtial twin network system.
+  applications interacting within the Network Digital Twin system.
   Conflict detection and resolution techniques may use various mechanisms,
   such as rule-based policies, role-based access control, or dynamic conflict
   resolution algorithms (e.g., {{Pradeep2022}} and {{Zheng2022}}).
 
 *  Energy-Efficient Twinning:
-: Focus on energy efficiency in Digital Twin
-  network system. It includes monitoring and optimizing the energy
-  consumption of both network equipment and Digital Twin system operation,
-  reducing the energy expenditure of network operation, and achieving the
-  goal of a green (energy efficient) network.
+: Focus on energy efficiency in Network Digital Twin system. It includes
+  monitoring and optimizing the energy consumption of both network equipment
+  and Digital Twin system operation, reducing the energy expenditure of
+  network operation, and achieving the goal of a green (energy efficient)
+  network.
 
 # Interaction with Intent-Based Networking (IBN)
 
@@ -1193,7 +1193,7 @@ IBN can be envisaged in a Network Digital Twin context to show how
 Network Digital Twin improves the efficiency of deploying network
 innovation. Several rounds of adjustment and validation can be emulated
 on the Digital Twin platform instead of directly impacting real network
-during the testing phase. Therefore, the Digital Twin network can be an
+during the testing phase. Therefore, the Network Digital Twin can be an
 important enabler platform for implementing IBN systems and fostering
 their deployment.
 
