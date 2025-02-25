@@ -94,25 +94,25 @@ informative:
   Dai2020:
     title: Deep Reinforcement Learning for Stochastic Computation Offloading in Digital Twin Networks
     author:
-      org: IEEE Transactions on Industrial Informatics
+    organization: IEEE Transactions on Industrial Informatics
     date: August 2020
 
   Dai2022:
     title: Adaptive Digital Twin for Vehicular Edge Computing and Networks
     author:
-      organization: Journal of Communications and Information Networks
+    organization: Journal of Communications and Information Networks
     date: March 2022
 
   DNA-2022:
     title: "Differential Network Analysis, USENIX Symposium on Networked Systems Design and Implementation"
     author:
-      organization: NSDI 22
+    organization: NSDI 22
     date: 2023
 
   Dong2019:
     title: "Deep Learning for Hybrid 5G Services in Mobile Edge Computing Systems: Learn from a Digital Twin"
     author:
-      organization: IEEE Transactions on Wireless Communications
+    organization: IEEE Transactions on Wireless Communications
     date: July 2019
 
   DTPI2021:
@@ -131,20 +131,17 @@ informative:
 
   Fuller2020:
     title: "Digital Twin: Enabling Technologies, Challenges and Open Research"
-    author:
-      organization: IEEE Access
+    organization: IEEE Access
     date: 2020
 
   G2-SIGCOMM:
     title: Designing data center networks using bottleneck structures
-    author:
-      organization: ACM SIGCOMM
+    organization: ACM SIGCOMM
     date: August 2021
 
   G2-SIGMETRICS:
     title: On the Bottleneck Structure of Congestion-Controlled Networks
-    author:
-      organization: ACM SIGMETRICS
+    organization: ACM SIGMETRICS
     date: December 2019
 
   GNS-3:
@@ -166,20 +163,17 @@ informative:
 
   Hong2021:
     title: "NetGraph: An Intelligent Operated Digital Twin Platform for Data Center Networks"
-    author:
-      organization: ACM SIGCOMM 2021 Workshop on Network-Application Integration (NAI' 21)
+    organization: ACM SIGCOMM 2021 Workshop on Network-Application Integration (NAI' 21)
     date: 2021
 
   Hu2021:
     title: "Digital twin: a state-of-the-art review of its enabling technologies, applications and challenges"
-    author:
-      organization: Journal of Intelligent Manufacturing and Special Equipment
+    organization: Journal of Intelligent Manufacturing and Special Equipment
     date: 2021
 
   ISO-2021:
     title: "Digital Twin manufacturing framework - Part 2: Reference architecture: ISO/CD 23247-2"
-    author:
-      organization: ISO
+    organization: ISO
     target: https://www.iso.org/standard/78743.html
     date: 2021
 
@@ -189,8 +183,7 @@ informative:
 
   MimicNet:
     title: "MimicNet: Fast Performance Estimates for Data Center Networks with Machine Learning"
-    author:
-      organization: ACM SIGCOMM 2021 Conference (SIGCOMM ’21)
+    organization: ACM SIGCOMM 2021 Conference (SIGCOMM ’21)
     date: 2021
 
   Natis-Gartner2017:
@@ -200,8 +193,7 @@ informative:
 
   Nguyen2021:
     title: Digital Twin for 5G and Beyond
-    author:
-      organization: IEEE Communications Magazine
+    organization: IEEE Communications Magazine
     date: Febuary 2021
 
   Pradeep2022:
@@ -210,26 +202,22 @@ informative:
 
   RESTFul:
     title: RESTful Web APIs
-    author:
-      organization: O'Reilly Media, Inc
+    organization: O'Reilly Media, Inc
     date: 2013
 
   Rosen2015:
     title: About the importance of autonomy and DTs for the future of manufacturing
-    author:
-      organization: IFAC-Papersonline
+    organization: IFAC-Papersonline
     date: 2015
 
   RouteNet:
     title: "RouteNet:Leveraging Graph Neural Networks for network modeling and optimization in SDN"
-    author:
-      organization: IEEE Journal on Selected Areas in Communication (JSAC)
+    organization: IEEE Journal on Selected Areas in Communication (JSAC)
     date: October 2020
 
   Tao2019:
     title: "Digital Twin in Industry: State-of-the-Art"
-    author:
-      organization: IEEE Transactions on Industrial Informatics
+    organization: IEEE Transactions on Industrial Informatics
     date: April 2019
 
   TNT2022:
