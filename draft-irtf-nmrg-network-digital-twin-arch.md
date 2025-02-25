@@ -94,7 +94,7 @@ informative:
   Chen2023:
     title: Digital Twin Empowered Wireless Healthcare Monitoring for Smart Home
     author: Chen J, Wang W, Fang B, et al.
-      organization: IEEE Journal on Selected Areas in Communications
+    organization: IEEE Journal on Selected Areas in Communications
     date: November 2023
 
   Dai2020:
