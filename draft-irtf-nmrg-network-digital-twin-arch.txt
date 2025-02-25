@@ -1283,20 +1283,17 @@ interfaces |  | Data   +--->  |Functional Models |  +---> Digital|   | interface
 
 16.  Informative References
 
-   [Dai2020]  IEEE Transactions on Industrial Informatics, "Deep
-              Reinforcement Learning for Stochastic Computation
+   [Dai2020]  "Deep Reinforcement Learning for Stochastic Computation
               Offloading in Digital Twin Networks", August 2020.
 
-   [Dai2022]  Journal of Communications and Information Networks,
-              "Adaptive Digital Twin for Vehicular Edge Computing and
+   [Dai2022]  "Adaptive Digital Twin for Vehicular Edge Computing and
               Networks", March 2022.
 
-   [DNA-2022] NSDI 22, "Differential Network Analysis, USENIX Symposium
-              on Networked Systems Design and Implementation", 2023.
+   [DNA-2022] "Differential Network Analysis, USENIX Symposium on
+              Networked Systems Design and Implementation", 2023.
 
-   [Dong2019] IEEE Transactions on Wireless Communications, "Deep
-              Learning for Hybrid 5G Services in Mobile Edge Computing
-              Systems: Learn from a Digital Twin", July 2019.
+   [Dong2019] "Deep Learning for Hybrid 5G Services in Mobile Edge
+              Computing Systems: Learn from a Digital Twin", July 2019.
 
    [DTPI2021] "IEEE International Conference on Digital Twins and
               Parallel Intelligence - Digital Twin Network Session",
@@ -1323,16 +1320,16 @@ interfaces |  | Data   +--->  |Functional Models |  +---> Digital|   | interface
               <https://www.eve-ng.net/>.
 
    [Fuller2020]
-              IEEE Access, "Digital Twin: Enabling Technologies,
-              Challenges and Open Research", 2020.
+              "Digital Twin: Enabling Technologies, Challenges and Open
+              Research", 2020.
 
    [G2-SIGCOMM]
-              ACM SIGCOMM, "Designing data center networks using
-              bottleneck structures", August 2021.
+              "Designing data center networks using bottleneck
+              structures", August 2021.
 
    [G2-SIGMETRICS]
-              ACM SIGMETRICS, "On the Bottleneck Structure of
-              Congestion-Controlled Networks", December 2019.
+              "On the Bottleneck Structure of Congestion-Controlled
+              Networks", December 2019.
 
    [GNS-3]    "Graphical Network Simulator-3, GNS3", n.d.,
               <https://www.gns3.com/>.
@@ -1344,13 +1341,11 @@ interfaces |  | Data   +--->  |Functional Models |  +---> Digital|   | interface
               SERVICES/DELMIA/PDF/Whitepaper/DELMIA-APRISO-Digital-Twin-
               Whitepaper.pdf>.
 
-   [Hong2021] ACM SIGCOMM 2021 Workshop on Network-Application
-              Integration (NAI' 21), "NetGraph: An Intelligent Operated
-              Digital Twin Platform for Data Center Networks", 2021.
+   [Hong2021] "NetGraph: An Intelligent Operated Digital Twin Platform
+              for Data Center Networks", 2021.
 
-   [Hu2021]   Journal of Intelligent Manufacturing and Special
-              Equipment, "Digital twin: a state-of-the-art review of its
-              enabling technologies, applications and challenges", 2021.
+   [Hu2021]   "Digital twin: a state-of-the-art review of its enabling
+              technologies, applications and challenges", 2021.
 
    [I-D.claise-opsawg-collected-data-manifest]
               Claise, B., Quilbeuf, J., Lopez, D., Martinez-Casanueva,
@@ -1385,17 +1380,16 @@ interfaces |  | Data   +--->  |Functional Models |  +---> Digital|   | interface
               <https://datatracker.ietf.org/doc/html/draft-zcz-nmrg-
               digitaltwin-data-collection-03>.
 
-   [ISO-2021] ISO, "Digital Twin manufacturing framework - Part 2:
-              Reference architecture: ISO/CD 23247-2", 2021,
+   [ISO-2021] "Digital Twin manufacturing framework - Part 2: Reference
+              architecture: ISO/CD 23247-2", 2021,
               <https://www.iso.org/standard/78743.html>.
 
    [Madni2019]
               "Leveraging digital twin technology in model-based systems
               engineering", January 2019.
 
-   [MimicNet] ACM SIGCOMM 2021 Conference (SIGCOMM ’21), "MimicNet: Fast
-              Performance Estimates for Data Center Networks with
-              Machine Learning", 2021.
+   [MimicNet] "MimicNet: Fast Performance Estimates for Data Center
+              Networks with Machine Learning", 2021.
 
    [Mininet]  "Mninet: An Instant Virtual Network on your Laptop", n.d.,
               <http://mininet.org/>.
@@ -1406,8 +1400,7 @@ interfaces |  | Data   +--->  |Functional Models |  +---> Digital|   | interface
               <https://www.gartner.com/en/documents/3645341>.
 
    [Nguyen2021]
-              IEEE Communications Magazine, "Digital Twin for 5G and
-              Beyond", February 2021.
+              "Digital Twin for 5G and Beyond", February 2021.
 
    [NS-3]     "Network Simulator, NS-3", n.d., <https://www.nsnam.org/>.
 
@@ -1415,7 +1408,7 @@ interfaces |  | Data   +--->  |Functional Models |  +---> Digital|   | interface
               "Conflict Detection and Resolution in IoT Systems: A
               Survey.  IoT 2022", February 2022.
 
-   [RESTFul]  O'Reilly Media, Inc, "RESTful Web APIs", 2013.
+   [RESTFul]  "RESTful Web APIs", 2013.
 
    [RFC6241]  Enns, R., Ed., Bjorklund, M., Ed., Schoenwaelder, J., Ed.,
               and A. Bierman, Ed., "Network Configuration Protocol
@@ -1487,15 +1480,13 @@ interfaces |  | Data   +--->  |Functional Models |  +---> Digital|   | interface
               2022, <https://www.rfc-editor.org/rfc/rfc9315>.
 
    [Rosen2015]
-              IFAC-Papersonline, "About the importance of autonomy and
-              DTs for the future of manufacturing", 2015.
+              "About the importance of autonomy and DTs for the future
+              of manufacturing", 2015.
 
-   [RouteNet] IEEE Journal on Selected Areas in Communication (JSAC),
-              "RouteNet:Leveraging Graph Neural Networks for network
+   [RouteNet] "RouteNet:Leveraging Graph Neural Networks for network
               modeling and optimization in SDN", October 2020.
 
-   [Tao2019]  IEEE Transactions on Industrial Informatics, "Digital Twin
-              in Industry: State-of-the-Art", April 2019.
+   [Tao2019]  "Digital Twin in Industry: State-of-the-Art", April 2019.
 
    [TNT2022]  "IEEE International workshop on Technologies for Network
               Twins", 2022, <https://noms2022.ieee-noms.org/ws4-1st-
