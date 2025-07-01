@@ -109,6 +109,24 @@ informative:
     target: https://ieeexplore.ieee.org/document/10234399
     date: November 2023
 
+  Cui2024:
+    title: "Network Digital Twin"
+    author:
+      -
+       name: Yong Cui
+      -
+       name: Jiangchuan Liu
+      -
+       name: Minlan Yu
+      -
+       name: Junchen Jiang
+      -
+       name: Liang Zhang
+      -
+       name: Lu Lu
+    target: https://ieeexplore.ieee.org/document/10506047
+    date: January 2024
+    
   Dai2020:
     title: Deep Reinforcement Learning for Stochastic Computation Offloading in Digital Twin Networks
     author:
@@ -490,6 +508,9 @@ addition, international workshops dedicated to Digital Twin in
 networking field have already been held many times, such as IEEE DTPI -
 Digital Twin Network sessions {{DTPI2021}} {{DTPI2022}}, and IEEE NOMS -
 Network Digital Twin workshops {{TNT2022}} {{TNT2023}} {{TNT2024}}.
+And IEEE Network Magazine solicited a special issue on NDT, highlighted
+the advances in the theories, methods, implementations, and applications
+of the Network Digital Twin {{Cui2024}}.
 
 Although the application of Digital Twin technology in networking has
 started, the research on Digital Twins for networks technology is
@@ -1422,11 +1443,6 @@ recovery plan to restore operations in case of data loss or corruption.
 # IANA Considerations
 
 This document has no requests to IANA.
-
-# Open issues
-
-Refer to:
-<https://github.com/cheneyzhoucheng/network-digital-twin/issues>.
 
 --- back
 
