@@ -5,7 +5,7 @@
 Network Management                                               C. Zhou
 Internet-Draft                                                   H. Yang
 Intended status: Informational                                   X. Duan
-Expires: 29 August 2025                                     China Mobile
+Expires: 7 August 2026                                      China Mobile
                                                                 D. Lopez
                                                                A. Pastor
                                                           Telefonica I+D
@@ -14,7 +14,7 @@ Expires: 29 August 2025                                     China Mobile
                                                             M. Boucadair
                                                             C. Jacquenet
                                                                   Orange
-                                                        25 February 2025
+                                                         3 February 2026
 
 
        Network Digital Twin: Concepts and Reference Architecture
@@ -59,11 +59,11 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 29 August 2025.
+   This Internet-Draft will expire on 7 August 2026.
 
 Copyright Notice
 
-   Copyright (c) 2025 IETF Trust and the persons identified as the
+   Copyright (c) 2026 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -107,8 +107,7 @@ Table of Contents
    12. Research Perspectives: A Summary
    13. Security Considerations
    14. IANA Considerations
-   15. Open issues
-   16. Informative References
+   15. Informative References
    Acknowledgments
    Contributors
    Authors' Addresses
@@ -276,7 +275,10 @@ Table of Contents
    international workshops dedicated to Digital Twin in networking field
    have already been held many times, such as IEEE DTPI - Digital Twin
    Network sessions [DTPI2021] [DTPI2022], and IEEE NOMS - Network
-   Digital Twin workshops [TNT2022] [TNT2023] [TNT2024].
+   Digital Twin workshops [TNT2022] [TNT2023] [TNT2024].  And IEEE
+   Network Magazine solicited a special issue on NDT, highlighted the
+   advances in the theories, methods, implementations, and applications
+   of the Network Digital Twin [Cui2024].
 
    Although the application of Digital Twin technology in networking has
    started, the research on Digital Twins for networks technology is
@@ -1272,18 +1274,16 @@ interfaces |  | Data   +--->  |Functional Models |  +---> Network|   | interface
 
    This document has no requests to IANA.
 
-15.  Open issues
-
-   Refer to: https://github.com/cheneyzhoucheng/network-digital-twin/
-   issues (https://github.com/cheneyzhoucheng/network-digital-twin/
-   issues).
-
-16.  Informative References
+15.  Informative References
 
    [Chen2023] Chen, J., Wang, W., Fang, B., Liu, Y., Yu, K., and V. C.
               M. Leung, "Digital Twin Empowered Wireless Healthcare
               Monitoring for Smart Home", November 2023,
               <https://ieeexplore.ieee.org/document/10234399>.
+
+   [Cui2024]  Cui, Y., Liu, J., Yu, M., Jiang, J., Zhang, L., and L. Lu,
+              "Network Digital Twin", January 2024,
+              <https://ieeexplore.ieee.org/document/10506047>.
 
    [Dai2020]  IEEE Transactions on Industrial Informatics, "Deep
               Reinforcement Learning for Stochastic Computation
@@ -1364,28 +1364,28 @@ interfaces |  | Data   +--->  |Functional Models |  +---> Network|   | interface
               giraltyellamraju-alto-bsg-requirements-03>.
 
    [I-D.ietf-netconf-adaptive-subscription]
-              Wu, Q., Song, W., Liu, P., Ma, Q., Wang, W., and Z. Niu,
-              "Adaptive Subscription to YANG Notification", Work in
-              Progress, Internet-Draft, draft-ietf-netconf-adaptive-
-              subscription-06, 11 September 2024,
+              Wu, Q., Liu, P., Ma, Q., Wang, W., and Z. Niu, "Adaptive
+              Subscription to YANG Notification", Work in Progress,
+              Internet-Draft, draft-ietf-netconf-adaptive-subscription-
+              14, 29 December 2025,
               <https://datatracker.ietf.org/doc/html/draft-ietf-netconf-
-              adaptive-subscription-06>.
+              adaptive-subscription-14>.
 
    [I-D.ietf-nmop-simap-concept]
               Havel, O., Claise, B., de Dios, O. G., and T. Graf,
               "SIMAP: Concept, Requirements, and Use Cases", Work in
               Progress, Internet-Draft, draft-ietf-nmop-simap-concept-
-              02, 14 February 2025,
+              07, 18 October 2025,
               <https://datatracker.ietf.org/doc/html/draft-ietf-nmop-
-              simap-concept-02>.
+              simap-concept-07>.
 
    [I-D.ietf-opsawg-collected-data-manifest]
               Claise, B., Quilbeuf, J., Lopez, D., Martinez-Casanueva,
               I. D., and T. Graf, "A Data Manifest for Contextualized
               Telemetry Data", Work in Progress, Internet-Draft, draft-
-              ietf-opsawg-collected-data-manifest-05, 21 October 2024,
+              ietf-opsawg-collected-data-manifest-10, 20 October 2025,
               <https://datatracker.ietf.org/doc/html/draft-ietf-opsawg-
-              collected-data-manifest-05>.
+              collected-data-manifest-10>.
 
    [I-D.zcz-nmrg-digitaltwin-data-collection]
               Zhou, C., Chen, D., Martinez-Julia, P., and Q. Ma, "Data
