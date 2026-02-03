@@ -507,8 +507,8 @@ closed loops between physical VEC networks and Digital Twins.  In
 addition, international workshops dedicated to Digital Twin in
 networking field have already been held many times, such as IEEE DTPI -
 Digital Twin Network sessions {{DTPI2021}} {{DTPI2022}}, and IEEE NOMS -
-Network Digital Twin workshops {{TNT2022}} {{TNT2023}} {{TNT2024}}.
-And IEEE Network Magazine solicited a special issue on NDT, highlighted
+Network Digital Twin workshops {{TNT2022}} {{TNT2023}} {{TNT2024}}. And
+IEEE Network Magazine solicited a special issue on NDT, highlighted
 the advances in the theories, methods, implementations, and applications
 of the Network Digital Twin {{Cui2024}}.
 
