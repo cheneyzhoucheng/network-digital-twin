@@ -126,7 +126,7 @@ informative:
        name: Lu Lu
     target: https://ieeexplore.ieee.org/document/10506047
     date: January 2024
-    
+
   Dai2020:
     title: Deep Reinforcement Learning for Stochastic Computation Offloading in Digital Twin Networks
     author:
