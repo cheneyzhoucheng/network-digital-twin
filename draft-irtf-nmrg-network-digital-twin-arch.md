@@ -1312,7 +1312,7 @@ vulnerabilities, bugs and zero-day attacks before production delivery.
 With the development of enterprise digitization, the number of enterprise
 IoT devices, virtualized Cloud software inventory
 components (e.g., virtual firewall), and network hardware inventory (e.g.,
-switches or routers) also increases. YANG models of various network inventories
+switches or routers) also increases. YANG data models of various network inventories
 are being specified in {{IETF-IVY}} working group. The endpoints connected
 to an enterprise network lack coherent modelling and lifecycle management
 because different services are modelled, collected, processed, and stored
