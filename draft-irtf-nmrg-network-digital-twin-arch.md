@@ -547,22 +547,22 @@ all or a subset of the functions above (i.e., analyze, diagnose, emulate,
 and control) is use case and deployment-specific.
 
 ~~~~
- +------------+                                          +------------+
- |            |                                          |            |
- |  Mapping   +---+                                  +---- Interfaces |
- |            |   |                                  |   |            |
- +------------+   |                                  |   +------------+
-                  |  +----------------------------+  |
-                  |  |                            |  |
-                  |  | Logic: Analyze, Diagnose,  |  |
-                  +--+ Optimize, Control, Emulate +--+
-                  |  |                            |  |
-                  |  +----------------------------+  |
- +------------+   |                                  |   +------------+
- |            |   |                                  |   |            |
- |   Models   +---+                                  +----    Data    |
- |            |                                          |            |
- +------------+                                          +------------+
++------------+                                          +------------+
+|            |                                          |            |
+|  Mapping   +---+                                  +---- Interfaces |
+|            |   |                                  |   |            |
++------------+   |                                  |   +------------+
+                 |  +----------------------------+  |                 
+                 |  |                            |  |                 
+                 |  | Logic: Analyze, Diagnose,  |  |                 
+                 +--+ Optimize, Control, Emulate +--+                 
+                 |  |                            |  |                 
+                 |  +----------------------------+  |                 
++------------+   |                                  |   +------------+
+|            |   |                                  |   |            |
+|   Models   +---+                                  +----    Data    |
+|            |                                          |            |
++------------+                                          +------------+
 ~~~~
 {: #kelem title="Key Elements of Network Digital Twin" artwork-align="center"}
 
