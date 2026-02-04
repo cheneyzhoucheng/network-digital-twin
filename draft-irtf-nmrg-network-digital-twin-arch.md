@@ -425,7 +425,8 @@ called, digital twin for networks. See more in {{def}}.
 
 Physical Network:
 : Network entities composed of network infrastructure (physical
-network elements, virtual network elements, etc.) that the
+network elements, virtual network elements, network topology,
+physical connectivities among network elements, etc.) that the
 digital twin is designed to replicate and represent virtually.
 
 # Introduction of Concepts  {#concept}
