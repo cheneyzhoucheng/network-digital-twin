@@ -330,7 +330,7 @@ Table of Contents
   |            |                                          |            |
   +------------+                                          +------------+
 
-             Figure 1: Key Elements of Network Digital Twin
+              Figure 1: Key Elements of Network Digital Twin
 
    Data:  A Network Digital Twin should maintain historical data and/or
       real-time data (configuration data, operational state data,
