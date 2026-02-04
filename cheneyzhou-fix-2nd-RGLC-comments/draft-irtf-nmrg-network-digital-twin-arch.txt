@@ -1141,13 +1141,13 @@ interfaces |  | Data   +--->  |Functional Models |  +---> Network|   | interface
    With the development of enterprise digitization, the number of
    enterprise IoT devices, virtualized Cloud software inventory
    components (e.g., virtual firewall), and network hardware inventory
-   (e.g., switches or routers) also increases.  YANG models of various
-   network inventories are being specified in [IETF-IVY] working group.
-   The endpoints connected to an enterprise network lack coherent
-   modelling and lifecycle management because different services are
-   modelled, collected, processed, and stored separately.  The same
-   category of network devices (including network endpoints) may be
-   repeatedly discovered, processed, and stored.  Therefore, the
+   (e.g., switches or routers) also increases.  YANG data models of
+   various network inventories are being specified in [IETF-IVY] working
+   group.  The endpoints connected to an enterprise network lack
+   coherent modelling and lifecycle management because different
+   services are modelled, collected, processed, and stored separately.
+   The same category of network devices (including network endpoints)
+   may be repeatedly discovered, processed, and stored.  Therefore, the
    inventory is difficult to manage when tracked in different places
    without formal synchronization procedures.
 
