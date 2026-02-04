@@ -552,12 +552,12 @@ and control) is use case and deployment-specific.
 |  Mapping   +---+                                  +---- Interfaces |
 |            |   |                                  |   |            |
 +------------+   |                                  |   +------------+
-                 |  +----------------------------+  |                 
-                 |  |                            |  |                 
-                 |  | Logic: Analyze, Diagnose,  |  |                 
-                 +--+ Optimize, Control, Emulate +--+                 
-                 |  |                            |  |                 
-                 |  +----------------------------+  |                 
+                 |  +----------------------------+  |
+                 |  |                            |  |
+                 |  | Logic: Analyze, Diagnose,  |  |
+                 +--+ Optimize, Control, Emulate +--+
+                 |  |                            |  |
+                 |  +----------------------------+  |
 +------------+   |                                  |   +------------+
 |            |   |                                  |   |            |
 |   Models   +---+                                  +----    Data    |
