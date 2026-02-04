@@ -1336,12 +1336,22 @@ dependency, and hardware dependency "what-if" scenarios.
 
 # Research Perspectives: A Summary
 
-Research on Network Digital Twin has just started. This document
-presents an overview of the Network Digital Twin concepts and reference
-architecture. As Digital Twin technology develops, further investigation
-of Network Digital Twin scenarios, requirements, architecture, and key
-enabling technologies should be investigated by the industry to accelerate
-the implementation and deployment of Network Digital Twin.
+This document presents an overview of the Network Digital Twin concepts and
+reference architecture. From the perspective of system architecture and
+functional implementation, building a complete Network Digital Twin still
+faces challenges in data accuracy, modeling complexity, and real-time
+synchronization. Future research must continue to address the standardization
+of interfaces and data models to ensure that NDTs can effectively aggregate
+heterogeneous network data and support cross-domain interoperability.
+
+Moreover, compared to the early stages of NDT research, the field is now
+rapidly evolving alongside advancements in AI, particularly Large Language
+Models (LLMs) and AI Agents. Future research should prioritize the synergy
+between NDT and these technologies, investigating how NDT can function as
+a high-fidelity "sandbox" to verify the actions of autonomous agents and
+mitigate the risks of model hallucinations. The integration of Generative
+AI and NDT will be a key driver toward higher levels of autonomy in network
+management.
 
 # Security Considerations
 
