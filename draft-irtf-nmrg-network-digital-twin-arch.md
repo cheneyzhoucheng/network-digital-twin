@@ -334,11 +334,10 @@ informative:
 
 --- abstract
 
-Digital Twin technology has been seen as a rapid adoption technology
-in Industry 4.0. The application of Digital Twin technology in the
-networking field is meant to develop various rich network applications,
-realize efficient and cost-effective data-driven network management,
-and accelerate network innovation.
+Digital Twin technology has seen rapid adoption in Industry 4.0. The
+application of Digital Twin technology in the networking field is meant
+to develop various rich network applications, realize efficient and
+cost-effective data-driven network management, and accelerate network innovation.
 
 This document presents an overview of the concepts of Network Digital Twin,
 provides the basic definitions and a reference architecture, lists a set of
@@ -440,7 +439,7 @@ digital representation equivalent to physical products"
 a physical system (twin) that is continually updated with the
 latter's performance, maintenance, and health status data throughout
 the physical system's life cycle {{Madni2019}}.  By providing a living
-copy of physical system, Digital Twins bring numerous advantages,
+copy of a physical system, Digital Twins bring numerous advantages,
 such as accelerated business processes, enhanced productivity, and
 faster innovation with reduced costs.  So far, Digital Twin has been
 successfully applied in the fields of intelligent manufacturing,
@@ -450,9 +449,9 @@ design and testing, but also management aspects {{Tao2019}} {{Chen2023}}
 various requirements of Industry 4.0 {{Javaid2023}}.
 
 Compared with 'digital model' and 'digital shadow', the key difference
-of 'digital twin' is the direction of data between the physical and virtual
+between 'digital twin' is the direction of data between the physical and virtual
 systems {{Fuller2020}}. Typically, when using a Digital Twin, the (twin)
-system is generated. Then a partial or full synchronization of data flows in
+system is generated. Then there is a partial or full synchronization of data flows in
 both directions between physical and digital components, so that control data
 can be sent, and changes between systems' physical and digital objectives are
 automatically represented. This behavior is unlike a 'digital model' or 'digital
@@ -524,13 +523,13 @@ an indispensable part of the overall network system, and can play an
 important role generally in architectures serving use cases across the
 whole life cycle of a "real" (typically, physical) network. Such use cases
 and applications span the range of network operations (e.g., network
-planning, construction, maintenance and optimization, and improve the
+planning, construction, maintenance and optimization), and aim to improve the
 automation and intelligence level of the network.
 
 # Characteristics of Network Digital Twin  {#def}
 
-So far, there is no unified definition for characteristic of "network
-digital twin" within the networking industry. Referring to the
+So far, there is no unified definition of the "network
+digital twin" characteristics within the networking industry. Referring to the
 characteristics of Digital Twins in other industries and the
 characteristics of networking itself, this document introduces five
 key elements (i.e., data, models, mapping, interfaces, and logic) to
@@ -661,7 +660,7 @@ visualized assessment, physical deployment, and continuous
 verification.  By doing so, network operators and end-users to some
 extent, as allowed by specific application interfaces, can maintain a
 global, systemic, and consistent view of the network.  Also, network
-operators and/or enterprise user can safely exercise the enforcement
+operators and/or enterprise users can safely exercise the enforcement
 of network planning policies, deployment procedures, etc., without
 jeopardizing the daily operation of the real network.
 
@@ -672,7 +671,7 @@ up to and including closed loops for network operations automation. Simulation
 platforms can be considered as a predecessor of the Network Digital Twin, one example of such
 a simulation platform is network simulator {{NS-3}}, which can be seen as
 a variant of Network Digital Twin but with low fidelity and lacking
-for interactive interfaces to the real network.  Compared with those
+interactive interfaces to the real network.  Compared with those
 classical approaches, key benefits of Network Digital Twin can be
 summarized as follows:
 
@@ -692,7 +691,7 @@ summarized as follows:
    adequate analysis within the twins to complete the closed-loop
    automatic fault repair.
 
-The following subsections further elaborate such benefits in details.
+The following subsections further elaborate such benefits in detail.
 
 ## Optimized Network Total Cost of Operation
 
@@ -793,8 +792,8 @@ higher level of digitalization, which implies that data acquisition and
 virtual-real communication are relatively easy to achieve. On the other hand,
 there are various different types of network elements and topologies in the
 network field; and the network size is characterized by the number of nodes and
-links in it but the network size growth pace can not meet the service needs,
-especially in the deployment of end to end service which spans across multiple
+links in it but the network size growth pace cannot meet the service needs,
+especially in the deployment of end-to-end service which spans across multiple
 administrative domains. So, the construction of a Network Digital Twin system
 needs to consider the following major challenges:
 
@@ -854,7 +853,7 @@ surface, with a higher risk of information leakage, in particular. On one hand, 
 is mandatory to design more secure data mechanism leveraging legacy data protection
 methods and innovative technologies such as blockchain. On the other hand, the system
 design can limit the data (especially raw data) requirement for building Network Digital
-Twin, leveraging innovative modeling technologies such as federal learning.
+Twin, leveraging innovative modeling technologies such as federated learning.
 
 To address the above listed challenges, it is important to agree on a unified
 architecture of Network Digital Twin, which defines the main functional components
@@ -943,8 +942,9 @@ It can include both physical entities and some virtual entities (e.g., vSwitches
 traffic and provide actual network services.
 All or a subset of network elements in the real network deliver network data, directly or through other systems, to
 the NDT, through appropriate input interfaces. Network elements may receive control inputs, through specific output interfaces,
-from operations systems in which NDTs play a role. The input and output interfaces might vary as a function of the specific NDT use case. The number of input interfaces or output interfaces are also determined by specific NDT use cases.
-This document focuses on the IETF related real network such as IP bearer network and data center network.
+from operations systems in which NDTs play a role. The input and output interfaces might vary as a function of the
+specific NDT use case. The number of input interfaces or output interfaces is also determined by specific NDT use cases.
+This document focuses on the IETF-related real network such as IP bearer network and data center network.
 
 # A Sample NDT-Based Use Case Realization
 
@@ -1193,7 +1193,7 @@ digital threads for optimization, prediction, and guidance. Then, the
 implementation results are analyzed to see if they meet expectations,
 and any actions are fed back to form a closed loop. Twinning management
 involves various network components (e.g., controller, orchestrator)
-and domains (security, for example) from end to end, including, but
+and domains (security, for example) from end-to-end, including, but
 not limited to, the following main technologies:
 
 *  Orchestration of twins: Manage and organize multiple twin
@@ -1225,12 +1225,12 @@ not limited to, the following main technologies:
 
 # Interaction with Intent-Based Networking (IBN)
 
-Intent-based, means that users can input their abstract 'intent'
+Intent-based means that users can input their abstract 'intent'
 to the network, instead of detailed policies or configurations on
 the network devices. {{?RFC9315}} clarifies the concept of "Intent"
 and provides an overview of IBN functionalities. The key characteristic
 of an IBN system is that user intent can be assured automatically via
-continuously adjust policies and validate real-time situations.
+continuously adjusting policies and validating real-time situations.
 
 IBN can be envisaged in a Network Digital Twin context to show how
 Network Digital Twin improves the efficiency of deploying network
@@ -1270,8 +1270,8 @@ Machine learning requires data and its context to be available in
 order to be applied. A common approach in the network management
 environment has been to simulate or import data in a specific environment
 (the ML developer lab), where they are used to train the selected model,
-while later, when the model is deployed in production, re-train or adjust
-to the production environment context. This demands a specific adaption
+while later, when the model is deployed in production, retrain or adjust
+to the production environment context. This demands a specific adaptation
 period.
 
 Network Digital Twin simplifies the complete ML lifecycle development
