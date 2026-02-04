@@ -550,7 +550,7 @@ and control) is use case and deployment-specific.
 ~~~~
 +------------+                                          +------------+
 |            |                                          |            |
-|  Mapping   +---+                                  +---- Interfaces |
+|  Mapping   +---+                                  +---+ Interfaces |
 |            |   |                                  |   |            |
 +------------+   |                                  |   +------------+
                  |  +----------------------------+  |
