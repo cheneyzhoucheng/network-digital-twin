@@ -212,6 +212,10 @@ informative:
       org: Journal of Intelligent Manufacturing and Special Equipment
     date: 2021
 
+  IETF-IVY:
+    title: " Network Inventory YANG (ivy) working group"
+    target: https://datatracker.ietf.org/wg/ivy/about/
+
   ISO-2021:
     title: "Digital Twin manufacturing framework - Part 2: Reference architecture: ISO/CD 23247-2"
     author:
@@ -420,9 +424,9 @@ Networking and whose physical counterpart is a data network
 called, digital twin for networks. See more in {{def}}.
 
 Physical Network:
-: Object, system, process, software, or environment that the
-digital twin is designed to replicate and represent
-virtually.
+: Network entities composed of network infrastructure (physical
+network elements, virtual network elements, etc.) that the
+digital twin is designed to replicate and represent virtually.
 
 # Introduction of Concepts  {#concept}
 
@@ -543,29 +547,22 @@ all or a subset of the functions above (i.e., analyze, diagnose, emulate,
 and control) is use case and deployment-specific.
 
 ~~~~
-+-------------------------------------------------+
-|                     Logic:                      |
-|  Analyze, Diagnose, Optimize, Control, Emulate  |
-|                                                 |
-+-------------------------------------------------+
- |          |                          |         |
- |  +-------------+            +--------------+  |
- |  |             |            |              |  |
- |  |  Mapping    |------------|  Interface   |  |
- |  |             |            |              |  |
- |  +-------------+            +--------------+  |
- |          |                          |         |
- |          |                          |         |
- |          | +----------------------+ |         |
- |          | | Network Digital Twin | |         |
- |          | +----------------------+ |         |
- |          |                          |         |
-+------------+                        +-----------+
-|            |                        |           |
-|   Models   |                        |   Data    |
-|            |------------------------|           |
-+------------+                        +-----------+
-
+ +------------+                                          +------------+ 
+ |            |                                          |            | 
+ |  Mapping   +---+                                  +---- Interfaces | 
+ |            |   |                                  |   |            | 
+ +------------+   |                                  |   +------------+ 
+                  |  +----------------------------+  |                  
+                  |  |                            |  |                  
+                  |  | Logic: Analyze, Diagnose,  |  |                  
+                  +--+ Optimize, Control, Emulate +--+                  
+                  |  |                            |  |                  
+                  |  +----------------------------+  |                  
+ +------------+   |                                  |   +------------+ 
+ |            |   |                                  |   |            | 
+ |   Models   +---+                                  +----    Data    | 
+ |            |                                          |            | 
+ +------------+                                          +------------+ 
 ~~~~
 {: #kelem title="Key Elements of Network Digital Twin" artwork-align="center"}
 
@@ -1314,13 +1311,14 @@ vulnerabilities, bugs and zero-day attacks before production delivery.
 With the development of enterprise digitization, the number of enterprise
 IoT devices, virtualized Cloud software inventory
 components (e.g., virtual firewall), and network hardware inventory (e.g.,
-switches or routers) also increases. The endpoints connected to an enterprise
-network lack coherent modelling and lifecycle management because different
-services are modelled, collected, processed, and stored separately. The same
-category of network devices (including network endpoints) may be repeatedly
-discovered, processed, and stored. Therefore, the inventory is difficult to
-manage when tracked in different places without formal synchronization
-procedures.
+switches or routers) also increases. YANG models of various network inventories
+are being specified in {{IETF-IVY}} working group. The endpoints connected
+to an enterprise network lack coherent modelling and lifecycle management
+because different services are modelled, collected, processed, and stored
+separately. The same category of network devices (including network endpoints)
+may be repeatedly discovered, processed, and stored. Therefore, the inventory
+is difficult to manage when tracked in different places without formal
+synchronization procedures.
 
 Network Digital Twin management can be used as a means to ensure consistent
 representation and reporting of inventory component types. In doing so, the
