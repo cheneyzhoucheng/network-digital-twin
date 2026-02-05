@@ -1074,7 +1074,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 </tr></thead>
 <tfoot><tr>
 <td class="left">Zhou, et al.</td>
-<td class="center">Expires 7 August 2026</td>
+<td class="center">Expires 9 August 2026</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1087,12 +1087,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <dd class="internet-draft">draft-irtf-nmrg-network-digital-twin-arch-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2026-02-03" class="published">3 February 2026</time>
+<time datetime="2026-02-05" class="published">5 February 2026</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2026-08-07">7 August 2026</time></dd>
+<dd class="expires"><time datetime="2026-08-09">9 August 2026</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1173,7 +1173,7 @@ challenges.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 7 August 2026.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 9 August 2026.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1422,9 +1422,10 @@ called, digital twin for networks. See more in <a href="#def" class="auto intern
           <dd class="break"></dd>
 <dt id="section-2.2-2.5">Physical Network:</dt>
           <dd style="margin-left: 1.5em" id="section-2.2-2.6">
-            <p id="section-2.2-2.6.1">Object, system, process, software, or environment that the
-digital twin is designed to replicate and represent
-virtually.<a href="#section-2.2-2.6.1" class="pilcrow">¶</a></p>
+            <p id="section-2.2-2.6.1">Network entities composed of network infrastructure (physical
+network elements, virtual network elements, network topology,
+physical connectivities among network elements, etc.) that the
+digital twin is designed to replicate and represent virtually.<a href="#section-2.2-2.6.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
 </dl>
@@ -1564,29 +1565,22 @@ and control) is use case and deployment-specific.<a href="#section-4-1" class="p
 <figure id="figure-1">
         <div class="alignCenter art-text artwork" id="section-4-2.1">
 <pre>
-+-------------------------------------------------+
-|                     Logic:                      |
-|  Analyze, Diagnose, Optimize, Control, Emulate  |
-|                                                 |
-+-------------------------------------------------+
- |          |                          |         |
- |  +-------------+            +--------------+  |
- |  |             |            |              |  |
- |  |  Mapping    |------------|  Interface   |  |
- |  |             |            |              |  |
- |  +-------------+            +--------------+  |
- |          |                          |         |
- |          |                          |         |
- |          | +----------------------+ |         |
- |          | | Network Digital Twin | |         |
- |          | +----------------------+ |         |
- |          |                          |         |
-+------------+                        +-----------+
-|            |                        |           |
-|   Models   |                        |   Data    |
-|            |------------------------|           |
-+------------+                        +-----------+
-
++------------+                                          +------------+
+|            |                                          |            |
+|  Mapping   +---+                                  +---+ Interfaces |
+|            |   |                                  |   |            |
++------------+   |                                  |   +------------+
+                 |  +----------------------------+  |
+                 |  |                            |  |
+                 |  | Logic: Analyze, Diagnose,  |  |
+                 +--+ Optimize, Control, Emulate +--+
+                 |  |                            |  |
+                 |  +----------------------------+  |
++------------+   |                                  |   +------------+
+|            |   |                                  |   |            |
+|   Models   +---+                                  +---+    Data    |
+|            |                                          |            |
++------------+                                          +------------+
 </pre>
 </div>
 <figcaption><a href="#figure-1" class="selfRef">Figure 1</a>:
@@ -2494,13 +2488,14 @@ vulnerabilities, bugs and zero-day attacks before production delivery.<a href="#
 <p id="section-11.5-1">With the development of enterprise digitization, the number of enterprise
 IoT devices, virtualized Cloud software inventory
 components (e.g., virtual firewall), and network hardware inventory (e.g.,
-switches or routers) also increases. The endpoints connected to an enterprise
-network lack coherent modelling and lifecycle management because different
-services are modelled, collected, processed, and stored separately. The same
-category of network devices (including network endpoints) may be repeatedly
-discovered, processed, and stored. Therefore, the inventory is difficult to
-manage when tracked in different places without formal synchronization
-procedures.<a href="#section-11.5-1" class="pilcrow">¶</a></p>
+switches or routers) also increases. YANG data models of various network inventories
+are being specified in <span>[<a href="#IETF-IVY" class="cite xref">IETF-IVY</a>]</span> working group. The endpoints connected
+to an enterprise network lack coherent modelling and lifecycle management
+because different services are modelled, collected, processed, and stored
+separately. The same category of network devices (including network endpoints)
+may be repeatedly discovered, processed, and stored. Therefore, the inventory
+is difficult to manage when tracked in different places without formal
+synchronization procedures.<a href="#section-11.5-1" class="pilcrow">¶</a></p>
 <p id="section-11.5-2">Network Digital Twin management can be used as a means to ensure consistent
 representation and reporting of inventory component types. In doing so, the
 enforcement of security policies and assessments will be further simplified.
@@ -2521,12 +2516,21 @@ dependency, and hardware dependency "what-if" scenarios.<a href="#section-11.5-3
       <h2 id="name-research-perspectives-a-sum">
 <a href="#section-12" class="section-number selfRef">12. </a><a href="#name-research-perspectives-a-sum" class="section-name selfRef">Research Perspectives: A Summary</a>
       </h2>
-<p id="section-12-1">Research on Network Digital Twin has just started. This document
-presents an overview of the Network Digital Twin concepts and reference
-architecture. As Digital Twin technology develops, further investigation
-of Network Digital Twin scenarios, requirements, architecture, and key
-enabling technologies should be investigated by the industry to accelerate
-the implementation and deployment of Network Digital Twin.<a href="#section-12-1" class="pilcrow">¶</a></p>
+<p id="section-12-1">This document presents an overview of the Network Digital Twin concepts and
+reference architecture. From the perspective of system architecture and
+functional implementation, building a complete Network Digital Twin still
+faces challenges in data accuracy, modeling complexity, and real-time
+synchronization. Future research must continue to address the standardization
+of interfaces and data models to ensure that NDTs can effectively aggregate
+heterogeneous network data and support cross-domain interoperability.<a href="#section-12-1" class="pilcrow">¶</a></p>
+<p id="section-12-2">Moreover, compared to the early stages of NDT research, the field is now
+rapidly evolving alongside advancements in AI, particularly Large Language
+Models (LLMs) and AI Agents. Future research should prioritize the synergy
+between NDT and these technologies, investigating how NDT can function as
+a high-fidelity "sandbox" to verify the actions of autonomous agents and
+mitigate the risks of model hallucinations. The integration of Agentic
+AI and NDT will be a key driver toward higher levels of autonomy in network
+management.<a href="#section-12-2" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="security-considerations">
@@ -2795,6 +2799,10 @@ recovery plan to restore operations in case of data loss or corruption.<a href="
 <dt id="I-D.zcz-nmrg-digitaltwin-data-collection">[I-D.zcz-nmrg-digitaltwin-data-collection]</dt>
       <dd>
 <span class="refAuthor">Zhou, C.</span>, <span class="refAuthor">Chen, D.</span>, <span class="refAuthor">Martinez-Julia, P.</span>, and <span class="refAuthor">Q. Ma</span>, <span class="refTitle">"Data Collection Requirements and Technologies for Digital Twin Network"</span>, <span class="refContent">Work in Progress</span>, <span class="seriesInfo">Internet-Draft, draft-zcz-nmrg-digitaltwin-data-collection-03</span>, <time datetime="2023-07-09" class="refDate">9 July 2023</time>, <span>&lt;<a href="https://datatracker.ietf.org/doc/html/draft-zcz-nmrg-digitaltwin-data-collection-03">https://datatracker.ietf.org/doc/html/draft-zcz-nmrg-digitaltwin-data-collection-03</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="IETF-IVY">[IETF-IVY]</dt>
+      <dd>
+<span class="refTitle">"Network Inventory YANG (ivy) working group"</span>, <span>n.d.</span>, <span>&lt;<a href="https://datatracker.ietf.org/wg/ivy/about/">https://datatracker.ietf.org/wg/ivy/about/</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 <dt id="ISO-2021">[ISO-2021]</dt>
       <dd>
