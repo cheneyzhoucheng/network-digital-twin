@@ -5,7 +5,7 @@
 Network Management                                               C. Zhou
 Internet-Draft                                                   H. Yang
 Intended status: Informational                                   X. Duan
-Expires: 8 August 2026                                      China Mobile
+Expires: 9 August 2026                                      China Mobile
                                                                 D. Lopez
                                                                A. Pastor
                                                           Telefonica I+D
@@ -14,7 +14,7 @@ Expires: 8 August 2026                                      China Mobile
                                                             M. Boucadair
                                                             C. Jacquenet
                                                                   Orange
-                                                         4 February 2026
+                                                         5 February 2026
 
 
        Network Digital Twin: Concepts and Reference Architecture
@@ -59,7 +59,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 8 August 2026.
+   This Internet-Draft will expire on 9 August 2026.
 
 Copyright Notice
 
@@ -1183,9 +1183,8 @@ interfaces |  | Data   +--->  |Functional Models |  +---> Network|   | interface
    prioritize the synergy between NDT and these technologies,
    investigating how NDT can function as a high-fidelity "sandbox" to
    verify the actions of autonomous agents and mitigate the risks of
-   model hallucinations.  The integration of Generative AI and NDT will
-   be a key driver toward higher levels of autonomy in network
-   management.
+   model hallucinations.  The integration of Agentic AI and NDT will be
+   a key driver toward higher levels of autonomy in network management.
 
 13.  Security Considerations
 
