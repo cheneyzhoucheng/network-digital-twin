@@ -1349,7 +1349,7 @@ rapidly evolving alongside advancements in AI, particularly Large Language
 Models (LLMs) and AI Agents. Future research should prioritize the synergy
 between NDT and these technologies, investigating how NDT can function as
 a high-fidelity "sandbox" to verify the actions of autonomous agents and
-mitigate the risks of model hallucinations. The integration of Generative
+mitigate the risks of model hallucinations. The integration of Agentic
 AI and NDT will be a key driver toward higher levels of autonomy in network
 management.
 
