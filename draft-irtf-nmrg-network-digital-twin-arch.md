@@ -212,6 +212,10 @@ informative:
       org: Journal of Intelligent Manufacturing and Special Equipment
     date: 2021
 
+  IETF-IVY:
+    title: " Network Inventory YANG (ivy) working group"
+    target: https://datatracker.ietf.org/wg/ivy/about/
+
   ISO-2021:
     title: "Digital Twin manufacturing framework - Part 2: Reference architecture: ISO/CD 23247-2"
     author:
@@ -420,9 +424,10 @@ Networking and whose physical counterpart is a data network
 called, digital twin for networks. See more in {{def}}.
 
 Physical Network:
-: Object, system, process, software, or environment that the
-digital twin is designed to replicate and represent
-virtually.
+: Network entities composed of network infrastructure (physical
+network elements, virtual network elements, network topology,
+physical connectivities among network elements, etc.) that the
+digital twin is designed to replicate and represent virtually.
 
 # Introduction of Concepts  {#concept}
 
@@ -543,29 +548,22 @@ all or a subset of the functions above (i.e., analyze, diagnose, emulate,
 and control) is use case and deployment-specific.
 
 ~~~~
-+-------------------------------------------------+
-|                     Logic:                      |
-|  Analyze, Diagnose, Optimize, Control, Emulate  |
-|                                                 |
-+-------------------------------------------------+
- |          |                          |         |
- |  +-------------+            +--------------+  |
- |  |             |            |              |  |
- |  |  Mapping    |------------|  Interface   |  |
- |  |             |            |              |  |
- |  +-------------+            +--------------+  |
- |          |                          |         |
- |          |                          |         |
- |          | +----------------------+ |         |
- |          | | Network Digital Twin | |         |
- |          | +----------------------+ |         |
- |          |                          |         |
-+------------+                        +-----------+
-|            |                        |           |
-|   Models   |                        |   Data    |
-|            |------------------------|           |
-+------------+                        +-----------+
-
++------------+                                          +------------+
+|            |                                          |            |
+|  Mapping   +---+                                  +---+ Interfaces |
+|            |   |                                  |   |            |
++------------+   |                                  |   +------------+
+                 |  +----------------------------+  |
+                 |  |                            |  |
+                 |  | Logic: Analyze, Diagnose,  |  |
+                 +--+ Optimize, Control, Emulate +--+
+                 |  |                            |  |
+                 |  +----------------------------+  |
++------------+   |                                  |   +------------+
+|            |   |                                  |   |            |
+|   Models   +---+                                  +---+    Data    |
+|            |                                          |            |
++------------+                                          +------------+
 ~~~~
 {: #kelem title="Key Elements of Network Digital Twin" artwork-align="center"}
 
@@ -1314,13 +1312,14 @@ vulnerabilities, bugs and zero-day attacks before production delivery.
 With the development of enterprise digitization, the number of enterprise
 IoT devices, virtualized Cloud software inventory
 components (e.g., virtual firewall), and network hardware inventory (e.g.,
-switches or routers) also increases. The endpoints connected to an enterprise
-network lack coherent modelling and lifecycle management because different
-services are modelled, collected, processed, and stored separately. The same
-category of network devices (including network endpoints) may be repeatedly
-discovered, processed, and stored. Therefore, the inventory is difficult to
-manage when tracked in different places without formal synchronization
-procedures.
+switches or routers) also increases. YANG data models of various network inventories
+are being specified in {{IETF-IVY}} working group. The endpoints connected
+to an enterprise network lack coherent modelling and lifecycle management
+because different services are modelled, collected, processed, and stored
+separately. The same category of network devices (including network endpoints)
+may be repeatedly discovered, processed, and stored. Therefore, the inventory
+is difficult to manage when tracked in different places without formal
+synchronization procedures.
 
 Network Digital Twin management can be used as a means to ensure consistent
 representation and reporting of inventory component types. In doing so, the
@@ -1337,12 +1336,22 @@ dependency, and hardware dependency "what-if" scenarios.
 
 # Research Perspectives: A Summary
 
-Research on Network Digital Twin has just started. This document
-presents an overview of the Network Digital Twin concepts and reference
-architecture. As Digital Twin technology develops, further investigation
-of Network Digital Twin scenarios, requirements, architecture, and key
-enabling technologies should be investigated by the industry to accelerate
-the implementation and deployment of Network Digital Twin.
+This document presents an overview of the Network Digital Twin concepts and
+reference architecture. From the perspective of system architecture and
+functional implementation, building a complete Network Digital Twin still
+faces challenges in data accuracy, modeling complexity, and real-time
+synchronization. Future research must continue to address the standardization
+of interfaces and data models to ensure that NDTs can effectively aggregate
+heterogeneous network data and support cross-domain interoperability.
+
+Moreover, compared to the early stages of NDT research, the field is now
+rapidly evolving alongside advancements in AI, particularly Large Language
+Models (LLMs) and AI Agents. Future research should prioritize the synergy
+between NDT and these technologies, investigating how NDT can function as
+a high-fidelity "sandbox" to verify the actions of autonomous agents and
+mitigate the risks of model hallucinations. The integration of Agentic
+AI and NDT will be a key driver toward higher levels of autonomy in network
+management.
 
 # Security Considerations
 
