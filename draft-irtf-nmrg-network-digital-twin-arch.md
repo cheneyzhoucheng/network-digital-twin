@@ -348,6 +348,11 @@ provides the basic definitions and a reference architecture, lists a set of
 application scenarios, and discusses such technology's benefits and key
 challenges.
 
+This document is a product of the IRTF Network Management Research
+Group (NMRG).  It reflects the consensus of the research group,
+having received many detailed and positive reviews by research group
+participants.  It is published for informational purposes.
+
 --- middle
 
 # Introduction
