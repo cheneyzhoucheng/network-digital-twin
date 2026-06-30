@@ -352,6 +352,11 @@ challenges.
 
 # Introduction
 
+This document is a product of the IRTF Network Management Research
+Group (NMRG).  It reflects the consensus of the RG, receiving reviews
+and explicit support from many participants.  It is published for
+informational purposes.
+
 The rapid expansion of network scale and the increasing demands on these networks
 necessitate their dynamic adaptation to customer needs, presenting significant
 challenges for network operators. Network operation and maintenance are becoming
