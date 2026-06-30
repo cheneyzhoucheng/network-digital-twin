@@ -29,6 +29,7 @@ keyword:
 author:
 -
     fullname: Cheng Zhou
+    role: Editor
     organization: China Mobile
     city: Beijing
     country: China
@@ -59,6 +60,7 @@ author:
     email: antonio.pastorperales@telefonica.com
 -
     fullname: Qin Wu
+    role: Editor
     organization: Huawei
     city: Nanjing
     code: 210012
@@ -66,6 +68,7 @@ author:
     email: bill.wu@huawei.com
 -
     fullname: Mohamed Boucadair
+    role: Editor
     organization: Orange
     city: Rennes
     country: France
