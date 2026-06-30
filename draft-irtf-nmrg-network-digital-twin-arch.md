@@ -30,7 +30,7 @@ author:
 -
     fullname: Cheng Zhou
     organization: China Mobile
-    role: editor    
+    role: editor
     city: Beijing
     country: China
     email: zhouchengyjy@chinamobile.com
@@ -61,7 +61,7 @@ author:
 -
     fullname: Qin Wu
     organization: Huawei
-    role: editor    
+    role: editor
     city: Nanjing
     code: 210012
     country: China
@@ -69,7 +69,7 @@ author:
 -
     fullname: Mohamed Boucadair
     organization: Orange
-    role: editor    
+    role: editor
     city: Rennes
     country: France
     email: mohamed.boucadair@orange.com
