@@ -352,11 +352,6 @@ challenges.
 
 # Introduction
 
-This document is a product of the IRTF Network Management Research
-Group (NMRG).  It reflects the consensus of the RG, receiving reviews
-and explicit support from many participants.  It is published for
-informational purposes. It is not an IETF product and is not a standard.
-
 The rapid expansion of network scale and the increasing demands on these networks
 necessitate their dynamic adaptation to customer needs, presenting significant
 challenges for network operators. Network operation and maintenance are becoming
@@ -392,6 +387,13 @@ Through the real-time data interaction between the real network and its twin net
 the NDT platform will provide the data for NDT-based applications
 and network designers to achieve greater simplification, automation, resilience testing
 ("what-if" scenarios), and full life-cycle operation and infrastructure maintenance.
+
+This document is a product of the Network Management Research Group
+(NMRG) of the Internet Research Task Force (IRTF).  This document
+reflects the consensus of the research group and was discussed and
+presented multiple times, each time receiving positive feedback and
+no objections.  It is not a candidate for any level of Internet
+Standard and is published for informational purposes.
 
 # Terminology
 
