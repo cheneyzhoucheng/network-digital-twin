@@ -756,7 +756,7 @@ interfaces |  | Data   +--->  |Functional Models |  +---> Network|   | interface
    management, configuration management, performance management, and
    security management.
 
-   The "real network" – the physical counterpart of an NDT - can be a
+   The "real network" - the physical counterpart of an NDT - can be a
    mobile access network, a transport network, a mobile core, a
    backbone, etc.  The real network can also be a data center network, a
    campus enterprise network, or an industrial Internet of Things (IoT),
@@ -1562,7 +1562,7 @@ interfaces |  | Data   +--->  |Functional Models |  +---> Network|   | interface
               <https://noms2024.ieee-noms.org/workshop/tnt-2024>.
 
    [Wang2024] "A deep learning-enhanced Digital Twin framework for
-              improving safety and reliability in human–robot
+              improving safety and reliability in human-robot
               collaborative manufacturing", 2024.
 
    [Zheng2022]
