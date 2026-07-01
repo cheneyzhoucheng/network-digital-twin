@@ -393,6 +393,13 @@ the NDT platform will provide the data for NDT-based applications
 and network designers to achieve greater simplification, automation, resilience testing
 ("what-if" scenarios), and full life-cycle operation and infrastructure maintenance.
 
+This document is a product of the Network Management Research Group
+(NMRG) of the Internet Research Task Force (IRTF).  This document
+reflects the consensus of the research group and was discussed and
+presented multiple times, each time receiving positive feedback and
+no objections.  It is not a candidate for any level of Internet
+Standard and is published for informational purposes.
+
 # Terminology
 
 ## Acronyms and Abbreviations
