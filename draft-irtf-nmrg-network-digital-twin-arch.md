@@ -1,6 +1,6 @@
 ---
-title: "Network Digital Twin: Concepts and Reference Architecture"
-abbrev: "Network Digital Twin Concept"
+title: "Network Digital Twin (NDT): Concepts and Reference Architecture"
+abbrev: "Network Digital Twin Concepts"
 category: info
 
 docname: draft-irtf-nmrg-network-digital-twin-arch-latest
@@ -146,12 +146,14 @@ informative:
     title: "Differential Network Analysis, USENIX Symposium on Networked Systems Design and Implementation"
     author:
       org: NSDI 22
+    target: https://www.usenix.org/system/files/nsdi22-paper-zhang_peng.pdf
     date: 2023
 
   Dong2019:
     title: "Deep Learning for Hybrid 5G Services in Mobile Edge Computing Systems: Learn from a Digital Twin"
     author:
       org: IEEE Transactions on Wireless Communications
+    target: https://ieeexplore.ieee.org/document/8764584
     date: July 2019
 
   DTPI2021:
@@ -161,7 +163,7 @@ informative:
 
   DTPI2022:
     title: "IEEE International Conference on Digital Twins and Parallel Intelligence - Digital Twin Network Session"
-    target: https://c.trvqd.com/#/television?id=1584825225713631235&preview=2
+    target: https://ieeexplore.ieee.org/document/9998942
     date: October 2022
 
   EVE-NG:
@@ -172,6 +174,7 @@ informative:
     title: "Digital Twin: Enabling Technologies, Challenges and Open Research"
     author:
       org:  IEEE Access
+    target: https://ieeexplore.ieee.org/document/9103025
     date: 2020
 
   G2-SIGCOMM:
@@ -201,7 +204,7 @@ informative:
   Grieves2014:
     title: "Digital twin: Manufacturing excellence through virtual factory replication"
     target: https://www.3ds.com/fileadmin/PRODUCTS-SERVICES/DELMIA/PDF/Whitepaper/DELMIA-APRISO-Digital-Twin-Whitepaper.pdf
-    date: 2003
+    date: 2014
 
   Hong2021:
     title: "NetGraph: An Intelligent Operated Digital Twin Platform for Data Center Networks"
@@ -216,7 +219,7 @@ informative:
     date: 2021
 
   IETF-IVY:
-    title: " Network Inventory YANG (ivy) working group"
+    title: "Network Inventory YANG (ivy) working group"
     target: https://datatracker.ietf.org/wg/ivy/about/
 
   ISO-2021:
@@ -235,6 +238,7 @@ informative:
 
   Madni2019:
     title: "Leveraging digital twin technology in model-based systems engineering"
+    target: https://doi.org/10.3390/systems7010007
     date: January 2019
 
   MimicNet:
