@@ -17,7 +17,7 @@ Expires: 2 January 2027                                     China Mobile
                                                              1 July 2026
 
 
-       Network Digital Twin: Concepts and Reference Architecture
+    Network Digital Twin (NDT): Concepts and Reference Architecture
             draft-irtf-nmrg-network-digital-twin-arch-latest
 
 Abstract
@@ -1314,11 +1314,14 @@ interfaces |  | Data   +--->  |Functional Models |  +---> Network|   | interface
               Networks", March 2022.
 
    [DNA-2022] NSDI 22, "Differential Network Analysis, USENIX Symposium
-              on Networked Systems Design and Implementation", 2023.
+              on Networked Systems Design and Implementation", 2023,
+              <https://www.usenix.org/system/files/nsdi22-paper-
+              zhang_peng.pdf>.
 
    [Dong2019] IEEE Transactions on Wireless Communications, "Deep
               Learning for Hybrid 5G Services in Mobile Edge Computing
-              Systems: Learn from a Digital Twin", July 2019.
+              Systems: Learn from a Digital Twin", July 2019,
+              <https://ieeexplore.ieee.org/document/8764584>.
 
    [DTPI2021] "IEEE International Conference on Digital Twins and
               Parallel Intelligence - Digital Twin Network Session",
@@ -1327,7 +1330,7 @@ interfaces |  | Data   +--->  |Functional Models |  +---> Network|   | interface
    [DTPI2022] "IEEE International Conference on Digital Twins and
               Parallel Intelligence - Digital Twin Network Session",
               October 2022,
-              <https://c.trvqd.com/#/television?id=1584825225713631235&preview=2>.
+              <https://ieeexplore.ieee.org/document/9998942>.
 
    [ETSI-GS-ZSM-002]
               "Zero-touch network and Service Management (ZSM);
@@ -1346,7 +1349,8 @@ interfaces |  | Data   +--->  |Functional Models |  +---> Network|   | interface
 
    [Fuller2020]
               IEEE Access, "Digital Twin: Enabling Technologies,
-              Challenges and Open Research", 2020.
+              Challenges and Open Research", 2020,
+              <https://ieeexplore.ieee.org/document/9103025>.
 
    [G2-SIGCOMM]
               ACM SIGCOMM, "Designing data center networks using
@@ -1361,7 +1365,7 @@ interfaces |  | Data   +--->  |Functional Models |  +---> Network|   | interface
 
    [Grieves2014]
               "Digital twin: Manufacturing excellence through virtual
-              factory replication", 2003,
+              factory replication", 2014,
               <https://www.3ds.com/fileadmin/PRODUCTS-
               SERVICES/DELMIA/PDF/Whitepaper/DELMIA-APRISO-Digital-Twin-
               Whitepaper.pdf>.
@@ -1436,7 +1440,8 @@ interfaces |  | Data   +--->  |Functional Models |  +---> Network|   | interface
 
    [Madni2019]
               "Leveraging digital twin technology in model-based systems
-              engineering", January 2019.
+              engineering", January 2019,
+              <https://doi.org/10.3390/systems7010007>.
 
    [MimicNet] ACM SIGCOMM 2021 Conference (SIGCOMM '21), "MimicNet: Fast
               Performance Estimates for Data Center Networks with
