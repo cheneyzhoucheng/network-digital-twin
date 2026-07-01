@@ -2,16 +2,16 @@
 
 
 
-Network Management                                               C. Zhou
+Network Management                                          C. Zhou, Ed.
 Internet-Draft                                                   H. Yang
 Intended status: Informational                                   X. Duan
 Expires: 2 January 2027                                     China Mobile
                                                                 D. Lopez
                                                                A. Pastor
                                                           Telefonica I+D
-                                                                   Q. Wu
+                                                              Q. Wu, Ed.
                                                                   Huawei
-                                                            M. Boucadair
+                                                       M. Boucadair, Ed.
                                                             C. Jacquenet
                                                                   Orange
                                                              1 July 2026
@@ -1596,7 +1596,7 @@ Contributors
 
 Authors' Addresses
 
-   Cheng Zhou
+   Cheng Zhou (editor)
    China Mobile
    Beijing
    China
@@ -1631,7 +1631,7 @@ Authors' Addresses
    Email: antonio.pastorperales@telefonica.com
 
 
-   Qin Wu
+   Qin Wu (editor)
    Huawei
    Nanjing
    210012
@@ -1639,7 +1639,7 @@ Authors' Addresses
    Email: bill.wu@huawei.com
 
 
-   Mohamed Boucadair
+   Mohamed Boucadair (editor)
    Orange
    Rennes
    France
