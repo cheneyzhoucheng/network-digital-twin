@@ -338,7 +338,7 @@ informative:
     date: 2023
 
   Wang2024:
-    title: "A deep learning-enhanced Digital Twin framework for improving safety and reliability in human–robot collaborative manufacturing"
+    title: "A deep learning-enhanced Digital Twin framework for improving safety and reliability in human-robot collaborative manufacturing"
     author:
     organization: Robotics and computer-integrated manufacturing
     date: 2024
@@ -951,7 +951,7 @@ associated applications; it monitors the performance and resource consumption of
 and controls various operational aspects of the NDT, including topology management, configuration management, performance
 management, and security management.
 
-The "real network" – the physical counterpart of an NDT - can be a mobile access network, a transport network,
+The "real network" - the physical counterpart of an NDT - can be a mobile access network, a transport network,
 a mobile core, a backbone, etc. The real network can also be a data center network, a campus enterprise network,
 or an industrial Internet of Things (IoT), etc.
 The real network can span across a single network administrative domain or multiple network administrative domains.
