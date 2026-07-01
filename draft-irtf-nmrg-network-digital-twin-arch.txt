@@ -5,7 +5,7 @@
 Network Management                                               C. Zhou
 Internet-Draft                                                   H. Yang
 Intended status: Informational                                   X. Duan
-Expires: 9 August 2026                                      China Mobile
+Expires: 2 January 2027                                     China Mobile
                                                                 D. Lopez
                                                                A. Pastor
                                                           Telefonica I+D
@@ -14,7 +14,7 @@ Expires: 9 August 2026                                      China Mobile
                                                             M. Boucadair
                                                             C. Jacquenet
                                                                   Orange
-                                                         5 February 2026
+                                                             1 July 2026
 
 
        Network Digital Twin: Concepts and Reference Architecture
@@ -22,16 +22,21 @@ Expires: 9 August 2026                                      China Mobile
 
 Abstract
 
-   Digital Twin technology has seen rapid adoption in Industry 4.0.  The
-   application of Digital Twin technology in the networking field is
+   The application of Digital Twin technology in the networking field is
    meant to develop various rich network applications, realize efficient
    and cost-effective data-driven network management, and accelerate
    network innovation.
 
-   This document presents an overview of the concepts of Network Digital
-   Twin, provides the basic definitions and a reference architecture,
-   lists a set of application scenarios, and discusses such technology's
-   benefits and key challenges.
+   This document presents an overview of the concept of Network Digital
+   Twin (NDT), provides the basic definitions and a reference
+   architecture, lists a set of application scenarios, and discusses
+   such technology's benefits and key challenges.
+
+   This document is a product of the Network Management Research Group
+   (NMRG) of the Internet Research Task Force (IRTF).  This document
+   reflects the consensus of the research group.  It is not a candidate
+   for any level of Internet Standard and is published for informational
+   purposes.
 
 Discussion Venues
 
@@ -59,7 +64,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 9 August 2026.
+   This Internet-Draft will expire on 2 January 2027.
 
 Copyright Notice
 
@@ -182,8 +187,8 @@ Table of Contents
       and health status data throughout the physical system's life
       cycle.
 
-   Network Digital Twin:  A digital representation that is used in the
-      context of Networking and whose physical counterpart is a data
+   Network Digital Twin (NDT):  A digital representation that is used in
+      the context of Networking and whose physical counterpart is a data
       network (e.g., provider network or enterprise network).  This is
       also called, digital twin for networks.  See more in Section 4.
 
@@ -1314,8 +1319,8 @@ interfaces |  | Data   +--->  |Functional Models |  +---> Network|   | interface
 
    [DTPI2022] "IEEE International Conference on Digital Twins and
               Parallel Intelligence - Digital Twin Network Session",
-              October 2022, <https://c.trvqd.com/#/television?id=1584825
-              225713631235&preview=2>.
+              October 2022,
+              <https://c.trvqd.com/#/television?id=1584825225713631235&preview=2>.
 
    [ETSI-GS-ZSM-002]
               "Zero-touch network and Service Management (ZSM);
@@ -1373,19 +1378,17 @@ interfaces |  | Data   +--->  |Functional Models |  +---> Network|   | interface
 
    [I-D.ietf-netconf-adaptive-subscription]
               Wu, Q., Liu, P., Ma, Q., Wang, W., and Z. Niu, "Adaptive
-              Subscription to YANG Notification", Work in Progress,
+              Subscription to YANG Notifications", Work in Progress,
               Internet-Draft, draft-ietf-netconf-adaptive-subscription-
-              14, 29 December 2025,
-              <https://datatracker.ietf.org/doc/html/draft-ietf-netconf-
-              adaptive-subscription-14>.
+              18, 22 April 2026, <https://datatracker.ietf.org/doc/html/
+              draft-ietf-netconf-adaptive-subscription-18>.
 
    [I-D.ietf-nmop-simap-concept]
               Havel, O., Claise, B., de Dios, O. G., and T. Graf,
               "SIMAP: Concept, Requirements, and Use Cases", Work in
               Progress, Internet-Draft, draft-ietf-nmop-simap-concept-
-              07, 18 October 2025,
-              <https://datatracker.ietf.org/doc/html/draft-ietf-nmop-
-              simap-concept-07>.
+              12, 19 June 2026, <https://datatracker.ietf.org/doc/html/
+              draft-ietf-nmop-simap-concept-12>.
 
    [I-D.ietf-opsawg-collected-data-manifest]
               Claise, B., Quilbeuf, J., Lopez, D., Martinez-Casanueva,
@@ -1397,11 +1400,11 @@ interfaces |  | Data   +--->  |Functional Models |  +---> Network|   | interface
 
    [I-D.zcz-nmrg-digitaltwin-data-collection]
               Zhou, C., Chen, D., Martinez-Julia, P., and Q. Ma, "Data
-              Collection Requirements and Technologies for Digital Twin
-              Network", Work in Progress, Internet-Draft, draft-zcz-
-              nmrg-digitaltwin-data-collection-03, 9 July 2023,
+              Collection Requirements and Technologies for Network
+              Digital Twin", Work in Progress, Internet-Draft, draft-
+              zcz-nmrg-digitaltwin-data-collection-04, 26 February 2026,
               <https://datatracker.ietf.org/doc/html/draft-zcz-nmrg-
-              digitaltwin-data-collection-03>.
+              digitaltwin-data-collection-04>.
 
    [IETF-IVY] "Network Inventory YANG (ivy) working group", n.d.,
               <https://datatracker.ietf.org/wg/ivy/about/>.
