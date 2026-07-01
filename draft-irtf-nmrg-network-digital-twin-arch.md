@@ -338,15 +338,20 @@ informative:
 
 --- abstract
 
-Digital Twin technology has seen rapid adoption in Industry 4.0. The
-application of Digital Twin technology in the networking field is meant
+The application of Digital Twin technology in the networking field is meant
 to develop various rich network applications, realize efficient and
 cost-effective data-driven network management, and accelerate network innovation.
 
-This document presents an overview of the concepts of Network Digital Twin,
+This document presents an overview of the concept of Network Digital Twin (NDT),
 provides the basic definitions and a reference architecture, lists a set of
 application scenarios, and discusses such technology's benefits and key
 challenges.
+
+This document is a product of the Network Management Research Group
+(NMRG) of the Internet Research Task Force (IRTF).  This document
+reflects the consensus of the research group.  It is not a candidate
+for any level of Internet Standard and is published for informational
+purposes.
 
 --- middle
 
@@ -416,7 +421,7 @@ its attributes, behavior, and interactions and is (continually)
 updated with the latter's performance, maintenance, and health
 status data throughout the physical system's life cycle.
 
-Network Digital Twin:
+Network Digital Twin (NDT):
 : A digital representation that is used in the context of
 Networking and whose physical counterpart is a data network
 (e.g., provider network or enterprise network).  This is also
