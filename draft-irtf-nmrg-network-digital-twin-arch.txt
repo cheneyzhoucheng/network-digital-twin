@@ -163,6 +163,13 @@ Table of Contents
    simplification, automation, resilience testing ("what-if" scenarios),
    and full life-cycle operation and infrastructure maintenance.
 
+   This document is a product of the Network Management Research Group
+   (NMRG) of the Internet Research Task Force (IRTF).  This document
+   reflects the consensus of the research group and was discussed and
+   presented multiple times, each time receiving positive feedback and
+   no objections.  It is not a candidate for any level of Internet
+   Standard and is published for informational purposes.
+
 2.  Terminology
 
 2.1.  Acronyms and Abbreviations
